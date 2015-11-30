@@ -95,7 +95,11 @@ $(document).ready(function(){
 
     $(".toggleMenu").on('click', function(e){
         $(this).parent().parent().toggleClass('add-border');
-        $('.sidebar-nav').toggleClass('open');
+        $('.sidebar-nav').toggleClass('open').toggleClass('fadeInLeft');
+    });
+
+    $('ul.sub-nav li').hover(function(){
+        $(this).find('.sub-nav-child').toggleClass('animated').toggleClass('fadeInLeft');
     });
     
 });

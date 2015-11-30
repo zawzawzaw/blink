@@ -7,7 +7,7 @@
 		<div class="item bg bg1 active">			
 			<div class="carousel-caption">
 				<div class="caption-text">
-					<h5>Who We Are</h5>
+					<h5 class="pulse">Who We Are</h5>
 					<h1>asia born <br> internationally acclaimed</h1>
 					<div class="seperator-dot"></div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula eget dolor enean massa.</p>

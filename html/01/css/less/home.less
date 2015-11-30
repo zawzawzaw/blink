@@ -87,7 +87,6 @@
 						display: block;
 						.opacity(1);
 						position: static;
-						height: 120px; //temp animation
 						.transition(0.5s);
 					}	
 				}					
@@ -103,10 +102,10 @@
 					visibility: hidden;	
 					.opacity(0);
 					.transition(0.5s);
-					height: 0px; //temp animation
 					position: absolute;
 					left: -218px;
 					padding-left: 10px;
+					z-index: 999;
 					> li {
 						a {
 							.gotham-book;
@@ -121,6 +120,7 @@
 								visibility: visible;	
 								display: block;		
 								.opacity(1);
+								width: 208px;
 							}			
 							&:before {
 								content: ".";
@@ -138,8 +138,8 @@
 						ul.sub-nav-child {
 							visibility: hidden;
 							.opacity(0);
-							.transition(0.5s);
-							width: 208px;
+							.transition(0.1s);
+							width: 0px;
 							padding-left: 27px;
 							padding-top: 79px;
 							background-color: @menu-bg-grey;
@@ -147,6 +147,7 @@
 							top: 0px;
 							left: 218px;
 							height: 100%;
+							z-index: 99;
 							> li {
 								padding-bottom: 13px;
 								a {
