@@ -23,7 +23,9 @@
 
 $(document).ready(function(){   
 
-    $('.carousel').carousel();    
+    $('.carousel').carousel({
+        pause: "false"
+    });    
 
     var $first = $('.first'),
         $second = $('.second'),
@@ -58,14 +60,20 @@ $(document).ready(function(){
             scrolled = false;            
             $('.scroll-to-content .arrow').show();
         }
+
+        if(scrollPos >= mainContentOffset){
+            $('#menu-logo-wrapper').removeClass('white-version');
+        }else {
+            $('#menu-logo-wrapper').addClass('white-version');
+        }
     }
 
     var initialLoad = true;
     // home page first scroll
     var scrolled = false;
+    var mainContentOffset = $('#main-content').offset().top;
 
-    $('#page-wrapper').on('scroll', function() {
-        console.log('hi')
+    $('#page-wrapper').on('scroll', function() {        
        myScroller();
     });
 
@@ -86,7 +94,8 @@ $(document).ready(function(){
     ///////
 
     $(".toggleMenu").on('click', function(e){
-        $(this).prev('ul').toggleClass('mobile-menu');
+        $(this).parent().parent().toggleClass('add-border');
+        $('.sidebar-nav').toggleClass('open');
     });
     
 });

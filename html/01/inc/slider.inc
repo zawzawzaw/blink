@@ -1,6 +1,6 @@
 <div id="carousel" class="slider-wrapper carousel slide" data-ride="carousel">
 
-	<div class="logo">bdg</div>
+	<!-- <div class="logo">bdg</div> -->
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
@@ -14,7 +14,7 @@
 				</div>				
 			</div>				
 		</div>
-		<div class="item bg bg2 active">			
+		<div class="item bg bg2">			
 			<div class="carousel-caption">
 				<div class="caption-text">
 					<h5>Who We Are 2</h5>
@@ -24,7 +24,7 @@
 				</div>				
 			</div>				
 		</div>
-		<div class="item bg bg3 active">			
+		<div class="item bg bg3">			
 			<div class="carousel-caption">
 				<div class="caption-text">
 					<h5>Who We Are 3</h5>
@@ -34,7 +34,7 @@
 				</div>				
 			</div>				
 		</div>
-		<div class="item bg bg4 active">			
+		<div class="item bg bg4">			
 			<div class="carousel-caption">
 				<div class="caption-text">
 					<h5>Who We Are 4</h5>
