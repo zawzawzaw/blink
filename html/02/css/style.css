@@ -703,6 +703,13 @@ p {
 }
 #content-wrapper #menu-logo-wrapper.add-border {
   border-bottom: 1px solid #e1e1e1;
+  background: #ffffff;
+}
+#content-wrapper #menu-logo-wrapper.add-border .main-menu .menu {
+  color: #627482 !important;
+}
+#content-wrapper #menu-logo-wrapper.add-border .main-menu .logo {
+  color: #627482 !important;
 }
 #content-wrapper #menu-logo-wrapper:hover .main-menu .menu {
   color: #627482;
@@ -883,17 +890,17 @@ div#footer-wrapper {
   background-color: #627482;
 }
 div#footer-wrapper div.tweet p {
-  font-family: 'Merriweather', serif;
-  font-size: 13px;
-  line-height: 16px;
+  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
   color: #ffffff;
 }
 div#footer-wrapper div.tweet p i {
-  font-size: 16px;
+  font-size: 14px;
 }
 div#footer-wrapper div.sharing > a {
   display: inline-block;
-  font-family: 'Merriweather', serif;
+  font-family: "HarrietText-RegularItalic", sans-serif;
   color: #ffffff;
   margin-right: 30px;
   font-size: 14px;
@@ -955,6 +962,7 @@ div#footer-wrapper div.sharing ul li a:hover {
 .home .each-content {
   margin-bottom: 30px;
   text-align: center;
+  position: relative;
 }
 .home .each-content .text-content {
   display: inline-block;
@@ -963,7 +971,7 @@ div#footer-wrapper div.sharing ul li a:hover {
   background-color: #f3f3f3;
   vertical-align: top;
   padding-left: 45px;
-  padding-right: 93px;
+  padding-right: 130px;
   text-align: left;
 }
 @media all and (max-width: 1280px) {
@@ -1042,6 +1050,14 @@ div#footer-wrapper div.sharing ul li a:hover {
   display: inline-block;
   vertical-align: middle;
   width: 63.8%;
+}
+.home .each-content .img-content img {
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
 }
 .home .last-content {
   border-bottom: 1px solid #a4afc2;
