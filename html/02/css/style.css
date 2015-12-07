@@ -886,40 +886,40 @@ div#copyright-wrapper p {
   line-height: 15px;
   color: #a4afc2;
 }
-div#footer-wrapper {
+footer#footer-wrapper {
   background-color: #627482;
 }
-div#footer-wrapper div.tweet p {
+footer#footer-wrapper div.tweet p {
   font-family: "HarrietText-RegularItalic", sans-serif;
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
 }
-div#footer-wrapper div.tweet p i {
+footer#footer-wrapper div.tweet p i {
   font-size: 14px;
 }
-div#footer-wrapper div.sharing > a {
+footer#footer-wrapper div.sharing > a {
   display: inline-block;
   font-family: "HarrietText-RegularItalic", sans-serif;
   color: #ffffff;
   margin-right: 30px;
   font-size: 14px;
 }
-div#footer-wrapper div.sharing > a:hover {
+footer#footer-wrapper div.sharing > a:hover {
   color: #2f4455;
 }
-div#footer-wrapper div.sharing ul {
+footer#footer-wrapper div.sharing ul {
   display: inline-block;
 }
-div#footer-wrapper div.sharing ul li {
+footer#footer-wrapper div.sharing ul li {
   display: inline-block;
   margin-right: 10px;
 }
-div#footer-wrapper div.sharing ul li a {
+footer#footer-wrapper div.sharing ul li a {
   color: #ffffff;
   font-size: 16px;
 }
-div#footer-wrapper div.sharing ul li a:hover {
+footer#footer-wrapper div.sharing ul li a:hover {
   color: #2f4455;
 }
 .home #heading {
@@ -968,26 +968,31 @@ div#footer-wrapper div.sharing ul li a:hover {
   display: inline-block;
   width: 35.9%;
   height: 595px;
-  background-color: #f3f3f3;
   vertical-align: top;
-  padding-left: 45px;
-  padding-right: 130px;
   text-align: left;
+  position: relative;
 }
 @media all and (max-width: 1280px) {
   .home .each-content .text-content {
     width: 35%;
     height: 505px;
-    background-color: #f3f3f3;
     vertical-align: top;
-    padding-left: 35px;
-    padding-right: 40px;
     text-align: left;
   }
 }
 .home .each-content .text-content .v-align-table {
   height: 100%;
   display: table;
+  background-color: #f3f3f3;
+  padding-left: 45px;
+  padding-right: 130px;
+}
+@media all and (max-width: 1280px) {
+  .home .each-content .text-content .v-align-table {
+    background-color: #f3f3f3;
+    padding-left: 35px;
+    padding-right: 40px;
+  }
 }
 .home .each-content .text-content .v-align-table .v-align-table-cell {
   display: table-cell;
@@ -1048,8 +1053,9 @@ div#footer-wrapper div.sharing ul li a:hover {
 }
 .home .each-content .img-content {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   width: 63.8%;
+  position: relative;
 }
 .home .each-content .img-content img {
   -moz-opacity: 0.5;

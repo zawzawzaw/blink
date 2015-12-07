@@ -8,7 +8,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="footer-wrapper" class="fixed-footer"><!-- container-fluid -->
+	<footer id="footer-wrapper" class="fixed-footer"><!-- container-fluid -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -27,5 +27,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
 </div><!-- page wrapper end -->
