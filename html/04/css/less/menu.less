@@ -9,7 +9,7 @@
 		width: 100%;		
 		z-index: 1500;		
 		.transition-in();
-		&.white-version {
+		&.white-version { // when scroll down
 			// border-top: 5px solid @dark-blue;
 			// border-bottom: 1px solid @menu-seperator-grey;	
 			background: @menu-bg-grey-2;
@@ -23,19 +23,39 @@
 				position: absolute;
 				top: -5px;
 			}
-		}	
-		&.add-border {
+			.main-menu {
+				.sidebar-nav {								
+					ul.main-nav {	
+						li {
+							a {
+								color: @light-blue;
+							}
+						}
+					}
+				}
+				.logo {
+					background: url(../images/logo/blink.png) no-repeat;
+				}				
+			}	
+		}
+		&.add-border { // when click the menu
 			// border-bottom: 1px solid @menu-seperator-grey;	
 			background: @menu-bg-grey-2;
 			height: 254px;	
 			.transition-in();
 			.main-menu {
-				.menu {
-					color: @light-blue!important;
+				.sidebar-nav {								
+					ul.main-nav {	
+						li {
+							a {
+								color: @light-blue;
+							}
+						}
+					}
 				}
 				.logo {
-					color: @light-blue!important;
-				}				
+					background: url(../images/logo/blink.png) no-repeat;
+				}
 			}	
 		}
 		&.extra-height {
@@ -62,11 +82,17 @@
 				vertical-align: middle;		
 			}
 			.logo {
-				.gotham-bold;
-				font-size: 25px;
-				letter-spacing: 0.01em;
-				color: @light-blue;
-				vertical-align: middle;
+				// .gotham-bold;
+				// font-size: 25px;
+				// letter-spacing: 0.01em;
+				// // color: @light-blue;
+				// color: @white;
+				// vertical-align: middle;
+
+				background: url(../images/logo/blink-white.png) no-repeat;
+				width: 110px;
+				height: 10px;
+				display: inline-block;
 			}
 			.sidebar-nav {								
 				ul.main-nav {					
@@ -99,7 +125,7 @@
 							font-size: 13px;
 							line-height: 36px;
 							letter-spacing: 0.1em;
-							color: @light-blue;
+							color: @white;
 							text-transform: uppercase;						
 							position: relative;		
 							&:after{
@@ -145,7 +171,7 @@
 						#sub-nav-container {
 							.opacity(0);
 							visibility: hidden;
-							.transition(1.5s);
+							.transition();
 							position: absolute;
 							top: 68px;
 							width: 100%;

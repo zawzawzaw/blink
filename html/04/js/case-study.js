@@ -10,5 +10,5 @@ $(function() {
 	  itemSelector: '.grid-item',
 	  columnWidth: 400,
 	  gutter: 15
-	});
+	});	
 });

@@ -1,4 +1,13 @@
 @media all and (max-width: 992px) {
+  .sidebar-nav {
+    display: none;
+  }
+  #page-wrapper .slider-wrapper {
+    height: 486px;
+  }
+  #page-wrapper .slider-wrapper .arrow {
+    bottom: 53%;
+  }
   .home .each-content .text-content {
     width: 100%;
     height: auto;
@@ -13,30 +22,31 @@
     margin-bottom: 35px;
     width: 32%;
   }
+  .case-study .content-1 {
+    margin-top: 100px;
+  }
   .case-study .content-1 .text-content {
     margin-right: 0px;
     margin-bottom: 50px;
+    width: 100%;
   }
   .case-study .content-1 .img-content {
     width: 100%;
-  }
-  .case-study .content-1 .img-content img {
-    margin: 10px auto;
-  }
-  .case-study .content-2 .text-content {
-    padding-left: 0px;
-    margin: 40px 0px;
-  }
-  .case-study .content-3 {
-    margin-top: 0px;
-    margin-bottom: 15px;
-  }
-  .case-study .content-3 .img-content ul li {
+  }  
+  .case-study .content-3 ul li {
     margin-right: 0px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 100%;
   }
-  .case-study .content-4 .text-content {
-    margin-bottom: 40px;
+  .case-study .content-3 ul li .img-placeholder {
+    width: 100%;
+  }
+  .clients .img-content ul li .v-align-table .v-align-table-cell {
+    padding: 40px 0px 20px;
+  }
+  .clients .img-content ul li {
+    width: 100%;
+    height: auto;
   }
   div#footer-wrapper div.tweet {
     float: none!important;

@@ -291,28 +291,37 @@ html, body {
           position: relative; 
           left: -50%;
           h5 {
-            .harriet-text-medium-italic;
-            font-size: 23px;    
-            color: @text-grey;   
-            margin-bottom: 12px;     
+            .gotham-bold;
+            font-size: 17px;    
+            line-height: 45px;
+            letter-spacing: 0.075em;
+            color: @white;   
+            margin-bottom: 12px;  
+            text-transform: uppercase;   
+            text-shadow: none;
           }
           h1 {
             .gotham-bold; 
-            font-size: 30px;            
-            line-height: 50px;
-            letter-spacing: 0.1em;
+            font-size: 26px;            
+            line-height: 35px;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
-            color: @text-grey;
+            text-shadow: none;
+            color: @white;
           }                    
           p {
-            .gotham-book;
-            font-size: 17px;
-            line-height: 27px;                        
+            .open-sans-regular;
+            font-size: 13px;
+            line-height: 23px;                        
             display: block; 
             margin: 0 auto;
             text-shadow: none;
-            color: @text-grey;
-          }              
+            color: @white;
+          }     
+          .seperator-line {
+            margin: 19px auto 22px;
+            background-color: @white!important;
+          }         
         }        
       }     
     }
@@ -355,11 +364,10 @@ html, body {
   }    
 
   .seperator-line {
-    width: 90px;
-    height: 3px;
-    background-color: @white;     
-    .round(50px); 
-  }    
+    background-color: @dark-blue!important;
+    width: 43px;
+    height: 2px;
+  }
 
   div.dropdown {
     display: inline-block;
@@ -511,13 +519,18 @@ p {
 .cta {
   .gotham-medium;
   text-transform: uppercase;
-  font-size: 13px;
-  line-height: 24px;
-  letter-spacing: 0.05em;  
+  font-size: 12px;  
+  letter-spacing: 0.075em;  
   .opacity(0.8);
-  border: 1px solid @light-blue;
-  color: @light-blue;
-  padding: 10px 20px;
+  // border: 1px solid @light-blue;
+  color: @light-grey;
+  // padding: 10px 20px;
+
+  i {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+  }
 
   &:hover {
     .opacity(1);

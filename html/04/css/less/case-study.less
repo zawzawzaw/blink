@@ -25,9 +25,10 @@
 		.text-content {
 			display: inline-block;
 			width: 403px;
-			margin-right: 100px;
+			// margin-right: 100px;
 			vertical-align: top;
 			text-align: left;
+			float: left;
 			h5 {
 				.gotham-bold;
 				font-size: 17px;
@@ -128,15 +129,19 @@
 		.img-content {
 			display: inline-block;
 			width: 710px;
+			float: right;
+			.grid-sizer {
+				width: 48.9%;
+			}
 			.grid-item { 
-				width: 347px;
+				width: 48.9%;
 				height: 310px;
 				background-color: @img-placeholder-grey;
 				display: inline-block;				
 				margin-bottom: 20px;
 			}
 			.grid-item--width2 { 
-				width: 710px; 
+				width: 100%; 
 			}
 			.grid-item--height2 { 
 				height: 475px; 
@@ -149,27 +154,31 @@
 		margin-top: 35px;
 		.img-content {
 			display: block;
-			width: 1230px;
+			width: 100%;
 			margin: 0 auto;
-
+			
+			.grid-sizer {
+				width: 32.53%;
+			}
 			.grid-item { 
-				width: 400px;
+				width: 32.53%;
+				// height: 15.94%;
 				height: 420px;
 				background-color: @img-placeholder-grey;
 				display: inline-block;				
 				margin-bottom: 20px;
 			}
 			.grid-item--width2 { 
-				width: 614px; 
+				width: 49.92%; 
 			}
 			.grid-item--width3 { 
-				width: 814px;
+				width: 66.2%;
 			}
 			.grid-item--width4 { 
-				width: 1230px;
+				width: 100%;
 			}
 			.grid-item--height2 { 
-				height: 860px; 
+				height: 31.85%;
 			}
 		}
 		.text-content {
