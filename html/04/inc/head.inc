@@ -21,6 +21,13 @@
 <script type="text/javascript" src="js/vendors/jquery/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/vendors/bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.waypoints.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TimelineMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/ScrollToPlugin.min.js"></script>
+
 
 <script type="text/javascript" src="js/main.js"></script>
 

@@ -7,24 +7,37 @@
 				<div class="sidebar-nav pull-right">
 					<ul class="main-nav">
 						<li><a href="#">Profile</a></li>
-						<li><a href="#">Portfolio</a></li>
 						<li>
-							<a href="#" class="has-child">Case Studies</a>
-							<div id="sub-nav-container">
-								<!-- <a href="#" class="by-categories">By Categoires <i class="fa fa-chevron-down"></i></a> -->
-
+							<a href="#" class="has-child">Portfolio</a>
+							<div class="sub-nav-container">
 								<ul class="sub-nav-1 sub-nav">
-									<li><a href="case-study.html">Fairmont Sanur Beach</a></li>
-									<li><a href="case-study.html">Regent Phuket</a></li>									
-									<li><a href="case-study.html">Jumeirah Dhevanafushi</a></li>
-									<li><a href="case-study.html">Hilton Goa</a></li>
+									<li><a href="category.html">All Featured</a></li>
+									<li><a href="category.html">Signature by Blink</a></li>									
+									<li><a href="category.html">Resorts</a></li>
+									<li><a href="category.html">Hotels</a></li>
 								</ul>
 								<ul class="sub-nav-2 sub-nav">
-									<li><a href="case-study.html">Hyatt Jeju</a></li>
-									<li><a href="case-study.html">Six Senses Uluwata</a></li>																		
+									<li><a href="category.html">Master Planning</a></li>
+									<li><a href="category.html">Interior Design</a></li>																		
+									<li><a href="category.html">Brand Design</a></li>
+									<li><a href="category.html">Building Design</a></li>																		
 								</ul>
 							</div>
-							
+						</li>
+						<li>
+							<a href="#" class="has-child">Stories</a>
+							<div class="sub-nav-container">
+								<ul class="sub-nav-1 sub-nav">
+									<li><a href="story.html">Fairmont Sanur Beach</a></li>
+									<li><a href="story.html">Regent Phuket</a></li>									
+									<li><a href="story.html">Jumeirah Dhevanafushi</a></li>
+									<li><a href="story.html">Hilton Goa</a></li>
+								</ul>
+								<ul class="sub-nav-2 sub-nav">
+									<li><a href="story.html">Hyatt Jeju</a></li>
+									<li><a href="story.html">Six Senses Uluwata</a></li>																		
+								</ul>
+							</div>					
 						</li>
 						<li><a href="clients.html">Clients</a></li>
 						<li><a href="#">News</a></li>						

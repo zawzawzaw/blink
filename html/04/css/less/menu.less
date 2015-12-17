@@ -121,10 +121,10 @@
 							}							
 						}								
 						a {
-							.gotham-medium;
+							.gotham-bold;
 							font-size: 13px;
 							line-height: 36px;
-							letter-spacing: 0.1em;
+							letter-spacing: 0.075em;
 							color: @white;
 							text-transform: uppercase;						
 							position: relative;		
@@ -161,14 +161,14 @@
 							display: block;
 						}
 						&.active {
-							#sub-nav-container {
+							.sub-nav-container {
 								.opacity(1);
 								visibility: visible;									
 								.transition(1.5s);
 							}
 						}						
 
-						#sub-nav-container {
+						.sub-nav-container {
 							.opacity(0);
 							visibility: hidden;
 							.transition();
@@ -207,10 +207,10 @@
 						      		}	
 						      		i {
 						      			color: @dark-blue;
-						      			bottom: -20px;	
+						      			bottom: -20px;
 						      			.opacity(1);
-							        	visibility: visible;					      			
-						      		}								
+							        	visibility: visible;				      			
+						      		}
 						      	}
 						      	&.active {
 						      		&:after {
@@ -226,7 +226,7 @@
 							}
 							ul.sub-nav {
 								display: inline-block;
-								margin-right: 50px;	
+								margin-right: 20px;	
 								vertical-align: top;							
 								// .opacity(0);
 						  //       visibility: hidden;

@@ -28,7 +28,7 @@ div#mailing-list-wrapper {
 			letter-spacing: 0.05em;
 			color: @dark-blue;
 			text-transform: uppercase;
-			margin-bottom: 30px;
+			margin-bottom: 35px;
 		}
 		h4 {
 			.gotham-bold;
@@ -71,10 +71,11 @@ div#mailing-list-wrapper {
 			display: inline-block;
 			width: 180px;
 			li {
+				padding-bottom: 9px;
 				a {
 					.gotham-bold;
 					font-size: 12px;
-					line-height: 28px;
+					line-height: 12px;
 					letter-spacing: 0.05em;
 					color: @dark-blue;
 					text-transform: uppercase;
@@ -87,7 +88,7 @@ div#mailing-list-wrapper {
 	}
 	div.right {
 		display: inline-block;
-		max-width: 300px;
+		max-width: 350px;
 		padding-left: 60px;
 
 		h3 {
@@ -96,14 +97,22 @@ div#mailing-list-wrapper {
 			letter-spacing: 0.05em;
 			color: @dark-blue;
 			text-transform: uppercase;
-			margin-bottom: 6px;
+			margin-bottom: 2px;
 		}
 		p {
 			.open-sans-regular;
 			font-size: 12px;
 			line-height: 18px;
 			color: @light-blue;		
-			margin-bottom: 15px;	
+			margin-bottom: 12px;	
+		}
+		.input {
+			position: relative;
+			i {
+				position: absolute;				
+			    right: 10px;
+			    top: 8px;
+			}
 		}
 		input[name="subscribe"] {
 			background-color: @subscribe-input-bg;
@@ -115,16 +124,7 @@ div#mailing-list-wrapper {
 			border: 1px solid @subscribe-input-border;
 			padding-left: 12px;
 			width: 276px;
-			height: 30px;
-			&:after {
-				content: "\f105";
-				display:inline-block;
-				font:normal normal normal 14px/1 FontAwesome;
-				font-size:inherit;
-				text-rendering:auto;
-				-webkit-font-smoothing:antialiased;
-				-moz-osx-font-smoothing:grayscale;
-			}
+			height: 30px;			
 		}
 
 	}

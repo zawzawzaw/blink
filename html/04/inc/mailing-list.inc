@@ -36,8 +36,11 @@
 					</div>
 					<div class="right each-column">
 						<h3>Join Our Mailing List</h3>
-						<p>Subscribe to our newsletter and stay updated with our latest work and news.</p>
-						<input type="text" name="subscribe" placeholder="Enter your email address" />
+						<p>Subscribe to our newsletter and stay updated <br> with our latest work and news.</p>
+						<div class="input">
+							<input type="text" name="subscribe" placeholder="Enter your email address" />
+							<i class="fa fa-angle-right"></i>
+						</div>
 					</div>
 				</div>
 			</div>
