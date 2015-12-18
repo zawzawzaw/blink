@@ -2,8 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="left each-column">
-						<h3>Blink Design Group</h3>
+					<div class="left each-column">						
 						<h4>Follow Us</h4>
 						<ul>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>

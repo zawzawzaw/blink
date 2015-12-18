@@ -288,6 +288,9 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+#page-wrapper .first-page {
+  height: 100%;
+}
 #page-wrapper #menu-wrapper {
   float: right;
   display: table;
@@ -1483,6 +1486,10 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   background-color: #c2c2c2;
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 12px;
+}
+.case-study .content-1 .img-content .grid-item:last-child {
+  margin-right: 0px;
 }
 .case-study .content-1 .img-content .grid-item--width2 {
   width: 100%;
@@ -1508,6 +1515,8 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   background-color: #c2c2c2;
   display: inline-block;
   margin-bottom: 20px;
+  float: left;
+  margin-right: 14px;
 }
 .case-study .content-2 .img-content .grid-item--width2 {
   width: 49.92%;
@@ -1520,6 +1529,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 }
 .case-study .content-2 .img-content .grid-item--height2 {
   height: 31.85%;
+}
+.case-study .content-2 .img-content .br {
+  margin-right: 0px!important;
 }
 .case-study .content-2 .text-content {
   display: inline-block;
@@ -1550,10 +1562,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 }
 .case-study .content-3 {
   text-align: left;
-  padding-top: 60px;
   padding-bottom: 25px;
-  background-color: #f8f8f8;
   margin-top: 88px;
+  margin-bottom: 70px;
 }
 .case-study .content-3 .container {
   padding-left: 20px;
@@ -1565,6 +1576,8 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   letter-spacing: 0.075em;
   color: #627482;
   text-transform: uppercase;
+  padding-top: 60px;
+  border-top: 1px solid #d1d7e0;
 }
 .case-study .content-3 ul {
   display: block;
@@ -1574,13 +1587,14 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   display: inline-block;
   margin-right: 18px;
   text-align: left;
+  width: 32.1%;
 }
 .case-study .content-3 ul li:last-child {
   margin-right: 0px;
 }
 .case-study .content-3 ul li .img-placeholder {
   display: block;
-  width: 398px;
+  width: 100%;
   height: 275px;
   background-color: #c2c2c2;
 }

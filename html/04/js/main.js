@@ -107,14 +107,36 @@ $(document).ready(function(){
         }
     }
 
-    $('#page-wrapper').on('mousewheel', function() {
-
-    });
     $('#page-wrapper').on('scroll', function() {        
         showHideArrow();
-        addBorder();               
-        scrollToContent();
-    });    
+        addBorder();                       
+    });
+    $('#page-wrapper').on('mousewheel', function(event) {
+        // console.log(event.deltaX, event.deltaY, event.deltaFactor);
+        if(event.deltaY<0) {
+            // scrollToContent();
+        }
+    });
+
+
+    //////
+    ////// full page js
+
+
+    // $('#page-wrapper').fullpage({
+    //     anchors: ['page1', 'page2'],
+    //     scrollBar: false,
+    //     afterLoad: function(anchorLink, index){
+    //         var loadedSection = $(this);
+
+    //         //using index
+    //         if(index >= 2){
+    //             $.fn.fullpage.setAutoScrolling(false);
+    //         }else 
+    //             $.fn.fullpage.setAutoScrolling(true);
+
+    //     }
+    // });
 
 
 
