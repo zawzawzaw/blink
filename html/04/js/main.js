@@ -58,9 +58,21 @@ $(document).ready(function(){
             if(firstScroll==true) {
                 firstScroll = false;
 
+                var $window = $(window);
+
+                $window.disablescroll({
+                    handleScrollbar: false
+                });
+
                 var target_y = $('#content-wrapper').offset().top + 5;
 
-                TweenMax.to($('#page-wrapper'), 1.2, {scrollTo:{y:target_y,autoKill: false}, ease:Quad.easeInOut});
+                TweenMax.to($('#page-wrapper'), 1.2, {
+                    scrollTo: { y:target_y, autoKill: false }, 
+                    ease:Quad.easeInOut,
+                    onComplete: function() {
+                        $window.disablescroll("undo");
+                    }
+                });
 
 
                 // $('#page-wrapper').animate({
@@ -114,7 +126,7 @@ $(document).ready(function(){
     $('#page-wrapper').on('mousewheel', function(event) {
         // console.log(event.deltaX, event.deltaY, event.deltaFactor);
         if(event.deltaY<0) {
-            // scrollToContent();
+            scrollToContent();
         }
     });
 

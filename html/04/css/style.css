@@ -1478,24 +1478,19 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   float: right;
 }
 .case-study .content-1 .img-content .grid-sizer {
-  width: 48.9%;
+  width: 49.36%;
+}
+.case-study .content-1 .img-content .gutter-sizer {
+  width: 1.39%;
 }
 .case-study .content-1 .img-content .grid-item {
-  width: 48.9%;
-  height: 310px;
-  background-color: #c2c2c2;
-  display: inline-block;
-  margin-bottom: 20px;
-  margin-right: 12px;
-}
-.case-study .content-1 .img-content .grid-item:last-child {
-  margin-right: 0px;
+  float: left;
+  width: 49.36%;
+  height: auto;
+  margin-bottom: 10px;
 }
 .case-study .content-1 .img-content .grid-item--width2 {
   width: 100%;
-}
-.case-study .content-1 .img-content .grid-item--height2 {
-  height: 475px;
 }
 .case-study .content-2 {
   text-align: center;
@@ -1506,32 +1501,26 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   width: 100%;
   margin: 0 auto;
 }
-.case-study .content-2 .img-content .grid-sizer {
-  width: 32.53%;
+.case-study .content-2 .img-content .grid-sizer-2 {
+  width: 33%;
 }
-.case-study .content-2 .img-content .grid-item {
-  width: 32.53%;
-  height: 420px;
-  background-color: #c2c2c2;
-  display: inline-block;
-  margin-bottom: 20px;
+.case-study .content-2 .img-content .gutter-sizer-2 {
+  width: 6px;
+}
+.case-study .content-2 .img-content .grid-item-2 {
   float: left;
-  margin-right: 14px;
+  width: 33%;
+  height: auto;
+  margin-bottom: 10px;
 }
 .case-study .content-2 .img-content .grid-item--width2 {
   width: 49.92%;
 }
-.case-study .content-2 .img-content .grid-item--width3 {
-  width: 66.2%;
+.case-study .content-2 .img-content .grid-item-2--width3 {
+  width: 66%;
 }
-.case-study .content-2 .img-content .grid-item--width4 {
+.case-study .content-2 .img-content .grid-item-2--width4 {
   width: 100%;
-}
-.case-study .content-2 .img-content .grid-item--height2 {
-  height: 31.85%;
-}
-.case-study .content-2 .img-content .br {
-  margin-right: 0px!important;
 }
 .case-study .content-2 .text-content {
   display: inline-block;

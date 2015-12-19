@@ -23,8 +23,7 @@
 <script type="text/javascript" src="js/vendors/bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="js/plugins/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="js/plugins/jquery.fullpage.min.js"></script>
-
+<script type="text/javascript" src="js/plugins/jquery.disablescroll.min.js"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TimelineMax.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
