@@ -6,11 +6,20 @@
 		height: 53px;	
 		position: fixed;
 		top: 0px;
-		width: 100%;
+		width: 100%;		
 		z-index: 1500;
 		.transition(0.5s);
 		&.add-border {
 			border-bottom: 1px solid @menu-seperator-grey;	
+			background: @white;
+			.main-menu {
+				.menu {
+					color: @light-blue!important;
+				}
+				.logo {
+					color: @light-blue!important;
+				}				
+			}	
 		}
 		&:hover {			
 			.main-menu {
