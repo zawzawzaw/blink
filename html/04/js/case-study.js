@@ -14,4 +14,17 @@ $(function() {
 	  columnWidth: '.grid-sizer-2',
 	  gutter: '.gutter-sizer-2'
 	});	
+
+	$(window).resize(function(){
+		var viewportWidth = $(window).width();
+		var viewportHeight = $(window).height();
+
+		// if(viewportWidth < 480) {
+		// 	$('.grid').masonry('option', { columnWidth: '100%' });
+		// 	$('.grid').masonry('reload');
+		// }else {
+		// 	$('.grid').masonry('option', { columnWidth: '.grid-sizer' });
+		// }
+
+	});
 });
