@@ -8,21 +8,30 @@ $(function() {
 		}
 	});
 
+	$('.grid').imagesLoaded().progress( function() {
+	  	$('.grid').isotope('layout');
+	});
+
 	// ,
 	//   gutter: '.gutter-sizer'
 
 	$('.grid-2').isotope({
 	  	itemSelector: '.grid-item-2',
 	  	percentPosition: true,
-	  	getSortData: {	    	
-	    	number: '.number parseInt'
+	  	getSortData: {
+	  		color: '[data-color]',
+	    	number: '[data-number] parseInt'
 	  	},
 	  	sortBy: 'number',
 	  	masonry: {
 		  	columnWidth: '.grid-sizer-2',
 		  	gutter: '.gutter-sizer-2'
 		}
-	});	
+	});
+
+	$('.grid-2').imagesLoaded().progress( function() {
+	  	$('.grid-2').isotope('layout');
+	});
 
 	$(window).resize(function(){
 		var viewportWidth = $(window).width();
