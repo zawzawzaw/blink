@@ -19,6 +19,7 @@
 			.text-content {
 				margin-right: 0px;
 				margin-bottom: 50px;
+				width: 35.8%;
 				// width: 100%;
 			}
 			.img-content {
@@ -52,25 +53,25 @@
 					width: 65.7%;
 				}
 				/////////////////
-				/////////////////
-				.grid-sizer-3,
-				.grid-item-3 {
-					width: 326px;
-					img {
-						width: 100%;
-					}
+				/////////////////	
+				.gutter-sizer-3 {
+					// width: 3px;
 				}
+				.grid-sizer-3 {
+					width: 160px;
+				}			
 				.grid-item-3 {
-					margin: 0 auto!important;
-				}
+					width: 318px;
+					// margin-bottom: 10px;
+				}				
 				.grid-item-3--width4 { 
 					width: 99%;
 				}
 				.grid-item-3--width3 { 
-					// width: 100%;
+					width: 650px;
 				}
 				.grid-item-3--width2 { 
-					// width: 100%;
+					width: 485px;
 				}
 			}
 		}
@@ -80,7 +81,10 @@
 					// margin-right: 0px;
 				    margin-top: 40px;
 				    margin-right: 14px;
-				    // width: 100%;				    
+				    // width: 100%;			
+				    .img-placeholder {
+				    	height: auto;
+				    }	    
 				}
 			}
 		}
@@ -152,6 +156,7 @@
 	.case-study {
 		.content-1 {
 			margin-top: 100px;
+			margin-bottom: 0px;
 			.text-content {
 				margin-right: 0px;
 				margin-bottom: 50px;
@@ -159,9 +164,13 @@
 			}
 			.img-content {
 				width: 100%; 
+				img {
+					width: 100%;
+				}
 			}
 		}
 		.content-2 {
+			margin-top: 0px;
 			.img-content {
 				.grid-sizer-2,
 				.grid-item-2 {
@@ -175,18 +184,33 @@
 				.grid-item-2--width3 { 
 					width: 100%;
 				}
-
-				
+				/////////////////
+				/////////////////	
+				.grid-sizer-3 {
+					width: 357px;
+				}			
+				.grid-item-3 {
+					width: 353px;
+				}				
+				.grid-item-3--width4 { 
+					width: 100%;
+				}
+				.grid-item-3--width3 { 
+					width: 100%;
+				}
+				.grid-item-3--width2 { 
+					width: 100%;
+					img {
+						width: 100%;
+					}
+				}				
 			}
 		}
 		.content-3 {
 			ul {
 				li {
 					vertical-align: top;
-					margin-right: 8px;
-					.img-placeholder {
-						height: 235px;
-					}
+					margin-right: 8px;					
 					.caption-text {
 						h6 {
 							line-height: 21px;
@@ -216,9 +240,14 @@
 	div#mailing-list-wrapper {
 		div.left {
 			padding-right: 33px;
+			margin-top: 15px;
+			&:after {
+				display: none;
+			}
 		}
 		div.middle {
-			padding-left: 80px;
+			padding-left: 0px;
+			float: left;
 			ul {
 				width: 135px;				
 			}
@@ -229,7 +258,8 @@
 		div.right {
 		    max-width: 346px;
 			padding-left: 0px;
-			padding-top: 35px;
+			padding-top: 0px;
+			float: right;
 		}
 	}
 
@@ -249,7 +279,7 @@
 
 @media all and (max-width: 768px) {
 	#page-wrapper .slider-wrapper .arrow {
-		bottom: 56%;
+		bottom: 54%;
 	}
 	#page-wrapper .slider-wrapper div.item div.carousel-caption {
 		width: 80%;
@@ -284,6 +314,29 @@
 				.grid-item-2--width3 { 
 					width: 100%;
 				}
+				/////////////////
+				/////////////////	
+				.grid-sizer-3 {
+					width: 353px;
+				}			
+				.grid-item-3 {
+					width: 348px;
+					img {
+						width: 100%;
+					}
+				}				
+				.grid-item-3--width4 { 
+					width: 99%;
+				}
+				.grid-item-3--width3 { 
+					width: 99%;
+				}
+				.grid-item-3--width2 { 
+					width: 99%;
+					img {
+						width: 100%;
+					}
+				}		
 			}
 		}
 		.content-3 {
@@ -298,6 +351,9 @@
 				    }
 				    .img-placeholder {
 					    width: 100%;
+					    img {
+					    	width: 100%;
+					    }
 				  	}
 				  	.caption-text {
 				  		padding-left: 0px;
@@ -310,35 +366,75 @@
 		}
 	}
 	div#mailing-list-wrapper {
-		div.left {
-			display: block;
+		position: relative;
+		// padding-bottom: 90px;
+		div.left {		
+			// float: right;
+			// margin-top: 20px;
+			// padding-right: 100px;
 			&:after {			
 				display: none;
 			}
 		}
 		div.middle {
-			display: block;
+			display: inline-block;
 			padding-left: 0px;
-			padding-top: 35px;
+			padding-top: 0px;
+			float: left;
 			ul {
-				width: 135px;				
+				width: 135px;	
+				// width: 32%;
+    			vertical-align: top;			
 			}
 			&:after {			
 				display: none;
 			}
 		}
 		div.right {
-			display: block;
+			display: inline-block;
+			float: right;
 		    max-width: 346px;
 			padding-left: 0px;
-			padding-top: 35px;
+			padding-top: 0px;
 			input[name="subscribe"] {
 				width: 100%;
 			}
 		}
 	}
 }
-
+@media all and (max-width: 755px) {
+	.case-study {
+		.content-2 {
+			.img-content {		
+				.grid-sizer-3 {
+					width: 100%;
+				}			
+				.grid-item-3 {
+					width: 100%;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+@media all and (max-width: 715px) {
+	div#mailing-list-wrapper {
+		div.each-column {
+			width: 100%;
+		    padding: 0;
+		    float: none;
+		    margin-top: 0px;
+		    margin-bottom: 20px;
+		}
+		div.middle {
+			ul {
+				width: 32%;
+			}
+		}
+	}
+}	
 @media all and (max-width: 540px) {
 	.case-study {
 		.content-3 {
@@ -347,6 +443,7 @@
 					margin-right: 0px;
 				    margin-top: 40px;
 				    width: 100%;
+				    height: auto;
 				}
 			}
 		}
@@ -354,8 +451,37 @@
 }
 
 @media all and (max-width: 480px) {
+	#page-wrapper {
+		.slider-wrapper {
+			div.item {
+				div.carousel-caption {
+					div.caption-text {
+						h5 {
+							font-size: 13px;
+							line-height: 41px;
+						}
+						h1 {
+							font-size: 22px;
+							line-height: 31px;
+						}
+						p {
+							font-size: 11px;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
 	.case-study {
 		.content-1 {
+			margin-top: 150px;
+			.text-content {
+				h1 {
+					font-size: 27px;
+				}
+			}
 			.img-content {
 				.grid {
 					.grid-item {
@@ -371,7 +497,7 @@
 			.img-content {			
 				.grid-item-2 {
 					width: 100%;
-				}			
+				}		
 			}
 		}
 		.content-3 {
@@ -388,15 +514,28 @@
 		top: 13%;
 	}
 	#page-wrapper .slider-wrapper .arrow {
-		bottom: 40%;
+		bottom: 53%;
 	}	
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 414px) {
 	#page-wrapper .slider-wrapper div.item div.carousel-caption {	
 		top: 13%;
 	}
 	#page-wrapper .slider-wrapper .arrow {
-		display: none!important;
+		top: 55%;
+		// display: none!important;
+	}	
+}
+
+@media all and (max-width: 375px) {	
+	#page-wrapper .slider-wrapper .arrow {
+		top: 65%;
+	}	
+}
+
+@media all and (max-width: 320px) {	
+	#page-wrapper .slider-wrapper .arrow {
+		top: 70%;
 	}	
 }

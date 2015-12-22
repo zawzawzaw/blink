@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="left each-column">						
+					<div class="left each-column hidden-xs hidden-sm">						
 						<h4>Follow Us</h4>
 						<ul>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -42,6 +42,18 @@
 							<input type="text" name="subscribe" placeholder="Enter your email address" />
 							<i class="fa fa-angle-right"></i>
 						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="left each-column visible-xs visible-sm">						
+						<h4>Follow Us</h4>
+						<ul>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>						
+						</ul>
 					</div>
 				</div>
 			</div>

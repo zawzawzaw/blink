@@ -2,7 +2,7 @@
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
-		<div class="item bg bg3 active"></div>
+		<div class="item bg case-study-bg-1 active"></div>
 		<!-- <div class="item bg bg2"></div>
 		<div class="item bg bg2"></div>
 		<div class="item bg bg2"></div> -->

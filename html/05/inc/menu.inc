@@ -9,18 +9,18 @@
 						<li><a href="#">Profile</a></li>
 						<li>
 							<a href="#" class="has-child">Portfolio</a>
-							<div class="sub-nav-container">
+							<div class="sub-nav-container portfolio-sub-nav">
 								<ul class="sub-nav-1 sub-nav">
-									<li><a href="category.html">All Featured</a></li>
-									<li><a href="category.html">Signature by Blink</a></li>									
-									<li><a href="category.html">Resorts</a></li>
-									<li><a href="category.html">Hotels</a></li>
+									<li><a href="portfolio.html#all">All Featured</a></li>
+									<li><a href="portfolio.html#signaturebyblink">Signature by Blink</a></li>									
+									<li><a href="portfolio.html#resorts">Resorts</a></li>
+									<li><a href="portfolio.html#hotels">Hotels</a></li>
 								</ul>
 								<ul class="sub-nav-2 sub-nav">
-									<li><a href="category.html">Master Planning</a></li>
-									<li><a href="category.html">Interior Design</a></li>																		
-									<li><a href="category.html">Brand Design</a></li>
-									<li><a href="category.html">Building Design</a></li>																		
+									<li><a href="portfolio.html#masterplanning">Master Planning</a></li>
+									<li><a href="portfolio.html#interiordesign">Interior Design</a></li>																		
+									<li><a href="portfolio.html#branddesign">Brand Design</a></li>
+									<li><a href="portfolio.html#buildingdesign">Building Design</a></li>																		
 								</ul>
 							</div>
 						</li>

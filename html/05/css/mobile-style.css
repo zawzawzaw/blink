@@ -9,6 +9,7 @@
   .case-study .content-1 .text-content {
     margin-right: 0px;
     margin-bottom: 50px;
+    width: 35.8%;
   }
   .case-study .content-2 .img-content .grid-sizer-2,
   .case-study .content-2 .img-content .grid-item-2 {
@@ -20,23 +21,27 @@
   .case-study .content-2 .img-content .grid-item-2--width3 {
     width: 65.7%;
   }
-  .case-study .content-2 .img-content .grid-sizer-3,
-  .case-study .content-2 .img-content .grid-item-3 {
-    width: 326px;
-  }
-  .case-study .content-2 .img-content .grid-sizer-3 img,
-  .case-study .content-2 .img-content .grid-item-3 img {
-    width: 100%;
+  .case-study .content-2 .img-content .grid-sizer-3 {
+    width: 160px;
   }
   .case-study .content-2 .img-content .grid-item-3 {
-    margin: 0 auto!important;
+    width: 318px;
   }
   .case-study .content-2 .img-content .grid-item-3--width4 {
     width: 99%;
   }
+  .case-study .content-2 .img-content .grid-item-3--width3 {
+    width: 650px;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width2 {
+    width: 485px;
+  }
   .case-study .content-3 ul li {
     margin-top: 40px;
     margin-right: 14px;
+  }
+  .case-study .content-3 ul li .img-placeholder {
+    height: auto;
   }
   .case-study .content-4 .text-content {
     margin-bottom: 40px;
@@ -95,6 +100,7 @@
   }
   .case-study .content-1 {
     margin-top: 100px;
+    margin-bottom: 0px;
   }
   .case-study .content-1 .text-content {
     margin-right: 0px;
@@ -103,6 +109,12 @@
   }
   .case-study .content-1 .img-content {
     width: 100%;
+  }
+  .case-study .content-1 .img-content img {
+    width: 100%;
+  }
+  .case-study .content-2 {
+    margin-top: 0px;
   }
   .case-study .content-2 .img-content .grid-sizer-2,
   .case-study .content-2 .img-content .grid-item-2 {
@@ -114,12 +126,27 @@
   .case-study .content-2 .img-content .grid-item-2--width3 {
     width: 100%;
   }
+  .case-study .content-2 .img-content .grid-sizer-3 {
+    width: 357px;
+  }
+  .case-study .content-2 .img-content .grid-item-3 {
+    width: 353px;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width4 {
+    width: 100%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width3 {
+    width: 100%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width2 {
+    width: 100%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width2 img {
+    width: 100%;
+  }
   .case-study .content-3 ul li {
     vertical-align: top;
     margin-right: 8px;
-  }
-  .case-study .content-3 ul li .img-placeholder {
-    height: 235px;
   }
   .case-study .content-3 ul li .caption-text h6 {
     line-height: 21px;
@@ -139,9 +166,14 @@
   }
   div#mailing-list-wrapper div.left {
     padding-right: 33px;
+    margin-top: 15px;
+  }
+  div#mailing-list-wrapper div.left:after {
+    display: none;
   }
   div#mailing-list-wrapper div.middle {
-    padding-left: 80px;
+    padding-left: 0px;
+    float: left;
   }
   div#mailing-list-wrapper div.middle ul {
     width: 135px;
@@ -152,7 +184,8 @@
   div#mailing-list-wrapper div.right {
     max-width: 346px;
     padding-left: 0px;
-    padding-top: 35px;
+    padding-top: 0px;
+    float: right;
   }
   #page-wrapper #footer-wrapper .tweet {
     float: none!important;
@@ -167,7 +200,7 @@
 }
 @media all and (max-width: 768px) {
   #page-wrapper .slider-wrapper .arrow {
-    bottom: 56%;
+    bottom: 54%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     width: 80%;
@@ -183,6 +216,27 @@
   .case-study .content-2 .img-content .grid-item-2--width3 {
     width: 100%;
   }
+  .case-study .content-2 .img-content .grid-sizer-3 {
+    width: 353px;
+  }
+  .case-study .content-2 .img-content .grid-item-3 {
+    width: 348px;
+  }
+  .case-study .content-2 .img-content .grid-item-3 img {
+    width: 100%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width4 {
+    width: 99%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width3 {
+    width: 99%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width2 {
+    width: 99%;
+  }
+  .case-study .content-2 .img-content .grid-item-3--width2 img {
+    width: 100%;
+  }
   .case-study .content-3 ul li {
     margin-top: 40px;
     width: 48%;
@@ -193,37 +247,66 @@
   .case-study .content-3 ul li .img-placeholder {
     width: 100%;
   }
+  .case-study .content-3 ul li .img-placeholder img {
+    width: 100%;
+  }
   .case-study .content-3 ul li .caption-text {
     padding-left: 0px;
   }
   .case-study .content-3 ul li .caption-text h6 {
     margin-bottom: 0px;
   }
-  div#mailing-list-wrapper div.left {
-    display: block;
+  div#mailing-list-wrapper {
+    position: relative;
   }
   div#mailing-list-wrapper div.left:after {
     display: none;
   }
   div#mailing-list-wrapper div.middle {
-    display: block;
+    display: inline-block;
     padding-left: 0px;
-    padding-top: 35px;
+    padding-top: 0px;
+    float: left;
   }
   div#mailing-list-wrapper div.middle ul {
     width: 135px;
+    vertical-align: top;
   }
   div#mailing-list-wrapper div.middle:after {
     display: none;
   }
   div#mailing-list-wrapper div.right {
-    display: block;
+    display: inline-block;
+    float: right;
     max-width: 346px;
     padding-left: 0px;
-    padding-top: 35px;
+    padding-top: 0px;
   }
   div#mailing-list-wrapper div.right input[name="subscribe"] {
     width: 100%;
+  }
+}
+@media all and (max-width: 755px) {
+  .case-study .content-2 .img-content .grid-sizer-3 {
+    width: 100%;
+  }
+  .case-study .content-2 .img-content .grid-item-3 {
+    width: 100%;
+  }
+  .case-study .content-2 .img-content .grid-item-3 img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 715px) {
+  div#mailing-list-wrapper div.each-column {
+    width: 100%;
+    padding: 0;
+    float: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  div#mailing-list-wrapper div.middle ul {
+    width: 32%;
   }
 }
 @media all and (max-width: 540px) {
@@ -231,9 +314,28 @@
     margin-right: 0px;
     margin-top: 40px;
     width: 100%;
+    height: auto;
   }
 }
 @media all and (max-width: 480px) {
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
+    font-size: 13px;
+    line-height: 41px;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
+    font-size: 22px;
+    line-height: 31px;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .case-study .content-1 {
+    margin-top: 150px;
+  }
+  .case-study .content-1 .text-content h1 {
+    font-size: 27px;
+  }
   .case-study .content-1 .img-content .grid .grid-item {
     width: 100%;
   }
@@ -252,14 +354,24 @@
     top: 13%;
   }
   #page-wrapper .slider-wrapper .arrow {
-    bottom: 40%;
+    bottom: 53%;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 414px) {
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     top: 13%;
   }
   #page-wrapper .slider-wrapper .arrow {
-    display: none!important;
+    top: 55%;
+  }
+}
+@media all and (max-width: 375px) {
+  #page-wrapper .slider-wrapper .arrow {
+    top: 65%;
+  }
+}
+@media all and (max-width: 320px) {
+  #page-wrapper .slider-wrapper .arrow {
+    top: 70%;
   }
 }
