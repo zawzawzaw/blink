@@ -14,6 +14,12 @@
 	<meta name="keywords" content="Blink">
 
 	<!--#include virtual="inc/head.inc" -->
+	
+	<link href="css/jplist.core.min.css" rel="stylesheet" type="text/css" />		
+	<script type="text/javascript" src="js/plugins/jplist.core.min.js"></script>
+
+	<script type="text/javascript" src="js/plugins/jplist.filter-toggle-bundle.min.js"></script>
+	<link href="css/jplist.filter-toggle-bundle.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	
@@ -37,144 +43,249 @@
 								<p class="visible-xs visible-sm">BLINK Design Group knows hotels. A glance at our portfolio confirms that fact. We also know hotel owners and operators. We understand your challenges and relish the opportunity to contribute to your success.</p>
 							</div>
 						</div>
-						<div class="content-2">
-							<div class="category-nav">
-								<div class="pull-left">
-									<a href="#" class="filter"><i class="fa fa-filter"></i> Filter <i class="fa fa-angle-down"></i></a>
+						<div id="category">
+							<div class="content-2">
+								<div class="category-nav">
+									<div class="pull-left">
+										<a href="#" class="filter"><i class="fa fa-filter"></i> Filter <i class="fa fa-angle-down"></i></a>
+									</div>
+									<div class="pull-right">
+										<a href="#">SEARCH <i class="fa fa-search"></i></a>
+									</div>
+									<div class="clear"></div>
+
+									<div class="jplist" style="display:none;">
+										<div class="jplist-panel">
+											<div class="jplist-group">
+												<input 
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="default" 
+												  data-path="default" 
+												  
+												  id="default-radio" 
+												  type="radio" 
+												  name="jplist"
+												  checked="checked"
+											   /> 										 									   									   
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="resorts" 
+												  data-path=".resorts" 
+												  
+												  id="resorts" 
+												  type="radio" 
+												  name="jplist"
+											   />
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="hotels" 
+												  data-path=".hotels" 
+												  
+												  id="hotels" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="masterplanning" 
+												  data-path=".masterplanning" 
+												  
+												  id="masterplanning" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="interiordesign" 
+												  data-path=".interiordesign" 
+												  
+												  id="interiordesign" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="branddesign" 
+												  data-path=".branddesign" 
+												  
+												  id="branddesign" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="buildingdesign" 
+												  data-path=".buildingdesign" 
+												  
+												  id="buildingdesign" 
+												  type="radio" 
+												  name="jplist"
+											   /> 												
+											</div>
+										</div>
+									</div>
+																	
+									<ul class="child-menu">
+										<li><a class="filter-category" data-hash="#all" href="#all">view all</a></li>
+										<li><a class="filter-category" data-hash="#resorts" href="#resorts">Resorts</a></li>
+										<li><a class="filter-category" data-hash="#hotels" href="#hotels">Hotels</a></li>
+										<li><a class="filter-category" data-hash="#masterplanning" href="#masterplanning">Master Planning</a></li>
+										<li><a class="filter-category" data-hash="#interiordesign" href="#interiordesign">Interior Design</a></li>
+										<li><a class="filter-category" data-hash="#branddesign" href="#branddesign">Brand Design</a></li>
+										<li><a class="filter-category" data-hash="#buildingdesign" href="#buildingdesign">Building Design</a></li>
+									</ul>
+									
 								</div>
-								<div class="pull-right">
-									<a href="#">SEARCH <i class="fa fa-search"></i></a>
-								</div>
+							</div>
+							<div class="content-3">
+								<h1 class="filtered-title"></h1>								
+								<ul class="list">
+									<li class="list-item">
+										<div class="resorts">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-1.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>MALDIVES</h6>
+												<h5>Jumeirah Dhevanfushi</h5>
+											</div>											
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-2.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>LIAOYING, CHINA</h6>
+												<h5>Benxi Doubletree by Hilton</h5>
+											</div>											
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="hotels">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-3.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>HAINAN PROVINCE, CHINA</h6>
+												<h5>Conrad Sanya Haitang Bay</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="masterplanning">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-4.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>SHANGHAI, CHINA</h6>
+												<h5>Hilton Fengxian</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="hotels">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-5.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>SHANGHAI, CHINA</h6>
+												<h5>Marriott Wenchang</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="interiordesign">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-6.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>PHUKET, THAILAND</h6>
+												<h5>Regent Phuket Cape Panwa</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="branddesign">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-7.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>BALI, INDONESIA</h6>
+												<h5>Melia Bali</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="hotels">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-8.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>BALI, INDONESIA</h6>
+												<h5>Six Senses Uluwatu</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="buildingdesign">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-9.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>BALI, INDONESIA</h6>
+												<h5>Alila Salalah</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="branddesign">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-10.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>DETROIT, UNITED STATES</h6>
+												<h5 class="hidden-xs hidden-sm">Renaissance & Courtyard <br> BY Marriott</h5>
+												<h5 class="visible-xs visible-sm">Renaissance & Courtyard <br> BY Marriott</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="buildingdesign">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-11.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>PHUKET, THAILAND</h6>
+												<h5>RAYCOM</h5>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="interiordesign">
+											<div class="img-holder">
+												<img src="images/content/portfolio/portfolio-content-12.jpg" alt="">
+											</div>
+											<div class="caption-text">
+												<h6>BALI, INDONESIA</h6>
+												<h5>TRAVELODGE</h5>
+											</div>
+										</div>
+									</li>
+								</ul>
+
 								<div class="clear"></div>
 
-								<ul class="child-menu">
-									<li><a class="filter-category" data-hash="#all" href="#all">view all</a></li>
-									<li><a class="filter-category" data-hash="#resorts" href="#resorts">Resorts</a></li>
-									<li><a class="filter-category" data-hash="#hotels" href="#hotels">Hotels</a></li>
-									<li><a class="filter-category" data-hash="#masterplanning" href="#masterplanning">Master Planning</a></li>
-									<li><a class="filter-category" data-hash="#interiordesign" href="#interiordesign">Interior Design</a></li>
-									<li><a class="filter-category" data-hash="#branddesign" href="#branddesign">Brand Design</a></li>
-									<li><a class="filter-category" data-hash="#buildingdesign" href="#buildingdesign">Building Design</a></li>
-								</ul>
+								<a href="#" class="show-more"><i class="fa fa-plus"></i> Show More</a>
 							</div>
-						</div>
-						<div class="content-3">
-							<h1 class="filtered-title"></h1>
-							<ul>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-1.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>MALDIVES</h6>
-										<h5>Jumeirah Dhevanfushi</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-2.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>LIAOYING, CHINA</h6>
-										<h5>Benxi Doubletree by Hilton</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-3.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>HAINAN PROVINCE, CHINA</h6>
-										<h5>Conrad Sanya Haitang Bay</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-4.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>SHANGHAI, CHINA</h6>
-										<h5>Hilton Fengxian</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-5.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>SHANGHAI, CHINA</h6>
-										<h5>Marriott Wenchang</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-6.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>PHUKET, THAILAND</h6>
-										<h5>Regent Phuket Cape Panwa</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-7.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>BALI, INDONESIA</h6>
-										<h5>Melia Bali</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-8.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>BALI, INDONESIA</h6>
-										<h5>Six Senses Uluwatu</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-9.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>BALI, INDONESIA</h6>
-										<h5>Alila Salalah</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-10.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>DETROIT, UNITED STATES</h6>
-										<h5 class="hidden-xs hidden-sm">Renaissance & Courtyard <br> BY Marriott</h5>
-										<h5 class="visible-xs visible-sm">Renaissance & Courtyard <br> BY Marriott</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-11.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>PHUKET, THAILAND</h6>
-										<h5>RAYCOM</h5>
-									</div>
-								</li>
-								<li>
-									<div class="img-holder">
-										<img src="images/content/portfolio/portfolio-content-12.jpg" alt="">
-									</div>
-									<div class="caption-text">
-										<h6>BALI, INDONESIA</h6>
-										<h5>TRAVELODGE</h5>
-									</div>
-								</li>
-							</ul>
-
-							<div class="clear"></div>
-
-							<a href="#" class="show-more"><i class="fa fa-plus"></i> Show More</a>
 						</div>
 					</div>
 				</div>

@@ -64,6 +64,9 @@
   .sidebar-nav {
     display: none;
   }
+  #page-wrapper .slider-wrapper {
+    height: 486px;
+  }
   #page-wrapper .slider-wrapper .arrow {
     bottom: 53%;
   }
@@ -373,8 +376,5 @@
 @media all and (max-width: 320px) {
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
-  }
-  .home .each-content .text-content h2 {
-    font-size: 16px;
   }
 }

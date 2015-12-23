@@ -11,7 +11,7 @@
 					<h1>BLINK knows hotels</h1>
 					<div class="seperator-line"></div>
 					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo <br>dolor aenean massa there sociis natoque penati itheru magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo <br>dolor aenean massa there sociis natoque penati itheru magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p>
 				</div>				
 			</div>				
 		</div>		

@@ -10,7 +10,8 @@
 					<h5 class="pulse">Who We Are</h5>
 					<h1>asia born internationally acclaimed</h1>
 					<div class="seperator-line"></div>
-					<p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
 				</div>				
 			</div>				
 		</div>
@@ -20,7 +21,8 @@
 					<h5>Who We Are 2</h5>
 					<h1>asia born internationally acclaimed</h1>
 					<div class="seperator-line"></div>
-					<p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
 				</div>				
 			</div>				
 		</div>
@@ -30,7 +32,8 @@
 					<h5>Who We Are 3</h5>
 					<h1>asia born internationally acclaimed</h1>
 					<div class="seperator-line"></div>
-					<p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
 				</div>				
 			</div>				
 		</div>
@@ -40,7 +43,8 @@
 					<h5>Who We Are 4</h5>
 					<h1>asia born internationally acclaimed</h1>
 					<div class="seperator-line"></div>
-					<p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
 				</div>				
 			</div>				
 		</div>
