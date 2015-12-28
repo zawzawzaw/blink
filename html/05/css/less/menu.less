@@ -37,6 +37,19 @@
 					background: url(../images/logo/blink.png) no-repeat;
 				}				
 			}	
+			.mobile-menu {
+				.toggle-menu {
+					a {
+						color: @light-blue;
+						.nav-bar {
+				    		background-color: @light-blue;
+				  		}
+					}
+				}
+				.logo {
+					background: url(../images/logo/blink.png) no-repeat;
+				}				
+			}
 		}
 		&.add-border { // when click the menu
 			// border-bottom: 1px solid @menu-seperator-grey;	
@@ -265,7 +278,46 @@
 				}			
 			}
 
-		}			
+		}		
+
+      	.mobile-menu {
+	        display: none;
+	        .logo {
+				// .gotham-bold;
+				// font-size: 25px;
+				// letter-spacing: 0.01em;
+				// // color: @light-blue;
+				// color: @white;
+				// vertical-align: middle;
+
+				background: url(../images/logo/blink-white.png) no-repeat;
+				width: 110px;
+				height: 10px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+	        .toggle-menu {
+				display: block; 
+
+				a {
+					color: @white;
+					display: block;					
+					&:active {            
+					  .nav-bar {
+					    background-color: @white;
+					  }
+					}
+					.nav-bar {
+					  background-color: @white;
+					  display: block;
+					  height: 3px;
+					  margin: 3px auto;
+					  width: 22px;
+					  .transition();
+					}
+				}
+	        }
+      	}	
 	}
 
 	

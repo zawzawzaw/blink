@@ -106,7 +106,7 @@ body{
 }
 body, html{
   background: #fff;
-  height: 100%
+  height: 100%;
 }
 html, body {
   height:100%;
@@ -116,7 +116,7 @@ html, body {
 #page-wrapper {
   height: 100%;
   position:relative; 
-  overflow-x: hidden; 
+  // overflow-x: hidden; 
 
   .first-page {
     height: 100%;
@@ -126,70 +126,6 @@ html, body {
   
   }
   
-  #menu-wrapper {
-    float: right;
-    display: table;        
-
-    nav {
-      display: table-cell;
-      height: 50px;
-      vertical-align: middle;
-
-      i.mobile-menu-btn {
-        margin-top: 22px;
-        display: none;
-      }
-
-      ul.main-menu {        
-        li {
-          position: relative;
-          display: inline-block;
-          text-align: center;
-          margin-right: 20px;
-
-          a {
-            .gotham-medium;
-            color: @white;
-            font-size: 10px;
-            letter-spacing: 0.2em;
-            line-height: 22px;
-            text-transform: uppercase;                      
-          }                   
-        }
-      }
-
-      .toggleMenu {
-        color: #000000;
-        display: block; 
-        float: right;
-
-        a {
-          color: @white;
-          display: block;
-          &:hover {            
-            .nav-bar {
-              background-color: #1E1E1E;
-            }
-          }
-          &:active {            
-            .nav-bar {
-              background-color: @white;
-            }
-          }
-          .nav-bar {
-            background-color: @white;
-            border-radius: 1px;
-            display: block;
-            height: 3px;
-            margin: 3px auto;
-            width: 22px;
-            .transition();
-          }
-        }
-      }
-
-    }
-  }
 
   .carousel, .item {
     height: 101%;

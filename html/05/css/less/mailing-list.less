@@ -35,7 +35,7 @@ div#mailing-list-wrapper {
 			font-size: 12px;
 			line-height: 28px;
 			letter-spacing: 0.05em;
-			color: @light-blue;
+			color: @dark-blue;
 			text-transform: uppercase;
 		}
 		ul {
@@ -43,6 +43,9 @@ div#mailing-list-wrapper {
 			li {
 				display: inline-block;
 				margin-right: 10px;
+				&:last-child {
+					margin-right: 0px!important;
+				}
 				a {
 					color: @light-blue;
 					font-size: 16px;
@@ -51,6 +54,13 @@ div#mailing-list-wrapper {
 					}
 				}
 			}
+		}
+		p {
+			padding-top: 20px;
+			.open-sans-regular;
+			font-size: 11px;
+			line-height: 15px;
+			color: @light-grey;
 		}
 	}
 	div.middle {
@@ -115,6 +125,7 @@ div#mailing-list-wrapper {
 			}
 		}
 		input[name="subscribe"] {
+			.round(0px);
 			background-color: @subscribe-input-bg;
 			.placeholder(@dark-blue);
 			.open-sans-regular;

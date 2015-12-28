@@ -286,64 +286,9 @@ body {
 #page-wrapper {
   height: 100%;
   position: relative;
-  overflow-x: hidden;
 }
 #page-wrapper .first-page {
   height: 100%;
-}
-#page-wrapper #menu-wrapper {
-  float: right;
-  display: table;
-}
-#page-wrapper #menu-wrapper nav {
-  display: table-cell;
-  height: 50px;
-  vertical-align: middle;
-}
-#page-wrapper #menu-wrapper nav i.mobile-menu-btn {
-  margin-top: 22px;
-  display: none;
-}
-#page-wrapper #menu-wrapper nav ul.main-menu li {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin-right: 20px;
-}
-#page-wrapper #menu-wrapper nav ul.main-menu li a {
-  font-family: "Gotham-Medium", sans-serif;
-  color: #ffffff;
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  line-height: 22px;
-  text-transform: uppercase;
-}
-#page-wrapper #menu-wrapper nav .toggleMenu {
-  color: #000000;
-  display: block;
-  float: right;
-}
-#page-wrapper #menu-wrapper nav .toggleMenu a {
-  color: #ffffff;
-  display: block;
-}
-#page-wrapper #menu-wrapper nav .toggleMenu a:hover .nav-bar {
-  background-color: #1E1E1E;
-}
-#page-wrapper #menu-wrapper nav .toggleMenu a:active .nav-bar {
-  background-color: #ffffff;
-}
-#page-wrapper #menu-wrapper nav .toggleMenu a .nav-bar {
-  background-color: #ffffff;
-  border-radius: 1px;
-  display: block;
-  height: 3px;
-  margin: 3px auto;
-  width: 22px;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
 }
 #page-wrapper .carousel,
 #page-wrapper .item {
@@ -747,6 +692,15 @@ p {
 #content-wrapper #menu-logo-wrapper.white-version .main-menu .logo {
   background: url(../images/logo/blink.png) no-repeat;
 }
+#content-wrapper #menu-logo-wrapper.white-version .mobile-menu .toggle-menu a {
+  color: #627482;
+}
+#content-wrapper #menu-logo-wrapper.white-version .mobile-menu .toggle-menu a .nav-bar {
+  background-color: #627482;
+}
+#content-wrapper #menu-logo-wrapper.white-version .mobile-menu .logo {
+  background: url(../images/logo/blink.png) no-repeat;
+}
 #content-wrapper #menu-logo-wrapper.add-border {
   background: #f8f8f8;
   height: 254px;
@@ -990,6 +944,37 @@ p {
   left: 0%;
   width: 155px;
 }
+#content-wrapper #menu-logo-wrapper .mobile-menu {
+  display: none;
+}
+#content-wrapper #menu-logo-wrapper .mobile-menu .logo {
+  background: url(../images/logo/blink-white.png) no-repeat;
+  width: 110px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu {
+  display: block;
+}
+#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu a {
+  color: #ffffff;
+  display: block;
+}
+#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu a:active .nav-bar {
+  background-color: #ffffff;
+}
+#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
+  background-color: #ffffff;
+  display: block;
+  height: 3px;
+  margin: 3px auto;
+  width: 22px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
 div#copyright-wrapper {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -1068,7 +1053,7 @@ div#mailing-list-wrapper div.left h4 {
   font-size: 12px;
   line-height: 28px;
   letter-spacing: 0.05em;
-  color: #627482;
+  color: #2f4455;
   text-transform: uppercase;
 }
 div#mailing-list-wrapper div.left ul {
@@ -1078,12 +1063,23 @@ div#mailing-list-wrapper div.left ul li {
   display: inline-block;
   margin-right: 10px;
 }
+div#mailing-list-wrapper div.left ul li:last-child {
+  margin-right: 0px!important;
+}
 div#mailing-list-wrapper div.left ul li a {
   color: #627482;
   font-size: 16px;
 }
 div#mailing-list-wrapper div.left ul li a:hover {
   color: #2f4455;
+}
+div#mailing-list-wrapper div.left p {
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #a4afc2;
 }
 div#mailing-list-wrapper div.middle {
   display: inline-block;
@@ -1148,6 +1144,11 @@ div#mailing-list-wrapper div.right .input i {
   top: 8px;
 }
 div#mailing-list-wrapper div.right input[name="subscribe"] {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   background-color: #fdfdfd;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;

@@ -51,7 +51,7 @@ $(document).ready(function(){
     var mainContentOffset = $('#main-content').offset().top;
 
     function scrollToContent() {
-        var scrollPos = $('#page-wrapper').scrollTop();        
+        var scrollPos = $(window).scrollTop();        
 
         if(scrollPos > 0 && scrollPos <= mainContentOffset) {
 
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
                 var target_y = $('#content-wrapper').offset().top + 5;
 
-                TweenMax.to($('#page-wrapper'), 1.2, {
+                TweenMax.to($(window), 1.2, {
                     scrollTo: { y:target_y, autoKill: false }, 
                     ease:Quad.easeInOut,
                     onComplete: function() {
@@ -94,7 +94,9 @@ $(document).ready(function(){
     }
 
     function showHideArrow()  {
-        var scrollPos = $('#page-wrapper').scrollTop();       
+        var scrollPos = $(window).scrollTop();   
+
+        console.log(scrollPos);
     
         if( ( scrollPos != 0 ) ) {            
             $('.scroll-to-content .arrow').hide();
@@ -110,7 +112,7 @@ $(document).ready(function(){
     }
 
     function addBorder() {
-        var scrollPos = $('#page-wrapper').scrollTop();       
+        var scrollPos = $(window).scrollTop();       
 
          if(scrollPos >= mainContentOffset){
             $('#menu-logo-wrapper').addClass('white-version');
@@ -119,11 +121,11 @@ $(document).ready(function(){
         }
     }
 
-    $('#page-wrapper').on('scroll', function() {        
+    $(window).on('scroll', function() {        
         showHideArrow();
         addBorder();                       
     });
-    $('#page-wrapper').on('mousewheel', function(event) {
+    $(window).on('mousewheel', function(event) {
         // console.log(event.deltaX, event.deltaY, event.deltaFactor);
         if(event.deltaY<0) {
             scrollToContent();
@@ -166,7 +168,7 @@ $(document).ready(function(){
         // }, 1200);
         var target_y = $(currentId).offset().top + 5;
 
-        TweenMax.to($('#page-wrapper'), 1.2, {scrollTo:{y:target_y,autoKill: false}, ease:Quad.easeInOut});
+        TweenMax.to($(window), 1.2, {scrollTo:{y:target_y,autoKill: false}, ease:Quad.easeInOut});
     });
 
     ///////
