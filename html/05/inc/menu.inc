@@ -1,4 +1,4 @@
-<div id="menu-logo-wrapper" class="animated slideInDown">
+<div id="menu-logo-wrapper" class="animated slideInDown hidden-xs hidden-sm">
 	
 	<div class="main-menu">
 		<a href="index.html" class="logo"></a>
@@ -44,23 +44,6 @@
 				<li><a href="#"><i class="fa fa-search"></i></a></li>
 			</ul>				
 		</div>				
-	</div>
-	
-	<div class="mobile-menu container">
-		<div class="row">
-			<div class="col-md-12">
-				<a href="index.html" class="logo"></a>
-				<div class="mobile-nav pull-right">					
-					<div class="toggle-menu">
-						<a href="javascript:void(0)"> 
-							<span class="nav-bar"></span> 
-							<span class="nav-bar"></span> 
-							<span class="nav-bar"></span> 
-						</a> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>			
+	</div>	
 
 </div>

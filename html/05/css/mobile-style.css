@@ -170,265 +170,649 @@
   }
 }
 @media all and (max-width: 992px) {
-  .main-menu {
-    display: none;
+  #mobile-menu-logo-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 53px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1500;
+    z-index: 9999;
   }
-  #content-wrapper #menu-logo-wrapper .mobile-menu {
+  #mobile-menu-logo-wrapper.open {
+    height: 100%;
+  }
+  #mobile-menu-logo-wrapper.white-version {
+    background: #f8f8f8;
+    margin-top: 5px;
+  }
+  #mobile-menu-logo-wrapper.white-version:before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #2f4455;
+    display: block;
+    position: absolute;
+    top: -5px;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .toggle-menu a {
+    color: #627482;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .toggle-menu a .nav-bar {
+    background-color: #627482;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
+    background: url(../images/logo/blink.png) no-repeat;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu {
+    margin-bottom: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .logo {
+    background: url(../images/logo/blink-white.png) no-repeat;
+    width: 110px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu {
     display: block;
   }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a {
+    color: #ffffff;
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a:active .nav-bar {
+    background-color: #ffffff;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
+    background-color: #ffffff;
+    display: block;
+    height: 3px;
+    margin: 3px auto;
+    width: 22px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container {
+    display: none;
+    background-color: #ffffff;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container.open {
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li {
+    padding: 35px 0px;
+    position: relative;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li:after {
+    content: " ";
+    border-bottom: 1px solid #d1d7e0;
+    width: 102%;
+    height: 1px;
+    background-color: #d1d7e0;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li.active {
+    padding-bottom: 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a {
+    padding: 0px 15px;
+    display: block;
+    font-family: "Gotham-Medium", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.08em;
+    color: #a4afc2;
+    text-transform: uppercase;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a:hover {
+    color: #627482;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a.active {
+    margin-bottom: 30px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child {
+    display: none;
+    border-top: 4px solid #627482;
+    background-color: #f3f3f3;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child.open {
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child li:last-child {
+    margin-bottom: 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child li a {
+    padding: 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 65px;
+    color: #627482;
+    text-transform: none;
+  }
+  #page-wrapper #content-wrapper #menu-logo-wrapper .main-menu {
+    display: none;
+  }
+  #page-wrapper .seperator-line {
+    width: 96px !important;
+    height: 4.5px;
+    margin-bottom: 62px;
+  }
   #page-wrapper .slider-wrapper .arrow {
-    bottom: 53%;
+    top: 93%;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption {
+    top: 20%;
+    width: 80%;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
+    font-size: 24px;
+    line-height: 52px;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.12em;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
+    font-size: 27.6px;
+    line-height: 46.8px;
+    width: 101%;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
+    margin: 42px auto 42px;
   }
   #page-wrapper .carousel-indicators {
     display: none;
   }
-  #page-wrapper .slider-wrapper div.item div.carousel-caption {
-    width: 80%;
-    top: 11%;
+  #page-wrapper .home {
+    margin-bottom: 142px;
   }
-  .home {
-    margin-bottom: 25px;
-  }
-  .home .each-row:nth-child(2n+1) {
+  #page-wrapper .home .each-row:nth-child(2n+1) {
     background-color: #f3f3f3;
   }
-  .home #heading {
+  #page-wrapper .home #heading {
     border-bottom: 1px solid #d1d7e0;
-    padding-bottom: 32px;
+    padding-bottom: 90px;
+    margin-top: 250.5px;
   }
-  .home #heading p {
-    margin-bottom: 0px;
+  #page-wrapper .home #heading h5 {
+    font-size: 24px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+  }
+  #page-wrapper .home #heading h1 {
+    font-size: 41px;
+    line-height: 55px;
+    letter-spacing: 0.06em;
+  }
+  #page-wrapper .home #heading .seperator-dot {
+    width: 77px;
+    height: 3.6px;
+    margin: 44.4px auto;
+  }
+  #page-wrapper .home #heading p {
+    font-size: 29px;
+    line-height: 50px;
+    color: #627482;
+    width: 90%;
+    margin: 0 auto;
     padding: 0px;
   }
-  .home .each-content {
+  #page-wrapper .home .each-content {
     height: auto;
-    border-bottom: 1px solid #a4afc2;
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding: 86px 0;
     margin-bottom: 0px;
   }
-  .home .each-content:last-child {
-    border-bottom: 0px;
-  }
-  .home .each-content .text-content {
+  #page-wrapper .home .each-content .img-content {
     width: 100%;
+    height: auto;
+    margin-bottom: 96px;
+    float: none!important;
+  }
+  #page-wrapper .home .each-content .img-content img {
+    margin: 0 auto;
+  }
+  #page-wrapper .home .each-content .text-content {
+    width: 98.7%;
     height: auto;
     float: none!important;
   }
-  .home .each-content .text-content .v-align-table .v-align-table-cell {
+  #page-wrapper .home .each-content .text-content .v-align-table .v-align-table-cell {
     padding-top: 0px;
   }
-  .home .each-content .img-content {
-    width: 100%;
-    height: auto;
-    margin-bottom: 32px;
-    float: none!important;
+  #page-wrapper .home .each-content .text-content h5 {
+    font-size: 34px;
+    margin-bottom: 29px;
   }
-  .case-study .content-1 {
+  #page-wrapper .home .each-content .text-content h2 {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.06em;
+    margin-bottom: 33.6px;
+    width: 98%;
+  }
+  #page-wrapper .home .each-content .text-content h6 {
+    font-size: 31px;
+    line-height: 53px;
+    width: 88%;
+    margin-bottom: 38.4px;
+  }
+  #page-wrapper .home .each-content .text-content p {
+    font-size: 29px;
+    line-height: 50px;
+    width: 94%;
+    margin-bottom: 52.8px;
+  }
+  #page-wrapper .home .each-content .text-content a.read-more {
+    font-size: 25px;
+    letter-spacing: 0.09em;
+  }
+  #page-wrapper .home .each-content .text-content a.read-more i {
+    font-size: 31px;
+    line-height: 29px;
+    letter-spacing: 0.12em;
+    position: static;
+    margin-left: 3px;
+  }
+  #page-wrapper .case-study .content-1 {
     margin-top: 100px;
     margin-bottom: 0px;
   }
-  .case-study .content-1 .text-content {
+  #page-wrapper .case-study .content-1 .text-content {
     margin-right: 0px;
     margin-bottom: 50px;
     width: 100%;
   }
-  .case-study .content-1 .img-content {
+  #page-wrapper .case-study .content-1 .img-content {
     width: 100%;
   }
-  .case-study .content-1 .img-content img {
+  #page-wrapper .case-study .content-1 .img-content img {
     width: 100%;
   }
-  .case-study .content-2 {
+  #page-wrapper .case-study .content-2 {
     margin-top: 0px;
   }
-  .case-study .content-2 .img-content .grid-sizer-2,
-  .case-study .content-2 .img-content .grid-item-2 {
+  #page-wrapper .case-study .content-2 .img-content .grid-sizer-2,
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
     width: 49.3%;
   }
-  .case-study .content-2 .img-content .grid-item-2--width4 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2--width4 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-2--width3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2--width3 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-sizer-3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-sizer-3 {
     width: 357px;
   }
-  .case-study .content-2 .img-content .grid-item-3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3 {
     width: 353px;
   }
-  .case-study .content-2 .img-content .grid-item-3--width4 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width4 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width3 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width2 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width2 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width2 img {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width2 img {
     width: 100%;
   }
-  .case-study .content-3 ul li {
+  #page-wrapper .case-study .content-3 ul li {
     vertical-align: top;
     margin-right: 8px;
   }
-  .case-study .content-3 ul li .caption-text h6 {
+  #page-wrapper .case-study .content-3 ul li .caption-text h6 {
     line-height: 21px;
     margin-bottom: 24px;
     height: 30px;
     margin-top: 12px;
   }
-  .case-study .content-4 .text-content {
+  #page-wrapper .case-study .content-4 .text-content {
     margin-bottom: 40px;
   }
-  .clients .img-content ul li .v-align-table .v-align-table-cell {
-    padding: 40px 0px 20px;
-  }
-  .clients .img-content ul li {
+  #page-wrapper .clients .img-content ul li {
     width: 100%;
     height: auto;
   }
-  div#mailing-list-wrapper {
+  #page-wrapper .clients .img-content ul li .v-align-table .v-align-table-cell {
+    padding: 40px 0px 20px;
+  }
+  #page-wrapper div#mailing-list-wrapper {
+    padding: 64.8px 0 55.2px 0;
     text-align: center;
   }
-  div#mailing-list-wrapper div.left {
-    padding-right: 33px;
-    margin-top: 15px;
+  #page-wrapper div#mailing-list-wrapper div.left {
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 60px !important;
   }
-  div#mailing-list-wrapper div.left:after {
+  #page-wrapper div#mailing-list-wrapper div.left h4 {
+    font-size: 26.4px;
+    letter-spacing: 0.06em;
+    margin-bottom: 24px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left ul li {
+    margin-right: 15.6px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left ul li a i {
+    font-size: 40.8px;
+    letter-spacing: 0.624em;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left p {
+    font-size: 21.6px;
+    line-height: 38.4px;
+    padding-top: 48px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left:after {
     display: none;
   }
-  div#mailing-list-wrapper div.middle {
-    padding-left: 0px;
-    float: left;
+  #page-wrapper div#mailing-list-wrapper div.right {
+    padding-bottom: 60px !important;
+    max-width: 100%!important;
+    float: none;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
   }
-  div#mailing-list-wrapper div.middle ul {
-    width: 135px;
+  #page-wrapper div#mailing-list-wrapper div.right h3 {
+    font-size: 26px;
+    letter-spacing: 0.06em;
+    color: #2f4455;
+    margin-bottom: 30px;
   }
-  div#mailing-list-wrapper div.middle:after {
-    display: none;
+  #page-wrapper div#mailing-list-wrapper div.right p {
+    font-size: 24px;
+    line-height: 38.4px;
+    margin-bottom: 40.8px;
   }
-  div#mailing-list-wrapper div.right {
-    max-width: 346px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 25px!important;
-    float: right;
-  }
-  div#mailing-list-wrapper div.right .input {
+  #page-wrapper div#mailing-list-wrapper div.right .input {
     width: 90%;
     margin: 0 auto;
   }
-  div#mailing-list-wrapper div.right .input input[name="subscribe"] {
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] {
+    font-size: 21.6px;
+    line-height: 38.4px;
+    color: #a4afc2;
+    height: 54px;
     text-align: center;
     padding-left: 0px;
+    width: 100%;
   }
-  div#mailing-list-wrapper .footer-links {
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-webkit-input-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-moz-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-moz-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right i {
+    font-size: 28.8px;
+    letter-spacing: 0.12em;
+    top: 11px;
+  }
+  #page-wrapper div#mailing-list-wrapper .footer-links {
     display: none!important;
   }
-  div#mailing-list-wrapper .follow-us {
-    border-top: 1px solid #d1d7e0;
+  #page-wrapper div#mailing-list-wrapper .follow-us {
+    border-top: 2px solid #d1d7e0;
     padding-top: 25px!important;
   }
-  #page-wrapper #footer-wrapper .tweet {
+  #page-wrapper footer#footer-wrapper {
+    padding: 24px 0px;
+  }
+  #page-wrapper footer#footer-wrapper div.tweet {
     float: none!important;
   }
-  #page-wrapper #footer-wrapper .sharing {
+  #page-wrapper footer#footer-wrapper div.tweet p {
+    font-size: 21.6px;
+  }
+  #page-wrapper footer#footer-wrapper div.tweet p i {
+    font-size: 24px;
+    line-height: 16.8px;
+    letter-spacing: 0.06em;
+  }
+  #page-wrapper footer#footer-wrapper .sharing {
     float: none!important;
     margin-top: 10px;
   }
-  #page-wrapper #footer-wrapper .sharing ul {
+  #page-wrapper footer#footer-wrapper .sharing ul {
     float: right;
   }
 }
 @media all and (max-width: 768px) {
+  #page-wrapper .seperator-line {
+    width: 77px !important;
+    margin-bottom: 48px;
+    height: 3.6px;
+  }
   #page-wrapper .slider-wrapper .arrow {
-    bottom: 54%;
+    top: 93%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
-    width: 80%;
-    top: 17%;
+    top: 20%;
   }
-  .home .last-content .each-office {
-    margin-right: 25px;
-    width: 40%;
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
+    font-size: 24px;
+    line-height: 52px;
   }
-  .case-study .content-2 .img-content .grid-item-2--width4 {
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.12em;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
+    font-size: 27.6px;
+    line-height: 46.8px;
+    width: 101%;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
+    margin: 42px auto 42px;
+  }
+  #page-wrapper .home {
+    margin-bottom: 106.6px;
+  }
+  #page-wrapper .home #heading {
+    padding-bottom: 31px;
+    margin-top: 200.4px;
+  }
+  #page-wrapper .home #heading h5 {
+    font-size: 24px;
+    line-height: 53px;
+    letter-spacing: 0.09em;
+  }
+  #page-wrapper .home #heading h1 {
+    font-size: 41px;
+    line-height: 55px;
+    letter-spacing: 0.06em;
+  }
+  #page-wrapper .home #heading .seperator-dot {
+    width: 77px;
+    height: 3.6px;
+    margin: 44.4px auto;
+  }
+  #page-wrapper .home #heading p {
+    font-size: 29px;
+    line-height: 50px;
+    color: #627482;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #page-wrapper .home .each-content {
+    padding: 86px 0;
+  }
+  #page-wrapper .home .each-content .img-content {
+    margin-bottom: 74px;
+  }
+  #page-wrapper .home .each-content .text-content h5 {
+    font-size: 34px;
+    margin-bottom: 29px;
+  }
+  #page-wrapper .home .each-content .text-content h2 {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.06em;
+    margin-bottom: 33.6px;
+    width: 98%;
+  }
+  #page-wrapper .home .each-content .text-content h6 {
+    font-size: 31px;
+    line-height: 53px;
+    width: 88%;
+    margin-bottom: 38.4px;
+  }
+  #page-wrapper .home .each-content .text-content p {
+    font-size: 29px;
+    line-height: 50px;
+    width: 94%;
+    margin-bottom: 52.8px;
+  }
+  #page-wrapper .home .each-content .text-content a.read-more {
+    font-size: 25px;
+    letter-spacing: 0.09em;
+  }
+  #page-wrapper .home .each-content .text-content a.read-more i {
+    font-size: 31px;
+    line-height: 29px;
+    letter-spacing: 0.12em;
+    position: static;
+    margin-left: 3px;
+  }
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2--width4 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-2--width3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2--width3 {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-sizer-3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-sizer-3 {
     width: 353px;
   }
-  .case-study .content-2 .img-content .grid-item-3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3 {
     width: 348px;
   }
-  .case-study .content-2 .img-content .grid-item-3 img {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3 img {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width4 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width4 {
     width: 99%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width3 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width3 {
     width: 99%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width2 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width2 {
     width: 99%;
   }
-  .case-study .content-2 .img-content .grid-item-3--width2 img {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-3--width2 img {
     width: 100%;
   }
-  .case-study .content-3 ul li {
+  #page-wrapper .case-study .content-3 ul li {
     margin-top: 40px;
     width: 48%;
   }
-  .case-study .content-3 ul li:last-child {
+  #page-wrapper .case-study .content-3 ul li:last-child {
     display: none;
   }
-  .case-study .content-3 ul li .img-placeholder {
+  #page-wrapper .case-study .content-3 ul li .img-placeholder {
     width: 100%;
   }
-  .case-study .content-3 ul li .img-placeholder img {
+  #page-wrapper .case-study .content-3 ul li .img-placeholder img {
     width: 100%;
   }
-  .case-study .content-3 ul li .caption-text {
+  #page-wrapper .case-study .content-3 ul li .caption-text {
     padding-left: 0px;
   }
-  .case-study .content-3 ul li .caption-text h6 {
+  #page-wrapper .case-study .content-3 ul li .caption-text h6 {
     margin-bottom: 0px;
   }
-  div#mailing-list-wrapper {
-    position: relative;
+  #page-wrapper div#mailing-list-wrapper {
+    padding: 64.8px 0 55.2px 0;
   }
-  div#mailing-list-wrapper div.left:after {
-    display: none;
+  #page-wrapper div#mailing-list-wrapper div.right {
+    padding-bottom: 60px !important;
+    max-width: 100%!important;
   }
-  div#mailing-list-wrapper div.middle {
-    display: inline-block;
-    padding-left: 0px;
-    padding-top: 0px;
-    float: left;
+  #page-wrapper div#mailing-list-wrapper div.right h3 {
+    font-size: 26px;
+    letter-spacing: 0.06em;
+    color: #2f4455;
+    margin-bottom: 30px;
   }
-  div#mailing-list-wrapper div.middle ul {
-    width: 135px;
-    vertical-align: top;
+  #page-wrapper div#mailing-list-wrapper div.right p {
+    font-size: 24px;
+    line-height: 38.4px;
+    margin-bottom: 40.8px;
   }
-  div#mailing-list-wrapper div.middle:after {
-    display: none;
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] {
+    font-size: 21.6px;
+    line-height: 38.4px;
+    color: #a4afc2;
+    height: 54px;
   }
-  div#mailing-list-wrapper div.right {
-    display: inline-block;
-    float: right;
-    max-width: 346px;
-    padding-left: 0px;
-    padding-top: 0px;
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-webkit-input-placeholder {
+    color: #a4afc2;
   }
-  div#mailing-list-wrapper div.right input[name="subscribe"] {
-    width: 100%;
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-moz-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-moz-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder {
+    color: #a4afc2;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right i {
+    font-size: 28.8px;
+    letter-spacing: 0.12em;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left {
+    margin-top: 0px;
+    padding-top: 60px !important;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left h4 {
+    font-size: 26.4px;
+    letter-spacing: 0.06em;
+    margin-bottom: 24px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left ul li {
+    margin-right: 15.6px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left ul li a i {
+    font-size: 40.8px;
+    letter-spacing: 0.624em;
+  }
+  #page-wrapper div#mailing-list-wrapper div.left p {
+    font-size: 21.6px;
+    line-height: 38.4px;
+    padding-top: 48px;
+  }
+  #page-wrapper footer#footer-wrapper {
+    padding: 24px 0px;
+  }
+  #page-wrapper footer#footer-wrapper div.tweet p {
+    font-size: 21.6px;
+  }
+  #page-wrapper footer#footer-wrapper div.tweet p i {
+    font-size: 24px;
+    line-height: 16.8px;
+    letter-spacing: 0.06em;
   }
 }
 @media all and (max-width: 755px) {
@@ -440,17 +824,6 @@
   }
   .case-study .content-2 .img-content .grid-item-3 img {
     width: 100%;
-  }
-}
-@media all and (max-width: 715px) {
-  div#mailing-list-wrapper div.each-column {
-    width: 100%;
-    padding: 0;
-    float: none;
-    margin-top: 0px;
-  }
-  div#mailing-list-wrapper div.middle ul {
-    width: 32%;
   }
 }
 @media all and (max-width: 540px) {
@@ -505,6 +878,7 @@
   #page-wrapper .seperator-line {
     width: 43px!important;
     margin-bottom: 20px;
+    height: 2px;
   }
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
@@ -526,8 +900,15 @@
     line-height: 27px;
     width: 105%;
   }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
+    margin: 23.33333333px auto 23.33333333px;
+  }
+  #page-wrapper .home {
+    margin-bottom: 43.66666667px;
+  }
   #page-wrapper .home #heading {
-    padding-bottom: 31px;
+    margin-top: 111.33333333px;
+    padding-bottom: 36.66666667px;
   }
   #page-wrapper .home #heading h5 {
     font-size: 13px;
@@ -542,6 +923,7 @@
   #page-wrapper .home #heading .seperator-dot {
     width: 43px;
     height: 2px;
+    margin: 24.66666667px auto;
   }
   #page-wrapper .home #heading p {
     font-size: 16px;
@@ -551,19 +933,20 @@
     margin: 0 auto;
   }
   #page-wrapper .home .each-content {
-    padding: 36px 0;
+    padding: 46.66666667px 0;
   }
   #page-wrapper .home .each-content .img-content {
-    margin-bottom: 31px;
+    margin-bottom: 42px;
   }
   #page-wrapper .home .each-content .text-content h5 {
     font-size: 19px;
+    margin-bottom: 15.33333333px;
   }
   #page-wrapper .home .each-content .text-content h2 {
-    font-size: 23px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    margin-bottom: 14px;
+    font-size: 22px;
+    line-height: 30.66666667px;
+    letter-spacing: 0.03333333em;
+    margin-bottom: 22.66666667px;
     width: 98%;
   }
   #page-wrapper .home .each-content .text-content h6 {
@@ -578,6 +961,9 @@
     width: 94%;
     margin-bottom: 22px;
   }
+  #page-wrapper .home .each-content .text-content .seperator-line {
+    margin-bottom: 26px;
+  }
   #page-wrapper .home .each-content .text-content a.read-more {
     font-size: 14px;
     letter-spacing: 0.05em;
@@ -590,21 +976,30 @@
     margin-left: 3px;
   }
   #page-wrapper div#mailing-list-wrapper {
-    padding: 27px 0 23px 0;
+    padding: 35.33333333px 0 30px 0;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right {
+    padding-bottom: 33.33333333px !important;
   }
   #page-wrapper div#mailing-list-wrapper div.right h3 {
-    font-size: 15px;
-    letter-spacing: 0.03em;
+    font-size: 14.66666667px;
+    letter-spacing: 0.03333333em;
     color: #2f4455;
+    margin-bottom: 16.66666667px;
   }
   #page-wrapper div#mailing-list-wrapper div.right p {
-    font-size: 13px;
-    line-height: 21px;
+    font-size: 13.33333333px;
+    line-height: 21.33333333px;
+    margin-bottom: 21.33333333px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right .input {
+    width: 298.66666667px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] {
     font-size: 12px;
     line-height: 21px;
     color: #a4afc2;
+    height: 30px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-webkit-input-placeholder {
     color: #a4afc2;
@@ -623,10 +1018,13 @@
     letter-spacing: 0.06em;
     top: 6px;
   }
+  #page-wrapper div#mailing-list-wrapper div.left {
+    padding-top: 33.33333333px !important;
+  }
   #page-wrapper div#mailing-list-wrapper div.left h4 {
     font-size: 15px;
     letter-spacing: 0.03em;
-    margin-bottom: 10px;
+    margin-bottom: 20.66666667px;
   }
   #page-wrapper div#mailing-list-wrapper div.left ul li {
     margin-right: 19px;
@@ -637,10 +1035,11 @@
   }
   #page-wrapper div#mailing-list-wrapper div.left p {
     font-size: 12px;
-    line-height: 21px;
+    line-height: 21.33333333px;
+    padding-top: 26.66666667px;
   }
   #page-wrapper footer#footer-wrapper {
-    padding: 10px 0px;
+    padding: 12px 0px;
   }
   #page-wrapper footer#footer-wrapper div.tweet p {
     font-size: 12px;
@@ -655,6 +1054,7 @@
   #page-wrapper .seperator-line {
     width: 38px!important;
     margin-bottom: 20px;
+    height: 1.76470588px;
   }
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
@@ -676,8 +1076,15 @@
     line-height: 24px;
     width: 101%;
   }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
+    margin: 20.58823529px auto 20.58823529px;
+  }
+  #page-wrapper .home {
+    margin-bottom: 34.41176471px;
+  }
   #page-wrapper .home #heading {
-    padding-bottom: 31px;
+    margin-top: 98.23529412px;
+    padding-bottom: 32.35294118px;
   }
   #page-wrapper .home #heading h5 {
     font-size: 12px;
@@ -691,7 +1098,8 @@
   }
   #page-wrapper .home #heading .seperator-dot {
     width: 38px;
-    height: 2px;
+    height: 1.76470588px;
+    margin: 21.76470588px auto;
   }
   #page-wrapper .home #heading p {
     font-size: 14px;
@@ -701,19 +1109,21 @@
     margin: 0 auto;
   }
   #page-wrapper .home .each-content {
-    padding: 36px 0;
+    padding: 41.17647059px 0;
   }
   #page-wrapper .home .each-content .img-content {
-    margin-bottom: 31px;
+    margin-bottom: 37.05882353px;
   }
   #page-wrapper .home .each-content .text-content h5 {
     font-size: 16px;
+    margin-bottom: 13.52941176px;
   }
   #page-wrapper .home .each-content .text-content h2 {
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.03em;
     margin-bottom: 14px;
+    margin-bottom: 20px;
     width: 98%;
   }
   #page-wrapper .home .each-content .text-content h6 {
@@ -740,16 +1150,21 @@
     margin-left: 3px;
   }
   #page-wrapper div#mailing-list-wrapper {
-    padding: 27px 0 23px 0;
+    padding: 31.17647059px 0 26.47058824px 0;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right {
+    padding-bottom: 29.41176471px !important;
   }
   #page-wrapper div#mailing-list-wrapper div.right h3 {
     font-size: 13px;
     letter-spacing: 0.02em;
     color: #2f4455;
+    margin-bottom: 14.70588235px;
   }
   #page-wrapper div#mailing-list-wrapper div.right p {
     font-size: 12px;
     line-height: 19px;
+    margin-bottom: 18.82352941px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] {
     font-size: 11px;
@@ -768,9 +1183,10 @@
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder {
     color: #a4afc2;
   }
-  #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] i {
+  #page-wrapper div#mailing-list-wrapper div.right i {
     font-size: 14px;
     letter-spacing: 0.025em;
+    top: 6px;
   }
   #page-wrapper div#mailing-list-wrapper div.left h4 {
     font-size: 13px;
@@ -789,10 +1205,10 @@
     line-height: 19px;
   }
   #page-wrapper footer#footer-wrapper {
-    padding: 10px 0px;
+    padding: 10.58823529px 0px;
   }
   #page-wrapper footer#footer-wrapper div.tweet p {
-    font-size: 11px;
+    font-size: 10.58823529px;
   }
   #page-wrapper footer#footer-wrapper div.tweet p i {
     font-size: 12px;
@@ -804,6 +1220,7 @@
   #page-wrapper .seperator-line {
     width: 32px!important;
     margin-bottom: 20px;
+    height: 1.5px;
   }
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
@@ -825,8 +1242,15 @@
     line-height: 20px;
     width: 101%;
   }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
+    margin: 17.5px auto 17.5px;
+  }
+  #page-wrapper .home {
+    margin-bottom: 24px;
+  }
   #page-wrapper .home #heading {
-    padding-bottom: 31px;
+    margin-top: 83.5px;
+    padding-bottom: 27.5px;
   }
   #page-wrapper .home #heading h5 {
     font-size: 11px;
@@ -841,6 +1265,7 @@
   #page-wrapper .home #heading .seperator-dot {
     width: 32px;
     height: 2px;
+    margin: 18.5px auto;
   }
   #page-wrapper .home #heading p {
     font-size: 12px;
@@ -850,18 +1275,19 @@
     margin: 0 auto;
   }
   #page-wrapper .home .each-content {
-    padding: 36px 0;
+    padding: 35px 0;
   }
   #page-wrapper .home .each-content .img-content {
     margin-bottom: 31px;
   }
   #page-wrapper .home .each-content .text-content h5 {
     font-size: 14px;
+    margin-bottom: 11.5px;
   }
   #page-wrapper .home .each-content .text-content h2 {
     font-size: 17px;
     line-height: 23px;
-    margin-bottom: 14px;
+    margin-bottom: 17px;
   }
   #page-wrapper .home .each-content .text-content h6 {
     font-size: 13px;
@@ -875,6 +1301,9 @@
     width: 95%;
     margin-bottom: 22px;
   }
+  #page-wrapper .home .each-content .text-content .seperator-line {
+    margin-bottom: 18px;
+  }
   #page-wrapper .home .each-content .text-content a.read-more {
     font-size: 11px;
     letter-spacing: 0.037em;
@@ -887,21 +1316,30 @@
     margin-left: 3px;
   }
   #page-wrapper div#mailing-list-wrapper {
-    padding: 27px 0 23px 0;
+    padding: 26.5px 0 22.5px 0;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right {
+    padding-bottom: 25px !important;
   }
   #page-wrapper div#mailing-list-wrapper div.right h3 {
     font-size: 11px;
     letter-spacing: 0.025em;
     color: #2f4455;
+    margin-bottom: 12.5px;
   }
   #page-wrapper div#mailing-list-wrapper div.right p {
     font-size: 10px;
     line-height: 16px;
+    margin-bottom: 16px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right .input {
+    width: 224px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] {
     font-size: 9px;
     line-height: 16px;
     color: #a4afc2;
+    height: 22.5px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-webkit-input-placeholder {
     color: #a4afc2;
@@ -919,6 +1357,9 @@
     font-size: 12px;
     letter-spacing: 0.05em;
   }
+  #page-wrapper div#mailing-list-wrapper div.left {
+    padding-top: 25px !important;
+  }
   #page-wrapper div#mailing-list-wrapper div.left h4 {
     font-size: 11px;
     letter-spacing: 0.025em;
@@ -934,6 +1375,7 @@
   #page-wrapper div#mailing-list-wrapper div.left p {
     font-size: 9px;
     line-height: 16px;
+    padding-top: 20px;
   }
   #page-wrapper footer#footer-wrapper {
     padding: 10px 0px;

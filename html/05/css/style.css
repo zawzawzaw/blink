@@ -272,6 +272,9 @@ body {
   font-size: 14px;
   line-height: 19px;
 }
+body.hide-content {
+  overflow: hidden;
+}
 body,
 html {
   background: #fff;
@@ -944,37 +947,6 @@ p {
   left: 0%;
   width: 155px;
 }
-#content-wrapper #menu-logo-wrapper .mobile-menu {
-  display: none;
-}
-#content-wrapper #menu-logo-wrapper .mobile-menu .logo {
-  background: url(../images/logo/blink-white.png) no-repeat;
-  width: 110px;
-  height: 10px;
-  display: inline-block;
-  vertical-align: middle;
-}
-#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu {
-  display: block;
-}
-#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu a {
-  color: #ffffff;
-  display: block;
-}
-#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu a:active .nav-bar {
-  background-color: #ffffff;
-}
-#content-wrapper #menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
-  background-color: #ffffff;
-  display: block;
-  height: 3px;
-  margin: 3px auto;
-  width: 22px;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
 div#copyright-wrapper {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -1155,7 +1127,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"] {
   font-size: 12px;
   line-height: 21px;
   color: #2f4455;
-  border: 1px solid #bdc5d2;
+  border: 2px solid #bdc5d2;
   padding-left: 12px;
   width: 276px;
   height: 30px;
@@ -1278,6 +1250,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   line-height: 23px;
   color: #627482;
   margin-bottom: 30px;
+  width: 90%;
 }
 .home .each-content .text-content p a {
   display: block;
