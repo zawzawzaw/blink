@@ -180,6 +180,10 @@ html, body {
         background-image:url('../images/content/case-study-slide-1.jpg')!important;
         background-position: center center;  
       }
+      .contact-us-bg-1 {
+        background-image:url('../images/content/contact-us-slide-1.jpg')!important;
+        background-position: center center;  
+      }
       .item {
         background-color: @text-grey;
         .carousel-caption {
@@ -278,7 +282,48 @@ html, body {
             background-color: @white!important;
           }         
         }        
-      }     
+      }
+      div.carousel-caption-2 {
+        position: absolute;
+        bottom: 80px;
+        left: 40px;
+        h3 {
+          .gotham-bold;
+          font-size: 18px;
+          line-height: 23px;
+          letter-spacing: 0.08em;
+          color: @white;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+        ul {
+          border-top: 1px solid @white;
+          border-bottom: 1px solid @white;
+          padding: 15px 0;
+          li {
+            margin-bottom: 5px;
+            span.title {
+              .gotham-medium; 
+              font-size: 11px;
+              letter-spacing: 0.1em;
+              color: @white;  
+              text-transform: uppercase;
+              min-width: 110px;
+              display: inline-block;
+              vertical-align: top;
+            }
+            span.content {
+              .harriet-text-medium-italic;
+              font-size: 12px;
+              line-height: 17px;
+              color: @white;               
+              max-width: 160px;
+              display: inline-block;
+              vertical-align: top;
+            }
+          }
+        }
+      } 
     }
   }
 

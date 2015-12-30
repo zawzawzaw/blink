@@ -4,7 +4,12 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="pull-left tweet">
-							<p><i class="fa fa-twitter"></i> @Interiordesign: Blink Design Group on what it's like working for</p>
+							<ul>
+								<li><a href="#">BANGKOK</a></li>
+								<li><a href="#">NEW DELHI</a></li>
+								<li><a href="#">SINGAPORE</a></li>
+								<li><a href="#">SHANGHAI</a></li>
+							</ul>
 							<!--  legends of luxury... @Blinkdesigngroup -->
 						</div>
 						<div class="pull-right sharing hidden-xs hidden-sm">

@@ -18,18 +18,15 @@
 							<li><a href="#">Profile</a></li>
 							<li><a href="#">Services</a></li>
 							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Services</a></li>
 						</ul>
 						<ul>
 							<li><a href="story.html">Stories</a></li>
-							<li><a href="clients.html">Clients</a></li>
+							<li><a href="clients.html">Insights</a></li>
 							<li><a href="#">News</a></li>
-							<li><a href="#">Careers</a></li>
 						</ul>
 						<ul>
 							<li><a href="#">Careers</a></li>
 							<li><a href="#">Contact Us</a></li>
-							<li><a href="#">Privacy Policy</a></li>
 							<li><a href="#">Terms of Use</a></li>							
 						</ul>
 					</div>

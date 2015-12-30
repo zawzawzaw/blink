@@ -37,10 +37,10 @@
 						</ul>
 					</div>					
 				</li>
-				<li><a href="clients.html">Insights</a></li>
+				<li><a href="insights.html">Insights</a></li>
 				<li><a href="#">Careers</a></li>
 				<li><a href="#">News</a></li>						
-				<li><a href="#">Contact</a></li>
+				<li><a href="contact-us.html">Contact</a></li>
 				<li><a href="#"><i class="fa fa-search"></i></a></li>
 			</ul>				
 		</div>				

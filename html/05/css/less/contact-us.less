@@ -97,4 +97,61 @@
 			
 		}
 	}
+
+	.content-3 {
+   		border-top: 1px solid @light-grey;   		
+		padding-top: 70px;
+		padding-bottom: 90px;
+
+   		h1 {
+			.gotham-bold;
+			font-size: 21px;
+			line-height: 35px;
+			letter-spacing: 0.075em;
+			color: @dark-blue;
+			text-transform: uppercase;
+			margin-bottom: 35px;
+			&:after {
+				content: "";
+				background: @dark-blue;
+				width: 43px;
+				height: 2px;
+				display: block;
+				margin: 8px 0px;
+			}
+		}
+   		.each-office {
+   			display: inline-block;
+   			width: 22%;
+   			margin-right: 27px;
+   			vertical-align: top;
+   			&:last-child {
+   				margin-right: 0px;
+   			}
+   			h6 {
+				.gotham-medium;
+				font-size: 14px;
+				line-height: 21px;
+				letter-spacing: 0.1em;
+				color: @dark-green;
+				// margin-bottom: 15px;
+				text-transform: uppercase;
+   			}
+   			p {
+				.open-sans-regular;
+				font-size: 13px;
+				line-height: 24px;
+				color: @dark-green;
+				margin-bottom: 15px;
+   			}
+   			a {
+   				font-size: 13px;
+   				line-height: 21px;   				
+   				color: @dark-green;
+   				&:hover {
+					color: @dark-blue;
+   				}
+   			}
+   		}
+   }
 }

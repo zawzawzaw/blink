@@ -37,44 +37,42 @@
 				}
 			}
 		}
-	}
-	
-	.case-study {
-		.content-1 {
-			margin-top: 150px;
-			.text-content {
-				h1 {
-					font-size: 27px;
-				}
-			}
-			.img-content {
-				.grid {
-					.grid-item {
-						width: 100%;
-						img {
+
+		.case-study {
+			.content-1 {
+				.img-content {
+					.grid {
+						.grid-item {
 							width: 100%;
+							img {
+								width: 100%;
+							}
 						}
 					}
 				}
 			}
-		}
-		.content-2 {
-			.img-content {			
-				.grid-item-2 {
-					width: 100%;
-				}		
+			.content-2 {
+				.img-content {			
+					.grid-item-2 {
+						width: 100%;
+					}		
+				}
 			}
-		}
-		.content-3 {
-			ul {
-				li {
-					margin-right: 0px;
-				    margin-top: 40px;
-				    width: 100%;
+			.content-3 {
+				ul {
+					li {
+						margin-right: 0px;					    
+					    width: 100%;
+					    &:last-child {
+					    	display: block;	
+					    }					    
+					}
 				}
 			}
 		}
 	}
+	
+
 	#page-wrapper .slider-wrapper div.item div.carousel-caption {	
 		top: 13%;
 	}
@@ -85,6 +83,80 @@
 
 // iphone 6+
 @media all and (max-width: 414px) {
+	#mobile-menu-logo-wrapper {
+		padding-top: 13px;
+		padding-bottom: 15px;	
+		height: 53px;					
+		&.open {			
+			.mobile-menu {
+				.logo {
+					background: url(../images/logo/blink@640.png) no-repeat;
+					background-size: contain;
+				}				
+			}
+		}
+		&.white-version { // when scroll down			
+			background: @menu-bg-grey-2;
+			margin-top: 5px;			
+			.mobile-menu {
+				.logo {
+					background: url(../images/logo/blink@640.png) no-repeat;
+					background-size: contain;
+				}				
+			}
+		}
+		.mobile-menu {
+			margin-bottom: 20px;
+	        .logo {
+				background: url(../images/logo/blink@640-white.png) no-repeat;
+				width: 169/1.5px;
+				height: 15/1.5px;
+				display: inline-block;
+				vertical-align: middle;
+				background-size: contain;
+				float: left;
+				margin-top: 10px;
+			}
+	        .toggle-menu {
+				display: block; 
+
+				a {
+					.nav-bar {					  
+					  height: 6/1.5px;
+					  margin: 6/1.5px auto;
+					  width: 43/1.5px;					  
+					}
+				}
+	        }
+      	}	
+		.mobile-nav-container {			
+			ul.mobile-nav {
+				> li {			
+					padding: 35/1.5px 0px;
+					> a {						
+						font-size: 32/1.5px;
+						line-height: 32/1.5px;
+						letter-spacing: 0.08/1.5em;						
+						&.active {
+							margin-bottom: 30/1.5px;
+						}
+					}
+
+					ul.mobile-nav-child {						
+						padding-bottom: 30/1.5px;
+						padding-top: 30/1.5px;						
+						li {														
+							a {
+								font-size: 28/1.5px;
+								line-height: 65/1.5px;								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
 	#page-wrapper { 
 		.seperator-line {
 			width: 43px!important;
@@ -118,6 +190,11 @@
 						}						
 					}
 				}
+				div.carousel-caption-2 {
+			        position: absolute;
+			        bottom: 15%;
+			        left: 15%;
+			    }
 			}			
 		}
 		.home {
@@ -190,6 +267,112 @@
 							position: static;
 							margin-left: 3px;
 						}
+					}
+				}
+			}
+		}
+		.case-study {
+			.content-1 {
+				margin-top: 150/1.7px;
+				.text-content {
+					h5 {
+						font-size: 26/1.7px;
+						line-height: 45/1.7px; 
+						margin-bottom: 28/1.7px;
+					}
+					h1 {
+						font-size: 42/1.7px;
+						line-height: 60/1.7px;
+						letter-spacing: 0.05/1.7em;
+						margin-bottom: 30/1.7px;
+					}
+					h4 {
+						font-size: 26/1.7px;
+						line-height: 40/1.7px;
+						margin-bottom: 22/1.7px;
+					}
+					span {
+						font-size: 24/1.7px;
+						line-height: 16/1.7px;
+						margin-bottom: 89/1.7px;
+					}
+					p {
+						font-size: 24/1.7px;
+						line-height: 42/1.7px;
+						margin-bottom: 87/1.7px;
+					}
+					ul.more-info {
+						padding: 60/1.7px 0 20/1.7px 0;
+						> li {
+							margin-bottom: 40/1.7px;
+							h6 {
+								font-size: 22/1.7px;
+								letter-spacing: 0.075/1.7em;
+								margin-bottom: 10/1.7px;
+							}
+							p {
+								font-size: 22/1.7px;
+								line-height: 34/1.7px;
+								margin-bottom: 0px;
+							}
+							a {
+								i {
+									font-size: 33/1.7px;
+									line-height: 45/1.7px;
+									letter-spacing: 0.2/1.7em;
+								}	
+							}							
+						}
+					}
+				}
+				.img-content {
+					.grid {
+						.grid-item {
+							width: 100%;
+							img {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+			.content-2 {
+				.img-content {			
+					.grid-item-2 {
+						width: 100%;
+					}		
+				}
+			}
+			.content-3 {
+				margin-bottom: 110/1.7px;
+				h5 {
+					font-size: 28/1.7px;
+					line-height: 45/1.7px;
+					letter-spacing: 0.075/1.7em;
+					padding-top: 82/1.7px;
+				}
+				ul {
+					li {
+						margin-right: 0px;
+					    margin-top: 60/1.7px;
+					    width: 100%;
+					    &:last-child {
+					    	display: block;	
+					    }
+					    .caption-text {
+					    	h6 {
+					    		font-size: 28/1.7px;
+					    		line-height: 45/1.7px;
+					    		letter-spacing: 0.05/1.7em;
+					    		margin-top: 34/1.7px;
+					    		height: auto;
+					    	}
+					    	p {
+					    		font-size: 24/1.7px;
+					    		line-height: 30/1.7px;
+					    		margin-top: 12/1.7px;
+					    	}
+					    }
 					}
 				}
 			}
@@ -267,7 +450,78 @@
 }
 
 // iphone 6
-@media all and (max-width: 375px) {	
+@media all and (max-width: 375px) {
+	#mobile-menu-logo-wrapper {
+		padding-top: 13px;
+		padding-bottom: 15px;	
+		height: 53px;					
+		&.open {			
+			.mobile-menu {
+				.logo {
+					background: url(../images/logo/blink@640.png) no-repeat;
+					background-size: contain;
+				}				
+			}
+		}
+		&.white-version { // when scroll down			
+			background: @menu-bg-grey-2;
+			margin-top: 5px;			
+			.mobile-menu {
+				.logo {
+					background: url(../images/logo/blink@640.png) no-repeat;
+					background-size: contain;
+				}				
+			}
+		}
+		.mobile-menu {
+			margin-bottom: 20px;
+	        .logo {
+				background: url(../images/logo/blink@640-white.png) no-repeat;
+				width: 169/1.7px;
+				height: 15/1.7px;
+				display: inline-block;
+				vertical-align: middle;
+				background-size: contain;
+			}
+	        .toggle-menu {
+				display: block; 
+
+				a {
+					.nav-bar {					  
+					  height: 6/1.7px;
+					  margin: 6/1.7px auto;
+					  width: 43/1.7px;					  
+					}
+				}
+	        }
+      	}
+		.mobile-nav-container {			
+			ul.mobile-nav {
+				> li {			
+					padding: 35/1.7px 0px;
+					> a {						
+						font-size: 32/1.7px;
+						line-height: 32/1.7px;
+						letter-spacing: 0.08/1.7em;						
+						&.active {
+							margin-bottom: 30/1.7px;
+						}
+					}
+
+					ul.mobile-nav-child {						
+						padding-bottom: 30/1.7px;
+						padding-top: 30/1.7px;						
+						li {														
+							a {
+								font-size: 28/1.7px;
+								line-height: 65/1.7px;								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	#page-wrapper {
 		.seperator-line {
 			width: 38px!important;
@@ -375,6 +629,112 @@
 				}
 			}
 		}
+		.case-study {
+			.content-1 {
+				margin-top: 150/1.8px;
+				.text-content {
+					h5 {
+						font-size: 26/1.8px;
+						line-height: 45/1.8px; 
+						margin-bottom: 28/1.8px;
+					}
+					h1 {
+						font-size: 42/1.8px;
+						line-height: 60/1.8px;
+						letter-spacing: 0.05/1.8em;
+						margin-bottom: 30/1.8px;
+					}
+					h4 {
+						font-size: 26/1.8px;
+						line-height: 40/1.8px;
+						margin-bottom: 22/1.8px;
+					}
+					span {
+						font-size: 24/1.8px;
+						line-height: 16/1.8px;
+						margin-bottom: 89/1.8px;
+					}
+					p {
+						font-size: 24/1.8px;
+						line-height: 42/1.8px;
+						margin-bottom: 87/1.8px;
+					}
+					ul.more-info {
+						padding: 60/1.8px 0 20/1.8px 0;
+						> li {
+							margin-bottom: 40/1.8px;
+							h6 {
+								font-size: 22/1.8px;
+								letter-spacing: 0.075/1.8em;
+								margin-bottom: 10/1.8px;
+							}
+							p {
+								font-size: 22/1.8px;
+								line-height: 34/1.8px;
+								margin-bottom: 0px;
+							}
+							a {
+								i {
+									font-size: 33/1.8px;
+									line-height: 45/1.8px;
+									letter-spacing: 0.2/1.8em;
+								}	
+							}							
+						}
+					}
+				}
+				.img-content {
+					.grid {
+						.grid-item {
+							width: 100%;
+							img {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+			.content-2 {
+				.img-content {			
+					.grid-item-2 {
+						width: 100%;
+					}		
+				}
+			}
+			.content-3 {
+				margin-bottom: 110/1.8px;
+				h5 {
+					font-size: 28/1.8px;
+					line-height: 45/1.8px;
+					letter-spacing: 0.075/1.8em;
+					padding-top: 82/1.8px;
+				}
+				ul {
+					li {
+						margin-right: 0px;
+					    margin-top: 60/1.8px;
+					    width: 100%;
+					    &:last-child {
+					    	display: block;	
+					    }
+					    .caption-text {
+					    	h6 {
+					    		font-size: 28/1.8px;
+					    		line-height: 45/1.8px;
+					    		letter-spacing: 0.05/1.8em;
+					    		margin-top: 34/1.8px;
+					    		height: auto;
+					    	}
+					    	p {
+					    		font-size: 24/1.8px;
+					    		line-height: 30/1.8px;
+					    		margin-top: 12/1.8px;
+					    	}
+					    }
+					}
+				}
+			}
+		}
 		div#mailing-list-wrapper {
 			padding: 53/1.7px 0 45/1.7px 0;
 			div.right {
@@ -437,14 +797,92 @@
 						letter-spacing: 0.025em;
 					}
 				}
+				ul {
+					li {
+						a {
+							font-size: 10px;
+						}
+					}
+				}
 			}
 		}
 	}	
 	
 }
 
-// iphone <= 5
+// iphone 5+
 @media all and (max-width: 320px) {	
+	#mobile-menu-logo-wrapper {
+		padding-top: 13px;
+		padding-bottom: 15px;	
+		height: 53px;					
+		&.open {			
+			.mobile-menu {
+				.logo {
+					background: url(../images/logo/blink@640.png) no-repeat;
+					background-size: contain;
+				}				
+			}
+		}
+		&.white-version { // when scroll down
+			background: @menu-bg-grey-2;
+			margin-top: 5px;			
+			.mobile-menu {				
+				.logo {
+					background: url(../images/logo/blink@640.png) no-repeat;
+					background-size: contain;
+				}				
+			}
+		}
+		.mobile-menu {
+			margin-bottom: 20px;
+	        .logo {
+				background: url(../images/logo/blink@640-white.png) no-repeat;
+				width: 169/2px;
+				height: 15/2px;
+				display: inline-block;
+				vertical-align: middle;
+				background-size: contain;
+			}
+	        .toggle-menu {
+				display: block; 
+
+				a {
+					.nav-bar {					  
+					  height: 6/2px;
+					  margin: 6/2px auto;
+					  width: 43/2px;					  
+					}
+				}
+	        }
+      	}	
+		.mobile-nav-container {			
+			ul.mobile-nav {
+				> li {			
+					padding: 35/2px 0px;
+					> a {						
+						font-size: 32/2px;
+						line-height: 32/2px;
+						letter-spacing: 0.08/2em;						
+						&.active {
+							margin-bottom: 30/2px;
+						}
+					}
+
+					ul.mobile-nav-child {						
+						padding-bottom: 30/2px;
+						padding-top: 30/2px;						
+						li {														
+							a {
+								font-size: 28/2px;
+								line-height: 65/2px;								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	#page-wrapper {
 		.seperator-line {
 			width: 32px!important;
@@ -477,6 +915,10 @@
 							margin: 35/2px auto 35/2px;
 						}						
 					}
+				}
+				div.carousel-caption-2 {
+					bottom: 19%;
+    				left: 7%;
 				}
 			}
 		}
@@ -552,6 +994,112 @@
 				}
 			}
 		}
+		.case-study {
+			.content-1 {
+				margin-top: 150/2px;
+				.text-content {
+					h5 {
+						font-size: 26/2px;
+						line-height: 45/2px; 
+						margin-bottom: 28/2px;
+					}
+					h1 {
+						font-size: 42/2px;
+						line-height: 60/2px;
+						letter-spacing: 0.05/2em;
+						margin-bottom: 30/2px;
+					}
+					h4 {
+						font-size: 26/2px;
+						line-height: 40/2px;
+						margin-bottom: 22/2px;
+					}
+					span {
+						font-size: 24/2px;
+						line-height: 16/2px;
+						margin-bottom: 89/2px;
+					}
+					p {
+						font-size: 24/2px;
+						line-height: 42/2px;
+						margin-bottom: 87/2px;
+					}
+					ul.more-info {
+						padding: 60/2px 0 20/2px 0;
+						> li {
+							margin-bottom: 40/2px;
+							h6 {
+								font-size: 22/2px;
+								letter-spacing: 0.075/2em;
+								margin-bottom: 10/2px;
+							}
+							p {
+								font-size: 22/2px;
+								line-height: 34/2px;
+								margin-bottom: 0px;
+							}
+							a {
+								i {
+									font-size: 33/2px;
+									line-height: 45/2px;
+									letter-spacing: 0.2/2em;
+								}	
+							}							
+						}
+					}
+				}
+				.img-content {
+					.grid {
+						.grid-item {
+							width: 100%;
+							img {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+			.content-2 {
+				.img-content {			
+					.grid-item-2 {
+						width: 100%;
+					}		
+				}
+			}
+			.content-3 {
+				margin-bottom: 110/2px;
+				h5 {
+					font-size: 28/2px;
+					line-height: 45/2px;
+					letter-spacing: 0.075/2em;
+					padding-top: 82/2px;
+				}
+				ul {
+					li {
+						margin-right: 0px;
+					    margin-top: 60/2px;
+					    width: 100%;
+					    &:last-child {
+					    	display: block;	
+					    }
+					    .caption-text {
+					    	h6 {
+					    		font-size: 28/2px;
+					    		line-height: 45/2px;
+					    		letter-spacing: 0.05/2em;
+					    		margin-top: 34/2px;
+					    		height: auto;
+					    	}
+					    	p {
+					    		font-size: 24/2px;
+					    		line-height: 30/2px;
+					    		margin-top: 12/2px;
+					    	}
+					    }
+					}
+				}
+			}
+		}
 		div#mailing-list-wrapper {
 			padding: 53/2px 0 45/2px 0;
 			div.right {
@@ -616,6 +1164,13 @@
 						font-size: 10px;
 						line-height: 7px;
 						letter-spacing: 0.025em;
+					}
+				}
+				ul {
+					li {
+						a {
+							font-size: 9px;
+						}
 					}
 				}
 			}

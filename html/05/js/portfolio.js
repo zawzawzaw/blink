@@ -34,8 +34,10 @@ $(function(){
 		
 	});
 
+	// add more project (where this needs to be ajax data source or json)
 	$('.show-more').on('click', function(e){
-		var html = '<li class="list-item"><div class="hotels"><div class="img-holder"><img src="images/content/portfolio/portfolio-content-1.jpg" alt=""></div><div class="caption-text"><h6>NEW</h6><h5>New Hotels</h5></div></div></li>',
+		e.preventDefault();
+		var html = '<li class="list-item"><div class="hotels"><div class="img-holder"><img src="images/content/portfolio/portfolio-content-1.jpg" class="img-responsive" alt=""></div><div class="caption-text"><h6>NEW</h6><h5>New Hotels</h5></div></div></li>',
 			$el = $(html);
 		
 		//add item to jplist collection (as last item)

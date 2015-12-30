@@ -29,6 +29,36 @@ footer#footer-wrapper {
 				letter-spacing: 0.05em;
 			}
 		}	
+		ul {
+			li {
+				display: inline-block;
+				a {
+					.gotham-book;
+					font-size: 12px;
+					letter-spacing: 0.1em;
+					color: @white;
+					&:hover {
+						color: @dark-blue;
+					}
+				}				
+				&:after {
+					content: " ";
+					background-color: @white;
+					width: 3px;
+					height: 3px;
+					display: inline-block;
+					vertical-align: middle;
+					margin-left: 20px;
+					margin-right: 20px;
+					.round(50px); 
+				}
+				&:last-child {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
 	}
 	div.sharing {
 		> a {

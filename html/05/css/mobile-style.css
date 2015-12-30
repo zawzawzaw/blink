@@ -181,7 +181,29 @@
     z-index: 9999;
   }
   #mobile-menu-logo-wrapper.open {
-    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 100%;
+    background: #f8f8f8;
+    margin-top: 0px;
+  }
+  #mobile-menu-logo-wrapper.open:before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #2f4455;
+    display: block;
+    position: absolute;
+    top: -5px;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .toggle-menu a {
+    color: #627482;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .toggle-menu a .nav-bar {
+    background-color: #627482;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .logo {
+    background: url(../images/logo/blink.png) no-repeat;
   }
   #mobile-menu-logo-wrapper.white-version {
     background: #f8f8f8;
@@ -240,7 +262,6 @@
     display: none;
     background-color: #ffffff;
     height: 100%;
-    overflow-y: scroll;
   }
   #mobile-menu-logo-wrapper .mobile-nav-container.open {
     display: block;
@@ -252,7 +273,7 @@
   #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li:after {
     content: " ";
     border-bottom: 1px solid #d1d7e0;
-    width: 102%;
+    width: 100%;
     height: 1px;
     background-color: #d1d7e0;
     position: absolute;
@@ -304,9 +325,9 @@
     display: none;
   }
   #page-wrapper .seperator-line {
-    width: 96px !important;
-    height: 4.5px;
-    margin-bottom: 62px;
+    width: 64px !important;
+    margin-bottom: 24px;
+    height: 3px;
   }
   #page-wrapper .slider-wrapper .arrow {
     top: 93%;
@@ -590,6 +611,13 @@
     line-height: 16.8px;
     letter-spacing: 0.06em;
   }
+  #page-wrapper footer#footer-wrapper div.tweet ul {
+    text-align: center;
+  }
+  #page-wrapper footer#footer-wrapper div.tweet ul li:after {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
   #page-wrapper footer#footer-wrapper .sharing {
     float: none!important;
     margin-top: 10px;
@@ -599,10 +627,67 @@
   }
 }
 @media all and (max-width: 768px) {
+  #mobile-menu-logo-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper.white-version {
+    background: #f8f8f8;
+    margin-top: 5px;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu {
+    margin-bottom: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .logo {
+    background: url(../images/logo/blink@640-white.png) no-repeat;
+    width: 169px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    float: left;
+    margin-top: 15px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu {
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
+    height: 6px;
+    margin: 6px auto;
+    width: 43px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li {
+    padding: 35px 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.08em;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a.active {
+    margin-bottom: 30px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child li a {
+    font-size: 28px;
+    line-height: 65px;
+  }
   #page-wrapper .seperator-line {
-    width: 77px !important;
-    margin-bottom: 48px;
-    height: 3.6px;
+    width: 64px !important;
+    margin-bottom: 38px;
+    height: 3px;
   }
   #page-wrapper .slider-wrapper .arrow {
     top: 93%;
@@ -611,87 +696,87 @@
     top: 20%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
-    font-size: 24px;
-    line-height: 52px;
+    font-size: 20px;
+    line-height: 44px;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
-    font-size: 40px;
-    line-height: 55px;
-    letter-spacing: 0.12em;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.1em;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
-    font-size: 27.6px;
-    line-height: 46.8px;
+    font-size: 23px;
+    line-height: 39px;
     width: 101%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
-    margin: 42px auto 42px;
+    margin: 35px auto 35px;
   }
   #page-wrapper .home {
-    margin-bottom: 106.6px;
+    margin-bottom: 83px;
   }
   #page-wrapper .home #heading {
     padding-bottom: 31px;
-    margin-top: 200.4px;
+    margin-top: 167px;
   }
   #page-wrapper .home #heading h5 {
-    font-size: 24px;
-    line-height: 53px;
-    letter-spacing: 0.09em;
+    font-size: 20px;
+    line-height: 44px;
+    letter-spacing: 0.075em;
   }
   #page-wrapper .home #heading h1 {
-    font-size: 41px;
-    line-height: 55px;
-    letter-spacing: 0.06em;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
   }
   #page-wrapper .home #heading .seperator-dot {
-    width: 77px;
-    height: 3.6px;
-    margin: 44.4px auto;
+    width: 64px;
+    height: 3px;
+    margin: 35px auto;
   }
   #page-wrapper .home #heading p {
-    font-size: 29px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 42px;
     color: #627482;
     width: 90%;
     margin: 0 auto;
   }
   #page-wrapper .home .each-content {
-    padding: 86px 0;
+    padding: 70px 0;
   }
   #page-wrapper .home .each-content .img-content {
-    margin-bottom: 74px;
+    margin-bottom: 64px;
   }
   #page-wrapper .home .each-content .text-content h5 {
-    font-size: 34px;
-    margin-bottom: 29px;
+    font-size: 28px;
+    margin-bottom: 24px;
   }
   #page-wrapper .home .each-content .text-content h2 {
-    font-size: 40px;
-    line-height: 55px;
-    letter-spacing: 0.06em;
-    margin-bottom: 33.6px;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    margin-bottom: 36px;
     width: 98%;
   }
   #page-wrapper .home .each-content .text-content h6 {
-    font-size: 31px;
-    line-height: 53px;
+    font-size: 26px;
+    line-height: 44px;
     width: 88%;
-    margin-bottom: 38.4px;
+    margin-bottom: 35px;
   }
   #page-wrapper .home .each-content .text-content p {
-    font-size: 29px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 42px;
     width: 94%;
-    margin-bottom: 52.8px;
+    margin-bottom: 47px;
   }
   #page-wrapper .home .each-content .text-content a.read-more {
-    font-size: 25px;
+    font-size: 21px;
     letter-spacing: 0.09em;
   }
   #page-wrapper .home .each-content .text-content a.read-more i {
-    font-size: 31px;
-    line-height: 29px;
+    font-size: 26px;
+    line-height: 24px;
     letter-spacing: 0.12em;
     position: static;
     margin-left: 3px;
@@ -736,35 +821,35 @@
   #page-wrapper .case-study .content-3 ul li .img-placeholder img {
     width: 100%;
   }
-  #page-wrapper .case-study .content-3 ul li .caption-text {
-    padding-left: 0px;
-  }
   #page-wrapper .case-study .content-3 ul li .caption-text h6 {
     margin-bottom: 0px;
   }
   #page-wrapper div#mailing-list-wrapper {
-    padding: 64.8px 0 55.2px 0;
+    padding: 53px 0 45px 0;
   }
   #page-wrapper div#mailing-list-wrapper div.right {
-    padding-bottom: 60px !important;
+    padding-bottom: 50px!important;
     max-width: 100%!important;
   }
   #page-wrapper div#mailing-list-wrapper div.right h3 {
-    font-size: 26px;
-    letter-spacing: 0.06em;
+    font-size: 22px;
+    letter-spacing: 0.05em;
     color: #2f4455;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   #page-wrapper div#mailing-list-wrapper div.right p {
-    font-size: 24px;
-    line-height: 38.4px;
-    margin-bottom: 40.8px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+  #page-wrapper div#mailing-list-wrapper div.right .input {
+    width: 448px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"] {
-    font-size: 21.6px;
-    line-height: 38.4px;
+    font-size: 18px;
+    line-height: 32px;
     color: #a4afc2;
-    height: 54px;
+    height: 45px;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-webkit-input-placeholder {
     color: #a4afc2;
@@ -779,32 +864,32 @@
     color: #a4afc2;
   }
   #page-wrapper div#mailing-list-wrapper div.right i {
-    font-size: 28.8px;
-    letter-spacing: 0.12em;
+    font-size: 24px;
+    letter-spacing: 0.1em;
   }
   #page-wrapper div#mailing-list-wrapper div.left {
     margin-top: 0px;
-    padding-top: 60px !important;
+    padding-top: 50px!important;
   }
   #page-wrapper div#mailing-list-wrapper div.left h4 {
-    font-size: 26.4px;
-    letter-spacing: 0.06em;
-    margin-bottom: 24px;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
   }
   #page-wrapper div#mailing-list-wrapper div.left ul li {
-    margin-right: 15.6px;
+    margin-right: 13px;
   }
   #page-wrapper div#mailing-list-wrapper div.left ul li a i {
-    font-size: 40.8px;
-    letter-spacing: 0.624em;
+    font-size: 34px;
+    letter-spacing: 0.5em;
   }
   #page-wrapper div#mailing-list-wrapper div.left p {
-    font-size: 21.6px;
-    line-height: 38.4px;
-    padding-top: 48px;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 40px;
   }
   #page-wrapper footer#footer-wrapper {
-    padding: 24px 0px;
+    padding: 20px 0px;
   }
   #page-wrapper footer#footer-wrapper div.tweet p {
     font-size: 21.6px;
@@ -820,10 +905,10 @@
     width: 100%;
   }
   .case-study .content-2 .img-content .grid-item-3 {
-    width: 100%;
+    width: 100%!important;
   }
   .case-study .content-2 .img-content .grid-item-3 img {
-    width: 100%;
+    width: 100%!important;
   }
 }
 @media all and (max-width: 540px) {
@@ -847,25 +932,21 @@
     font-size: 11px;
     line-height: 20px;
   }
-  .case-study .content-1 {
-    margin-top: 150px;
-  }
-  .case-study .content-1 .text-content h1 {
-    font-size: 27px;
-  }
-  .case-study .content-1 .img-content .grid .grid-item {
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item {
     width: 100%;
   }
-  .case-study .content-1 .img-content .grid .grid-item img {
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item img {
     width: 100%;
   }
-  .case-study .content-2 .img-content .grid-item-2 {
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
     width: 100%;
   }
-  .case-study .content-3 ul li {
+  #page-wrapper .case-study .content-3 ul li {
     margin-right: 0px;
-    margin-top: 40px;
     width: 100%;
+  }
+  #page-wrapper .case-study .content-3 ul li:last-child {
+    display: block;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     top: 13%;
@@ -875,6 +956,63 @@
   }
 }
 @media all and (max-width: 414px) {
+  #mobile-menu-logo-wrapper {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    height: 53px;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper.white-version {
+    background: #f8f8f8;
+    margin-top: 5px;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu {
+    margin-bottom: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .logo {
+    background: url(../images/logo/blink@640-white.png) no-repeat;
+    width: 112.66666667px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    float: left;
+    margin-top: 10px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu {
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
+    height: 4px;
+    margin: 4px auto;
+    width: 28.66666667px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li {
+    padding: 23.33333333px 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a {
+    font-size: 21.33333333px;
+    line-height: 21.33333333px;
+    letter-spacing: 0.05333333em;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a.active {
+    margin-bottom: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child li a {
+    font-size: 18.66666667px;
+    line-height: 43.33333333px;
+  }
   #page-wrapper .seperator-line {
     width: 43px!important;
     margin-bottom: 20px;
@@ -902,6 +1040,11 @@
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
     margin: 23.33333333px auto 23.33333333px;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption-2 {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
   }
   #page-wrapper .home {
     margin-bottom: 43.66666667px;
@@ -974,6 +1117,94 @@
     letter-spacing: 0.06em;
     position: static;
     margin-left: 3px;
+  }
+  #page-wrapper .case-study .content-1 {
+    margin-top: 88.23529412px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h5 {
+    font-size: 15.29411765px;
+    line-height: 26.47058824px;
+    margin-bottom: 16.47058824px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h1 {
+    font-size: 24.70588235px;
+    line-height: 35.29411765px;
+    letter-spacing: 0.02941176em;
+    margin-bottom: 17.64705882px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h4 {
+    font-size: 15.29411765px;
+    line-height: 23.52941176px;
+    margin-bottom: 12.94117647px;
+  }
+  #page-wrapper .case-study .content-1 .text-content span {
+    font-size: 14.11764706px;
+    line-height: 9.41176471px;
+    margin-bottom: 52.35294118px;
+  }
+  #page-wrapper .case-study .content-1 .text-content p {
+    font-size: 14.11764706px;
+    line-height: 24.70588235px;
+    margin-bottom: 51.17647059px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info {
+    padding: 35.29411765px 0 11.76470588px 0;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li {
+    margin-bottom: 23.52941176px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li h6 {
+    font-size: 12.94117647px;
+    letter-spacing: 0.04411765em;
+    margin-bottom: 5.88235294px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li p {
+    font-size: 12.94117647px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li a i {
+    font-size: 19.41176471px;
+    line-height: 26.47058824px;
+    letter-spacing: 0.11764706em;
+  }
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item img {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-3 {
+    margin-bottom: 64.70588235px;
+  }
+  #page-wrapper .case-study .content-3 h5 {
+    font-size: 16.47058824px;
+    line-height: 26.47058824px;
+    letter-spacing: 0.04411765em;
+    padding-top: 48.23529412px;
+  }
+  #page-wrapper .case-study .content-3 ul li {
+    margin-right: 0px;
+    margin-top: 35.29411765px;
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-3 ul li:last-child {
+    display: block;
+  }
+  #page-wrapper .case-study .content-3 ul li .caption-text h6 {
+    font-size: 16.47058824px;
+    line-height: 26.47058824px;
+    letter-spacing: 0.02941176em;
+    margin-top: 20px;
+    height: auto;
+  }
+  #page-wrapper .case-study .content-3 ul li .caption-text p {
+    font-size: 14.11764706px;
+    line-height: 17.64705882px;
+    margin-top: 7.05882353px;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 35.33333333px 0 30px 0;
@@ -1051,6 +1282,61 @@
   }
 }
 @media all and (max-width: 375px) {
+  #mobile-menu-logo-wrapper {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    height: 53px;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper.white-version {
+    background: #f8f8f8;
+    margin-top: 5px;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu {
+    margin-bottom: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .logo {
+    background: url(../images/logo/blink@640-white.png) no-repeat;
+    width: 99.41176471px;
+    height: 8.82352941px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu {
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
+    height: 3.52941176px;
+    margin: 3.52941176px auto;
+    width: 25.29411765px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li {
+    padding: 20.58823529px 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a {
+    font-size: 18.82352941px;
+    line-height: 18.82352941px;
+    letter-spacing: 0.04705882em;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a.active {
+    margin-bottom: 17.64705882px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child {
+    padding-bottom: 17.64705882px;
+    padding-top: 17.64705882px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child li a {
+    font-size: 16.47058824px;
+    line-height: 38.23529412px;
+  }
   #page-wrapper .seperator-line {
     width: 38px!important;
     margin-bottom: 20px;
@@ -1149,6 +1435,94 @@
     position: static;
     margin-left: 3px;
   }
+  #page-wrapper .case-study .content-1 {
+    margin-top: 83.33333333px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h5 {
+    font-size: 14.44444444px;
+    line-height: 25px;
+    margin-bottom: 15.55555556px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h1 {
+    font-size: 23.33333333px;
+    line-height: 33.33333333px;
+    letter-spacing: 0.02777778em;
+    margin-bottom: 16.66666667px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h4 {
+    font-size: 14.44444444px;
+    line-height: 22.22222222px;
+    margin-bottom: 12.22222222px;
+  }
+  #page-wrapper .case-study .content-1 .text-content span {
+    font-size: 13.33333333px;
+    line-height: 8.88888889px;
+    margin-bottom: 49.44444444px;
+  }
+  #page-wrapper .case-study .content-1 .text-content p {
+    font-size: 13.33333333px;
+    line-height: 23.33333333px;
+    margin-bottom: 48.33333333px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info {
+    padding: 33.33333333px 0 11.11111111px 0;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li {
+    margin-bottom: 22.22222222px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li h6 {
+    font-size: 12.22222222px;
+    letter-spacing: 0.04166667em;
+    margin-bottom: 5.55555556px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li p {
+    font-size: 12.22222222px;
+    line-height: 18.88888889px;
+    margin-bottom: 0px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li a i {
+    font-size: 18.33333333px;
+    line-height: 25px;
+    letter-spacing: 0.11111111em;
+  }
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item img {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-3 {
+    margin-bottom: 61.11111111px;
+  }
+  #page-wrapper .case-study .content-3 h5 {
+    font-size: 15.55555556px;
+    line-height: 25px;
+    letter-spacing: 0.04166667em;
+    padding-top: 45.55555556px;
+  }
+  #page-wrapper .case-study .content-3 ul li {
+    margin-right: 0px;
+    margin-top: 33.33333333px;
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-3 ul li:last-child {
+    display: block;
+  }
+  #page-wrapper .case-study .content-3 ul li .caption-text h6 {
+    font-size: 15.55555556px;
+    line-height: 25px;
+    letter-spacing: 0.02777778em;
+    margin-top: 18.88888889px;
+    height: auto;
+  }
+  #page-wrapper .case-study .content-3 ul li .caption-text p {
+    font-size: 13.33333333px;
+    line-height: 16.66666667px;
+    margin-top: 6.66666667px;
+  }
   #page-wrapper div#mailing-list-wrapper {
     padding: 31.17647059px 0 26.47058824px 0;
   }
@@ -1215,8 +1589,66 @@
     line-height: 7px;
     letter-spacing: 0.025em;
   }
+  #page-wrapper footer#footer-wrapper div.tweet ul li a {
+    font-size: 10px;
+  }
 }
 @media all and (max-width: 320px) {
+  #mobile-menu-logo-wrapper {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    height: 53px;
+  }
+  #mobile-menu-logo-wrapper.open .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper.white-version {
+    background: #f8f8f8;
+    margin-top: 5px;
+  }
+  #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
+    background: url(../images/logo/blink@640.png) no-repeat;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu {
+    margin-bottom: 20px;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .logo {
+    background: url(../images/logo/blink@640-white.png) no-repeat;
+    width: 84.5px;
+    height: 7.5px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu {
+    display: block;
+  }
+  #mobile-menu-logo-wrapper .mobile-menu .toggle-menu a .nav-bar {
+    height: 3px;
+    margin: 3px auto;
+    width: 21.5px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li {
+    padding: 17.5px 0px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a.active {
+    margin-bottom: 15px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child li a {
+    font-size: 14px;
+    line-height: 32.5px;
+  }
   #page-wrapper .seperator-line {
     width: 32px!important;
     margin-bottom: 20px;
@@ -1244,6 +1676,10 @@
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
     margin: 17.5px auto 17.5px;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption-2 {
+    bottom: 19%;
+    left: 7%;
   }
   #page-wrapper .home {
     margin-bottom: 24px;
@@ -1314,6 +1750,94 @@
     letter-spacing: 0.05em;
     position: static;
     margin-left: 3px;
+  }
+  #page-wrapper .case-study .content-1 {
+    margin-top: 75px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h5 {
+    font-size: 13px;
+    line-height: 22.5px;
+    margin-bottom: 14px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h1 {
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    margin-bottom: 15px;
+  }
+  #page-wrapper .case-study .content-1 .text-content h4 {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+  #page-wrapper .case-study .content-1 .text-content span {
+    font-size: 12px;
+    line-height: 8px;
+    margin-bottom: 44.5px;
+  }
+  #page-wrapper .case-study .content-1 .text-content p {
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 43.5px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info {
+    padding: 30px 0 10px 0;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li {
+    margin-bottom: 20px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li h6 {
+    font-size: 11px;
+    letter-spacing: 0.0375em;
+    margin-bottom: 5px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li p {
+    font-size: 11px;
+    line-height: 17px;
+    margin-bottom: 0px;
+  }
+  #page-wrapper .case-study .content-1 .text-content ul.more-info > li a i {
+    font-size: 16.5px;
+    line-height: 22.5px;
+    letter-spacing: 0.1em;
+  }
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-1 .img-content .grid .grid-item img {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-3 {
+    margin-bottom: 55px;
+  }
+  #page-wrapper .case-study .content-3 h5 {
+    font-size: 14px;
+    line-height: 22.5px;
+    letter-spacing: 0.0375em;
+    padding-top: 41px;
+  }
+  #page-wrapper .case-study .content-3 ul li {
+    margin-right: 0px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  #page-wrapper .case-study .content-3 ul li:last-child {
+    display: block;
+  }
+  #page-wrapper .case-study .content-3 ul li .caption-text h6 {
+    font-size: 14px;
+    line-height: 22.5px;
+    letter-spacing: 0.025em;
+    margin-top: 17px;
+    height: auto;
+  }
+  #page-wrapper .case-study .content-3 ul li .caption-text p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 6px;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 26.5px 0 22.5px 0;
@@ -1387,5 +1911,8 @@
     font-size: 10px;
     line-height: 7px;
     letter-spacing: 0.025em;
+  }
+  #page-wrapper footer#footer-wrapper div.tweet ul li a {
+    font-size: 9px;
   }
 }

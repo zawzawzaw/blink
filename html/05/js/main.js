@@ -96,7 +96,7 @@ $(document).ready(function(){
     function showHideArrow()  {
         var scrollPos = $(window).scrollTop();   
 
-        console.log(scrollPos);
+        // console.log(scrollPos);
     
         if( ( scrollPos != 0 ) ) {            
             $('.scroll-to-content .arrow').hide();
@@ -126,11 +126,12 @@ $(document).ready(function(){
     $(window).on('scroll', function() {        
         showHideArrow();
         addBorder();                       
+        scrollToContent();
     });
     $(window).on('mousewheel', function(event) {
         // console.log(event.deltaX, event.deltaY, event.deltaFactor);
         if(event.deltaY<0) {
-            scrollToContent();
+            // scrollToContent();
         }
     });
 
@@ -212,10 +213,10 @@ $(document).ready(function(){
     });
 
     $('.sub-nav-toggle').on('click', function(e){
-        e.preventDefault();
-        $(this).toggleClass('active');
-        $(this).next('ul').toggleClass('open');
-        $(this).parent('li').toggleClass('active')
+        e.preventDefault();        
+        $(this).toggleClass('active');        
+        $(this).next('ul.mobile-nav-child').toggleClass('open');
+        $(this).parent('li').toggleClass('active');
     });
     
 });

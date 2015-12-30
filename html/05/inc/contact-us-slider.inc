@@ -2,15 +2,16 @@
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
-		<div class="item bg case-study-bg-1 active">
-			<div class="carousel-caption-2">
-				<h3>Jumeirah Dhevanfushi</h3>
-				<ul>
-					<li><span class="title">Location:</span><span class="content">Gaafu Alifu Atoll, Maldives</span></li>
-					<li><span class="title">Category:</span><span class="content">Signature, Interior design, Building Design</span></li>
-					<li><span class="title">Type:</span><span class="content">Hospitality</span></li>
-				</ul>
-			</div>	
+		<div class="item bg contact-us-bg-1 active">
+			<div class="carousel-caption">
+				<div class="caption-text">
+					<h5 class="pulse">contact us</h5>
+					<h1>Get in touch with us</h1>
+					<div class="seperator-line"></div>
+					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p>
+				</div>				
+			</div>
 		</div>
 		<!-- <div class="item bg bg2"></div>
 		<div class="item bg bg2"></div>
