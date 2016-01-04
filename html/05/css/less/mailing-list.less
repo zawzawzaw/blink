@@ -1,8 +1,8 @@
 div#mailing-list-wrapper {
 	margin: 0px!important;
-	padding-top: 45px;
+	padding-top: 35px;
 	background-color: @menu-bg-grey-2;
-	padding-bottom: 45px;
+	padding-bottom: 35px;
 
 	.each-column {
 		vertical-align: top;
@@ -31,12 +31,13 @@ div#mailing-list-wrapper {
 			margin-bottom: 35px;
 		}
 		h4 {
-			.gotham-bold;
+			.gotham-medium;
 			font-size: 12px;
 			line-height: 28px;
 			letter-spacing: 0.05em;
-			color: @dark-blue;
+			color: @light-blue;
 			text-transform: uppercase;
+			margin-bottom: 5px;
 		}
 		ul {
 			display: inline-block;
@@ -49,6 +50,7 @@ div#mailing-list-wrapper {
 				a {
 					color: @light-blue;
 					font-size: 16px;
+					letter-spacing: 0.2em;
 					&:hover {
 						color: @dark-blue;
 					}
@@ -65,8 +67,9 @@ div#mailing-list-wrapper {
 	}
 	div.middle {
 		display: inline-block;
-		padding-left: 78px;
+		padding-left: 75px;
 		position: relative;
+		margin-top: -4px;
 		&:after {
 			content: "";
 			background-color: @footer-seperator-line;
@@ -79,13 +82,22 @@ div#mailing-list-wrapper {
 		}
 		ul {
 			display: inline-block;
-			width: 180px;
+			&:nth-of-type(1n){
+				margin-right: 116px;	
+			}
+			&:nth-of-type(2n){
+				margin-right: 112px;	
+			}
+			&:nth-of-type(3n){
+				margin-right: 94px;	
+			}
+			// width: 190px;
 			li {
-				padding-bottom: 9px;
+				// padding-bottom: 9px;
 				a {
-					.gotham-bold;
+					.gotham-medium;
 					font-size: 12px;
-					line-height: 12px;
+					line-height: 35px;
 					letter-spacing: 0.05em;
 					color: @dark-blue;
 					text-transform: uppercase;
@@ -99,7 +111,8 @@ div#mailing-list-wrapper {
 	div.right {
 		display: inline-block;
 		max-width: 350px;
-		padding-left: 60px;
+		padding-left: 72px;
+		margin-top: 4px;
 
 		h3 {
 			.gotham-bold;
@@ -110,6 +123,7 @@ div#mailing-list-wrapper {
 			margin-bottom: 2px;
 		}
 		p {
+			// .open-sans-bold;
 			.open-sans-regular;
 			font-size: 12px;
 			line-height: 18px;
@@ -120,20 +134,22 @@ div#mailing-list-wrapper {
 			position: relative;
 			i {
 				position: absolute;				
-			    right: 10px;
-			    top: 8px;
+			    right: 13px;
+			    top: 6px;
+			    color: @light-blue;
+			    font-size: 16px;
 			}
 		}
 		input[name="subscribe"] {
 			.round(0px);
 			background-color: @subscribe-input-bg;
-			.placeholder(@dark-blue);
+			.placeholder(@light-blue);
 			.open-sans-regular;
 			font-size: 12px;
 			line-height: 21px;
 			color: @dark-blue;
 			border: 1px solid @subscribe-input-border;
-			padding-left: 12px;
+			padding-left: 13px;
 			width: 276px;
 			height: 30px;			
 		}

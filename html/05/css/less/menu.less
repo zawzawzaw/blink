@@ -28,7 +28,10 @@
 					ul.main-nav {	
 						li {
 							a {
-								color: @light-blue;
+								color: @dark-blue;
+								i {
+									color: @light-blue;
+								}	
 							}
 						}
 					}
@@ -85,7 +88,8 @@
 			}			
 		}		
 		.main-menu {
-			padding: 0 50px 0 40px;
+			// padding: 0 50px 0 40px;
+			padding: 0 75px 0 75px;
 			.menu {
 				.gotham-medium;
 				font-size: 12px;
@@ -113,11 +117,12 @@
 					margin-top: -6px;								
 					li {
 						display: inline-block;
-						margin-right: 35px;			
+						// margin-right: 35px;	// this is 40px when measure with chrome ruler		
+						margin-right: 41px;			
 						margin-bottom: 10px;
 
 						&:nth-last-child(2) {
-							margin-right: 20px;
+							margin-right: 21px;
 						}			
 						&:last-child {
 							margin-right: 0px;
@@ -191,12 +196,13 @@
 							a {
 								.open-sans-regular;
 								font-size: 13px;
-								line-height: 27px;
+								line-height: 23px;
 								letter-spacing: 0.05em;
 								text-transform: none;		
 								display: block;		
 								border-bottom: 1px solid @light-grey;
 								position: relative;
+								color: @light-blue-2;
 								&:after{
 							        width: 150px;
 							        top: 28px;							        

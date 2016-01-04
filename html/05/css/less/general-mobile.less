@@ -1,7 +1,7 @@
 @media all and (max-width: 992px) {
 	#mobile-menu-logo-wrapper {
-		padding-top: 15px;
-		padding-bottom: 15px;	
+		padding-top: 17px;
+		padding-bottom: 17px;	
 		height: 53px;	
 		position: fixed;
 		top: 0px;
@@ -27,6 +27,7 @@
 				top: -5px;
 			}
 			.mobile-menu {
+				padding-bottom: 17px;
 				.toggle-menu {
 					a {
 						color: @light-blue;
@@ -69,7 +70,7 @@
 			}
 		}
 		.mobile-menu {
-			margin-bottom: 20px;
+			// margin-bottom: 20px;
 	        .logo {
 				// .gotham-bold;
 				// font-size: 25px;
@@ -102,6 +103,13 @@
 					  margin: 3px auto;
 					  width: 22px;
 					  .transition();
+
+					  &:nth-of-type(1n){
+					  	margin-top: 0px;
+					  }
+					  &:nth-of-type(3n){
+					  	margin-bottom: 0px;
+					  }
 					}
 				}
 	        }
@@ -237,6 +245,9 @@
 			.each-row {
 				&:nth-child(2n+1){
 					background-color: @bg-light-grey;
+					a.read-more {
+						color: @read-more-2!important;
+					}
 				}
 			}
 			#heading {
@@ -429,9 +440,11 @@
 				padding: 0px;
 				padding-top: 50*1.2px!important;
 				h4 {
+					.gotham-bold;
 					font-size: 11*2.4px;
 					letter-spacing: 0.025*2.4em;
 					margin-bottom: 10*2.4px;
+					color: @dark-blue;
 				}
 				ul {
 					li {
@@ -488,8 +501,8 @@
 				input[name="subscribe"] {
     				font-size: 9*2.4px;
 					line-height: 16*2.4px;
-					color: @light-grey;
-					.placeholder(@light-grey);	
+					color: @dark-blue;
+					.placeholder(@light-blue);	
 					height: 45*1.2px;			
     				text-align: center;
     				padding-left: 0px;
@@ -499,6 +512,7 @@
 					font-size: 12*2.4px;
 					letter-spacing: 0.05*2.4em;
 					top: 11px;
+					color: @light-blue;
 				}
 			}
 			.footer-links {

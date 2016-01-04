@@ -6,15 +6,16 @@
 //  
 
 .home {
-	margin-bottom: 52px;
+	margin-bottom: 50px;
 
    #heading {
-   		margin-top: 105px;
+   		margin-top: 170px;
    		text-align: center;
 		h5 {
 			.gotham-bold;
 			font-size: 17px;
-			line-height: 45px;
+			line-height: 35px;
+			// margin-bottom: 10px;
 			letter-spacing: 0.075em;
 			color: @dark-blue;
 			text-transform: uppercase;
@@ -23,14 +24,14 @@
 			.gotham-bold;
 			font-size: 26px;
 			line-height: 35px;
-			letter-spacing: 0.08em;
+			letter-spacing: 0.075em;
 			color: @dark-blue;
 			text-transform: uppercase;
 			margin-bottom: 15px;
 		}
 		.seperator-dot {
 			background-color: @dark-blue;
-			margin-bottom: 20px;
+			margin-bottom: 15px;
 		}
 		h6 {
 			.harriet-text-medium-italic;
@@ -43,20 +44,23 @@
 			font-size: 13px;
 			line-height: 23px;
 			color: @light-blue;
-			margin-bottom: 65px;
-			padding: 3px 0px;
+			margin-bottom: 62px;
+			padding: 0px 0px 3px 0px;
 		}
    }
 
    .each-content {
    		height: 450px;
-   		margin-bottom: 30px;
+   		margin-bottom: 35px;
    		text-align: center;
    		position: relative;
    		clear: both;
 	   	.text-content {
 	   		display: inline-block;
-	   		width: 35.9%;
+	   		width: 34.9%;
+	   		&.pull-right {
+	   			width: 33.9%;	
+	   		}	   		
 	   		// height: 595px;	   		
 	   		height: 450px;	   		
 	   		vertical-align: top;	   		   		
@@ -77,7 +81,7 @@
 				.harriet-text-medium-italic;
 				font-size: 17px;
 				color: @dark-blue;
-				margin-bottom: 10px;	
+				margin-bottom: 5px;
 			}
 			h2 {
 				.gotham-bold;
@@ -86,11 +90,12 @@
 				letter-spacing: 0.05em;
 				color: @dark-blue;
 				text-transform: uppercase;
-				margin-bottom: 13px;
+				margin-bottom: 15px;
+				// width: 416px;
 			}
 			.seperator-line {
 				background-color: @dark-blue!important;
-				margin-bottom: 14px;
+				margin-bottom: 20px;
 				width: 43px;
 				height: 2px;
 				@media all and (max-width: 1280px) {
@@ -98,19 +103,19 @@
 				}
 			}
 			h6 {
-				.harriet-text-regular-italic;
+				.harriet-display-regular-italic;
 				font-size: 16px;
-				line-height: 25px;
-				color: @light-blue;
-				margin-bottom: 8px;
+				line-height: 23px;
+				color: @dark-blue;
+				margin-bottom: 15px;
 			}
 			p {
 				.open-sans-regular;
 				font-size: 13px;
 				line-height: 23px;
 				color: @light-blue;
-				margin-bottom: 30px;
-				width: 90%;
+				margin-bottom: 15px;
+				width: 100%;
 				a {
 					display: block;
 					font-size: 14px;

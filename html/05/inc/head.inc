@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <!-- FONT -->
-<link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
 <!-- CSS -->
 <link rel="stylesheet" href="css/vendors/bootstrap/bootstrap.min.css" />

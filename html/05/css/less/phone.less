@@ -84,9 +84,9 @@
 // iphone 6+
 @media all and (max-width: 414px) {
 	#mobile-menu-logo-wrapper {
-		padding-top: 13px;
-		padding-bottom: 15px;	
-		height: 53px;					
+		// padding-top: 13px;
+		// padding-bottom: 15px;	
+		height: auto;					
 		&.open {			
 			.mobile-menu {
 				.logo {
@@ -106,16 +106,18 @@
 			}
 		}
 		.mobile-menu {
-			margin-bottom: 20px;
+			// margin-bottom: 20px;
 	        .logo {
 				background: url(../images/logo/blink@640-white.png) no-repeat;
 				width: 169/1.5px;
 				height: 15/1.5px;
+				// width: 93px;
+				// height: 8px;
 				display: inline-block;
 				vertical-align: middle;
 				background-size: contain;
-				float: left;
-				margin-top: 10px;
+				float: none;
+				margin-top: 0px;
 			}
 	        .toggle-menu {
 				display: block; 
@@ -398,8 +400,6 @@
 				input[name="subscribe"] {
 					font-size: 12px;
 					line-height: 21px;
-					color: @light-grey;
-					.placeholder(@light-grey);						
 					height: 45/1.5px;				
 				}
 				i {
@@ -452,9 +452,9 @@
 // iphone 6
 @media all and (max-width: 375px) {
 	#mobile-menu-logo-wrapper {
-		padding-top: 13px;
-		padding-bottom: 15px;	
-		height: 53px;					
+		// padding-top: 13px;
+		// padding-bottom: 15px;	
+		height: auto;					
 		&.open {			
 			.mobile-menu {
 				.logo {
@@ -474,11 +474,13 @@
 			}
 		}
 		.mobile-menu {
-			margin-bottom: 20px;
+			// margin-bottom: 20px;
 	        .logo {
 				background: url(../images/logo/blink@640-white.png) no-repeat;
-				width: 169/1.7px;
-				height: 15/1.7px;
+				// width: 169/1.7px;
+				// height: 15/1.7px;
+				width: 93px;
+				height: 8px;
 				display: inline-block;
 				vertical-align: middle;
 				background-size: contain;
@@ -539,15 +541,16 @@
 						h5 {
 							font-size: 12px;
 							line-height: 26px;
+							letter-spacing: 0.075em;
 						}
 						h1 {
 							font-size: 20px;
 							line-height: 27px;
-							letter-spacing: 0.05em;
+							letter-spacing: 0.075em;
 						}
 						p {
 							font-size: 14px;
-							line-height: 24px;
+							line-height: 23px;
 							width: 101%;
 						}		
 						.seperator-line {
@@ -564,13 +567,13 @@
 				padding-bottom: 55/1.7px;
 				h5 {
 					font-size: 12px;
-					line-height: 26px;
-					letter-spacing: 0.04em;
+					line-height: 35px;
+					letter-spacing: 0.075em;
 				}
 				h1 {
 					font-size: 20px;
 					line-height: 27px;
-					letter-spacing: 0.03em;
+					letter-spacing: 0.05em;
 				}
 				.seperator-dot {
 					width: 38px;
@@ -598,14 +601,14 @@
 					h2 {
 						font-size: 20px;
 						line-height: 27px;
-						letter-spacing: 0.03em;
+						letter-spacing: 0.05em;
 						margin-bottom: 14px;
 						margin-bottom: 34/1.7px;
 						width: 98%;
 					}
 					h6 {
 						font-size: 15px;
-						line-height: 26px;
+						line-height: 24px;
 						width: 88%;
 						margin-bottom: 16px;
 					}
@@ -617,7 +620,7 @@
 					}
 					a.read-more {
 						font-size: 12px;
-						letter-spacing: 0.04em;
+						letter-spacing: 0.075em;
 						i {
 							font-size: 15px;
 							line-height: 14px;
@@ -741,7 +744,7 @@
 				padding-bottom: 50/1.7px!important;	
 				h3 {
 					font-size: 13px;
-					letter-spacing: 0.02em;
+					letter-spacing: 0.05em;
 					color: @dark-blue;
 					margin-bottom: 25/1.7px;
 				}		
@@ -751,21 +754,19 @@
 					margin-bottom: 32/1.7px;
 				}		
 				input[name="subscribe"] {
-					font-size: 11px;
-					line-height: 19px;
-					color: @light-grey;
-					.placeholder(@light-grey);					
+					font-size: 12px;
+					line-height: 19px;				
 				}
 				i {
 					font-size: 14px;
 					letter-spacing: 0.025em;
-					top: 6px;
+					top: 7px;
 				}
 			}
 			div.left {
 				h4 {
 					font-size: 13px;
-					letter-spacing: 0.02em;
+					letter-spacing: 0.05em;
 					margin-bottom: 10px;
 				}
 				ul {
@@ -774,7 +775,7 @@
 						a {
 							i {
 								font-size: 20px;
-								letter-spacing: 0.26em;
+								letter-spacing: 0.4em;
 							}
 						}
 					}
@@ -801,6 +802,11 @@
 					li {
 						a {
 							font-size: 10px;
+							letter-spacing: 0.1em;
+						}
+						&:after {
+							margin-left: 8px;
+    						margin-right: 8px;
 						}
 					}
 				}
@@ -813,9 +819,9 @@
 // iphone 5+
 @media all and (max-width: 320px) {	
 	#mobile-menu-logo-wrapper {
-		padding-top: 13px;
-		padding-bottom: 15px;	
-		height: 53px;					
+		// padding-top: 13px;
+		// padding-bottom: 15px;	
+		height: auto;					
 		&.open {			
 			.mobile-menu {
 				.logo {
@@ -835,7 +841,7 @@
 			}
 		}
 		.mobile-menu {
-			margin-bottom: 20px;
+			// margin-bottom: 20px;
 	        .logo {
 				background: url(../images/logo/blink@640-white.png) no-repeat;
 				width: 169/2px;
@@ -1120,9 +1126,7 @@
 				}	
 				input[name="subscribe"] {
 					font-size: 9px;
-					line-height: 16px;
-					color: @light-grey;
-					.placeholder(@light-grey);	
+					line-height: 16px;					
 					height: 45/2px;								
 				}
 				i {
