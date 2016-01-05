@@ -3,7 +3,8 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item bg case-study-bg-1 active">
-			<div class="carousel-caption-2">
+			<div id="blur-bg"></div>
+			<div class="carousel-caption-2 hidden-sm hidden-xs">
 				<h3>Jumeirah Dhevanfushi</h3>
 				<ul>
 					<li><span class="title">Location:</span><span class="content">Gaafu Alifu Atoll, Maldives</span></li>

@@ -29,6 +29,9 @@
 						li {
 							a {
 								color: @dark-blue;
+								&:after {
+									border-bottom: 1px solid @dark-blue;
+								}
 								i {
 									color: @light-blue;
 								}	
@@ -57,7 +60,7 @@
 		&.add-border { // when click the menu
 			// border-bottom: 1px solid @menu-seperator-grey;	
 			background: @menu-bg-grey-2;
-			height: 254px;	
+			height: 248px;	
 			.transition-in();
 			.main-menu {
 				.sidebar-nav {								
@@ -89,7 +92,7 @@
 		}		
 		.main-menu {
 			// padding: 0 50px 0 40px;
-			padding: 0 75px 0 75px;
+			padding: 0 37px 0 37px;
 			.menu {
 				.gotham-medium;
 				font-size: 12px;
@@ -119,7 +122,7 @@
 						display: inline-block;
 						// margin-right: 35px;	// this is 40px when measure with chrome ruler		
 						margin-right: 41px;			
-						margin-bottom: 10px;
+						margin-bottom: 16px;
 
 						&:nth-last-child(2) {
 							margin-right: 21px;
@@ -155,7 +158,7 @@
 						        position: absolute;
 						        top: 28px;
 						        left: 50%;
-						        border-bottom: 1px solid @light-grey;
+						        border-bottom: 1px solid @light-grey;						        
 						        .opacity(0);
 						        .transition-in();
 					      	}
@@ -205,7 +208,7 @@
 								color: @light-blue-2;
 								&:after{
 							        width: 150px;
-							        top: 28px;							        
+							        top: 25px;							        
 							        left: 100%;
 							        border-bottom: 2px solid @dark-blue;
 							        .opacity(1);

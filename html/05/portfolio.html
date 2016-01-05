@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="js/plugins/jplist.core.min.js"></script>
 
 	<script type="text/javascript" src="js/plugins/jplist.filter-toggle-bundle.min.js"></script>
+	<script type="text/javascript" src="js/plugins/jplist.sort-bundle.min.js"></script>
 	<link href="css/jplist.filter-toggle-bundle.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -59,6 +60,17 @@
 									<div class="jplist" style="display:none;">
 										<div class="jplist-panel">
 											<div class="jplist-group">
+												<div 
+												   class="hidden" 
+												   data-control-type="default-sort" 
+												   data-control-name="sort" 
+												   data-control-action="sort"
+												   
+												   data-path=".rank" 
+												   data-order="asc" 
+												   data-type="number">
+												</div>		
+
 												<input 
 												  data-control-type="radio-buttons-filters"
 												  data-control-action="filter"
@@ -157,6 +169,7 @@
 											<div class="caption-text">
 												<h6>MALDIVES</h6>
 												<h5>Jumeirah Dhevanfushi</h5>
+												<span class="rank">1</span>
 											</div>											
 										</div>
 									</li>
@@ -168,6 +181,7 @@
 											<div class="caption-text">
 												<h6>LIAOYING, CHINA</h6>
 												<h5>Benxi Doubletree by Hilton</h5>
+												<span class="rank">2</span>
 											</div>											
 										</div>
 									</li>
@@ -179,6 +193,7 @@
 											<div class="caption-text">
 												<h6>HAINAN PROVINCE, CHINA</h6>
 												<h5>Conrad Sanya Haitang Bay</h5>
+												<span class="rank">3</span>
 											</div>
 										</div>
 									</li>
@@ -190,6 +205,7 @@
 											<div class="caption-text">
 												<h6>SHANGHAI, CHINA</h6>
 												<h5>Hilton Fengxian</h5>
+												<span class="rank">4</span>
 											</div>
 										</div>
 									</li>
@@ -201,6 +217,7 @@
 											<div class="caption-text">
 												<h6>SHANGHAI, CHINA</h6>
 												<h5>Marriott Wenchang</h5>
+												<span class="rank">5</span>
 											</div>
 										</div>
 									</li>
@@ -212,6 +229,7 @@
 											<div class="caption-text">
 												<h6>PHUKET, THAILAND</h6>
 												<h5>Regent Phuket Cape Panwa</h5>
+												<span class="rank">6</span>
 											</div>
 										</div>
 									</li>
@@ -223,6 +241,7 @@
 											<div class="caption-text">
 												<h6>BALI, INDONESIA</h6>
 												<h5>Melia Bali</h5>
+												<span class="rank">7</span>
 											</div>
 										</div>
 									</li>
@@ -234,6 +253,7 @@
 											<div class="caption-text">
 												<h6>BALI, INDONESIA</h6>
 												<h5>Six Senses Uluwatu</h5>
+												<span class="rank">8</span>
 											</div>
 										</div>
 									</li>
@@ -245,6 +265,7 @@
 											<div class="caption-text">
 												<h6>BALI, INDONESIA</h6>
 												<h5>Alila Salalah</h5>
+												<span class="rank">9</span>
 											</div>
 										</div>
 									</li>
@@ -257,6 +278,7 @@
 												<h6>DETROIT, UNITED STATES</h6>
 												<h5 class="hidden-xs hidden-sm">Renaissance & Courtyard <br> BY Marriott</h5>
 												<h5 class="visible-xs visible-sm">Renaissance & Courtyard <br> BY Marriott</h5>
+												<span class="rank">10</span>
 											</div>
 										</div>
 									</li>
@@ -268,6 +290,7 @@
 											<div class="caption-text">
 												<h6>PHUKET, THAILAND</h6>
 												<h5>RAYCOM</h5>
+												<span class="rank">11</span>
 											</div>
 										</div>
 									</li>
@@ -279,6 +302,7 @@
 											<div class="caption-text">
 												<h6>BALI, INDONESIA</h6>
 												<h5>TRAVELODGE</h5>
+												<span class="rank">12</span>
 											</div>
 										</div>
 									</li>

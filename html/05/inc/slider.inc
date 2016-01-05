@@ -7,47 +7,15 @@
 		<div class="item bg bg1 active">			
 			<div class="carousel-caption">
 				<div class="caption-text">
-					<h5 class="pulse">Who We Are</h5>
+					<!-- <h5 class="pulse">Who We Are</h5> -->
 					<h1>asia born, internationally acclaimed</h1>
-					<div class="seperator-line"></div>
+					<!-- <div class="seperator-line"></div>
 					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru dolor sit bus magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru dolor sit bus magnis.</p> -->
 				</div>				
 			</div>				
 		</div>
-		<div class="item bg bg2">			
-			<div class="carousel-caption">
-				<div class="caption-text">
-					<h5>Who We Are 2</h5>
-					<h1>asia born, internationally acclaimed</h1>
-					<div class="seperator-line"></div>
-					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru dolor sit bus magnis.</p>
-				</div>				
-			</div>				
-		</div>
-		<div class="item bg bg3">			
-			<div class="carousel-caption">
-				<div class="caption-text">
-					<h5>Who We Are 3</h5>
-					<h1>asia born, internationally acclaimed</h1>
-					<div class="seperator-line"></div>
-					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru dolor sit bus magnis.</p>
-				</div>				
-			</div>				
-		</div>
-		<div class="item bg bg4">			
-			<div class="carousel-caption">
-				<div class="caption-text">
-					<h5>Who We Are 44</h5>
-					<h1>asia born, internationally acclaimed</h1>
-					<div class="seperator-line"></div>
-					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo <br>dolor aenean massa there sociis natoque penati itheru bus et magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo dolor aenean massa there sociis natoque penati itheru dolor sit bus magnis.</p>
-				</div>				
-			</div>				
-		</div>
+		
 	</div>
 
 	<a href="#content-wrapper" class="scroll-to-content">	

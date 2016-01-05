@@ -103,6 +103,7 @@ body{
   color: @light-blue;
   font-size: 14px;
   line-height: 19px;
+  overflow-x:hidden;
   &.hide-content {
     overflow: hidden;
   }
@@ -131,7 +132,7 @@ html, body {
   
 
   .carousel, .item {
-    height: 101%;
+    height: 100%;
     overflow-x: hidden;
   }
 
@@ -157,15 +158,19 @@ html, body {
         background-position: center center;
       }    
       .bg2 {
-        background-image:url('../images/content/slide-1.jpg')!important;
+        background-image:url('../images/content/slide-2.jpg')!important;
         background-position: center center;
       }      
       .bg3 {
-        background-image:url('../images/content/slide-1.jpg')!important;
+        background-image:url('../images/content/slide-3.jpg')!important;
         background-position: center center;
       }      
       .bg4 {
-        background-image:url('../images/content/slide-1.jpg')!important;
+        background-image:url('../images/content/slide-4.jpg')!important;
+        background-position: center center;
+      }      
+      .bg5 {
+        background-image:url('../images/content/slide-5.jpg')!important;
         background-position: center center;
       }      
       .clients-bg-1 {
@@ -241,19 +246,22 @@ html, body {
     }
 
     div.item {
+      div.carousel-caption-up {        
+        top: 28%!important;
+      }
       div.carousel-caption {
         width: 680px;
         position: absolute;
         left: 50%;
-        top: 32%;
+        top: 44%;
         div.caption-text {
           position: relative; 
           left: -50%;
           h5 {
             .gotham-bold;
-            font-size: 19px;    
+            font-size: 18px;    
             // line-height: 38px;  
-            letter-spacing: 0.075em;
+            letter-spacing: 0.08em;
             color: @white;   
             margin-bottom: 10px;  
             text-transform: uppercase;   
@@ -284,15 +292,32 @@ html, body {
           }         
         }        
       }
+      #blur-bg {
+        content: "";
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        
+        display: block;
+        background: url('../images/content/blur-bg.png') no-repeat;
+        width: 473px;
+        height: 414px;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+      }
       div.carousel-caption-2 {
         position: absolute;
-        bottom: 80px;
-        left: 40px;
+        bottom: 45px;
+        left: 37px;
         h3 {
-          .gotham-bold;
+          .gotham-medium;
           font-size: 18px;
           line-height: 23px;
-          letter-spacing: 0.08em;
+          letter-spacing: 0.075em;
           color: @white;
           text-transform: uppercase;
           margin-bottom: 10px;
@@ -300,13 +325,13 @@ html, body {
         ul {
           border-top: 1px solid @white;
           border-bottom: 1px solid @white;
-          padding: 15px 0;
+          padding: 14px 0 8px 0;
           li {
             margin-bottom: 5px;
             span.title {
               .gotham-medium; 
               font-size: 11px;
-              letter-spacing: 0.1em;
+              letter-spacing: 0.05em;
               color: @white;  
               text-transform: uppercase;
               min-width: 110px;
@@ -314,7 +339,8 @@ html, body {
               vertical-align: top;
             }
             span.content {
-              .harriet-text-medium-italic;
+              // .harriet-text-medium-italic;
+              .harriet-text-medium;
               font-size: 12px;
               line-height: 17px;
               color: @white;               

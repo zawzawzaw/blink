@@ -178,8 +178,9 @@ $(document).ready(function(){
     ///////
     ///////
 
-    $(".main-nav li").children('a').on('click', function(e){
+    $(".main-nav > li").children('a').on('click', function(e){
         e.stopPropagation();
+        e.preventDefault();
         if($(this).hasClass('has-child')) {
             $('.main-nav li a').not(this).removeClass('active');
             $('.main-nav li').not($(this).parent()).removeClass('active');
