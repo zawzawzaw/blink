@@ -1,7 +1,10 @@
 @media all and (max-width: 1200px) {
   .home .each-content .text-content .v-align-table .v-align-table-cell {
     vertical-align: top;
-    padding-top: 20px;
+    padding-top: 10px;
+  }
+  .home .each-content .text-content .v-align-table .v-align-table-cell h2 {
+    font-size: 20px;
   }
   .case-study .content-1 {
     margin-top: 100px;
@@ -10,6 +13,20 @@
     margin-right: 0px;
     margin-bottom: 50px;
     width: 35.8%;
+  }
+  .case-study .content-1 .text-content p {
+    margin-bottom: 23px;
+  }
+  .case-study .content-1 .text-content ul.more-info {
+    padding: 30px 0 15px 0;
+  }
+  .case-study .content-1 .text-content ul.more-info > li {
+    width: 173px;
+    padding-right: 0px;
+  }
+  .case-study .content-1 .text-content ul.more-info > li:nth-of-type(2n) {
+    width: 155px;
+    padding-left: 12px;
   }
   .case-study .content-2 .img-content .grid-sizer-2,
   .case-study .content-2 .img-content .grid-item-2 {
@@ -53,7 +70,16 @@
     padding-left: 28px;
   }
   div#mailing-list-wrapper div.middle ul {
-    width: 135px;
+    width: 102px;
+  }
+  div#mailing-list-wrapper div.middle ul:nth-of-type(1n) {
+    margin-right: 55px;
+  }
+  div#mailing-list-wrapper div.middle ul:nth-of-type(2n) {
+    margin-right: 45px;
+  }
+  div#mailing-list-wrapper div.middle ul:nth-of-type(3n) {
+    margin-right: 35px;
   }
   div#mailing-list-wrapper div.right {
     max-width: 346px;

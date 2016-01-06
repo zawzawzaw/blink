@@ -18,6 +18,12 @@
 @media all and (max-width: 480px) {
 	#page-wrapper {
 		.slider-wrapper {
+			&.carousel-resize-on-mobile {
+				height: 300px;
+				.arrow {
+					display: none;
+				}
+			}
 			div.item {
 				div.carousel-caption {
 					div.caption-text {
@@ -58,7 +64,7 @@
 					}		
 				}
 			}
-			.content-3 {
+			.content-3 {				
 				ul {
 					li {
 						margin-right: 0px;					    
@@ -70,15 +76,29 @@
 				}
 			}
 		}
+		footer#footer-wrapper {
+			padding: 0px!important;
+			div.tweet {			
+				ul {
+					li {					
+						&:after {
+							margin-left: 9px;
+							margin-right: 9px;
+						}
+					}
+				}
+			}
+		}
 	}
 	
 
 	#page-wrapper .slider-wrapper div.item div.carousel-caption {	
-		top: 13%;
+		// top: 13%;
 	}
 	#page-wrapper .slider-wrapper .arrow {
 		bottom: 53%;
-	}	
+	}
+	
 }
 
 // iphone 6+
@@ -109,10 +129,10 @@
 			// margin-bottom: 20px;
 	        .logo {
 				background: url(../images/logo/blink@640-white.png) no-repeat;
-				width: 169/1.5px;
-				height: 15/1.5px;
-				// width: 93px;
-				// height: 8px;
+				// width: 169/1.5px;
+				// height: 15/1.5px;
+				width: 93px;
+				height: 8px;
 				display: inline-block;
 				vertical-align: middle;
 				background-size: contain;
@@ -166,12 +186,18 @@
 			height: 3/1.5px;										
 		}
 		.slider-wrapper {
+			&.carousel-resize-on-mobile {
+				height: 300px;
+				.arrow {
+					display: none;
+				}
+			}
 			.arrow {				
 				top: 90%;
 			}
 			div.item {
 				div.carousel-caption {
-					top: 23%;
+					top: 35%;
 					div.caption-text {
 						h5 {
 							font-size: 13px;
@@ -213,17 +239,19 @@
 					font-size: 23px;
 					line-height: 31px;
 					letter-spacing: 0.03em;
+					// margin-top: -5px;
+					margin-bottom: 13px;
 				}
 				.seperator-dot {
 					width: 43px;
 					height: 3/1.5px;
-					margin: 37/1.5px auto;
+					margin: 0 auto 12.764706px auto;
 				}
 				p {
-					font-size: 16px;
-					line-height: 28px;
+					font-size: 14px;
+					line-height: 24px;
 					color: @dark-green;
-					width: 90%;
+					width: 88%;
 					margin: 0 auto;
 				}
 			}
@@ -451,6 +479,10 @@
 
 // iphone 6
 @media all and (max-width: 375px) {
+	.container {
+		padding-left: 19px;
+		padding-right: 19px;
+	}
 	#mobile-menu-logo-wrapper {
 		// padding-top: 13px;
 		// padding-bottom: 15px;	
@@ -531,12 +563,18 @@
 			height: 3/1.7px;															
 		}
 		.slider-wrapper {
+			&.carousel-resize-on-mobile {
+				height: 300px;
+				.arrow {
+					display: none;
+				}
+			}
 			.arrow {
 				top: 90%;
 			}
 			div.item {
 				div.carousel-caption {
-					top: 20%;
+					top: 35%;
 					div.caption-text {
 						h5 {
 							font-size: 12px;
@@ -561,24 +599,30 @@
 			}
 		}
 		.home {
-			margin-bottom: 118/1.7-35px;
+			// margin-bottom: 118/1.7-35px;			
+			margin-bottom: 25.411765px;			
 			#heading {
-				margin-top: 167/1.7px;
-				padding-bottom: 55/1.7px;
+				// margin-top: 167/1.7px;
+				margin-top: 86px;
+				// padding-bottom: 55/1.7px;
+				padding-bottom: 29.352941px;
 				h5 {
 					font-size: 12px;
 					line-height: 35px;
 					letter-spacing: 0.075em;
 				}
 				h1 {
-					font-size: 20px;
-					line-height: 27px;
+					font-size: 19px;
+					line-height: 26px;
 					letter-spacing: 0.05em;
+					margin-top: -5px;
+					margin-bottom: 13px;
 				}
 				.seperator-dot {
 					width: 38px;
 					height: 3/1.7px;
-					margin: 37/1.7px auto;
+					// margin: 0 auto 37/1.7px auto;
+					margin: 0 auto 12.764706px auto;
 				}
 				p {
 					font-size: 14px;
@@ -588,35 +632,49 @@
 					margin: 0 auto;
 				}
 			}
+			.each-row {				
+				&:nth-child(2n+1){
+					.each-content {
+						padding: 43px 0 38px 0!important;
+					}
+				}
+			}
 			.each-content {
-				padding: 70/1.7px 0;
+				// padding: 70/1.7px 0;
+				padding: 40px 0 38px 0;
 				.img-content {
-					margin-bottom: 63/1.7px;
+					// margin-bottom: 63/1.7px;
+					margin-bottom: 32px;
 				}
 				.text-content {
 					h5 {
 						font-size: 16px;
-						margin-bottom: 23/1.7px;
+						// margin-bottom: 23/1.7px;
+						margin-bottom: 5px;
 					}
 					h2 {
 						font-size: 20px;
 						line-height: 27px;
 						letter-spacing: 0.05em;
 						margin-bottom: 14px;
-						margin-bottom: 34/1.7px;
+						// margin-bottom: 34/1.7px;
+						margin-bottom: 15px;
 						width: 98%;
+					}
+					.seperator-line {
+						margin-bottom: 23px;
 					}
 					h6 {
 						font-size: 15px;
 						line-height: 24px;
-						width: 88%;
-						margin-bottom: 16px;
+						width: 90%;
+						margin-bottom: 9px;
 					}
 					p {
 						font-size: 14px;
 						line-height: 25px;
-						width: 94%;
-						margin-bottom: 22px;
+						width: 99.12%;
+						margin-bottom: 17px;
 					}
 					a.read-more {
 						font-size: 12px;
@@ -634,53 +692,66 @@
 		}
 		.case-study {
 			.content-1 {
-				margin-top: 150/1.8px;
+				// margin-top: 150/1.8px;
+				margin-top: 110px;
 				.text-content {
+					margin-bottom: 54px;
 					h5 {
-						font-size: 26/1.8px;
+						font-size: 15px;
 						line-height: 45/1.8px; 
-						margin-bottom: 28/1.8px;
+						letter-spacing: 0.075em;
+						// margin-bottom: 28/1.8px;
+						margin-bottom: 11px;
 					}
 					h1 {
-						font-size: 42/1.8px;
-						line-height: 60/1.8px;
-						letter-spacing: 0.05/1.8em;
-						margin-bottom: 30/1.8px;
+						font-size: 26px;
+						line-height: 35px;
+						letter-spacing: 0.05em;
+						// margin-bottom: 30/1.8px;
+						margin-bottom: 3px;
 					}
 					h4 {
-						font-size: 26/1.8px;
-						line-height: 40/1.8px;
-						margin-bottom: 22/1.8px;
+						font-size: 15px;
+						line-height: 23px;
+						// margin-bottom: 22/1.8px;
+						margin-bottom: 12.222222px;
 					}
 					span {
-						font-size: 24/1.8px;
+						font-size: 12px;
 						line-height: 16/1.8px;
-						margin-bottom: 89/1.8px;
+						// margin-bottom: 89/1.8px;
+						margin-bottom: 46.444444px;
 					}
 					p {
-						font-size: 24/1.8px;
-						line-height: 42/1.8px;
+						font-size: 13px;
+						line-height: 23px;
 						margin-bottom: 87/1.8px;
 					}
 					ul.more-info {
-						padding: 60/1.8px 0 20/1.8px 0;
+						padding: 30px 0 15px 0;
 						> li {
-							margin-bottom: 40/1.8px;
+							width: 173px;
+							margin-bottom: 16.222222px;
+							padding-right: 0px;
+							&:nth-of-type(2n){
+								width: 155px;
+								padding-left: 12px;
+							}
 							h6 {
-								font-size: 22/1.8px;
-								letter-spacing: 0.075/1.8em;
-								margin-bottom: 10/1.8px;
+								font-size: 13px;
+								letter-spacing: 0.05em;
+								margin-bottom: 2.5px;
 							}
 							p {
-								font-size: 22/1.8px;
-								line-height: 34/1.8px;
+								font-size: 13px;
+								line-height: 20px;
 								margin-bottom: 0px;
 							}
 							a {
 								i {
-									font-size: 33/1.8px;
+									font-size: 19px;
 									line-height: 45/1.8px;
-									letter-spacing: 0.2/1.8em;
+									letter-spacing: 0.18em;
 								}	
 							}							
 						}
@@ -705,33 +776,46 @@
 				}
 			}
 			.content-3 {
-				margin-bottom: 110/1.8px;
+				// margin-bottom: 110/1.8px;
+				margin-bottom: 39.111111px;
+				margin-top: 26px;
+				.seperator {
+					&:before {
+						padding-top: 0px;
+					}					
+				}
 				h5 {
-					font-size: 28/1.8px;
+					font-size: 15px;
 					line-height: 45/1.8px;
-					letter-spacing: 0.075/1.8em;
-					padding-top: 82/1.8px;
+					letter-spacing: 0.075em;
+					padding-top: 40.555556px;
+					padding-bottom: 28px;
 				}
 				ul {
 					li {
 						margin-right: 0px;
 					    margin-top: 60/1.8px;
 					    width: 100%;
+					    &:first-child {
+					    	margin-top: 0px;
+					    }
 					    &:last-child {
 					    	display: block;	
 					    }
 					    .caption-text {
 					    	h6 {
-					    		font-size: 28/1.8px;
-					    		line-height: 45/1.8px;
-					    		letter-spacing: 0.05/1.8em;
-					    		margin-top: 34/1.8px;
+					    		font-size: 16px;
+					    		line-height: 20px;
+					    		letter-spacing: 0.05em;
+					    		// margin-top: 34/1.8px;
+					    		margin-top: 15.888889px;
 					    		height: auto;
 					    	}
 					    	p {
-					    		font-size: 24/1.8px;
-					    		line-height: 30/1.8px;
-					    		margin-top: 12/1.8px;
+					    		font-size: 14px;
+					    		line-height: 20px;
+					    		// margin-top: 12/1.8px;
+					    		margin-top: 5.666667px;
 					    	}
 					    }
 					}
@@ -739,20 +823,26 @@
 			}
 		}
 		div#mailing-list-wrapper {
-			padding: 53/1.7px 0 45/1.7px 0;
+			padding: 28.176471px 0 45/1.7px 0;
 			div.right {
-				padding-bottom: 50/1.7px!important;	
+				padding-bottom: 35.411765px!important;	
 				h3 {
 					font-size: 13px;
 					letter-spacing: 0.05em;
 					color: @dark-blue;
-					margin-bottom: 25/1.7px;
+					// margin-bottom: 25/1.7px;
+					margin-bottom: 2.705882px;
 				}		
 				p {
 					font-size: 12px;
 					line-height: 19px;
-					margin-bottom: 32/1.7px;
+					// margin-bottom: 32/1.7px;
+					margin-bottom: 13.823529px;
 				}		
+				.input {
+					width: 262px;
+    				height: 26px;
+				}
 				input[name="subscribe"] {
 					font-size: 12px;
 					line-height: 19px;				
@@ -761,13 +851,15 @@
 					font-size: 14px;
 					letter-spacing: 0.025em;
 					top: 7px;
+					right: 12px;
 				}
 			}
 			div.left {
+				padding-top: 17px!important;
 				h4 {
 					font-size: 13px;
 					letter-spacing: 0.05em;
-					margin-bottom: 10px;
+					margin-bottom: 8px;
 				}
 				ul {
 					li {
@@ -783,12 +875,13 @@
 				p {
 					font-size: 11px;
 					line-height: 19px;
-
+					padding-top: 15px;
 				}
 			}
 		}
 		footer#footer-wrapper {
-			padding: 18/1.7px 0px;
+			// padding: 18/1.7px 0px;
+			padding: 0px;
 			div.tweet {
 				p {
 					font-size: 18/1.7px;
@@ -901,7 +994,7 @@
 			}
 			div.item {
 				div.carousel-caption {
-					top: 20%;
+					top: 33%;
 					div.caption-text {
 						h5 {
 							font-size: 11px;
@@ -1160,7 +1253,7 @@
 			}
 		}
 		footer#footer-wrapper {
-			padding: 10px 0px;
+			padding: 0px;
 			div.tweet {
 				p {
 					font-size: 9px;
@@ -1174,6 +1267,10 @@
 					li {
 						a {
 							font-size: 9px;
+						}
+						&:after {
+							margin-left: 3px;
+    						margin-right: 3px;
 						}
 					}
 				}

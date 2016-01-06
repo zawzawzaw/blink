@@ -7,19 +7,20 @@ fixed gutter/percentage gutter (done)
 follow psd width (done)
 
 DESKTOP
-- project page => new page
-- follow style guide
-- gotham/herriet replacement
+- project page => new page (done)
+- follow style guide (done)
+- gotham/herriet replacement (no need)
 - site search
-- portfolio search
+- portfolio search (no need)
 - sorting portfolio item as default (done)
+- portfolio show more json
 
 Mobile
 - site search
 - insights/portfolio/contact
 
 Tablet
-- ipad font size
+- ipad font size (done)
 
 .grid-3 {
 	margin: 0 auto;			

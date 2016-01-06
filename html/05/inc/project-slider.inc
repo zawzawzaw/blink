@@ -2,20 +2,17 @@
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
-		<div class="item bg case-study-bg-1 active">
-			<div id="blur-bg"></div>
+		<div class="item bg project-bg-1 active">
+			<div id="blur-bg-2"></div>
 			<div class="carousel-caption-2 hidden-sm hidden-xs">
-				<h3>Jumeirah Dhevanfushi</h3>
+				<h3>conrad sanya haitang bay</h3>
 				<ul>
-					<li><span class="title">Location:</span><span class="content">Gaafu Alifu Atoll, Maldives</span></li>
-					<li><span class="title">Category:</span><span class="content">Signature, Interior design, Building Design</span></li>
+					<li><span class="title">Location:</span><span class="content">Hainan Island, China</span></li>
+					<li><span class="title">Category:</span><span class="content">Signature by Blink, Interior design, Building Design</span></li>
 					<li><span class="title">Type:</span><span class="content">Hospitality</span></li>
 				</ul>
 			</div>	
 		</div>
-		<!-- <div class="item bg bg2"></div>
-		<div class="item bg bg2"></div>
-		<div class="item bg bg2"></div> -->
 	</div>
 
 	<a href="#content-wrapper" class="scroll-to-content">	

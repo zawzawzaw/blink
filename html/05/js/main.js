@@ -179,9 +179,9 @@ $(document).ready(function(){
     ///////
 
     $(".main-nav > li").children('a').on('click', function(e){
-        e.stopPropagation();
-        e.preventDefault();
+        e.stopPropagation();        
         if($(this).hasClass('has-child')) {
+            e.preventDefault();
             $('.main-nav li a').not(this).removeClass('active');
             $('.main-nav li').not($(this).parent()).removeClass('active');
             $(this).toggleClass('active');

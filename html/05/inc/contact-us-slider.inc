@@ -5,11 +5,11 @@
 		<div class="item bg contact-us-bg-1 active">
 			<div class="carousel-caption">
 				<div class="caption-text">
-					<h5 class="pulse">contact us</h5>
+					<!-- <h5 class="pulse">contact us</h5> -->
 					<h1>Get in touch with us</h1>
-					<div class="seperator-line"></div>
+					<!-- <div class="seperator-line"></div>
 					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p>
+					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p> -->
 				</div>				
 			</div>
 		</div>

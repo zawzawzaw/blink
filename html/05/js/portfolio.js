@@ -12,8 +12,8 @@ $(function(){
 
 	$filterCategory.on('click', function(e){
 		e.preventDefault();
-		$('.category-nav').find('.active').removeClass('active');
-		$(this).addClass('active');
+		$('.category-nav').find('.active-cat').removeClass('active-cat');
+		$(this).addClass('active-cat');
 
 		var hash = $(this).attr('href');		
 
@@ -37,17 +37,25 @@ $(function(){
 	// add more project (where this needs to be ajax data source or json)
 	$('.show-more').on('click', function(e){
 		e.preventDefault();
-		var html = '<li class="list-item"><div class="hotels"><div class="img-holder"><img src="images/content/portfolio/portfolio-content-1.jpg" class="img-responsive" alt=""></div><div class="caption-text"><h6>NEW</h6><h5>New Hotels</h5></div></div></li>',
-			$el = $(html);
+		var activeCat = $('.active-cat').data('hash').substring(1);
+
+		console.log(activeCat);
+
+		if(activeCat=='hotels') {
+			var html = '<li class="list-item"><div class="hotels"><div class="img-holder"><img src="images/content/portfolio/portfolio-content-1.jpg" class="img-responsive" alt=""></div><div class="caption-text"><h6>NEW</h6><h5>New Hotels</h5></div></div></li>',
+			$el = $(html);	
+		}		
 		
 		//add item to jplist collection (as last item)
-	   	$('#category').jplist({
-	      	command: 'add',
-	      	commandData: {
-	        	$item: $el
-	      	}
-	   	});
-
+		if(html) {
+			$('#category').jplist({
+		      	command: 'add',
+		      	commandData: {
+		        	$item: $el
+		      	}
+		   	});	
+		}
+	   	
 	});
 
 
@@ -55,8 +63,8 @@ $(function(){
 	/////
 
 	function findTextFromHash(hash) {	
-		$('.category-nav').find('.active').removeClass('active');
-		return $childMenu.find("a[data-hash='" + hash + "']").addClass('active').text();
+		$('.category-nav').find('.active-cat').removeClass('active-cat');
+		return $childMenu.find("a[data-hash='" + hash + "']").addClass('active-cat').text();
 	}
 
 	function getHashFromUrl(url) {

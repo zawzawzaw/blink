@@ -95,6 +95,7 @@
 			    margin-top: 3px;
 			    .transition-in();
 			    .opacity(0);
+			    text-align: center;
 			    &.show {
 			    	.opacity(1);
 			    	visibility: visible;
@@ -139,12 +140,10 @@
 							color: @dark-blue;
 						}
 
-						&.active {
+						&.active-cat {
 							color: @dark-blue;
-							&:after {
-								.opacity(1);
-								width: 100%;
-								left: 0%;
+							&:before {
+								.opacity(1)!important;
 							}		
 						}
 					}
