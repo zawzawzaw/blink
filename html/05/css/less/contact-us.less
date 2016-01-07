@@ -59,6 +59,17 @@
 				width: 49.8%;
 				vertical-align: top;
 				margin-bottom: 50px;
+				&.info-1 {
+					a {
+						&:hover {
+							color: @dark-blue!important;
+						}
+						p {
+							width: 100%;
+							color: inherit;
+						}
+					}
+				}
 				.each-contact {
 					margin-top: 10px;
 				}
@@ -80,7 +91,8 @@
 				}
 				p.name {
 					display: inline-block;
-					width: 42%;
+					width: auto;
+					margin-right: 5px;
 				}
 				a {				
 					.open-sans-regular;

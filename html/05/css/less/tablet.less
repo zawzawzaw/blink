@@ -250,6 +250,44 @@
 				}
 			}
 		}
+		.portfolio {
+			.content-2 {
+				.category-nav {
+					ul.child-menu {
+						li {
+							&:first-child {
+								a {
+									&:after {
+										top: 13px;
+									}
+								}
+							}
+							margin-right: 5px;
+							a {
+								font-size: 11px;
+							}
+						}
+					}
+				}
+			}
+			.content-3 {
+				ul {
+					li {
+						width: 31.7%;
+						min-width: 222px;
+					}
+				}
+			}
+		}
+		.clients {
+			.img-content {
+				ul {
+					li {
+						height: auto;
+					}
+				}
+			}
+		}
 
 		// div#mailing-list-wrapper {
 		// 	padding: 53px 0 45px 0;
@@ -324,19 +362,100 @@
 
 }
 @media all and (max-width: 755px) {
-	.case-study {
-		.content-2 {
-			.img-content {		
-				.grid-sizer-3 {
-					width: 100%;
-				}			
-				.grid-item-3 {
-					width: 100%!important;
-					img {
+	#page-wrapper {
+		.case-study {
+			.content-2 {
+				.img-content {		
+					.grid-sizer-3 {
+						width: 100%;
+					}			
+					.grid-item-3 {
 						width: 100%!important;
+						img {
+							width: 100%!important;
+						}
 					}
 				}
 			}
+		}
+		.portfolio {
+			.content-3 {
+				ul {
+					li {
+						width: 48%;
+						&:nth-of-type(2n) {
+							margin-right: 0px!important;
+						}
+						&:nth-of-type(3n) {
+							margin-right: 17px;
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+@media all and (max-width: 755px) {
+	#page-wrapper {
+		.case-study {
+			.content-2 {
+				.img-content {		
+					.grid-sizer-3 {
+						width: 100%;
+					}			
+					.grid-item-3 {
+						width: 100%!important;
+						img {
+							width: 100%!important;
+						}
+					}
+				}
+			}
+		}
+		.portfolio {
+			.content-3 {
+				ul {
+					li {
+						width: 48%;
+						&:nth-of-type(2n) {
+							margin-right: 0px!important;
+						}
+						&:nth-of-type(3n) {
+							margin-right: 17px;
+						}
+					}
+				}
+			}
+		}	
+		.project {
+			.content-1 {
+				text-align: left;
+				.heading {
+					text-align: center;
+				}
+				.text-content {
+					text-align: left;
+					width: 100%;
+				}
+				.more-info {
+					text-align: left;
+					padding-left: 0px;
+					margin-top: 10px;
+				}
+			}
+			.content-2 {
+				.img-content {		
+					.grid-sizer-3 {
+						width: 100%;
+					}			
+					.grid-item-3 {
+						width: 100%!important;
+						img {
+							width: 100%!important;
+						}
+					}
+				}
+			}		
 		}
 	}
 }

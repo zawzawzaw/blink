@@ -1,0 +1,294 @@
+#content-wrapper {
+	position: relative;	
+	#menu-logo-wrapper {
+		padding-top: 15px;
+		padding-bottom: 15px;	
+		height: 53px;	
+		position: fixed;
+		top: 0px;
+		width: 100%;		
+		z-index: 1500;		
+		.transition-in();
+		&.white-version { // when scroll down
+			// border-top: 5px solid @dark-blue;
+			// border-bottom: 1px solid @menu-seperator-grey;	
+			background: @menu-bg-grey-2;
+			margin-top: 5px;
+			&:before {
+				content: "";
+				width: 100%;
+				height: 5px;
+				background-color: @dark-blue;
+				display: block;
+				position: absolute;
+				top: -5px;
+			}
+			.main-menu {
+				.sidebar-nav {								
+					ul.main-nav {	
+						li {
+							a {
+								color: @dark-blue;
+								&:after {
+									border-bottom: 1px solid @dark-blue;
+								}
+								i {
+									color: @light-blue;
+								}	
+							}
+						}
+					}
+				}
+				.logo {
+					background: url(../images/logo/blink.png) no-repeat;
+				}				
+			}	
+			.mobile-menu {
+				.toggle-menu {
+					a {
+						color: @light-blue;
+						.nav-bar {
+				    		background-color: @light-blue;
+				  		}
+					}
+				}
+				.logo {
+					background: url(../images/logo/blink.png) no-repeat;
+				}				
+			}
+		}
+		&.add-border { // when click the menu
+			// border-bottom: 1px solid @menu-seperator-grey;	
+			background: @menu-bg-grey-2;
+			height: 248px;	
+			.transition-in();
+			.main-menu {
+				.sidebar-nav {								
+					ul.main-nav {	
+						li {
+							a {
+								color: @light-blue;
+							}
+						}
+					}
+				}
+				.logo {
+					background: url(../images/logo/blink.png) no-repeat;
+				}
+			}	
+		}
+		&.extra-height {
+			height: 350px;
+		}
+		&:hover {			
+			.main-menu {
+				.menu {
+					color: @light-blue;
+				}
+				.logo {
+					color: @light-blue;
+				}				
+			}			
+		}		
+		.main-menu {
+			// padding: 0 50px 0 40px;
+			padding: 0 37px 0 37px;
+			.menu {
+				.gotham-medium;
+				font-size: 12px;
+				line-height: 23px;
+				letter-spacing: 0.1em;
+				color: @light-grey;
+				vertical-align: middle;		
+			}
+			.logo {
+				// .gotham-bold;
+				// font-size: 25px;
+				// letter-spacing: 0.01em;
+				// // color: @light-blue;
+				// color: @white;
+				// vertical-align: middle;
+
+				background: url(../images/logo/blink-white.png) no-repeat;
+				width: 110px;
+				height: 10px;
+				display: inline-block;
+			}
+			.sidebar-nav {								
+				ul.main-nav {					
+					display: inline-block;		
+					margin-top: -6px;								
+					li {
+						display: inline-block;
+						// margin-right: 35px;	// this is 40px when measure with chrome ruler		
+						margin-right: 41px;			
+						margin-bottom: 16px;
+
+						&:nth-last-child(2) {
+							margin-right: 21px;
+						}			
+						&:last-child {
+							margin-right: 0px;
+							a {
+								&:hover {
+									&:after {
+										.opacity(0);
+										visibility: hidden;									
+									}
+								}
+								i {
+									font-size: 20px;
+								}	
+							}							
+						}								
+						a {
+							.gotham-bold;
+							font-size: 13px;
+							line-height: 36px;
+							letter-spacing: 0.075em;
+							color: @white;
+							text-transform: uppercase;						
+							position: relative;		
+							&:after{
+						        content: "";
+						        display: block;
+						        width: 0%;
+						        height: 0;
+
+						        position: absolute;
+						        top: 28px;
+						        left: 50%;
+						        border-bottom: 1px solid @light-grey;						        
+						        .opacity(0);
+						        .transition-in();
+					      	}
+							&:hover {
+								&:after {
+									.opacity(1);
+									width: 100%;
+									left: 0%;
+								}									
+							}
+							&.active {
+								&:after {
+									.opacity(1);
+									width: 100%;
+									left: 0%;
+								}										
+							}										
+						}
+						> a {
+							height: 60px;
+							display: block;
+						}
+						&.active {
+							.sub-nav-container {
+								.opacity(1);
+								visibility: visible;									
+								.transition(1.5s);
+							}
+						}						
+
+						.sub-nav-container {
+							.opacity(0);
+							visibility: hidden;
+							.transition();
+							position: absolute;
+							top: 68px;
+							width: 100%;
+							a {
+								.open-sans-regular;
+								font-size: 13px;
+								line-height: 23px;
+								letter-spacing: 0.05em;
+								text-transform: none;		
+								display: block;		
+								border-bottom: 1px solid @light-grey;
+								position: relative;
+								color: @light-blue-2;
+								&:after{
+							        width: 150px;
+							        top: 25px;							        
+							        left: 100%;
+							        border-bottom: 2px solid @dark-blue;
+							        .opacity(1);
+							        visibility: visible;
+						      	}
+						      	i {
+						      		position: absolute;
+								    left: 0px;
+								    bottom: 0px;
+								    .opacity(0);
+							        visibility: hidden;
+							        .transition-in();
+
+						      	}
+						      	&:hover {
+						      		&:after {
+						      			left: 0%;
+						      		}	
+						      		i {
+						      			color: @dark-blue;
+						      			bottom: -20px;
+						      			.opacity(1);
+							        	visibility: visible;				      			
+						      		}
+						      	}
+						      	&.active {
+						      		&:after {
+						      			left: 0%;
+						      		}	
+						      		i {
+						      			color: @dark-blue;
+						      			bottom: -20px;	
+						      			.opacity(1);
+							        	visibility: visible;					      			
+						      		}									
+						      	}
+							}
+							ul.sub-nav {
+								display: inline-block;
+								margin-right: 20px;	
+								vertical-align: top;							
+								// .opacity(0);
+						  //       visibility: hidden;
+						  //       .transition-in();
+						        &.active {
+						        	.opacity(1);
+						        	visibility: visible;
+						        }
+								li {
+									display: block;
+									a {
+										border-bottom: none;
+										height: auto;
+										&:after {
+											border-bottom: 1px solid @menu-seperator-grey-2;											
+											left: 0%;
+											width: 155px;
+											// .opacity(0);
+											// visibility: hidden;
+											// left: 0%;
+											// width: 0%;
+										}									
+										&:hover {
+											&:after {
+												// .opacity(1);
+												// visibility: visible;
+												// left: 0%;
+												// width: 100%;
+											}									
+										}				
+									}
+								}
+							}							
+						}								
+					}	
+				}			
+			}
+
+		}		      	
+	}
+
+	
+}

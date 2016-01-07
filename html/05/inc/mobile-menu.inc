@@ -11,7 +11,8 @@
 							<span class="nav-bar"></span> 
 						</a> 
 					</div>
-				</div>				
+				</div>
+				<a href="#" class="mobile-search pull-right"><i class="fa fa-search"></i></a>			
 			</div>
 		</div>
 	</div>			
@@ -48,11 +49,42 @@
 						<li><a href="insights.html">Insights</a></li>
 						<li><a href="#">Careers</a></li>
 						<li><a href="#">News</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact-us.html">Contact</a></li>
 					</ul>	
 				<!-- </div>
 			</div>	 -->	
 		<!-- </div> -->
+	</div>
+	<div class="mobile-search-box-container container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="search-box-title">
+					<div class="title">
+						<h4>Search Blink</h4>
+						<p>Access our portfolio of projects.</p>
+					</div>
+					<a href="#" class="close-btn"></a>
+				</div>
+				<div class="clear"></div>
+				<div class="search-box-content">
+					<input type="text" name="search" >
+
+					<div class="related-result">
+						<ul>
+							<li class="related-result-header">Projects</li>
+							<li><a href="#">Doubletree Sanya</a></li>
+							<li><a href="#">Hilton Goa</a></li>
+							<li><a href="#">Benxi Doubletree by Hilton</a></li>
+							<li><a href="#">Renaissance & Courtyard by Marriott</a></li>
+							<li><a href="#">Marriott Xiang Shui Bay</a></li>
+							<li><a href="#">Dongqian Lake Ningbo</a></li>
+							<li><a href="#">Marriott Wenchang</a></li>
+							<li><a href="#">Hilton Fengxian</a></li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>		
 	</div>
 </div>
 

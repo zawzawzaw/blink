@@ -867,8 +867,8 @@ p {
 }
 #content-wrapper #menu-logo-wrapper .main-menu .logo {
   background: url(../images/logo/blink-white.png) no-repeat;
-  width: 110px;
-  height: 10px;
+  width: 129px;
+  height: 11px;
   display: inline-block;
 }
 #content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav {
@@ -1318,7 +1318,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-bottom: 50px;
 }
 .home #heading {
-  margin-top: 170px;
+  margin-top: 130px;
   text-align: center;
 }
 .home #heading h5 {
@@ -2014,7 +2014,6 @@ div.copyright-wrapper-with-bg p {
 .portfolio .content-2 .category-nav ul.child-menu {
   visibility: hidden;
   display: inline-block;
-  margin-left: 17px;
   margin-top: 3px;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   -moz-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -2259,6 +2258,13 @@ div.copyright-wrapper-with-bg p {
   vertical-align: top;
   margin-bottom: 50px;
 }
+.contact-us .content-2 .img-content div.each-info.info-1 a:hover {
+  color: #2f4455 !important;
+}
+.contact-us .content-2 .img-content div.each-info.info-1 a p {
+  width: 100%;
+  color: inherit;
+}
 .contact-us .content-2 .img-content div.each-info .each-contact {
   margin-top: 10px;
 }
@@ -2281,7 +2287,8 @@ div.copyright-wrapper-with-bg p {
 }
 .contact-us .content-2 .img-content div.each-info p.name {
   display: inline-block;
-  width: 42%;
+  width: auto;
+  margin-right: 5px;
 }
 .contact-us .content-2 .img-content div.each-info a {
   font-family: 'Open Sans', sans-serif;
@@ -2377,7 +2384,7 @@ div.copyright-wrapper-with-bg p {
 .project .content-1 .text-content {
   margin-top: 70px;
   display: inline-block;
-  width: 460px;
+  width: 46.47%;
   vertical-align: top;
   text-align: left;
 }
@@ -2603,4 +2610,143 @@ div.copyright-wrapper-with-bg p {
   font-size: 11px;
   line-height: 15px;
   color: #a4afc2;
+}
+.profile .content-1 {
+  margin-top: 168px;
+  padding-bottom: 63px;
+}
+.profile .content-1 .text-content {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.profile .content-1 .text-content h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.profile .content-1 .text-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 7px auto 25px;
+}
+.profile .content-1 .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  margin-bottom: 30px;
+}
+.profile .content-2 {
+  padding-bottom: 100px;
+  background-color: #f3f3f3;
+}
+.profile .content-2 .text-content {
+  text-align: center;
+  margin: 0 auto;
+}
+.profile .content-2 .text-content h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+.profile .content-2 .text-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 7px auto 25px;
+}
+.profile .content-2 .text-content > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  width: 46%;
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+.profile .content-2 .text-content ul {
+  display: inline-block;
+  width: 27%;
+  vertical-align: top;
+}
+.profile .content-2 .text-content ul li {
+  margin-bottom: 21px;
+  text-align: left;
+}
+.profile .content-2 .text-content ul li h4 {
+  font-family: "Gotham-Medium", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.075em;
+  color: #627482;
+  text-transform: uppercase;
+}
+.profile .content-2 .text-content ul li p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #a4afc2;
+}
+.profile .content-3 {
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+.profile .content-3 .text-content {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+.profile .content-3 .text-content h5 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 17px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.profile .content-3 .text-content h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 27px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.profile .content-3 .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #435666;
+  margin-bottom: 30px;
+  margin-top: 11px;
+}
+.profile .content-3 .text-content-2 {
+  display: inline-block;
+  width: 52%;
+  vertical-align: top;
+  padding-left: 42px;
+}
+.profile .content-3 .text-content-2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  margin-bottom: 30px;
 }

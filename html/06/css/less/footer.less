@@ -1,0 +1,84 @@
+//   _____ ___   ___ _____ _____ ____  
+//  |  ___/ _ \ / _ \_   _| ____|  _ \ 
+//  | |_ | | | | | | || | |  _| | |_) |
+//  |  _|| |_| | |_| || | | |___|  _ < 
+//  |_|   \___/ \___/ |_| |_____|_| \_\
+//
+
+div#copyright-wrapper {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	p {
+		.open-sans-regular;
+		font-size: 11px;
+		line-height: 15px;
+		color: @light-grey;
+	}
+}
+
+footer#footer-wrapper {
+	background-color: @dark-green;
+	div.tweet {
+		p {
+			.harriet-text-regular-italic;
+			font-size: 13px;			
+			color: @white;
+			i {
+				font-size: 16px;
+				line-height: 13px;
+				letter-spacing: 0.05em;
+			}
+		}	
+		ul {
+			li {
+				display: inline-block;
+				a {
+					.gotham-medium;
+					font-size: 12px;
+					line-height: 35px;
+					letter-spacing: 0.05em;
+					color: @white;
+					&:hover {
+						color: @dark-blue;
+					}
+				}				
+				&:after {
+					content: " ";
+					background-color: @white;
+					width: 4px;
+					height: 4px;
+					display: inline-block;
+					vertical-align: middle;
+					margin-left: 23px;
+					margin-right: 23px;
+					.round(100px); 
+				}
+				&:last-child {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	div.sharing {
+		> a {
+			display: inline-block;
+			.harriet-text-regular-italic;
+			color: @white;
+			margin-right: 30px;
+			font-size: 14px;
+			&:hover {
+				color: @dark-blue;
+			}
+		}
+		
+		p {
+			.open-sans-regular;
+			font-size: 11px;
+			line-height: 35px;
+			color: @white;
+		}	
+	}
+	
+}

@@ -10,14 +10,14 @@ DESKTOP
 - project page => new page (done)
 - follow style guide (done)
 - gotham/herriet replacement (no need)
-- site search
+- site search wordpress search?
 - portfolio search (no need)
 - sorting portfolio item as default (done)
 - portfolio show more json
 
 Mobile
 - site search
-- insights/portfolio/contact
+- insights/portfolio/contact (done)
 
 Tablet
 - ipad font size (done)
