@@ -69,13 +69,19 @@
   font-family: "HarrietDisplay-RegularItalic", sans-serif;
 }
 .gotham-bold {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 .gotham-medium {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 .gotham-book {
-  font-family: "Gotham-Book", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 .open-sans-bold {
   font-family: 'Open Sans', sans-serif;
@@ -334,7 +340,9 @@ body {
   overflow-x: hidden;
 }
 #page-wrapper .slider-wrapper .logo {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 23px;
   letter-spacing: 0.1em;
   color: #ffffff;
@@ -389,6 +397,14 @@ body {
 #page-wrapper .slider-wrapper .carousel-inner .project-bg-1 {
   background-image: url('../images/content/project-slide-1.jpg') !important;
   background-position: center center;
+}
+#page-wrapper .slider-wrapper .carousel-inner .profile-bg-1 {
+  background-image: url('../images/content/profile-slide-1.jpg') !important;
+  background-position: center center;
+}
+#page-wrapper .slider-wrapper .carousel-inner .careers-bg-1 {
+  background-image: url('../images/content/careers-slide-1.jpg') !important;
+  background-position: top center;
 }
 #page-wrapper .slider-wrapper .carousel-inner .item {
   background-color: #cccccc;
@@ -451,6 +467,9 @@ body {
 #page-wrapper .slider-wrapper div.item div.carousel-caption-up {
   top: 28%!important;
 }
+#page-wrapper .slider-wrapper div.item div.carousel-caption-with-text {
+  top: 38%!important;
+}
 #page-wrapper .slider-wrapper div.item div.carousel-caption {
   width: 680px;
   position: absolute;
@@ -462,7 +481,9 @@ body {
   left: -50%;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.08em;
   color: #ffffff;
@@ -471,7 +492,9 @@ body {
   text-shadow: none;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -494,6 +517,7 @@ body {
   background-color: #ffffff !important;
 }
 #page-wrapper .slider-wrapper div.item #blur-bg {
+  display: none;
   content: "";
   position: fixed;
   left: 0;
@@ -510,6 +534,7 @@ body {
   filter: blur(5px);
 }
 #page-wrapper .slider-wrapper div.item #blur-bg-2 {
+  display: none;
   content: "";
   position: fixed;
   left: 0;
@@ -526,12 +551,15 @@ body {
   filter: blur(5px);
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption-2 {
+  display: none;
   position: absolute;
   bottom: 45px;
   left: 37px;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption-2 h3 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.075em;
@@ -548,7 +576,9 @@ body {
   margin-bottom: 5px;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption-2 ul li span.title {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 11px;
   letter-spacing: 0.05em;
   color: #ffffff;
@@ -689,7 +719,9 @@ a:visited {
   transition: all 0.2s ease-out;
 }
 h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 h2 {
   font-family: "HarrietText-MediumItalic", sans-serif;
@@ -701,10 +733,6 @@ hr.small {
   width: 30px;
   margin-top: 12px;
   margin-bottom: 15px;
-}
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
 }
 #return-to-top {
   position: fixed;
@@ -747,7 +775,9 @@ p {
   top: 5px;
 }
 .cta {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.075em;
@@ -858,7 +888,9 @@ p {
   padding: 0 37px 0 37px;
 }
 #content-wrapper #menu-logo-wrapper .main-menu .menu {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px;
   line-height: 23px;
   letter-spacing: 0.1em;
@@ -899,7 +931,9 @@ p {
   font-size: 20px;
 }
 #content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li a {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 13px;
   line-height: 36px;
   letter-spacing: 0.075em;
@@ -1103,7 +1137,9 @@ footer#footer-wrapper div.tweet ul li {
   display: inline-block;
 }
 footer#footer-wrapper div.tweet ul li a {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px;
   line-height: 35px;
   letter-spacing: 0.05em;
@@ -1172,7 +1208,9 @@ div#mailing-list-wrapper div.left:after {
   right: 0px;
 }
 div#mailing-list-wrapper div.left h3 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.05em;
   color: #2f4455;
@@ -1180,7 +1218,9 @@ div#mailing-list-wrapper div.left h3 {
   margin-bottom: 35px;
 }
 div#mailing-list-wrapper div.left h4 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px;
   line-height: 28px;
   letter-spacing: 0.05em;
@@ -1243,7 +1283,9 @@ div#mailing-list-wrapper div.middle ul:nth-of-type(3n) {
   margin-right: 94px;
 }
 div#mailing-list-wrapper div.middle ul li a {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px;
   line-height: 35px;
   letter-spacing: 0.05em;
@@ -1260,7 +1302,9 @@ div#mailing-list-wrapper div.right {
   margin-top: 4px;
 }
 div#mailing-list-wrapper div.right h3 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.05em;
   color: #2f4455;
@@ -1322,7 +1366,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   text-align: center;
 }
 .home #heading h5 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 17px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -1330,7 +1376,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   text-transform: uppercase;
 }
 .home #heading h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -1390,7 +1438,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-bottom: 5px;
 }
 .home .each-content .text-content h2 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 23px;
   line-height: 30px;
   letter-spacing: 0.05em;
@@ -1473,7 +1523,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-bottom: 20px;
 }
 .home .last-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 30px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -1504,7 +1556,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-right: 0px;
 }
 .home .last-content .each-office h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.1em;
@@ -1541,7 +1595,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   float: left;
 }
 .case-study .content-1 .text-content h5 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 17px;
   line-height: 17px;
   letter-spacing: 0.075em;
@@ -1552,7 +1608,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-bottom: 20px;
 }
 .case-study .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 28px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -1589,7 +1647,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   float: left;
   padding-right: 3px;
   display: inline-block;
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 55px;
   line-height: 54px;
   margin-bottom: 0px;
@@ -1615,7 +1675,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   padding-left: 18px;
 }
 .case-study .content-1 .text-content ul.more-info > li h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 10px;
   line-height: 17px;
   letter-spacing: 0.05em;
@@ -1772,7 +1834,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   padding-top: 70px;
 }
 .case-study .content-3 h5 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 15px;
   line-height: 15px;
   letter-spacing: 0.075em;
@@ -1802,7 +1866,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   padding-left: 20px;
 }
 .case-study .content-3 ul li .caption-text h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.075px;
@@ -1839,7 +1905,9 @@ div.copyright-wrapper-with-bg p {
   text-align: center;
 }
 .clients .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -1866,7 +1934,9 @@ div.copyright-wrapper-with-bg p {
   padding-top: 64px;
 }
 .clients .img-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.05em;
@@ -1919,7 +1989,9 @@ div.copyright-wrapper-with-bg p {
   vertical-align: middle;
 }
 .clients .img-content a {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.08em;
   color: #627482;
@@ -1943,7 +2015,9 @@ div.copyright-wrapper-with-bg p {
   text-align: center;
 }
 .portfolio .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -1970,7 +2044,9 @@ div.copyright-wrapper-with-bg p {
   padding-top: 20px;
 }
 .portfolio .content-2 .category-nav h4 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.025em;
   color: #a4afc2;
@@ -1979,7 +2055,9 @@ div.copyright-wrapper-with-bg p {
   margin-right: 5px;
 }
 .portfolio .content-2 .category-nav .pull-left a {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.025em;
   color: #a4afc2;
@@ -1999,7 +2077,9 @@ div.copyright-wrapper-with-bg p {
   letter-spacing: 0.075em;
 }
 .portfolio .content-2 .category-nav .pull-right a {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.025em;
   color: #a4afc2;
@@ -2071,7 +2151,9 @@ div.copyright-wrapper-with-bg p {
   left: 0%;
 }
 .portfolio .content-2 .category-nav ul.child-menu li a {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.025em;
   color: #a4afc2;
@@ -2128,7 +2210,9 @@ div.copyright-wrapper-with-bg p {
   margin-top: 45px;
 }
 .portfolio .content-3 h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 48px;
   letter-spacing: 0.05em;
@@ -2164,7 +2248,9 @@ div.copyright-wrapper-with-bg p {
   padding: 22px 20px;
 }
 .portfolio .content-3 ul li .caption-text h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 13px;
   line-height: 14px;
   letter-spacing: 0.025em;
@@ -2173,7 +2259,9 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 2px;
 }
 .portfolio .content-3 ul li .caption-text h5 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 17px;
   line-height: 23px;
   letter-spacing: 0.05em;
@@ -2184,7 +2272,9 @@ div.copyright-wrapper-with-bg p {
   display: none;
 }
 .portfolio a.show-more {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.1em;
   color: #627482;
@@ -2208,7 +2298,9 @@ div.copyright-wrapper-with-bg p {
   text-align: center;
 }
 .contact-us .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2236,7 +2328,9 @@ div.copyright-wrapper-with-bg p {
   padding-bottom: 18px;
 }
 .contact-us .content-2 .img-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2269,7 +2363,9 @@ div.copyright-wrapper-with-bg p {
   margin-top: 10px;
 }
 .contact-us .content-2 .img-content div.each-info h4 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.1em;
@@ -2307,7 +2403,9 @@ div.copyright-wrapper-with-bg p {
   padding-bottom: 90px;
 }
 .contact-us .content-3 h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2333,7 +2431,9 @@ div.copyright-wrapper-with-bg p {
   margin-right: 0px;
 }
 .contact-us .content-3 .each-office h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.1em;
@@ -2361,7 +2461,9 @@ div.copyright-wrapper-with-bg p {
   margin-top: 155px;
 }
 .project .content-1 .heading h5 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 17px;
   line-height: 17px;
   letter-spacing: 0.075em;
@@ -2372,7 +2474,9 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 20px;
 }
 .project .content-1 .heading h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 28px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2391,16 +2495,16 @@ div.copyright-wrapper-with-bg p {
 .project .content-1 .text-content h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 27px;
   color: #435666;
   margin-bottom: 17px;
 }
 .project .content-1 .text-content p {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
   color: #627482;
   margin-bottom: 17px;
 }
@@ -2416,7 +2520,9 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 10px;
 }
 .project .content-1 ul.more-info > li h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 10px;
   line-height: 17px;
   letter-spacing: 0.05em;
@@ -2425,10 +2531,10 @@ div.copyright-wrapper-with-bg p {
   display: block;
 }
 .project .content-1 ul.more-info > li p {
-  font-family: "HarrietDisplay-MediumItalic", sans-serif;
-  font-size: 12px;
-  line-height: 15px;
-  color: #2f4455;
+  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #627482;
   display: block;
   margin-bottom: 0px;
 }
@@ -2553,7 +2659,9 @@ div.copyright-wrapper-with-bg p {
   padding-top: 70px;
 }
 .project .content-3 h5 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 15px;
   line-height: 15px;
   letter-spacing: 0.075em;
@@ -2583,7 +2691,9 @@ div.copyright-wrapper-with-bg p {
   padding-left: 20px;
 }
 .project .content-3 ul li .caption-text h6 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.075px;
@@ -2612,7 +2722,7 @@ div.copyright-wrapper-with-bg p {
   color: #a4afc2;
 }
 .profile .content-1 {
-  margin-top: 168px;
+  margin-top: 173px;
   padding-bottom: 63px;
 }
 .profile .content-1 .text-content {
@@ -2621,7 +2731,9 @@ div.copyright-wrapper-with-bg p {
   margin: 0 auto;
 }
 .profile .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2645,7 +2757,7 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 30px;
 }
 .profile .content-2 {
-  padding-bottom: 100px;
+  padding-bottom: 74px;
   background-color: #f3f3f3;
 }
 .profile .content-2 .text-content {
@@ -2653,13 +2765,15 @@ div.copyright-wrapper-with-bg p {
   margin: 0 auto;
 }
 .profile .content-2 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.075em;
   color: #2f4455;
   text-transform: uppercase;
-  margin-top: 150px;
+  margin-top: 90px;
 }
 .profile .content-2 .text-content h1:after {
   content: "";
@@ -2689,7 +2803,9 @@ div.copyright-wrapper-with-bg p {
   text-align: left;
 }
 .profile .content-2 .text-content ul li h4 {
-  font-family: "Gotham-Medium", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.075em;
   color: #627482;
@@ -2703,8 +2819,8 @@ div.copyright-wrapper-with-bg p {
   color: #a4afc2;
 }
 .profile .content-3 {
-  padding-top: 100px;
-  padding-bottom: 110px;
+  padding-top: 92px;
+  padding-bottom: 80px;
 }
 .profile .content-3 .text-content {
   display: inline-block;
@@ -2712,7 +2828,9 @@ div.copyright-wrapper-with-bg p {
   vertical-align: top;
 }
 .profile .content-3 .text-content h5 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 17px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2720,7 +2838,9 @@ div.copyright-wrapper-with-bg p {
   text-transform: uppercase;
 }
 .profile .content-3 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 27px;
   line-height: 35px;
   letter-spacing: 0.075em;
@@ -2749,4 +2869,391 @@ div.copyright-wrapper-with-bg p {
   line-height: 23px;
   color: #627482;
   margin-bottom: 30px;
+}
+.careers .content-1 {
+  margin-top: 163px;
+}
+.careers .content-1 #small-carousel .carousel-indicators {
+  right: -26% !important;
+  bottom: 30px !important;
+  left: auto;
+}
+.careers .content-1 #small-carousel .carousel-indicators li {
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: #a1a1a1;
+  border: 0px;
+}
+.careers .content-1 #small-carousel .carousel-indicators li.active {
+  margin: 1px;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border: 0px;
+}
+.careers .content-2 {
+  margin-top: 90px;
+}
+.careers .content-2 .text-content {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.careers .content-2 .text-content h1 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.careers .content-2 .text-content ul li {
+  display: inline-block;
+}
+.careers .content-2 .text-content ul li:last-child:after {
+  display: none;
+}
+.careers .content-2 .text-content ul li:after {
+  content: " ";
+  background-color: #2f4455;
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+  margin-right: 12px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.careers .content-2 .text-content ul li h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.careers .content-2 .text-content ul:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 15px auto 25px;
+}
+.careers .content-2 .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  width: 91%;
+}
+.careers .content-2 .img-content {
+  position: relative;
+  margin-top: 90px;
+}
+.careers .content-2 .img-content .img-caption {
+  position: absolute;
+  top: 23%;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+.careers .content-2 .img-content h1 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+.careers .content-2 .img-content h1:after {
+  content: "";
+  background: #ffffff;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 14px auto 20px;
+}
+.careers .content-2 .img-content h2 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  letter-spacing: 0.12em;
+  width: 62%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.careers .content-3 {
+  margin-top: 90px;
+  padding-bottom: 63px;
+  text-align: center;
+}
+.careers .content-3 .text-content h1 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: #2f4455;
+}
+.careers .content-3 .text-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 15px auto 25px;
+}
+.careers .content-3 .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  width: 41%;
+}
+.careers .content-3 .img-content {
+  margin-top: 55px;
+}
+.careers .content-3 .img-content .img-slider h2 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+  margin-top: 19px;
+}
+.careers .content-3 .img-content .img-slider .slick-next,
+.careers .content-3 .img-content .img-slider .slick-prev {
+  top: 41%;
+}
+.careers .content-3 .img-content .img-slider .slick-next:before,
+.careers .content-3 .img-content .img-slider .slick-prev:before {
+  color: #a4afc2;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 18px;
+  line-height: 24px;
+}
+.careers .content-3 .img-content .img-slider .slick-next {
+  right: -10px;
+}
+.careers .content-3 .img-content .img-slider .slick-next:before {
+  content: "\f054";
+}
+.careers .content-3 .img-content .img-slider .slick-prev {
+  left: -33px;
+}
+.careers .content-3 .img-content .img-slider .slick-prev:before {
+  content: "\f053";
+}
+.careers .content-4 {
+  padding-top: 79px;
+  padding-bottom: 79px;
+  background-color: #f3f3f3;
+}
+.careers .content-4 .img-content {
+  display: inline-block;
+  vertical-align: top;
+}
+.careers .content-4 .text-content {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  padding-left: 85px;
+}
+.careers .content-4 .text-content h1 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.025em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.careers .content-4 .text-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.careers .content-4 .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  margin-bottom: 17px;
+  margin-top: 11px;
+}
+.careers .content-4 .text-content ul {
+  width: 108%;
+}
+.careers .content-4 .text-content ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+}
+.careers .content-4 .text-content ul li:before {
+  content: " ";
+  width: 4px;
+  height: 4px;
+  background-color: #627482;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.careers .content-5 {
+  padding-top: 94px;
+  padding-bottom: 125px;
+  text-align: center;
+}
+.careers .content-5 .text-content {
+  margin-bottom: 55px;
+}
+.careers .content-5 .text-content h1 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.025em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.careers .content-5 .text-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 15px auto 25px;
+}
+.careers .content-5 .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #627482;
+  margin-bottom: 30px;
+  margin-top: 11px;
+  width: 43%;
+  margin: 0 auto;
+}
+.careers .content-5 .img-content div.circle {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: #a4afc2;
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-bottom: 34px;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.careers .content-5 .img-content div.circle .v-align-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.careers .content-5 .img-content div.circle .v-align-table .v-align-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.careers .content-5 .img-content div.circle.capabilities {
+  width: 186px;
+  height: 186px;
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  -webkit-opacity: 0.7;
+  opacity: 0.7;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+  filter: alpha(opacity=70);
+}
+.careers .content-5 .img-content div.circle.opportunities {
+  width: 263px;
+  height: 263px;
+  -moz-opacity: 0.95;
+  -khtml-opacity: 0.95;
+  -webkit-opacity: 0.95;
+  opacity: 0.95;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=95);
+  filter: alpha(opacity=95);
+  margin-left: -25px;
+  margin-right: -30px;
+}
+.careers .content-5 .img-content div.circle.relationships {
+  width: 210px;
+  height: 210px;
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  -webkit-opacity: 0.85;
+  opacity: 0.85;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+  filter: alpha(opacity=85);
+}
+.careers .content-5 .img-content div.circle.management {
+  width: 166px;
+  height: 166px;
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  -webkit-opacity: 0.8;
+  opacity: 0.8;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+  filter: alpha(opacity=80);
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.careers .content-5 .img-content div.circle.leadership {
+  width: 214px;
+  height: 214px;
+  -moz-opacity: 0.75;
+  -khtml-opacity: 0.75;
+  -webkit-opacity: 0.75;
+  opacity: 0.75;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+  filter: alpha(opacity=75);
+}
+.careers .content-5 .img-content h2 {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.075em;
+  color: #a4afc2;
+  text-transform: uppercase;
 }

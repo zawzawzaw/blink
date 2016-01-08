@@ -193,6 +193,14 @@ html, body {
         background-image:url('../images/content/project-slide-1.jpg')!important;
         background-position: center center;  
       }
+      .profile-bg-1 {
+        background-image:url('../images/content/profile-slide-1.jpg')!important;
+        background-position: center center;  
+      }
+      .careers-bg-1 {
+        background-image:url('../images/content/careers-slide-1.jpg')!important;
+        background-position: top center;  
+      }
       .item {
         background-color: @text-grey;
         .carousel-caption {
@@ -253,6 +261,9 @@ html, body {
       div.carousel-caption-up {        
         top: 28%!important;
       }
+      div.carousel-caption-with-text {
+        top: 38%!important;
+      }
       div.carousel-caption {
         width: 680px;
         position: absolute;
@@ -297,6 +308,7 @@ html, body {
         }        
       }
       #blur-bg {
+        display: none; // temp
         content: "";
         position: fixed;
         left: 0;
@@ -314,6 +326,7 @@ html, body {
         filter: blur(5px);
       }
       #blur-bg-2 {
+        display: none; // temp
         content: "";
         position: fixed;
         left: 0;
@@ -331,6 +344,7 @@ html, body {
         filter: blur(5px);
       }
       div.carousel-caption-2 {
+        display: none; // temp
         position: absolute;
         bottom: 45px;
         left: 37px;
@@ -519,9 +533,11 @@ hr.small {
   margin-bottom: 15px;
 }
 
-p {
-  .open-sans-light;
-}
+// p {
+//   .open-sans-light!important;
+//   font-size: 14px!important;
+//   line-height: 26px!important;
+// }
 
 #return-to-top {
     position: fixed;

@@ -47,7 +47,7 @@
 							</ul>
 						</li>
 						<li><a href="insights.html">Insights</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="careers.html">Careers</a></li>
 						<li><a href="#">News</a></li>
 						<li><a href="contact-us.html">Contact</a></li>
 					</ul>	

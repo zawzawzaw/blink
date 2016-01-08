@@ -4,7 +4,7 @@
 		<a href="index.html" class="logo"></a>
 		<div class="sidebar-nav pull-right">
 			<ul class="main-nav">
-				<li><a href="#">Profile</a></li>
+				<li><a href="profile.html">Profile</a></li>
 				<li>
 					<a href="#" class="has-child">Portfolio</a>
 					<div class="sub-nav-container portfolio-sub-nav">
@@ -38,7 +38,7 @@
 					</div>					
 				</li>
 				<li><a href="insights.html">Insights</a></li>
-				<li><a href="#">Careers</a></li>
+				<li><a href="careers.html">Careers</a></li>
 				<li><a href="#">News</a></li>						
 				<li><a href="contact-us.html">Contact</a></li>
 				<li><a href="#"><i class="fa fa-search"></i></a></li>

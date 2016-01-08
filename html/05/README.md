@@ -14,10 +14,12 @@ DESKTOP
 - portfolio search (no need)
 - sorting portfolio item as default (done)
 - portfolio show more json
+- portfolio projects pages.. - filter remove show more
 
 Mobile
 - site search
 - insights/portfolio/contact (done)
+- careers/profile
 
 Tablet
 - ipad font size (done)

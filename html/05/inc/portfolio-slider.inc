@@ -5,7 +5,7 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item bg portfolio-bg-1 active">			
-			<div class="carousel-caption">
+			<div class="carousel-caption carousel-caption-with-text">
 				<div class="caption-text">
 					<h5 class="pulse">our portfolio</h5>
 					<h1>BLINK knows hotels</h1>
