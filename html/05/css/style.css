@@ -305,6 +305,12 @@ strong {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
+.paragraph-font {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -326,6 +332,13 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+html p,
+body p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
 }
 #page-wrapper {
   height: 100%;
@@ -384,7 +397,7 @@ body {
 }
 #page-wrapper .slider-wrapper .carousel-inner .portfolio-bg-1 {
   background-image: url('../images/content/portfolio-slide-1.jpg') !important;
-  background-position: center center;
+  background-position: center bottom;
 }
 #page-wrapper .slider-wrapper .carousel-inner .case-study-bg-1 {
   background-image: url('../images/content/case-study-slide-1.jpg') !important;
@@ -396,11 +409,215 @@ body {
 }
 #page-wrapper .slider-wrapper .carousel-inner .project-bg-1 {
   background-image: url('../images/content/project-slide-1.jpg') !important;
-  background-position: center center;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-conrad-sanya-haitang-bay-resort-bg-1 {
+  background-image: url('../images/content/project-conrad-sanya-haitang-bay-resort-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-conrad-sanya-haitang-bay-resort-bg-2 {
+  background-image: url('../images/content/project-conrad-sanya-haitang-bay-resort-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-conrad-sanya-haitang-bay-resort-bg-3 {
+  background-image: url('../images/content/project-conrad-sanya-haitang-bay-resort-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-double-tree-sanya-bg-1 {
+  background-image: url('../images/content/project-double-tree-sanya-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-double-tree-sanya-bg-2 {
+  background-image: url('../images/content/project-double-tree-sanya-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-double-tree-sanya-bg-3 {
+  background-image: url('../images/content/project-double-tree-sanya-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-hilton-ningbo-bg-1 {
+  background-image: url('../images/content/project-hilton-ningbo-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-hilton-ningbo-bg-2 {
+  background-image: url('../images/content/project-hilton-ningbo-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-hilton-ningbo-bg-3 {
+  background-image: url('../images/content/project-hilton-ningbo-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-indigo-zheng-zhou-bg-1 {
+  background-image: url('../images/content/project-indigo-zheng-zhou-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-indigo-zheng-zhou-bg-2 {
+  background-image: url('../images/content/project-indigo-zheng-zhou-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-krabi-resort-bg-1 {
+  background-image: url('../images/content/project-krabi-resort-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-krabi-resort-bg-2 {
+  background-image: url('../images/content/project-krabi-resort-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-krabi-resort-bg-3 {
+  background-image: url('../images/content/project-krabi-resort-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-novotel-jaipur-bg-1 {
+  background-image: url('../images/content/project-novotel-jaipur-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-novotel-jaipur-bg-2 {
+  background-image: url('../images/content/project-novotel-jaipur-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-novotel-jaipur-bg-3 {
+  background-image: url('../images/content/project-novotel-jaipur-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-podo-bg-1 {
+  background-image: url('../images/content/project-podo-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-raycom-bg-1 {
+  background-image: url('../images/content/project-raycom-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-raycom-bg-2 {
+  background-image: url('../images/content/project-raycom-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-raycom-bg-3 {
+  background-image: url('../images/content/project-raycom-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-jakarta-bg-1 {
+  background-image: url('../images/content/project-regent-jakarta-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-jakarta-bg-2 {
+  background-image: url('../images/content/project-regent-jakarta-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-jakarta-bg-3 {
+  background-image: url('../images/content/project-regent-jakarta-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-xi-an-bg-1 {
+  background-image: url('../images/content/project-regent-xi-an-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-xi-an-bg-2 {
+  background-image: url('../images/content/project-regent-xi-an-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-xi-an-bg-3 {
+  background-image: url('../images/content/project-regent-xi-an-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-xi-an-bg-4 {
+  background-image: url('../images/content/project-regent-xi-an-slide-4.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-renaissance-and-courtyard-by-marriott-bg-1 {
+  background-image: url('../images/content/project-renaissance-and-courtyard-by-marriott-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-renaissance-and-courtyard-by-marriott-bg-2 {
+  background-image: url('../images/content/project-renaissance-and-courtyard-by-marriott-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-renaissance-and-courtyard-by-marriott-bg-3 {
+  background-image: url('../images/content/project-renaissance-and-courtyard-by-marriott-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-renaissance-and-courtyard-by-marriott-bg-4 {
+  background-image: url('../images/content/project-renaissance-and-courtyard-by-marriott-slide-4.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-samui-resort-bg-1 {
+  background-image: url('../images/content/project-samui-resort-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-sheraton-mactan-bg-1 {
+  background-image: url('../images/content/project-sheraton-mactan-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-shimao-hongqiao-mini-hotel-bg-1 {
+  background-image: url('../images/content/project-shimao-hongqiao-mini-hotel-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-shimao-hongqiao-mini-hotel-bg-2 {
+  background-image: url('../images/content/project-shimao-hongqiao-mini-hotel-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-six-senses-uluwatu-bg-1 {
+  background-image: url('../images/content/project-six-senses-uluwatu-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-six-senses-uluwatu-bg-2 {
+  background-image: url('../images/content/project-six-senses-uluwatu-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-travelodge-bg-1 {
+  background-image: url('../images/content/project-travelodge-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-travelodge-bg-2 {
+  background-image: url('../images/content/project-travelodge-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-travelodge-bg-3 {
+  background-image: url('../images/content/project-travelodge-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-travelodge-bg-4 {
+  background-image: url('../images/content/project-travelodge-slide-4.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-wanda-reign-xsbn-bg-1 {
+  background-image: url('../images/content/project-wanda-reign-xsbn-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-wanda-reign-xsbn-bg-2 {
+  background-image: url('../images/content/project-wanda-reign-xsbn-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-wanda-reign-xsbn-bg-3 {
+  background-image: url('../images/content/project-wanda-reign-xsbn-slide-3.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-wanda-reign-xsbn-bg-4 {
+  background-image: url('../images/content/project-wanda-reign-xsbn-slide-4.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-benxi-doubletree-by-hilton-bg-1 {
+  background-image: url('../images/content/project-benxi-doubletree-by-hilton-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-fairmont-sanur-beach-bali-bg-1 {
+  background-image: url('../images/content/project-fairmont-sanur-beach-bali-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-hilton-fengxian-bg-1 {
+  background-image: url('../images/content/project-hilton-fengxian-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-hyatt-regency-jeju-bg-1 {
+  background-image: url('../images/content/project-hyatt-regency-jeju-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-kokotel-bangkok-bg-1 {
+  background-image: url('../images/content/project-kokotel-bangkok-slide-1.jpg') !important;
+  background-position: center bottom;
 }
 #page-wrapper .slider-wrapper .carousel-inner .profile-bg-1 {
   background-image: url('../images/content/profile-slide-1.jpg') !important;
-  background-position: center center;
+  background-position: center 0px;
 }
 #page-wrapper .slider-wrapper .carousel-inner .careers-bg-1 {
   background-image: url('../images/content/careers-slide-1.jpg') !important;
@@ -504,9 +721,9 @@ body {
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
   display: block;
   margin: 0 auto;
   text-shadow: none;
@@ -517,13 +734,13 @@ body {
   background-color: #ffffff !important;
 }
 #page-wrapper .slider-wrapper div.item #blur-bg {
-  display: none;
   content: "";
   position: fixed;
   left: 0;
   bottom: 0;
   z-index: -1;
   display: block;
+  display: none;
   background: url('../images/content/blur-bg.png') no-repeat;
   width: 473px;
   height: 414px;
@@ -534,13 +751,13 @@ body {
   filter: blur(5px);
 }
 #page-wrapper .slider-wrapper div.item #blur-bg-2 {
-  display: none;
   content: "";
   position: fixed;
   left: 0;
   bottom: 0;
   z-index: -1;
   display: block;
+  display: none;
   background: url('../images/content/blur-bg-2.png') no-repeat;
   width: 473px;
   height: 414px;
@@ -1397,10 +1614,6 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-bottom: 13px;
 }
 .home #heading p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 62px;
   padding: 0px 0px 3px 0px;
@@ -1467,10 +1680,6 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-bottom: 15px;
 }
 .home .each-content .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 15px;
   width: 100%;
@@ -1589,7 +1798,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 }
 .case-study .content-1 .text-content {
   display: inline-block;
-  width: 32.8%;
+  width: 33.8%;
   vertical-align: top;
   text-align: left;
   float: left;
@@ -1636,10 +1845,6 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   display: block;
 }
 .case-study .content-1 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 53px;
 }
@@ -1665,7 +1870,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 }
 .case-study .content-1 .text-content ul.more-info > li {
   display: inline-block !important;
-  width: 190px;
+  width: 210px;
   padding-right: 16px;
   margin-bottom: 10px;
   vertical-align: top;
@@ -1673,6 +1878,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 .case-study .content-1 .text-content ul.more-info > li:nth-of-type(2n) {
   padding-right: 0px;
   padding-left: 18px;
+  width: 200px;
 }
 .case-study .content-1 .text-content ul.more-info > li h6 {
   font-family: "Gotham A", "Gotham B", sans-serif;
@@ -1686,10 +1892,10 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   display: block;
 }
 .case-study .content-1 .text-content ul.more-info > li p {
-  font-family: "HarrietDisplay-MediumItalic", sans-serif;
-  font-size: 12px;
-  line-height: 15px;
-  color: #2f4455;
+  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #627482;
   display: block;
   margin-bottom: 0px;
 }
@@ -1702,8 +1908,8 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   margin-right: 7px;
 }
 .case-study .content-1 .text-content ul.more-info > li ul li a i {
-  font-size: 15px;
-  letter-spacing: 0.18em;
+  font-size: 16px;
+  letter-spacing: 0.2em;
   color: #2f4455;
 }
 .case-study .content-1 .text-content ul.more-info > li ul li a:hover i {
@@ -1924,10 +2130,6 @@ div.copyright-wrapper-with-bg p {
   margin: 8px auto 20px;
 }
 .clients .content-1 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
 }
 .clients .img-content {
@@ -1952,10 +2154,6 @@ div.copyright-wrapper-with-bg p {
   text-align: left;
 }
 .clients .img-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 34px;
 }
@@ -2035,9 +2233,9 @@ div.copyright-wrapper-with-bg p {
 }
 .portfolio .content-1 .text-content p {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
   color: #627482;
 }
 .portfolio .content-2 .category-nav {
@@ -2317,10 +2515,6 @@ div.copyright-wrapper-with-bg p {
   margin: 8px auto 20px;
 }
 .contact-us .content-1 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
 }
 .contact-us .content-2 {
@@ -2374,10 +2568,6 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 5px;
 }
 .contact-us .content-2 .img-content div.each-info p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
   color: #627482;
   width: 70%;
 }
@@ -2388,9 +2578,9 @@ div.copyright-wrapper-with-bg p {
 }
 .contact-us .content-2 .img-content div.each-info a {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
   display: inline-block;
   color: #627482;
 }
@@ -2441,16 +2631,14 @@ div.copyright-wrapper-with-bg p {
   text-transform: uppercase;
 }
 .contact-us .content-3 .each-office p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 24px;
   color: #627482;
   margin-bottom: 15px;
 }
 .contact-us .content-3 .each-office a {
-  font-size: 13px;
-  line-height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
   color: #627482;
 }
 .contact-us .content-3 .each-office a:hover {
@@ -2580,6 +2768,9 @@ div.copyright-wrapper-with-bg p {
 }
 .project .content-2 .img-content .grid-item-2--width2 {
   width: 600px;
+}
+.project .content-2 .img-content .grid-item-2--height2 {
+  height: 860px;
 }
 .project .content-2 .img-content .grid-item-2--width3 {
   width: 815px;
@@ -2749,10 +2940,6 @@ div.copyright-wrapper-with-bg p {
   margin: 7px auto 25px;
 }
 .profile .content-1 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 30px;
 }
@@ -2784,10 +2971,6 @@ div.copyright-wrapper-with-bg p {
   margin: 7px auto 25px;
 }
 .profile .content-2 .text-content > p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   width: 46%;
   margin: 0 auto;
@@ -2863,10 +3046,6 @@ div.copyright-wrapper-with-bg p {
   padding-left: 42px;
 }
 .profile .content-3 .text-content-2 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 30px;
 }
@@ -2945,10 +3124,6 @@ div.copyright-wrapper-with-bg p {
   margin: 15px auto 25px;
 }
 .careers .content-2 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   width: 91%;
 }
@@ -3015,10 +3190,6 @@ div.copyright-wrapper-with-bg p {
   margin: 15px auto 25px;
 }
 .careers .content-3 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin: 0 auto;
   margin-bottom: 24px;
@@ -3096,22 +3267,20 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 25px;
 }
 .careers .content-4 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 17px;
   margin-top: 11px;
+  width: 420px;
 }
 .careers .content-4 .text-content ul {
   width: 108%;
 }
 .careers .content-4 .text-content ul li {
+  width: 450px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
   color: #627482;
 }
 .careers .content-4 .text-content ul li:before {
@@ -3155,10 +3324,6 @@ div.copyright-wrapper-with-bg p {
   margin: 15px auto 25px;
 }
 .careers .content-5 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
   color: #627482;
   margin-bottom: 30px;
   margin-top: 11px;
