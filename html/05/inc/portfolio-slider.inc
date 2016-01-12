@@ -7,11 +7,11 @@
 		<div class="item bg portfolio-bg-1 active">			
 			<div class="carousel-caption carousel-caption-with-text">
 				<div class="caption-text">
-					<h5 class="pulse">our portfolio</h5>
+					<!-- <h5 class="pulse">our portfolio</h5> -->
 					<h1>BLINK knows hotels</h1>
-					<div class="seperator-line"></div>
-					<p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo <br>dolor aenean massa there sociis natoque penati itheru magnis.</p>
-					<p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p>
+					<!-- <div class="seperator-line"></div> -->
+					<p class="">We create projects with the “AAH” factor and/or “WOW” factor</p>
+					<!-- <p class="visible-xs visible-sm">Lorem ipsum dolor sit amet consectetuer adipiscing aenean commodo dolor aenean massa there sociis natoque penati itheru magnis.</p> -->
 				</div>				
 			</div>				
 		</div>		

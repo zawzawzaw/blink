@@ -69,19 +69,13 @@
   font-family: "HarrietDisplay-RegularItalic", sans-serif;
 }
 .gotham-bold {
-  font-family: "Gotham A", "Gotham B", sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Gotham-Bold", sans-serif;
 }
 .gotham-medium {
-  font-family: "Gotham A", "Gotham B", sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Gotham-Medium", sans-serif;
 }
 .gotham-book {
-  font-family: "Gotham A", "Gotham B", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Gotham-Book", sans-serif;
 }
 .open-sans-bold {
   font-family: 'Open Sans', sans-serif;
@@ -414,9 +408,7 @@
     float: left;
   }
   #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-title .title h4 {
-    font-family: "Gotham A", "Gotham B", sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: "Gotham-Medium", sans-serif;
     font-size: 11px;
     line-height: 22px;
     letter-spacing: 0.08em;
@@ -459,17 +451,13 @@
     display: none;
   }
   #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-content .related-result ul li:first-child {
-    font-family: "Gotham A", "Gotham B", sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: "Gotham-Medium", sans-serif;
     font-size: 11px;
     line-height: 22px;
     letter-spacing: 0.08em;
   }
   #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-content .related-result ul li a {
-    font-family: "Gotham A", "Gotham B", sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: "Gotham-Book", sans-serif;
     font-size: 10px;
     line-height: 8px;
     letter-spacing: 0.075em;
@@ -508,9 +496,7 @@
   #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a {
     padding: 0px 15px;
     display: block;
-    font-family: "Gotham A", "Gotham B", sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: "Gotham-Medium", sans-serif;
     font-size: 32px;
     line-height: 32px;
     letter-spacing: 0.08em;
@@ -809,9 +795,7 @@
     padding-top: 17px!important;
   }
   #page-wrapper div#mailing-list-wrapper div.left h4 {
-    font-family: "Gotham A", "Gotham B", sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: "Gotham-Bold", sans-serif;
     font-size: 13px;
     letter-spacing: 0.05em;
     margin-bottom: 8px;

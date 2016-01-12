@@ -19,42 +19,42 @@ var hotels = [
 		image: "images/content/portfolio/project-kokotel-bangkok-thumb.jpg",
 		location: "Bangkok, Thailand",
 		name: "Kokotel Bangkok",
-		type: "hotels",
+		type: "hotels interiordesign branddesign",
 		url: "project-kokotel-bangkok.html"
 	},	
 	{
 		image: "images/content/portfolio/project-novotel-jaipur-thumb.jpg",
 		location: "Jaipur, India",
 		name: "Novotel Jaipur",
-		type: "hotels",
+		type: "hotels interiordesign",
 		url: "project-novotel-jaipur.html"
 	},	
 	{
 		image: "images/content/portfolio/project-regent-xi-an-thumb.jpg",
 		location: "Xian, China",
 		name: "Regent Xi'An",
-		type: "hotels",
+		type: "hotels masterplanning buildingdesign",
 		url: "project-regent-xi-an.html"
 	},	
 	{
 		image: "images/content/portfolio/project-regent-taipei-thumb.jpg",
 		location: "Taipei, China",
 		name: "Regent Taipei",
-		type: "hotels",
+		type: "hotels interiordesign buildingdesign",
 		url: "project-regent-taipei.html"
 	},	
 	{
 		image: "images/content/portfolio/project-sheraton-grande-walkerhill-restaurants-thumb.jpg",
 		location: "Seoul, South Korea",
 		name: "Sheraton Grande Walkerhill Restaurants",
-		type: "hotels",
+		type: "hotels interiordesign branddesign",
 		url: "project-sheraton-grande-walkerhill-restaurants.html"
 	},	
 	{
 		image: "images/content/portfolio/project-shimao-hongqiao-mini-hotel-thumb.jpg",
 		location: "Shanghai, China",
 		name: "Shimao Hongqiao Mini Hotel",
-		type: "hotels",
+		type: "hotels interiordesign",
 		url: "project-shimao-hongqiao-mini-hotel.html"
 	}
 ];
@@ -64,77 +64,77 @@ var resorts = [
 		image: "images/content/portfolio/project-double-tree-sanya-thumb.jpg",
 		location: "Sanya, China",
 		name: "Doubletree Sanya",
-		type: "resorts",
+		type: "resorts buildingdesign",
 		url: "project-double-tree-sanya.html"
 	},
 	{
 		image: "images/content/portfolio/project-fairmont-sanur-beach-bali-thumb.jpg",
 		location: "Bali, Indonesia",
 		name: "Fairmont Sanur Beach Bali",
-		type: "resorts",
+		type: "resorts interiordesign",
 		url: "project-fairmont-sanur-beach-bali.html"
 	},
 	{
 		image: "images/content/portfolio/project-hilton-goa-thumb.jpg",
 		location: "Goa, India",
 		name: "Hilton Goa",
-		type: "resorts",
+		type: "resorts buildingdesign interiordesign",
 		url: "project-hilton-goa.html"
 	},
 	{
 		image: "images/content/portfolio/project-hyatt-regency-jeju-thumb.jpg",
 		location: "Republic of Korea",
 		name: "Hyatt Regency Jeju",
-		type: "resorts",
+		type: "resorts interiordesign",
 		url: "project-hyatt-regency-jeju.html"
 	},
 	{
 		image: "images/content/portfolio/project-krabi-resort-thumb.jpg",
 		location: "Krabi, Thailand",
 		name: "Krabi Resort",
-		type: "resorts",
+		type: "resorts masterplanning buildingdesign",
 		url: "project-krabi-resort.html"
 	},
 	{
 		image: "images/content/portfolio/project-miaonong-resort-thumb.jpg",
 		location: "Ningbo, China",
 		name: "Miaonong Resort",
-		type: "resorts",
+		type: "resorts masterplanning buildingdesign interiordesign",
 		url: "project-miaonong-resort.html"
 	},
 	{
 		image: "images/content/portfolio/project-podo-thumb.jpg",
 		location: "Jeju Island, South Korea",
 		name: "Podo",
-		type: "resorts",
+		type: "resorts interiordesign",
 		url: "project-podo.html"
 	},
 	{
 		image: "images/content/portfolio/project-princes-palace-resort-and-spa-thumb.jpg",
 		location: "Istanbu, Turkey",
 		name: "Princes' Palace Resort & Spa",
-		type: "resorts",
+		type: "resorts interiordesign",
 		url: "project-princes-palace-resort-and-spa.html"
 	},
 	{
 		image: "images/content/portfolio/project-qianshen-spa-and-hotel-thumb.jpg",
 		location: "Hefei, China",
 		name: "Qianshen Spa & Hotel",
-		type: "resorts",
+		type: "resorts masterplanning buildingdesign branddesign",
 		url: "project-qianshen-spa-and-hotel.html"
 	},
 	{
 		image: "images/content/portfolio/project-regent-jakarta-thumb.jpg",
 		location: "Jakarta, Indonesia",
 		name: "Regent Jakarta",
-		type: "resorts",
+		type: "resorts buildingdesign interiordesign",
 		url: "project-regent-jakarta.html"
 	},
 	{
 		image: "images/content/portfolio/project-samui-resort-thumb.jpg",
 		location: "Samui, Thailand",
 		name: "Samui Resort",
-		type: "resorts",
+		type: "resorts masterplanning",
 		url: "project-samui-resort.html"
 	},	
 	{
@@ -148,14 +148,14 @@ var resorts = [
 		image: "images/content/portfolio/project-sheraton-mactan-thumb.jpg",
 		location: "Mactan Island, Cebu, Philipines",
 		name: "Sheraton Mactan",
-		type: "resorts",
+		type: "resorts buildingdesign interiordesign",
 		url: "project-sheraton-mactan.html"
 	},	
 	{
 		image: "images/content/portfolio/project-wanda-reign-xsbn-thumb.jpg",
 		location: "Xishuangbanna, China",
 		name: "Wanda Reign XSBN",
-		type: "resorts",
+		type: "resorts masterplanning buildingdesign",
 		url: "project-wanda-reign-xsbn.html"
 	}
 ]
@@ -183,6 +183,12 @@ $(function(){
 		$(this).addClass('active-cat');
 
 		var hash = $(this).attr('href');		
+
+		if(hash!='#all' && hash!="#signaturebyblink" && hash!='#hotels' && hash!='#resorts'){
+			$showMoreBtn.hide();
+		}else {
+			$showMoreBtn.show();
+		}
 
 		if(hash=='#all' || hash=="#signaturebyblink" || hash == "#"){
 			$('#default-radio').trigger('click');
@@ -303,6 +309,12 @@ $(function(){
 			var url = window.location.href;			
 		}
 		var hash = getHashFromUrl(url);
+
+		if(hash!='#all' && hash!="#signaturebyblink" && hash!='#hotels' && hash!='#resorts'){
+			$showMoreBtn.hide();
+		}else {
+			$showMoreBtn.show();
+		}
 
 		if(hash=='#all' || hash=="#signaturebyblink" || hash == "#"){
 			$('#default-radio').trigger('click');
