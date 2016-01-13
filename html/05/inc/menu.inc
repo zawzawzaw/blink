@@ -6,8 +6,9 @@
 			<ul class="main-nav">
 				<li><a href="profile.html">Profile</a></li>
 				<li>
-					<a href="#" class="has-child">Portfolio</a>
-					<div class="sub-nav-container portfolio-sub-nav">
+					<a href="portfolio.html" class="">Portfolio</a>
+					<!-- <a href="#" class="has-child">Portfolio</a> -->
+					<!-- <div class="sub-nav-container portfolio-sub-nav">
 						<ul class="sub-nav-1 sub-nav">
 							<li><a href="portfolio.html#all">All Featured</a></li>
 							<li><a href="portfolio.html#signaturebyblink">Signature by Blink</a></li>									
@@ -20,26 +21,26 @@
 							<li><a href="portfolio.html#branddesign">Brand Design</a></li>
 							<li><a href="portfolio.html#buildingdesign">Building Design</a></li>																		
 						</ul>
-					</div>
+					</div> -->
 				</li>
 				<li>
 					<a href="#" class="has-child">Stories</a>
 					<div class="sub-nav-container">
 						<ul class="sub-nav-1 sub-nav">
-							<li><a href="story.html">Fairmont Sanur Beach</a></li>
-							<li><a href="story.html">Regent Phuket</a></li>									
-							<li><a href="story.html">Jumeirah Dhevanafushi</a></li>
-							<li><a href="story.html">Hilton Goa</a></li>
+							<li><a href="story-fairmont-sanur-beach.html">Fairmont Sanur Beach</a></li>
+							<!-- <li><a href="story-regent-phuket.html">Regent Phuket</a></li>									 -->
+							<li><a href="story-jumeirah-dhevanafushi.html">Jumeirah Dhevanafushi</a></li>
+							<!-- <li><a href="story-hilton-goa.html">Hilton Goa</a></li> -->
 						</ul>
-						<ul class="sub-nav-2 sub-nav">
-							<li><a href="story.html">Hyatt Jeju</a></li>
-							<li><a href="story.html">Six Senses Uluwata</a></li>																		
-						</ul>
+						<!-- <ul class="sub-nav-2 sub-nav">
+							<li><a href="story-hyatt-jeju.html">Hyatt Jeju</a></li>
+							<li><a href="story-six-senses-uluwata.html">Six Senses Uluwata</a></li>																		
+						</ul> -->
 					</div>					
 				</li>
 				<li><a href="insights.html">Insights</a></li>
 				<li><a href="careers.html">Careers</a></li>
-				<li><a href="#">News</a></li>						
+				<li><a href="news.html">News</a></li>						
 				<li><a href="contact-us.html">Contact</a></li>
 				<li><a href="#"><i class="fa fa-search"></i></a></li>
 			</ul>				

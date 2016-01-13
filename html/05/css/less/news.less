@@ -1,0 +1,144 @@
+.news {
+	
+	.content-1 {
+		margin-top: 198px;
+		border-bottom: 1px solid @seperator-line;
+		padding-bottom: 124px;
+		#heading {
+			h1 {
+				.gotham-bold;
+				font-size: 21px;
+				line-height: 35px;
+				letter-spacing: 0.075em;
+				color: @dark-blue;
+				text-transform: uppercase;
+				margin-top: 150px;
+
+				&:after {
+					content: "";
+					background: @dark-blue;
+					width: 43px;
+					height: 2px;
+					display: block;
+					margin-top: 8px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+		#news-carousel {
+			.item {
+				text-align: center;
+			   	.text-content {
+			   		display: inline-block;
+			   		width: 520px;
+			   		height: 450px;
+			   		margin-left: -4px;
+			   		background-color: @bg-light-grey;
+			   		vertical-align: top;	   	
+		   		    padding-left: 45px;
+					padding-right: 125px;	
+					text-align: left;
+
+					@media all and (max-width: 992px) {
+						width: 100%;
+					    height: auto;
+					    padding-top: 40px;
+					    padding-bottom: 40px;
+					}
+
+			   		.v-align-table {
+			   			height: 100%;
+			   			display: table;	   			
+			   			.v-align-table-cell {
+			   				display: table-cell;
+			   				vertical-align: middle;
+			   			}
+			   		}
+
+			   		h5 {
+						.harriet-text-regular-italic;
+						font-size: 18px;
+						color: @dark-blue;
+						margin-bottom: 20px;
+					}
+					h2 {
+						.gotham-bold;
+						font-size: 27px;
+						line-height: 35px;
+						letter-spacing: 0.08em;
+						color: @dark-blue;
+						text-transform: uppercase;
+						margin-bottom: 30px;
+					}
+					.seperator-line {
+						background-color: @light-grey;
+						margin-bottom: 30px;
+					}
+					h6 {
+						.harriet-text-regular-italic;
+						font-size: 18px;
+						line-height: 25px;
+						color: @light-blue;
+						margin-bottom: 15px;
+					}
+					p {
+						.open-sans-light;
+						font-size: 14px;
+						line-height: 31px;
+						color: @light-blue;
+						a {
+							display: block;
+							line-height: 32px;
+							color: @light-blue;
+							&:hover {
+								color: @dark-blue;
+							}
+						}
+						margin-bottom: 30px;
+					}
+			   	}
+			   	.img-content {
+			   		display: inline-block;
+			   		vertical-align: middle;
+			   	}
+			}
+		}
+		
+	}
+
+	.content-2 {
+		padding-top: 64px;
+		padding-bottom: 500px;
+
+		.sidebar {
+			display: inline-block;
+		}
+
+		.tab-content {
+			display: inline-block;
+			vertical-align: top;
+			.controls {
+				display: block;
+				.filters {
+					display: inline-block;
+					vertical-align: top;
+				}
+				.sort-by {
+					display: inline-block;
+					vertical-align: top;
+				}	
+			}
+			
+			.news-list {
+				display: block;
+				.list-item {
+					.col {
+						display: inline-block;
+						vertical-align: top;
+					}
+				}
+			}
+		}
+		
+	}	
+}

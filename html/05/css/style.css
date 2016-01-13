@@ -607,6 +607,14 @@ body p {
   background-image: url('../images/content/project-kokotel-bangkok-slide-1.jpg') !important;
   background-position: center bottom;
 }
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-phuket-cape-panwa-bg-1 {
+  background-image: url('../images/content/project-regent-phuket-cape-panwa-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-jumeirah-dhevanfushi-bg-1 {
+  background-image: url('../images/content/project-jumeirah-dhevanfushi-slide-1.jpg') !important;
+  background-position: center bottom;
+}
 #page-wrapper .slider-wrapper .carousel-inner .profile-bg-1 {
   background-image: url('../images/content/profile-slide-1.jpg') !important;
   background-position: center 0px;
@@ -614,6 +622,14 @@ body p {
 #page-wrapper .slider-wrapper .carousel-inner .careers-bg-1 {
   background-image: url('../images/content/careers-slide-1.jpg') !important;
   background-position: top center;
+}
+#page-wrapper .slider-wrapper .carousel-inner .story-jumeirah-dhevanafushi-bg-1 {
+  background-image: url('../images/content/story-jumeirah-dhevanafushi-slide-1.jpg') !important;
+  background-position: bottom center;
+}
+#page-wrapper .slider-wrapper .carousel-inner .story-fairmont-sanur-beach-bg-1 {
+  background-image: url('../images/content/story-fairmont-sanur-beach-slide-1.jpg') !important;
+  background-position: bottom center;
 }
 #page-wrapper .slider-wrapper .carousel-inner .item {
   background-color: #cccccc;
@@ -684,6 +700,9 @@ body p {
   position: absolute;
   left: 50%;
   top: 44%;
+}
+#page-wrapper .slider-wrapper div.item div.carousel-caption.insights-caption {
+  width: 48%;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text {
   position: relative;
@@ -1061,7 +1080,7 @@ hr.small {
 }
 #content-wrapper #menu-logo-wrapper.add-border {
   background: #f8f8f8;
-  height: 248px;
+  height: 170px;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   -moz-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -1880,8 +1899,8 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 }
 .case-study .content-1 .text-content ul.more-info > li:nth-of-type(2n) {
   padding-right: 0px;
-  padding-left: 18px;
-  width: 200px;
+  padding-left: 16px;
+  width: 202px;
 }
 .case-study .content-1 .text-content ul.more-info > li h6 {
   font-family: "Gotham-Medium", sans-serif;
@@ -2102,7 +2121,7 @@ div.copyright-wrapper-with-bg p {
 .clients .content-1 {
   margin-top: 198px;
   border-bottom: 1px solid #d1d7e0;
-  padding-bottom: 124px;
+  padding-bottom: 230px;
 }
 .clients .content-1 .text-content {
   text-align: center;
@@ -2126,6 +2145,9 @@ div.copyright-wrapper-with-bg p {
 }
 .clients .content-1 .text-content p {
   color: #627482;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 .clients .img-content {
   padding-top: 64px;
@@ -3348,4 +3370,132 @@ div.copyright-wrapper-with-bg p {
   letter-spacing: 0.075em;
   color: #a4afc2;
   text-transform: uppercase;
+}
+.news .content-1 {
+  margin-top: 198px;
+  border-bottom: 1px solid #d1d7e0;
+  padding-bottom: 124px;
+}
+.news .content-1 #heading h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  color: #2f4455;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+.news .content-1 #heading h1:after {
+  content: "";
+  background: #2f4455;
+  width: 43px;
+  height: 2px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.news .content-1 #news-carousel .item {
+  text-align: center;
+}
+.news .content-1 #news-carousel .item .text-content {
+  display: inline-block;
+  width: 520px;
+  height: 450px;
+  margin-left: -4px;
+  background-color: #f3f3f3;
+  vertical-align: top;
+  padding-left: 45px;
+  padding-right: 125px;
+  text-align: left;
+}
+@media all and (max-width: 992px) {
+  .news .content-1 #news-carousel .item .text-content {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.news .content-1 #news-carousel .item .text-content .v-align-table {
+  height: 100%;
+  display: table;
+}
+.news .content-1 #news-carousel .item .text-content .v-align-table .v-align-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.news .content-1 #news-carousel .item .text-content h5 {
+  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-size: 18px;
+  color: #2f4455;
+  margin-bottom: 20px;
+}
+.news .content-1 #news-carousel .item .text-content h2 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 27px;
+  line-height: 35px;
+  letter-spacing: 0.08em;
+  color: #2f4455;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.news .content-1 #news-carousel .item .text-content .seperator-line {
+  background-color: #a4afc2;
+  margin-bottom: 30px;
+}
+.news .content-1 #news-carousel .item .text-content h6 {
+  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #627482;
+  margin-bottom: 15px;
+}
+.news .content-1 #news-carousel .item .text-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 31px;
+  color: #627482;
+  margin-bottom: 30px;
+}
+.news .content-1 #news-carousel .item .text-content p a {
+  display: block;
+  line-height: 32px;
+  color: #627482;
+}
+.news .content-1 #news-carousel .item .text-content p a:hover {
+  color: #2f4455;
+}
+.news .content-1 #news-carousel .item .img-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+.news .content-2 {
+  padding-top: 64px;
+  padding-bottom: 500px;
+}
+.news .content-2 .sidebar {
+  display: inline-block;
+}
+.news .content-2 .tab-content {
+  display: inline-block;
+  vertical-align: top;
+}
+.news .content-2 .tab-content .controls {
+  display: block;
+}
+.news .content-2 .tab-content .controls .filters {
+  display: inline-block;
+  vertical-align: top;
+}
+.news .content-2 .tab-content .controls .sort-by {
+  display: inline-block;
+  vertical-align: top;
+}
+.news .content-2 .tab-content .news-list {
+  display: block;
+}
+.news .content-2 .tab-content .news-list .list-item .col {
+  display: inline-block;
+  vertical-align: top;
 }

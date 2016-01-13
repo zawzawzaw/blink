@@ -95,3 +95,10 @@ Tablet
 .grid-item-3--width4 { 
 	width: 1218px;
 }
+
+
+<li><h6>Location</h6><p>Republic of Maldives</p></li>									
+<li><h6>Client</h6><p>Xanadu Holdings Pvt Ltd</p></li>									
+<li><h6>Scope</h6><p>Building Design, Interior Design, Landscape</p></li>
+<li><h6>Type</h6><p>Hotel</p></li>
+<li><h6>No. of Keys</h6><p>58 Guestrooms and Villas</p></li>

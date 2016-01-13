@@ -1,0 +1,100 @@
+[
+	{
+		"image": "images/content/portfolio/project-double-tree-sanya-thumb.jpg",
+		"location": "Sanya, China",
+		"name": "Doubletree Sanya",
+		"type": "resorts buildingdesign",
+		"url": "project-double-tree-sanya.html"
+	},
+	{
+		"image": "images/content/portfolio/project-fairmont-sanur-beach-bali-thumb.jpg",
+		"location": "Bali, Indonesia",
+		"name": "Fairmont Sanur Beach Bali",
+		"type": "resorts interiordesign",
+		"url": "project-fairmont-sanur-beach-bali.html"
+	},
+	{
+		"image": "images/content/portfolio/project-hilton-goa-thumb.jpg",
+		"location": "Goa, India",
+		"name": "Hilton Goa",
+		"type": "resorts buildingdesign interiordesign",
+		"url": "project-hilton-goa.html"
+	},
+	{
+		"image": "images/content/portfolio/project-hyatt-regency-jeju-thumb.jpg",
+		"location": "Republic of Korea",
+		"name": "Hyatt Regency Jeju",
+		"type": "resorts interiordesign",
+		"url": "project-hyatt-regency-jeju.html"
+	},
+	{
+		"image": "images/content/portfolio/project-krabi-resort-thumb.jpg",
+		"location": "Krabi, Thailand",
+		"name": "Krabi Resort",
+		"type": "resorts masterplanning buildingdesign",
+		"url": "project-krabi-resort.html"
+	},
+	{
+		"image": "images/content/portfolio/project-miaonong-resort-thumb.jpg",
+		"location": "Ningbo, China",
+		"name": "Miaonong Resort",
+		"type": "resorts masterplanning buildingdesign interiordesign",
+		"url": "project-miaonong-resort.html"
+	},
+	{
+		"image": "images/content/portfolio/project-podo-thumb.jpg",
+		"location": "Jeju Island, South Korea",
+		"name": "Podo",
+		"type": "resorts interiordesign",
+		"url": "project-podo.html"
+	},
+	{
+		"image": "images/content/portfolio/project-princes-palace-resort-and-spa-thumb.jpg",
+		"location": "Istanbu, Turkey",
+		"name": "Princes' Palace Resort & Spa",
+		"type": "resorts interiordesign",
+		"url": "project-princes-palace-resort-and-spa.html"
+	},
+	{
+		"image": "images/content/portfolio/project-qianshen-spa-and-hotel-thumb.jpg",
+		"location": "Hefei, China",
+		"name": "Qianshen Spa & Hotel",
+		"type": "resorts masterplanning buildingdesign branddesign",
+		"url": "project-qianshen-spa-and-hotel.html"
+	},
+	{
+		"image": "images/content/portfolio/project-regent-jakarta-thumb.jpg",
+		"location": "Jakarta, Indonesia",
+		"name": "Regent Jakarta",
+		"type": "resorts buildingdesign interiordesign",
+		"url": "project-regent-jakarta.html"
+	},
+	{
+		"image": "images/content/portfolio/project-samui-resort-thumb.jpg",
+		"location": "Samui, Thailand",
+		"name": "Samui Resort",
+		"type": "resorts masterplanning",
+		"url": "project-samui-resort.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-sarasvati-a-luxury-collection-resort-thumb.jpg",
+		"location": "Bali, Indonesia",
+		"name": "Sarasvati, A Luxury Collection Resort",
+		"type": "resorts",
+		"url": "project-sarasvati-a-luxury-collection-resort.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-sheraton-mactan-thumb.jpg",
+		"location": "Mactan Island, Cebu, Philipines",
+		"name": "Sheraton Mactan",
+		"type": "resorts buildingdesign interiordesign",
+		"url": "project-sheraton-mactan.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-wanda-reign-xsbn-thumb.jpg",
+		"location": "Xishuangbanna, China",
+		"name": "Wanda Reign XSBN",
+		"type": "resorts masterplanning buildingdesign",
+		"url": "project-wanda-reign-xsbn.html"
+	}
+]
