@@ -36,8 +36,9 @@
 							<p>Subscribe to our newsletter and stay updated <br> with our latest work and news.</p>
 						</div>
 						<div class="input">
-							<input type="text" name="subscribe" placeholder="Enter your email address" />
-							<i class="fa fa-angle-right"></i>
+							<input type="text" id="subscribe_input" name="subscribe" placeholder="Enter your email address" />
+							<a href="#" class="subscribe"><i class="fa fa-angle-right"></i></a>
+							<div class="loading"></div>					
 						</div>
 					</div>
 					<div class="clear"></div>

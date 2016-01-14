@@ -245,5 +245,33 @@ $(document).ready(function(){
         e.preventDefault();
         $('.mobile-search').trigger('click');
     });
+
+
+    $('.subscribe').on('click', function(e){
+        e.preventDefault();
+
+        $('.loading').show();
+        $(this).hide();
+
+        var subscribe_email = $(this).prev('input').val();
+
+        $.post('php/subscribe.php', {
+            'email' : subscribe_email
+        }, function(data){
+            $('p.msg').remove();
+            $('.right .input').append(data);
+            $('p.msg').hide().fadeIn(1000);
+
+            $('.loading').hide();
+            $('.subscribe').show();
+        });
+    });
+
+    $('#subscribe_input').on('keyup', function(e){        
+        if(e.keyCode == 13)
+        {
+            $('.subscribe').trigger("click");
+        }
+    });
     
 });

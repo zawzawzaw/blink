@@ -21,11 +21,13 @@
 	
 	<!--#include virtual="inc/header.inc" -->		
 
-	<link href="css/jplist.core.min.css" rel="stylesheet" type="text/css" />		
+	<!--<link href="css/jplist.core.min.css" rel="stylesheet" type="text/css" />		
 	<script type="text/javascript" src="js/plugins/jplist.core.min.js"></script>
 
 	<script type="text/javascript" src="js/plugins/jplist.filter-dropdown-bundle.min.js"></script>
-	<script type="text/javascript" src="js/plugins/jplist.sort-bundle.min.js"></script>
+	<script type="text/javascript" src="js/plugins/jplist.sort-bundle.min.js"></script>-->
+
+	<script type="text/javascript" src="js/plugins/handlebars-v4.0.5.js"></script>
 	
 	<div id="content-wrapper">
 
@@ -41,7 +43,7 @@
 							<div id="heading">
 								<h1>AWARDS</h1>								
 							</div>
-							<div id="news-carousel" class="carousel slide" data-ride="carousel">
+							<div id="news-carousel" class="carousel slide" data-ride="" data-wrap="false" data-interval="false">
 
 								<!-- Wrapper for slides -->
 								<div class="carousel-inner" role="listbox">
@@ -56,8 +58,8 @@
 													<h2>Conrad Sanya Haitang Bay</h2>
 													<div class="seperator-line"></div>
 													<h6>Hospitality Design Luxury Hotel Award 2012</h6>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec quam felis ultricies nec pellentesque eu.</p>
-													<a href="#" class="read-more cta">READ MORE</a>				
+													<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec quam felis ultricies nec pellentesque eu.</p> -->
+													<!-- <a href="#" class="read-more cta">READ MORE</a>				 -->
 												</div>			
 											</div>
 										</div>
@@ -72,13 +74,13 @@
 													<h5>MALDIVES</h5>
 													<h2>Jumeirah Dhevanafushi Resort</h2>
 													<div class="seperator-line"></div>
-													<h6>No. of Awards</h6>
+													<h4>No. of Awards:</h4>
 													<ul>
-														<li>Conde Nast Traveller Hot List 2012</li>
-														<li>APIDA Silver Award Hotel Space 2012</li>
-														<li>World Luxury Spa Award 2013, Best Luxury Emerging Spa</li>
+														<li><span>Conde Nast Traveller Hot List 2012</span></li>
+														<li><span>APIDA Silver Award Hotel Space 2012</span></li>
+														<li><span class="hidden-xs hidden-sm">World Luxury Spa Award 2013, <br> Best Luxury Emerging Spa</span><span class="visible-xs visible-sm">World Luxury Spa Award 2013, <br> Best Luxury Emerging Spa</span></li>
 													</ul>
-													<a href="#" class="read-more cta">READ MORE</a>				
+													<!-- <a href="#" class="read-more cta">READ MORE</a>				 -->
 												</div>			
 											</div>
 										</div>
@@ -93,13 +95,33 @@
 													<h5>THAILAND</h5>
 													<h2>REGENT PHUKET CAPE PANWA</h2>
 													<div class="seperator-line"></div>
-													<h6>No. of Awards</h6>
+													<h4>No. of Awards:</h4>
 													<ul>
-														<li>Conde Nast Traveller Hot List 2012</li>
-														<li>APIDA Silver Award Hotel Space 2012</li>
-														<li>World Luxury Spa Award 2013, Best Luxury Emerging Spa</li>
+														<li><span class="hidden-xs hidden-sm">Gold Key Finalist 2013, <br> Best Resort in the World</span><span class="visible-xs visible-sm">Gold Key Finalist 2013, <br> Best Resort in the World</span></li>
+														<li><span>APIDA Silver Award Hotel Space 2013</span></li>
+														<li><span class="hidden-xs hidden-sm">Asia Property Awards Highly Commended, <br> Hotel Interior 2014</span><span class="visible-xs visible-sm">Asia Property Awards Highly Commended, <br> Hotel Interior 2014</span></li>
 													</ul>
-													<a href="#" class="read-more cta">READ MORE</a>				
+													<!-- <a href="#" class="read-more cta">READ MORE</a>				 -->
+												</div>			
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="img-content">
+											<img src="images/content/news/content-1.jpg" alt="">
+										</div>
+										<div class="text-content">
+											<div class="v-align-table">
+												<div class="v-align-table-cell">
+													<h5>FORMERLY REGENT BALI</h5>
+													<h2>FAIRMONT SANUR BEACH</h2>
+													<div class="seperator-line"></div>
+													<h4>No. of Awards:</h4>
+													<ul>
+														<li><span>Conde Nast Traveller Hot List 2012, International</span></li>
+														<li><span class="hidden-xs hidden-sm">Gold Key Finalist 2014, <br> Best Resort in the World</span><span class="visible-xs visible-sm">Gold Key Finalist 2014, <br> Best Resort in the World</span></li>														
+													</ul>
+													<!-- <a href="#" class="read-more cta">READ MORE</a>				 -->
 												</div>			
 											</div>
 										</div>
@@ -110,115 +132,179 @@
 							  	<ol class="carousel-indicators">
 								    <li data-target="#news-carousel" data-slide-to="0" class="active"></li>
 								    <li data-target="#news-carousel" data-slide-to="1"></li>
+								    <li data-target="#news-carousel" data-slide-to="2"></li>
+								    <li data-target="#news-carousel" data-slide-to="3"></li>
 							  	</ol>
 
 							</div>							
 						</div>
 
 						<div class="content-2">
-							
+
 							<div class="sidebar">
 								<h1>News</h1>
-								<!-- Nav tabs -->
-							  	<ul class="news-category" role="tablist">
-								    <li role="presentation" class="active"><a href="#mediacoverage" aria-controls="mediacoverage" role="tab" data-toggle="tab">Media Coverage</a></li>
-								    <li role="presentation"><a href="#pressreleases" aria-controls="pressreleases" role="tab" data-toggle="tab">Press Releases</a></li>							    
-							  	</ul>
-						  	</div>
 
-							  <!-- Tab panes -->
-						  	<div id="category" class="tab-content">
-							    <div role="tabpanel" class="tab-pane active" id="mediacoverage">
+							  	<ul class="news-category">
+								    <li><a class="news-type" href="#mediacoverage">Media Coverage</a></li>
+								    <li><a class="news-type" href="#pressreleases">Press Releases</a></li>				
+							  	</ul>
+
+						  	</div>
+							
+							<div class="tab-content">
+							    <div class="tab-pane active" id="mediacoverage">
 							    	<h1>Media Coverage</h1>
 
-							    	<div class="text-content">
-								    	<div class="jplist">
-								    		<div class="jplist-panel controls">
-								    			<div class="filters">
-								    				<h5>FILTER BY:</h5>
-								    				<div 
-													   class="jplist-drop-down" 
-													   data-control-type="filter-drop-down" 
-													   data-control-name="year-filter" 
-													   data-control-action="filter">
-													   <ul>
-														  <li><span data-path="default">Year</span></li>
-														  <li><span data-path=".2015">2015</span></li>
-														  <li><span data-path=".2014">2014</span></li>
-														  <li><span data-path=".2013">2013</span></li>
-														  <li><span data-path=".2012">2012</span></li>
-														  <li><span data-path=".2011">2011</span></li>
-													   </ul>
-													</div>	
-													<div 
-													   class="jplist-drop-down" 
-													   data-control-type="filter-drop-down" 
-													   data-control-name="month-filter" 
-													   data-control-action="filter">
-													   <ul>
-														  <li><span data-path="default">Month</span></li>
-														  <li><span data-path=".jan">January</span></li>
-														  <li><span data-path=".feb">February</span></li>
-														  <li><span data-path=".mar">mar</span></li>
-														  <li><span data-path=".apr">apr</span></li>
-														  <li><span data-path=".may">may</span></li>
-														  <li><span data-path=".jun">jun</span></li>
-														  <li><span data-path=".jul">jul</span></li>
-														  <li><span data-path=".aug">aug</span></li>
-														  <li><span data-path=".sep">sep</span></li>
-														  <li><span data-path=".nov">nov</span></li>
-														  <li><span data-path=".dec">dec</span></li>
-													   </ul>
-													</div>	
-								    			</div>
-								    			<div class="sort-by">
-								    				<h5>SORT BY:</h5>
-								    			</div>
-								    		</div>
-								    		<div class="news-list list">
-							    				<div class="list-item">
-							    					<div class="col date"><span class="jan">Jan</span> <span class="2015">2015</span></div>
-							    					<div class="col news-title"><h6>Bali Style</h6><p>BLINK Design - Interview with Clint Nagata</p></div>
-							    					<div class="col link"><a href="#" class="pdf-link">Open PDF</a></div>
-							    				</div>
-							    				<div class="list-item">
-							    					<div class="col date">03 <span class="feb">Feb</span><span class="2014">2014</span></div>
-							    					<div class="col news-title"><h6>Bali Style</h6><p>BLINK Design - Interview with Clint Nagata</p></div>
-							    					<div class="col link"><a href="#" class="pdf-link">Open PDF</a></div>
-							    				</div>
-								    		</div>
+					    			<div class="lists">
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="#"><span><span>Holiday 2015</span></span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="#"><h6>Bali Style</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="#"><p>BLINK Design - Interview with Clint Nagata</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.hotelnewsresource.com/article85422.html"><span>03 Sep 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.hotelnewsresource.com/article85422.html"><h6>HOTEL NEWS RESOURCE</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.hotelnewsresource.com/article85422.html"><p>Regent Place Xi'an to open 2016 in China</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.traveldailymedia.com/226399/regents-new-xian-hotel-reaches-milestone/"><span>03 Sep 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.traveldailymedia.com/226399/regents-new-xian-hotel-reaches-milestone/"><h6>TRAVEL DAILY MEDIA</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.traveldailymedia.com/226399/regents-new-xian-hotel-reaches-milestone/"><p>Regent's new Xi'an hotel reaches milestone</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.blinkdg.com/images/pdf/buzz/forbes%20asia%20jul%202015.pdf"><span>July 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.blinkdg.com/images/pdf/buzz/forbes%20asia%20jul%202015.pdf"><h6>FORBES INDONESIA</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.blinkdg.com/images/pdf/buzz/forbes%20asia%20jul%202015.pdf"><p>Supreme Design ­Clint Nagata's BLINK Design Group will showcase its talents with the first Six Senses resort in Bali</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.blinkdg.com/images/pdf/buzz/hotelier%20me%20june%202015_blink.pdf"><span>June 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.blinkdg.com/images/pdf/buzz/hotelier%20me%20june%202015_blink.pdf"><h6>Hotelier Middle East</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.blinkdg.com/images/pdf/buzz/hotelier%20me%20june%202015_blink.pdf"><p>Designing for the seasons</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.dotwnews.com/focus/interview-hotel-designer-and-creative-director-clint-nagata#close_subscription"><span>30 Apr 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.dotwnews.com/focus/interview-hotel-designer-and-creative-director-clint-nagata#close_subscription"><h6>DESTINATIONS OF THE WORLD NEWS</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.dotwnews.com/focus/interview-hotel-designer-and-creative-director-clint-nagata#close_subscription"><p>Interview: Hotel Designer and Creative Director Clint Nagata</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.traveldailynews.com/news/article/65761/blink-wins-first-project-in"><span>23 Apr 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.traveldailynews.com/news/article/65761/blink-wins-first-project-in"><h6>Travel Daily News</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.traveldailynews.com/news/article/65761/blink-wins-first-project-in"><p>BLINK Wins First Project in Middle East with Monsoon­ inspired Interiors for Alila Salalah in Oman</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://hotelier-indonesia.com/news/blink-design-group-appointed-for-six-senses-project-in-uluwatu-bali/"><span>22 Mar 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://hotelier-indonesia.com/news/blink-design-group-appointed-for-six-senses-project-in-uluwatu-bali/"><h6>HOTELIER INDONESIA</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://hotelier-indonesia.com/news/blink-design-group-appointed-for-six-senses-project-in-uluwatu-bali/"><p>BLINK Design Group Appointed for Six Senses Project in Uluwatu, Bali</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://www.4hoteliers.com/news/story/13863"><span>24 Feb 2015</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://www.4hoteliers.com/news/story/13863"><h6>4 HOTELIER</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://www.4hoteliers.com/news/story/13863"><p>BLINK to Design the new Regent Jakarta.</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://asiadreams.com/edisi/january-february-2015/news/welcome-to-bali-fairmont.html"><span>Jan - Feb</span></a></div>
+					    					<div class="col news-title"><a target="_blank" href="http://asiadreams.com/edisi/january-february-2015/news/welcome-to-bali-fairmont.html"><h6>Asia Dreams</h6></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://asiadreams.com/edisi/january-february-2015/news/welcome-to-bali-fairmont.html"><p>Welcome to Bali, Fairmont!</p></a></div>
+					    				</div>
+					    			</div>
 
-								    		<div class="box jplist-no-results text-shadow align-center">
-												<p>No results found</p>
-											</div>
-											
-							    		</div>
-							    	</div>
+					    			<a href="#" class="show-more"><i class="fa fa-plus"></i> Show More</a>
+
+							    </div>	
+							    <div class="tab-pane active" id="pressreleases">
+									<h1>Press Releases</h1>
+
+									<div class="lists">
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20first%20project%20in%20middle%20east%20april%2022%202015.pdf"><span><span>22 Apr 2015</span></span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20first%20project%20in%20middle%20east%20april%2022%202015.pdf"><p>BLINK Wins First Project in Middle East with MonsoonInspired Interiors for Alila Salalah in Oman</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20six%20senses%20release%2019%20march%202015.pdf"><span>19 Mar 2015</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20six%20senses%20release%2019%20march%202015.pdf"><p>BLINK Design Group Appointed Interior Design Firm of Record for Six Senses Project in Uluwatu, Bali</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20regent%20jakarta%20release%2016%20feb%202015.pdf"><span>16 Feb 2015</span></a></div>
+					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20regent%20jakarta%20release%2016%20feb%202015.pdf"><p>Luxury Hospitality Design Firm BLINK to Relaunch Illustrious Regent Brand in Jakarta</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-hicap%20hk%202014%20roundtable%20release%20en.pdf"><span>26 Nov 2014</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-hicap%20hk%202014%20roundtable%20release%20en.pdf"><p>Luxury Hospitality Design Roundtable Declares Specialisation and Segmentation as the New Watchwords</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-gold%20key%20award-release.pdf"><span>28 Oct 2014</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-gold%20key%20award-release.pdf"><p>BLINK Reaches Finals of Prestigious Gold Key Awards with Striking Sanctuary Concept for Regent Bali</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-china%20july%202014%20edited%20oct%202014.pdf"><span>17 Jul 2014</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-china%20july%202014%20edited%20oct%202014.pdf"><p>BLINK Design Group Marches into Greater China at Doubletime as New Shanghai Office Drives Growth and Boosts Client Relations</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-pietro%20campanella%20release.pdf"><span>25 Jun 2014</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-pietro%20campanella%20release.pdf"><p>BLINK Strikes a Chord with Pietro Campanella</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-regent%20bali%20hot%20list%20release.pdf"><span>7 Jun 2014</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-regent%20bali%20hot%20list%20release.pdf"><p>BLINK Basks in Reflected Glory as Regent Bali Lights Up Conde Nast Traveller's 2014 'HOT LIST'</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-christopher%20chua%20release.pdf"><span>27 May 2014</span></a></div>
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-christopher%20chua%20release.pdf"><p>Christopher Chua Announced as BLINK's Managing Director, Returns Home to Singapore to Take Up Reins</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-regent%20release.pdf"><span>21 May 2014</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-regent%20release.pdf"><p>BLINK's Key Role in Regent Rebirth Applauded as Flagship Phuket Resort Picks up Top Interior Design Award</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20hospitality%20roundtable.pdf"><span>30 Apr 2014</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20hospitality%20roundtable.pdf"><p>Embrace Authenticity, Creative Design and Practicality for Success: BLINK Hospitality Roundtable</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20wins%20prestigious%20asia%20pacific%20interior%20design%20award%20for%20regent%20phuket%20cape%20panwa%20in%20thailand.pdf"><span>7 Jan 2014</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20wins%20prestigious%20asia%20pacific%20interior%20design%20award%20for%20regent%20phuket%20cape%20panwa%20in%20thailand.pdf"><p>BLINK Wins Prestigious Asia Pacific Interior Design Award for Regent Phuket Cape Panwa</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-4december2013.pdf"><span>4 Dec 2013</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-4december2013.pdf"><p>BLINK Broadens Horizons of Design as it Spreads Innovation Across the Globe</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-27november2013.pdf"><span>27 Nov 2013</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-27november2013.pdf"><p>'Time, Space and Timeless Design' are the New Luxuries for Business and Elite Travellers: Asia Luxury Hospitality Heavyweights' Roundtable</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-26august2013.pdf"><span>26 Aug 2013</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink-26august2013.pdf"><p>Leading Hospitality Design Firm BLINK Launches New Regional Headquarters in Stylish Sathorn</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/2013.07.24%20blink%20regent%20china.pdf"><span>24 Jul 2013</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/2013.07.24%20blink%20regent%20china.pdf"><p>Regent Hotels Appoints BLINK to Create Flagship Hotels in Taiwan and China as Legendary Brands Expands Reach</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%20hilton%20goa%20marriott%20xsb%2024april2013.pdf"><span>24 Apr 2013</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%20hilton%20goa%20marriott%20xsb%2024april2013.pdf"><p>BLINK Resorts in China and India for Marriott, Hilton Take Shape, Along with Firm's Reputation as Leading Hospitality Architects</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%20regent%20phuket%20bali%209january2013.pdf"><span>9 Jan 2013</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%20regent%20phuket%20bali%209january2013.pdf"><p>Blink Restores Lustre to Regent's Crown with Two Stunning New Resorts in Phuket and Bali</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%2027november2012.pdf"><span>27 Nov 2012</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%2027november2012.pdf"><p>Blink Bags Hong Kong Gong, Begins New Beijing Legend and puts Hot Springs in First Steps in China</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%208may2012.pdf"><span>8 May 2012</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%208may2012.pdf"><p>Blink Scoops 2012 HD Design Awards with Instant Classic for Conrad in China</p></a></div>
+					    				</div>
+					    				<div class="list-item">
+					    					<div class="col date"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%2020january2012.pdf"><span>28 Feb 2012</span></a></div>					    					
+					    					<div class="col news-content"><a target="_blank" href="http://blinkdg.com/images/pdf/buzz/blink%20-%2020january2012.pdf"><p>Asia's Hospitality Design Innovators Unveil Latest Leap in Luxury with Maldives Resort for Jumeirah</p></a></div>
+					    				</div>
+					    			</div>
+
+					    			<!-- <a href="#" class="show-more"><i class="fa fa-plus"></i> Show More</a> -->
 							    </div>
-							    <div role="tabpanel" class="tab-pane" id="pressreleases">
-							    	<h1>Press Releases</h1>
-
-							    	<div class="text-content">
-							    		<div class="controls">
-							    			<div class="fitlers">
-							    				<h5>FILTER BY:</h5>
-							    			</div>
-							    			<div class="sort-by">
-							    				<h5>SORT BY:</h5>
-							    			</div>
-							    		</div>
-							    		<div class="news-list">
-							    			<div class="list">
-							    				<div class="list-item">
-							    					<div class="date">Holiday 2015</div>
-							    					<div class="news-title"><h6>Bali Style</h6><p>BLINK Design - Interview with Clint Nagata</p></div>
-							    					<div class="link"><a href="#" class="pdf-link">Open PDF</a></div>
-							    				</div>
-							    			</div>
-							    		</div>
-							    	</div>
-							    </div>							    
-						  	</div>
+						    </div>						    
 
 						</div>						
 
@@ -244,6 +330,18 @@
 	<!--#include virtual="inc/mailing-list.inc" -->	
 
 	<!--#include virtual="inc/footer.inc" -->	
+
+	<a href="#" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
+	<script id="list-item-template" type="text/x-handlebars-template">
+   		{{#items}}
+	  	<div class="list-item">
+			<div class="col date"><a target="_blank" href="{{link}}"><span>{{date}}</span></a></div>
+			<div class="col news-title"><a target="_blank" href="{{link}}"><h6>{{title}}</h6></a></div>
+			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{content}}</p></a></div>
+		</div>
+		{{/items}}		
+	</script>
 
 	<script type="text/javascript" src="js/news.js"></script>	
 		

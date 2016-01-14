@@ -132,12 +132,29 @@ div#mailing-list-wrapper {
 		}
 		.input {
 			position: relative;
+			width: 276px;
 			i {
 				position: absolute;				
 			    right: 13px;
 			    top: 6px;
 			    color: @light-blue;
 			    font-size: 16px;
+			}
+			.msg {	
+				margin: 5px 0px 0px;						
+			}
+			.error {
+				color: red;
+			}
+			.loading {
+				background: url('../images/icons/ajax-loader.gif') no-repeat;
+				width: 24px;
+				height: 24px;
+				display: block;
+				position: absolute;
+			    right: 2px;
+			    top: 7px;
+			    display: none;
 			}
 		}
 		input[name="subscribe"] {
