@@ -23,26 +23,32 @@
 						</ul>
 					</div> -->
 				</li>
-				<li>
+				<!-- <li>
 					<a href="#" class="has-child">Stories</a>
 					<div class="sub-nav-container">
 						<ul class="sub-nav-1 sub-nav">
 							<li><a href="story-fairmont-sanur-beach.html">Fairmont Sanur Beach</a></li>
-							<!-- <li><a href="story-regent-phuket.html">Regent Phuket</a></li>									 -->
+							<li><a href="story-regent-phuket.html">Regent Phuket</a></li>									
 							<li><a href="story-jumeirah-dhevanafushi.html">Jumeirah Dhevanafushi</a></li>
-							<!-- <li><a href="story-hilton-goa.html">Hilton Goa</a></li> -->
+							<li><a href="story-hilton-goa.html">Hilton Goa</a></li>
 						</ul>
-						<!-- <ul class="sub-nav-2 sub-nav">
+						<ul class="sub-nav-2 sub-nav">
 							<li><a href="story-hyatt-jeju.html">Hyatt Jeju</a></li>
 							<li><a href="story-six-senses-uluwata.html">Six Senses Uluwata</a></li>																		
-						</ul> -->
+						</ul>
 					</div>					
-				</li>
+				</li> -->
 				<li><a href="insights.html">Insights</a></li>
 				<li><a href="careers.html">Careers</a></li>
 				<li><a href="news.html">News</a></li>						
 				<li><a href="contact-us.html">Contact</a></li>
-				<li><a href="#"><i class="fa fa-search"></i></a></li>
+				<li>
+					<a href="#" class="site-search"><i class="fa fa-search"></i></a>
+					<form action="search.html">
+						<input type="text" name="q" id="search_input" required>
+						<a href="#" class="close-search"><i class="fa fa-times"></i></a>
+					</form>
+				</li>
 			</ul>				
 		</div>				
 	</div>	

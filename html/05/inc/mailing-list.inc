@@ -5,29 +5,30 @@
 					<div class="left each-column hidden-xs hidden-sm">						
 						<h4>Follow Us</h4>
 						<ul>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="https://www.facebook.com/BLINK-Design-Group-1504843613064866/"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>						
+							<!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+							<li><a target="_blank" href="https://www.facebook.com/BLINK-Design-Group-1504843613064866/"><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/company/blink-design-group"><i class="fa fa-linkedin"></i></a></li>
+							<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>						 -->
 						</ul>
 					</div>
 					<div class="middle footer-links each-column">
 						<ul>
 							<li><a href="profile.html">Profile</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="portfolio">Portfolio</a></li>
+							<!-- <li><a href="#">Services</a></li> -->
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<!-- <li><a href="story.html">Stories</a></li> -->
 						</ul>
-						<ul>
-							<li><a href="story.html">Stories</a></li>
+						<ul>							
 							<li><a href="insights.html">Insights</a></li>
-							<li><a href="#">News</a></li>
+							<li><a href="news.html">News</a></li>							
 						</ul>
 						<ul>
-							<li><a href="careers.html">Careers</a></li>
+							
 							<li><a href="contact-us.html">Contact Us</a></li>
-							<li><a href="#">Terms of Use</a></li>							
+							<li><a href="careers.html">Careers</a></li>
+							<!-- <li><a href="#">Terms of Use</a></li>							 -->
 						</ul>
 					</div>
 					<div class="right each-column">

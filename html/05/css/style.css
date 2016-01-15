@@ -53,6 +53,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Gotham-Light.woff') format('woff'), url('../fonts/Gotham-Light.ttf') format('truetype'), url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .harriet-text-medium {
   font-family: "HarrietText-Medium", sans-serif;
 }
@@ -76,6 +83,9 @@
 }
 .gotham-book {
   font-family: "Gotham-Book", sans-serif;
+}
+.gotham-light {
+  font-family: "Gotham-Light", sans-serif;
 }
 .open-sans-bold {
   font-family: 'Open Sans', sans-serif;
@@ -1066,6 +1076,10 @@ hr.small {
 #content-wrapper #menu-logo-wrapper.white-version .main-menu .sidebar-nav ul.main-nav li a i {
   color: #627482;
 }
+#content-wrapper #menu-logo-wrapper.white-version .main-menu .sidebar-nav ul.main-nav li.search-active form input#search_input {
+  border-bottom: 1px solid #627482 !important;
+  color: #627482 !important;
+}
 #content-wrapper #menu-logo-wrapper.white-version .main-menu .logo {
   background: url(../images/logo/blink.png) no-repeat;
 }
@@ -1132,6 +1146,14 @@ hr.small {
 }
 #content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child {
   margin-right: 0px;
+  width: 19.5px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child a {
+  display: inline-block;
 }
 #content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child a:hover:after {
   -moz-opacity: 0;
@@ -1144,6 +1166,36 @@ hr.small {
 }
 #content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child a i {
   font-size: 20px;
+}
+#content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child form {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+}
+#content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child.search-active {
+  width: 500px;
+}
+#content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child.search-active form {
+  visibility: visible;
+  position: relative;
+  width: 90%;
+  margin-left: -20px;
+}
+#content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child.search-active form input#search_input {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+#content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li:last-child.search-active form a.close-search {
+  position: absolute;
+  right: 2px;
+  top: -6px;
+  color: #ffffff;
+  font-size: 16px;
 }
 #content-wrapper #menu-logo-wrapper .main-menu .sidebar-nav ul.main-nav li a {
   font-family: "Gotham-Bold", sans-serif;
@@ -1405,6 +1457,7 @@ div#mailing-list-wrapper .each-column {
 }
 div#mailing-list-wrapper div.left {
   position: relative;
+  width: 227px;
   display: inline-block;
   padding-right: 60px;
 }
@@ -1479,6 +1532,7 @@ div#mailing-list-wrapper div.middle:after {
 }
 div#mailing-list-wrapper div.middle ul {
   display: inline-block;
+  vertical-align: top;
 }
 div#mailing-list-wrapper div.middle ul:nth-of-type(1n) {
   margin-right: 116px;
@@ -2650,6 +2704,7 @@ div.copyright-wrapper-with-bg p {
 .project .content-1 {
   text-align: center;
   margin-top: 155px;
+  margin-bottom: 70px;
 }
 .project .content-1 .heading h5 {
   font-family: "Gotham-Bold", sans-serif;
@@ -2742,6 +2797,7 @@ div.copyright-wrapper-with-bg p {
 .project .content-2 {
   text-align: left;
   margin-top: 62px;
+  margin-bottom: 70px;
 }
 .project .content-2 .img-content {
   display: block;
@@ -3718,4 +3774,149 @@ div.copyright-wrapper-with-bg p {
 }
 .news .content-2 .tab-content .tab-pane a.show-more.hide-this {
   visibility: hidden;
+}
+.search {
+  min-height: 750px;
+}
+.search .content-1 {
+  margin-top: 130px;
+}
+.search .content-1 .text-content h1 {
+  font-family: "Gotham-Light", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  color: #2f4455;
+}
+.search .content-1 .text-content h1:after {
+  content: "";
+  background: #d1d7e0;
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.search .content-1 .text-content p {
+  color: #627482;
+}
+.search .content-2 {
+  padding-top: 69px;
+  padding-bottom: 79px;
+  border-bottom: 1px solid #d1d7e0;
+}
+.search .content-2 h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  color: #2f4455;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+}
+.search .content-2 h1:after {
+  content: "";
+  background: #2f4455;
+  width: 43px;
+  height: 2px;
+  display: block;
+  margin: 8px 0px;
+}
+.search .content-2 .each-item {
+  margin-bottom: 20px;
+}
+.search .content-2 .each-item .img-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 398px;
+}
+.search .content-2 .each-item .img-content img {
+  width: 100%;
+}
+.search .content-2 .each-item .text-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 44%;
+  height: 315px;
+  padding-left: 63px;
+}
+.search .content-2 .each-item .text-content .v-align-table {
+  height: 100%;
+  display: table;
+}
+.search .content-2 .each-item .text-content .v-align-table .v-align-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.search .content-2 .each-item .text-content h3 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #2f4455;
+  text-transform: uppercase;
+}
+.search .content-2 .each-item .text-content h3:after {
+  content: "";
+  background: #2f4455;
+  width: 43px;
+  height: 2px;
+  display: block;
+  margin: 15px 0px 19px 0;
+}
+.search .content-2 .each-item .text-content p {
+  text-transform: capitalize;
+}
+.search .content-2 .each-item .text-content p span.highlight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.search .search-content {
+  padding-top: 40px;
+  padding-bottom: 71px;
+  border-bottom: 1px solid #d1d7e0;
+}
+.search .search-content:last-child {
+  border-bottom: none;
+}
+.search .search-content h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  color: #2f4455;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.search .search-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 43px;
+  height: 2px;
+  display: block;
+  margin: 8px 0px;
+}
+.search .search-content .each-item {
+  margin-bottom: 20px;
+}
+.search .search-content .text-content h2 {
+  font-family: "Gotham-Book", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f4455;
+  margin-bottom: 9px;
+}
+.search .search-content .text-content h2 span.highlight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.search .search-content .text-content p {
+  color: #627482;
+  width: 83%;
+}
+.search .search-content .text-content p span.highlight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.search .search-content .text-content ul li {
+  margin-bottom: 16px;
 }

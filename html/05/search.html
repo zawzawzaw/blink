@@ -1,0 +1,211 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--> 
+<html class=""> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Blink</title>
+	<meta name="description" content="Blink">
+	<meta name="keywords" content="Blink">
+
+	<!--#include virtual="inc/head.inc" -->
+</head>
+<body>
+
+	<!--#include virtual="inc/mobile-menu.inc" -->	
+	
+	<!--#include virtual="inc/header.inc" -->		
+
+	<script type="text/javascript" src="js/plugins/handlebars-v4.0.5.js"></script>
+	
+	<div id="content-wrapper">
+
+		<!--#include virtual="inc/menu.inc" -->	
+
+		<div id="main-content" class="search">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="content-1">
+							<div class="text-content">
+								<h1>Search result for “<span class="query">vernacular</span>”</h1>
+								<p><span class="result-count">20</span> Results for keyword found.</p>								
+							</div>
+						</div>
+
+						<div id="all-content">
+
+							<!-- <div class="content-2">
+								<h1>Portfolio</h1>
+								<div class="img-content"><img src="images/content/search/search-content-1.jpg" class="img-responsive" alt=""></div>
+								<div class="text-content">
+									<div class="v-align-table">
+										<div class="v-align-table-cell">
+											<h3>JUMEIRAH DHEVANFUSHI</h3>
+											<p>Set amidst the Indian Ocean, the Maldives is synonymous with breathtaking seascapes, live coral reefs and pristine tranquility. Jumeirah Dhevanafushi, which means vernacular "unique island" in Sanskrit is 400km south of the capital city of Male, making the luxurious remote atoll the idyllic setting for the property.</p>
+										</div>
+									</div>
+								</div>
+							</div> -->
+
+							<!-- <div class="content-3 search-content">
+								<h1>PROFILE</h1>
+								<div class="text-content">
+									<h2>About Blink Design Group</h2>
+									<p>We’re different from other design firms. While the quality of our work speaks for itself, we make our case for design greatness one story at a time. We are committed to design excellence in the context of collaboration. These are our guiding principles vernacular throughout the design process.</p>
+								</div>					
+							</div>
+
+							<div class="content-4 search-content">
+								<h1>INSIGHTS</h1>
+								<div class="text-content">
+									<h2>In the Blink of an eye</h2>
+									<p>BLINK designers believe that each adventure undertaken by the firm should see boundaries pushed back, preconceptions shattered, and expectations challenged. We thrive on brainstorming, the creative process, <span class="highlight">vernacular</span> and collaboration with like-minded clients.</p>
+								</div>					
+							</div>
+
+							<div class="content-5 search-content">
+								<h1>NEWS</h1>
+								<div class="text-content">
+									<h2>Media Coverage</h2>
+									<ul>
+										<li>
+											<p>BLINK Wins First Project in Middle East with Monsoon­ inspired vernacular Interiors for Alila Salalah in Oman</p>
+											<p>TRAVEL DAILY NEWS – 23 Apr 2015</p>
+										</li>
+										<li>
+											<p>BLINK Design Group Appointed for Six Senses Project in Uluwatu vernacular , Bali</p>
+											<p>HOTELIER INDONESIA – 22 Mar 2015</p>
+										</li>
+									</ul>
+								</div>					
+							</div> -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div> <!-- end content-wrapper -->
+
+	<!-- <div id="copyright-wrapper" class="copyright-wrapper-with-bg fixed-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>© 2015 Blink Design Group. All Rights Reserved.</p>					
+					<p>No part of this website, designs, layouts or any of its contents may be reproduced, copied, modified or adapted, without the prior written consent of Blink Design Group.</p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!--#include virtual="inc/mailing-list.inc" -->	
+
+	<!--#include virtual="inc/footer.inc" -->	
+
+	<script id="portfolio-template" type="text/x-handlebars-template">
+   		<div class="content-2">
+			<h1>Portfolio</h1>
+			{{#items}}
+			<div class="each-item">
+				<div class="img-content"><a href="{{url}}"><img src="{{image}}" class="img-responsive" alt=""></a></div>
+				<div class="text-content">
+					<div class="v-align-table">
+						<div class="v-align-table-cell">
+							<a href="{{url}}"><h3>{{name}}</h3></a>
+							<p>{{location}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{/items}}
+		</div>
+	</script>
+	<script id="profile-template" type="text/x-handlebars-template">
+   		<div class="content-3 search-content">
+			<h1>PROFILE</h1>			
+			{{#items}}
+			<div class="each-item">
+				<div class="text-content">					
+					<a href="{{url}}"><h2>{{title}}</h2></a>
+					<a href="{{url}}"><p>{{description}}</p></a>					
+				</div>				
+			</div>					
+			{{/items}}	
+		</div>
+	</script>
+		<script id="insights-template" type="text/x-handlebars-template">
+   		<div class="content-4 search-content">
+			<h1>INSIGHTS</h1>			
+			{{#items}}
+			<div class="each-item">
+				<div class="text-content">					
+					<a href="{{url}}"><h2>{{title}}</h2></a>
+					<a href="{{url}}"><p>{{description}}</p></a>					
+				</div>				
+			</div>					
+			{{/items}}	
+		</div>
+	</script>
+	<script id="news-template" type="text/x-handlebars-template">
+   		<div class="content-5 search-content">
+			<h1>NEWS</h1>			
+			<div class="each-item">
+				<div class="text-content">
+					<h2>Media Coverage</h2>
+					<ul>
+						{{#items}}
+						<li>
+							<a href="{{link}}"><p>{{content}}</p></a>
+							<a href="{{link}}"><p>{{title}} – {{date}}</p></a>
+						</li>						
+						{{/items}}	
+					</ul>
+				</div>
+			</div>					
+		</div>
+	</script>
+	<script id="careers-template" type="text/x-handlebars-template">
+   		<div class="content-6 search-content">
+			<h1>CAREERS</h1>			
+			{{#items}}
+			<div class="each-item">
+				<div class="text-content">					
+					<a href="{{url}}"><h2>{{title}}</h2></a>
+					<a href="{{url}}"><p>{{description}}</p></a>					
+				</div>				
+			</div>					
+			{{/items}}	
+		</div>
+	</script>
+	<script id="contacts-template" type="text/x-handlebars-template">
+   		<div class="content-7 search-content">
+			<h1>CONTACT US</h1>			
+			{{#items}}
+			<div class="each-item">
+				<div class="text-content">					
+					<a href="{{url}}"><h2>{{title}}</h2></a>
+					<a href="{{url}}"><p>{{description}}</p></a>					
+				</div>				
+			</div>					
+			{{/items}}	
+		</div>
+	</script>
+
+	<script type="text/javascript" src="js/search.js"></script>	
+		
+</body>
+</html>
+
+</body>
+</html>

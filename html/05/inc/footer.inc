@@ -5,10 +5,10 @@
 					<div class="col-md-12">
 						<div class="pull-left tweet">
 							<ul>
-								<li><a href="#">BANGKOK</a></li>
-								<li><a href="#">NEW DELHI</a></li>
-								<li><a href="#">SINGAPORE</a></li>
-								<li><a href="#">SHANGHAI</a></li>
+								<li><a href="contact-us.html">BANGKOK</a></li>
+								<li><a href="contact-us.html">NEW DELHI</a></li>
+								<li><a href="contact-us.html">SINGAPORE</a></li>
+								<li><a href="contact-us.html">SHANGHAI</a></li>
 							</ul>
 							<!--  legends of luxury... @Blinkdesigngroup -->
 						</div>

@@ -273,5 +273,17 @@ $(document).ready(function(){
             $('.subscribe').trigger("click");
         }
     });
+
+    $(".site-search").on('click', function(e){
+        e.preventDefault();       
+        $('.main-nav li:not(:last-child)').hide();
+        $('.main-nav li:last-child').addClass('search-active')
+    });
+
+    $('.close-search').on('click', function(e){
+        e.preventDefault();       
+        $('.main-nav li:not(:last-child)').show();
+        $('.main-nav li:last-child').removeClass('search-active')
+    });
     
 });
