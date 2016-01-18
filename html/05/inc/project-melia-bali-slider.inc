@@ -3,8 +3,8 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item bg project-melia-bali-bg-1 active"></div>
-		<div class="item bg project-melia-bali-bg-2"></div>
-		<div class="item bg project-melia-bali-bg-3"></div>
+		<!-- <div class="item bg project-melia-bali-bg-2"></div>
+		<div class="item bg project-melia-bali-bg-3"></div> -->
 	</div>
 
 	<a href="#content-wrapper" class="scroll-to-content">	
@@ -16,10 +16,10 @@
 	</a>
 
 	<!-- Indicators -->
-  	<ol class="carousel-indicators">
+  	<!-- <ol class="carousel-indicators">
 	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel" data-slide-to="1"></li>
 	    <li data-target="#carousel" data-slide-to="2"></li>
-  	</ol>
+  	</ol> -->
 
 </div>

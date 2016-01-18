@@ -839,6 +839,7 @@ $(function(){
 	var search_result = [];
 		search_result['portfolio'] = [];
 		search_result['news'] = [];
+		search_result['news_pr'] = [];
 		search_result['profile'] = [];
 		search_result['insights'] = [];
 		search_result['careers'] = [];
@@ -860,6 +861,14 @@ $(function(){
 	    		search_result['news'].push(search_json['news'][i]);
 	    	}else if (new RegExp(regex, "i").test(v.content) == true) {
 	    		search_result['news'].push(search_json['news'][i]);
+	    	}    	
+	    });
+
+	     $.each(search_json['news_pr'], function(i, v) {
+	    	if (new RegExp(regex, "i").test(v.title) == true) {	    		
+	    		search_result['news_pr'].push(search_json['news_pr'][i]);
+	    	}else if (new RegExp(regex, "i").test(v.content) == true) {
+	    		search_result['news_pr'].push(search_json['news_pr'][i]);
 	    	}    	
 	    });
 
@@ -924,6 +933,12 @@ $(function(){
 		$('#all-content').append(clean_html);
 	}
 
+	function addToNewsList(html) {
+		clean_html = html.replace(/\n/g, "").replace(/[\t ]+\</g, "<").replace(/\>[\t ]+\</g, "><").replace(/\>[\t ]+$/g, ">");
+
+		$('.content-5').append(clean_html);
+	}
+
 	function addToTemplate(category){
 		var newdata = {};
 
@@ -933,8 +948,12 @@ $(function(){
 
 		var html = template(newdata);
 		
-		if(html)
-			addToList(html);
+		if(category=='news_pr')
+			addToNewsList(html);
+		else {
+			if(html)
+				addToList(html);
+		}
 		   	
 	}
 
@@ -950,6 +969,8 @@ $(function(){
 		addToTemplate('insights');	
 	if(search_result['contacts'].length>0)
 		addToTemplate('contacts');	
+	if(search_result['news_pr'].length>0)
+		addToTemplate('news_pr');	
 
 	var term = query;
 	var item = $("p,h2,h3");

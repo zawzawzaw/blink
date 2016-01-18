@@ -609,6 +609,10 @@ body p {
   background-image: url('../images/content/project-hilton-fengxian-slide-1.jpg') !important;
   background-position: center bottom;
 }
+#page-wrapper .slider-wrapper .carousel-inner .project-hilton-goa-bg-1 {
+  background-image: url('../images/content/project-hilton-goa-slide-1.jpg') !important;
+  background-position: center bottom;
+}
 #page-wrapper .slider-wrapper .carousel-inner .project-hyatt-regency-jeju-bg-1 {
   background-image: url('../images/content/project-hyatt-regency-jeju-slide-1.jpg') !important;
   background-position: center bottom;
@@ -623,6 +627,42 @@ body p {
 }
 #page-wrapper .slider-wrapper .carousel-inner .project-jumeirah-dhevanfushi-bg-1 {
   background-image: url('../images/content/project-jumeirah-dhevanfushi-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-princes-palace-resort-and-spa-bg-1 {
+  background-image: url('../images/content/project-princes-palace-resort-and-spa-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-miaonong-resort-bg-1 {
+  background-image: url('../images/content/project-miaonong-resort-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-marriott-wenchang-bg-1 {
+  background-image: url('../images/content/project-marriott-wenchang-slide-1.jpg') !important;
+  background-position: center -95px;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-melia-bali-bg-1 {
+  background-image: url('../images/content/project-melia-bali-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-qianshen-spa-and-hotel-bg-1 {
+  background-image: url('../images/content/project-qianshen-spa-and-hotel-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-sheraton-grande-walkerhill-restaurants-bg-1 {
+  background-image: url('../images/content/project-sheraton-grande-walkerhill-restaurants-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-sarasvati-a-luxury-collection-resort-bg-1 {
+  background-image: url('../images/content/project-sarasvati-a-luxury-collection-resort-slide-1.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-sarasvati-a-luxury-collection-resort-bg-2 {
+  background-image: url('../images/content/project-sarasvati-a-luxury-collection-resort-slide-2.jpg') !important;
+  background-position: center bottom;
+}
+#page-wrapper .slider-wrapper .carousel-inner .project-regent-taipei-bg-1 {
+  background-image: url('../images/content/project-regent-taipei-slide-1.jpg') !important;
   background-position: center bottom;
 }
 #page-wrapper .slider-wrapper .carousel-inner .profile-bg-1 {
@@ -2857,6 +2897,36 @@ div.copyright-wrapper-with-bg p {
 }
 .project .content-2 .img-content .grid-item-3--width4 {
   width: 1218px;
+}
+.project .content-2 .img-content .grid-sizer-4 {
+  width: 15px;
+}
+.project .content-2 .img-content .gutter-sizer-4 {
+  width: 10px;
+}
+.project .content-2 .img-content .grid-item-4 {
+  display: inline-block;
+  width: 393px;
+  height: auto;
+  margin-bottom: 11px;
+}
+.project .content-2 .img-content .grid-item-4 img {
+  width: 100%;
+}
+.project .content-2 .img-content .grid-item-4--width1-5 {
+  width: 498px;
+}
+.project .content-2 .img-content .grid-item-4--width2-5 {
+  width: 705px;
+}
+.project .content-2 .img-content .grid-item-4--width3 {
+  width: 805px;
+}
+.project .content-2 .img-content .grid-item-4--width4 {
+  width: 1220px;
+}
+.project .content-2 .img-content .special {
+  margin-left: 13px;
 }
 .project .content-2 .text-content {
   display: inline-block;

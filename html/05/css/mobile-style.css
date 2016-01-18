@@ -245,6 +245,27 @@
   .project .content-2 .img-content .grid-item-3--width2 {
     width: 485px;
   }
+  .project .content-2 .img-content .grid-sizer-4 {
+    width: 160px;
+  }
+  .project .content-2 .img-content .grid-item-4 {
+    width: 318px;
+  }
+  .project .content-2 .img-content .grid-item-4--width4 {
+    width: 99%;
+  }
+  .project .content-2 .img-content .grid-item-4--width3 {
+    width: 650px;
+  }
+  .project .content-2 .img-content .grid-item-4--width2 {
+    width: 485px;
+  }
+  .project .content-2 .img-content .grid-item-4--width2-5 {
+    width: 705px;
+  }
+  .project .content-2 .img-content .grid-item-4--width1-5 {
+    width: 498px;
+  }
   .project .content-3 ul li .img-placeholder {
     height: auto;
   }
@@ -556,6 +577,9 @@
     top: 38%;
     width: 80%;
   }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption.insights-caption {
+    width: 80%;
+  }
   #page-wrapper .slider-wrapper div.item #blur-bg {
     display: none;
   }
@@ -566,7 +590,7 @@
     display: none;
   }
   #page-wrapper .home {
-    margin-bottom: 30px;
+    margin-bottom: 0px!important;
   }
   #page-wrapper .home .each-row:nth-child(2n+1) {
     background-color: #f3f3f3;
@@ -768,6 +792,9 @@
   #page-wrapper .clients .img-content ul li .v-align-table .v-align-table-cell {
     padding: 27% 0px 32%;
   }
+  #page-wrapper .portfolio .content-1 .text-content p {
+    width: 95%;
+  }
   #page-wrapper .portfolio .content-2 .category-nav ul.child-menu li {
     margin-right: 5px;
   }
@@ -803,6 +830,7 @@
     margin-top: 0px;
     padding: 0px;
     padding-top: 17px!important;
+    width: auto;
   }
   #page-wrapper div#mailing-list-wrapper div.left h4 {
     font-family: "Gotham-Bold", sans-serif;
@@ -1215,6 +1243,9 @@
   #page-wrapper .clients .content-1 h1 {
     margin-top: 0px;
   }
+  #page-wrapper .clients .content-1 p {
+    width: auto;
+  }
   #page-wrapper .clients .img-content ul li .v-align-table .v-align-table-cell {
     padding: 19% 0px 12%;
   }
@@ -1298,6 +1329,10 @@
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     top: 35%;
+  }
+  #page-wrapper .slider-wrapper div.item div.carousel-caption.carousel-caption-with-text {
+    top: 30%!important;
+    width: 83%!important;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
     font-size: 13px;
@@ -1468,6 +1503,15 @@
   }
   #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
     width: 100%;
+  }
+  #page-wrapper .clients .content-1 .text-content h1 {
+    font-size: 19px;
+    line-height: 36px;
+  }
+  #page-wrapper .clients .content-1 .text-content p {
+    font-size: 12px;
+    line-height: 19px;
+    width: 74%;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 28.176471px 0 26.47058824px 0;
@@ -1681,7 +1725,6 @@
     font-size: 15px;
     line-height: 24px;
     width: 90%;
-    margin-bottom: 9px;
   }
   #page-wrapper .home .each-content .text-content p {
     font-size: 14px;

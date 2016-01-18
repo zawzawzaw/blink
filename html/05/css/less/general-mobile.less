@@ -318,6 +318,9 @@
 				div.carousel-caption {
 					top: 38%;
 					width: 80%;
+					&.insights-caption {
+						width: 80%;
+					}
 					// div.caption-text {
 					// 	h5 {
 					// 		font-size: 24px;
@@ -350,7 +353,7 @@
 			display: none;
 		}
 		.home {
-			margin-bottom: 30px;
+			margin-bottom: 0px!important;
 			.each-row {
 				&:nth-child(2n+1){
 					background-color: @bg-light-grey;
@@ -667,6 +670,13 @@
 	  	}
 
 	  	.portfolio {
+	  		.content-1 {
+	  			.text-content {
+	  				p {
+	  					width: 95%;
+	  				}
+	  			}
+	  		}
 	  		.content-2 {
 	  			.category-nav {
 	  				ul.child-menu {
@@ -725,6 +735,7 @@
 				margin-top: 0px;
 				padding: 0px;
 				padding-top: 17px!important;
+				width: auto;
 				h4 {
 					.gotham-bold;
 					font-size: 13px;

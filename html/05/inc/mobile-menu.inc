@@ -21,7 +21,7 @@
 			<!-- <div class="row">
 				<div class="col-md-12"> -->
 					<ul class="mobile-nav">
-						<li><a href="#">Profile</a></li>
+						<li><a href="profile.html">Profile</a></li>
 						<li class="has-child">
 							<a href="#" class="sub-nav-toggle">Portfolio</a>
 							<ul class="mobile-nav-child">
@@ -35,20 +35,20 @@
 								<li><a href="portfolio.html#buildingdesign">Building Design</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
+						<!-- <li class="has-child">
 							<a href="#" class="sub-nav-toggle">Stories</a>
 							<ul class="mobile-nav-child">
-								<li><a href="story.html">Fairmont Sanur Beach</a></li>
-								<li><a href="story.html">Regent Phuket</a></li>
-								<li><a href="story.html">Jumeirah Dhevanafushi</a></li>
-								<li><a href="story.html">Hilton Goa</a></li>
-								<li><a href="story.html">Hyatt Jeju</a></li>
-								<li><a href="story.html">Six Senses Uluwata</a></li>							
+								<li><a href="story-fairmont-sanur-beach.html">Fairmont Sanur Beach</a></li>
+								<li><a href="story-regent-phuket.html">Regent Phuket</a></li>
+								<li><a href="story-jumeirah-dhevanafushi.html">Jumeirah Dhevanafushi</a></li>
+								<li><a href="story-hilton-goa.html">Hilton Goa</a></li>
+								<li><a href="story-hyatt-jeju.html">Hyatt Jeju</a></li>
+								<li><a href="story-six-senses-uluwata.html">Six Senses Uluwata</a></li>							
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="insights.html">Insights</a></li>
 						<li><a href="careers.html">Careers</a></li>
-						<li><a href="#">News</a></li>
+						<li><a href="news.html">News</a></li>
 						<li><a href="contact-us.html">Contact</a></li>
 					</ul>	
 				<!-- </div>

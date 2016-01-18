@@ -3,7 +3,7 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item bg project-sheraton-grande-walkerhill-restaurants-bg-1 active"></div>		
-		<div class="item bg project-sheraton-grande-walkerhill-restaurants-bg-2"></div>		
+		<!-- <div class="item bg project-sheraton-grande-walkerhill-restaurants-bg-2"></div>		 -->
 	</div>
 
 	<a href="#content-wrapper" class="scroll-to-content">	
@@ -15,9 +15,9 @@
 	</a>
 
 	<!-- Indicators -->
-  	<ol class="carousel-indicators">
+  	<!-- <ol class="carousel-indicators">
 	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel" data-slide-to="1"></li>
-  	</ol>
+  	</ol> -->
 
 </div>

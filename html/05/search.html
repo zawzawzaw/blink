@@ -118,11 +118,11 @@
 			<h1>Portfolio</h1>
 			{{#items}}
 			<div class="each-item">
-				<div class="img-content"><a href="{{url}}"><img src="{{image}}" class="img-responsive" alt=""></a></div>
+				<div class="img-content"><a href="{{url}}" target="_blank"><img src="{{image}}" class="img-responsive" alt=""></a></div>
 				<div class="text-content">
 					<div class="v-align-table">
 						<div class="v-align-table-cell">
-							<a href="{{url}}"><h3>{{name}}</h3></a>
+							<a href="{{url}}" target="_blank"><h3>{{name}}</h3></a>
 							<p>{{location}}</p>
 						</div>
 					</div>
@@ -137,8 +137,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}"><h2>{{title}}</h2></a>
-					<a href="{{url}}"><p>{{description}}</p></a>					
+					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
@@ -150,8 +150,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}"><h2>{{title}}</h2></a>
-					<a href="{{url}}"><p>{{description}}</p></a>					
+					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
@@ -166,13 +166,28 @@
 					<ul>
 						{{#items}}
 						<li>
-							<a href="{{link}}"><p>{{content}}</p></a>
-							<a href="{{link}}"><p>{{title}} – {{date}}</p></a>
+							<a href="{{link}}" target="_blank"><p>{{content}}</p></a>
+							<a href="{{link}}" target="_blank"><p>{{title}} – {{date}}</p></a>
 						</li>						
 						{{/items}}	
 					</ul>
 				</div>
 			</div>					
+		</div>
+	</script>
+	<script id="news_pr-template" type="text/x-handlebars-template">	
+		<div class="each-item">
+			<div class="text-content">
+				<h2>Press Release</h2>
+				<ul>
+					{{#items}}
+					<li>
+						<a href="{{link}}" target="_blank"><p>{{content}}</p></a>
+						<a href="{{link}}" target="_blank"><p>{{title}} – {{date}}</p></a>
+					</li>						
+					{{/items}}	
+				</ul>
+			</div>
 		</div>
 	</script>
 	<script id="careers-template" type="text/x-handlebars-template">
@@ -181,8 +196,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}"><h2>{{title}}</h2></a>
-					<a href="{{url}}"><p>{{description}}</p></a>					
+					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
@@ -194,8 +209,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}"><h2>{{title}}</h2></a>
-					<a href="{{url}}"><p>{{description}}</p></a>					
+					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
