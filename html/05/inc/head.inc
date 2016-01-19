@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <!-- FONT -->
-<link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6413692/7416752/css/fonts.css" />
 
 <!-- CSS -->
@@ -21,12 +22,14 @@
 <!-- JS -->
 <script type="text/javascript" src="js/vendors/jquery/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/vendors/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/vendors/jquery/jquery.mobile.custom.min.js"></script>
 <script type="text/javascript" src="js/vendors/bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="js/plugins/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="//rawgit.com/metafizzy/isotope-packery/master/packery-mode.pkgd.js"></script>
 <script type="text/javascript" src="js/plugins/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="js/plugins/jquery.disablescroll.min.js"></script>
+
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TimelineMax.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>

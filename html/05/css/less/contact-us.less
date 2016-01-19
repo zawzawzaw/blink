@@ -1,7 +1,7 @@
 .contact-us {
-	
+	padding-top: 173px;
 	.content-1 {
-		margin-top: 198px;
+		// margin-top: 198px;
 		border-bottom: 1px solid @seperator-line;
 		padding-bottom: 124px;
 		.text-content {
@@ -33,9 +33,12 @@
 		}
 	}
 
-	.content-2 {
-		padding-top: 64px;
-		padding-bottom: 18px;
+	.content-2 {		
+		// padding-top: 64px;
+		// padding-bottom: 18px;
+		display: inline-block;
+		width: 49%;
+		vertical-align: top;
 		.img-content {
 			h1 {
 				.gotham-bold;
@@ -55,8 +58,8 @@
 				}
 			}
 			div.each-info {
-				display: inline-block;
-				width: 49.8%;
+				display: block;
+				// width: 49.8%;
 				vertical-align: top;
 				margin-bottom: 50px;
 				&.info-1 {
@@ -111,6 +114,151 @@
 	}
 
 	.content-3 {
+   		// border-top: 1px solid @light-grey;   		
+		// padding-top: 70px;
+		padding-bottom: 90px;
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+
+		form#contact {
+			// border-bottom: 1px solid @seperator-line;
+			// padding-bottom: 30px;
+			// margin-bottom: 30px;
+
+			.response-msg {
+				margin-bottom: 30px;
+			}
+			input {
+				.round(0px);
+				background-color: @subscribe-input-bg;
+				.placeholder(@light-blue);
+				.open-sans-regular;
+				font-size: 12px;
+				line-height: 21px;
+				color: @light-blue;
+				border: 1px solid @subscribe-input-border;
+				padding-left: 13px;
+				width: 300px;
+				height: 30px;
+				margin-bottom: 13px;
+			}
+			.dropdown {
+				margin-bottom: 13px;
+			}
+			input[name="email"], input[name="phone"] {
+				margin-left: 10px;
+			}
+			textarea {
+				width: 100%;
+				background-color: @subscribe-input-bg;	
+				border: 1px solid @subscribe-input-border;
+				margin-bottom: 10px;		
+				padding-left: 13px;
+				.placeholder(@light-blue);	
+				.open-sans-regular;
+				font-size: 12px;
+				line-height: 21px;
+				color: @light-blue;
+				padding-top: 6px;
+			}
+			.g-recaptcha {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.submit {
+				position: relative;
+			}
+			.submit-contact-form {
+				border: none;
+				display: inline-block;
+				vertical-align: middle;
+				text-transform: uppercase;
+				font-size: 14px;
+				margin-bottom: 0px;
+				padding-left: 0px;
+    			margin-left: 8px;
+    			color: @light-blue;
+
+    			&:hover {
+    				color: @dark-blue;
+    			}
+
+    			&.loading {
+    				position: relative;
+    				&:after {
+	    				content: "";
+	    				background: url('../images/icons/ajax-loader.gif') no-repeat;
+						width: 24px;
+						height: 24px;
+						position: absolute;
+						right: -32px;
+    					top: 1px;
+
+	    			}	
+    			}
+    			
+			}			
+		}
+
+   		h1 {
+			.gotham-bold;
+			font-size: 21px;
+			line-height: 35px;
+			letter-spacing: 0.075em;
+			color: @dark-blue;
+			text-transform: uppercase;
+			margin-bottom: 35px;
+			&:after {
+				content: "";
+				background: @dark-blue;
+				width: 43px;
+				height: 2px;
+				display: block;
+				margin: 8px 0px;
+			}
+		}
+   		.each-office {
+	    	display: inline-block;
+		    margin-right: 27px;
+		    vertical-align: top;
+		    margin-bottom: 20px;
+		    width: 44%;
+		    &:nth-of-type(2n) {
+		    	width: 45%;	
+		    }
+   			&:last-child {   				
+   				margin-right: 0px;
+   			}
+   			h6 {
+				.gotham-medium;
+				font-size: 14px;
+				line-height: 21px;
+				letter-spacing: 0.1em;
+				color: @dark-green;
+				// margin-bottom: 15px;
+				text-transform: uppercase;
+   			}
+   			p {
+				// .open-sans-regular;
+				// font-size: 13px;
+				// line-height: 24px;
+				color: @dark-green;
+				margin-bottom: 15px;
+   			}
+   			a {
+   				.open-sans-light;
+   				font-size: 14px;
+   				line-height: 26px;   				
+   				color: @dark-green;
+   				&:hover {
+					color: @dark-blue;
+   				}
+   			}
+   		}
+   	}
+
+   	.content-4 {
    		border-top: 1px solid @light-grey;   		
 		padding-top: 70px;
 		padding-bottom: 90px;
@@ -134,7 +282,7 @@
 		}
    		.each-office {
    			display: inline-block;
-   			width: 22%;
+   			width: 23%;
    			margin-right: 27px;
    			vertical-align: top;
    			&:last-child {

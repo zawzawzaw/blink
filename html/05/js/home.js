@@ -61,6 +61,13 @@ $(function() {
 	 //  	});
 
 	  	// scene.addIndicators();
+
+
+	  	$('.home-carousel .item').on('click', function(e){
+	  		e.preventDefault();
+
+	  		window.location.href = $(this).data('link-to');
+	  	})
 	}
 
 	init();

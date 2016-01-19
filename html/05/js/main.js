@@ -285,5 +285,12 @@ $(document).ready(function(){
         $('.main-nav li:not(:last-child)').show();
         $('.main-nav li:last-child').removeClass('search-active')
     });
+
+    $(".carousel").swiperight(function() {  
+        $(this).carousel('prev');  
+    });  
+    $(".carousel").swipeleft(function() {  
+        $(this).carousel('next');  
+    });  
     
 });

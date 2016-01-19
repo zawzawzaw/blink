@@ -1,5 +1,5 @@
 $(function(){
-	$('#menu-logo-wrapper').addClass('white-version');
+	// $('#menu-logo-wrapper').addClass('white-version');
 
 	///////
 	///////   	
