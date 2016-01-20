@@ -18,12 +18,13 @@
 		<div class="item bg bg2"></div> -->
 	</div>
 
-	<a href="#content-wrapper" class="scroll-to-content">	
-		<div class="arrow">
+	<a href="#content-wrapper" class="scroll-to-content">
+		<div class="arrow-big"></div>	
+		<!-- <div class="arrow">
 			<i class="fa fa-chevron-down first"></i>
 			<i class="fa fa-chevron-down second"></i>
 			<i class="fa fa-chevron-down third"></i>
-		</div>
+		</div> -->
 	</a>
 
 	<!-- Indicators -->

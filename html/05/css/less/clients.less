@@ -1,5 +1,5 @@
 .clients {
-	padding-bottom: 200px;
+	// padding-bottom: 200px;
 	.content-1 {
 		margin-top: 198px;
 		// border-bottom: 1px solid @seperator-line;
@@ -119,11 +119,6 @@
 			}
 		}	
 	}
-
-	.content-4 {
-		margin-top: 125px;
-		margin-bottom: 0px!important;
-	}
 	
 	.content-2, .content-4 {
 		.each-content {
@@ -230,7 +225,41 @@
 		   			vertical-align: middle;
 		   			// .opacity(0.5);	
 		   		}  			
+		   		#insights-carousel {
+		   			.carousel-indicators {
+						// right: auto;
+		      			bottom: 15px !important;
+    					left: 95%;
+		      			// left: auto;
+						li {
+					        margin-right: 8px;
+					        width: 7px;
+						    height: 7px;
+					        background-color: @light-grey;
+					        border: 0px;
+					        &.active {
+					          margin: 1px;
+					          margin-right: 8px;
+					          width: 7px;
+					          height: 7px;
+					          background-color: @light-blue;
+					          border: 0px;
+					        }
+					    }
+					}
+		   		}
 		   	}	
+		   	// &#content-3 {
+		   	// 	height: 930px;
+		   	// 	.text-content {
+		   	// 		height: 756px;
+		   	// 	}
+		   	// 	.img-content {
+		   	// 		img {		   				
+		   	// 			margin-bottom: 15px;
+		   	// 		}
+		   	// 	}
+		   	// }
 	   }
 	}
 
@@ -268,14 +297,14 @@
 				&:nth-of-type(3n) {
 					.text-content {
 						ul {
-							margin-bottom: 37px;
+							// margin-bottom: 37px;
 						}
 					}
 				}
 				&:nth-of-type(4n) {
 					.text-content {
 						ul {
-							margin-bottom: 104px;
+							// margin-bottom: 104px;
 						}
 					}
 				}
@@ -407,7 +436,17 @@
 			    }
 			}
 		}
-		
+		 
+	}
+
+	.content-4 {
+		// margin-top: 125px;
+		margin-bottom: 0px!important;
+		.each-content {
+			.text-content {				
+				width: 75%;				
+			}
+		}
 	}
 
 }

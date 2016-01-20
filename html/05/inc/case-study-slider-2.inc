@@ -19,11 +19,12 @@
 	</div>
 
 	<a href="#content-wrapper" class="scroll-to-content">	
-		<div class="arrow">
+		<div class="arrow-big"></div>
+		<!-- <div class="arrow">
 			<i class="fa fa-chevron-down first"></i>
 			<i class="fa fa-chevron-down second"></i>
 			<i class="fa fa-chevron-down third"></i>
-		</div>
+		</div> -->
 	</a>
 
 	<!-- Indicators -->

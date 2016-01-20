@@ -327,8 +327,8 @@ strong {
 .paragraph-font {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -356,8 +356,8 @@ html p,
 body p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
 }
 #page-wrapper {
   height: 100%;
@@ -682,7 +682,7 @@ body p {
 }
 #page-wrapper .slider-wrapper .carousel-inner .profile-bg-1 {
   background-image: url('../images/content/profile-slide-1.jpg') !important;
-  background-position: center -100px;
+  background-position: center top;
 }
 #page-wrapper .slider-wrapper .carousel-inner .news-bg-1 {
   background-image: url('../images/content/news-slide-1.jpg') !important;
@@ -707,7 +707,7 @@ body p {
   z-index: 0;
 }
 #page-wrapper .slider-wrapper .carousel-indicators {
-  right: -26% !important;
+  right: -24% !important;
   bottom: 30px !important;
   left: auto;
 }
@@ -758,6 +758,27 @@ body p {
 #page-wrapper .slider-wrapper .arrow i.third {
   color: #a4afc2;
 }
+#page-wrapper .slider-wrapper .arrow-big {
+  display: none;
+  position: fixed;
+  bottom: 85px;
+  left: 46%;
+  width: 170px;
+  height: 43px;
+  background: url('../images/icons/down-arrow.png') no-repeat;
+  background-size: contain;
+  text-align: center;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding-top: 7px;
+  padding-left: 1px;
+}
+#page-wrapper .slider-wrapper .arrow-big.hide {
+  display: none!important;
+}
 #page-wrapper .slider-wrapper div.item div.carousel-caption-up {
   top: 28%!important;
 }
@@ -798,8 +819,8 @@ body p {
 #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
   display: block;
   margin: 0 auto;
   text-shadow: none;
@@ -1540,7 +1561,7 @@ div#mailing-list-wrapper div.left {
   position: relative;
   width: 227px;
   display: inline-block;
-  padding-right: 60px;
+  padding-right: 45px;
 }
 div#mailing-list-wrapper div.left:after {
   content: "";
@@ -1566,7 +1587,6 @@ div#mailing-list-wrapper div.left h4 {
   line-height: 28px;
   letter-spacing: 0.05em;
   color: #627482;
-  text-transform: uppercase;
   margin-bottom: 5px;
 }
 div#mailing-list-wrapper div.left ul {
@@ -1638,7 +1658,7 @@ div#mailing-list-wrapper div.middle ul li a:hover {
 div#mailing-list-wrapper div.right {
   display: inline-block;
   max-width: 350px;
-  padding-left: 72px;
+  padding-left: 84px;
   margin-top: 4px;
 }
 div#mailing-list-wrapper div.right h3 {
@@ -1646,7 +1666,6 @@ div#mailing-list-wrapper div.right h3 {
   font-size: 13px;
   letter-spacing: 0.05em;
   color: #2f4455;
-  text-transform: uppercase;
   margin-bottom: 2px;
 }
 div#mailing-list-wrapper div.right p {
@@ -1712,6 +1731,9 @@ div#mailing-list-wrapper div.right input[name="subscribe"]::-moz-placeholder {
 }
 div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder {
   color: #627482;
+}
+#page-wrapper .slider-wrapper .home-carousel .bg {
+  cursor: pointer;
 }
 .home {
   margin-bottom: 50px;
@@ -2275,9 +2297,6 @@ div.copyright-wrapper-with-bg p {
   line-height: 15px;
   color: #a4afc2;
 }
-.clients {
-  padding-bottom: 200px;
-}
 .clients .content-1 {
   margin-top: 198px;
   padding-bottom: 115px;
@@ -2375,10 +2394,6 @@ div.copyright-wrapper-with-bg p {
 }
 .clients .content-extra .img-content a:hover {
   color: #2f4455;
-}
-.clients .content-4 {
-  margin-top: 125px;
-  margin-bottom: 0px!important;
 }
 .clients .content-2 .each-content,
 .clients .content-4 .each-content {
@@ -2499,6 +2514,28 @@ div.copyright-wrapper-with-bg p {
 .clients .content-4 .each-content .img-content img {
   vertical-align: middle;
 }
+.clients .content-2 .each-content .img-content #insights-carousel .carousel-indicators,
+.clients .content-4 .each-content .img-content #insights-carousel .carousel-indicators {
+  bottom: 15px !important;
+  left: 95%;
+}
+.clients .content-2 .each-content .img-content #insights-carousel .carousel-indicators li,
+.clients .content-4 .each-content .img-content #insights-carousel .carousel-indicators li {
+  margin-right: 8px;
+  width: 7px;
+  height: 7px;
+  background-color: #a4afc2;
+  border: 0px;
+}
+.clients .content-2 .each-content .img-content #insights-carousel .carousel-indicators li.active,
+.clients .content-4 .each-content .img-content #insights-carousel .carousel-indicators li.active {
+  margin: 1px;
+  margin-right: 8px;
+  width: 7px;
+  height: 7px;
+  background-color: #627482;
+  border: 0px;
+}
 .clients .content-3 {
   margin-top: 80px;
   position: relative;
@@ -2525,12 +2562,6 @@ div.copyright-wrapper-with-bg p {
 }
 .clients .content-3 #news-carousel .item {
   text-align: center;
-}
-.clients .content-3 #news-carousel .item:nth-of-type(3n) .text-content ul {
-  margin-bottom: 37px;
-}
-.clients .content-3 #news-carousel .item:nth-of-type(4n) .text-content ul {
-  margin-bottom: 104px;
 }
 .clients .content-3 #news-carousel .item .text-content {
   display: inline-block;
@@ -2661,6 +2692,12 @@ div.copyright-wrapper-with-bg p {
   background-color: #627482;
   border: 0px;
 }
+.clients .content-4 {
+  margin-bottom: 0px!important;
+}
+.clients .content-4 .each-content .text-content {
+  width: 75%;
+}
 .portfolio .content-1 {
   margin-top: 130px;
   border-bottom: 1px solid #d1d7e0;
@@ -2688,10 +2725,10 @@ div.copyright-wrapper-with-bg p {
 .portfolio .content-1 .text-content p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
   color: #627482;
-  width: 55%;
+  width: 64%;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -3047,7 +3084,7 @@ div.copyright-wrapper-with-bg p {
   color: #627482;
   border: 1px solid #bdc5d2;
   padding-left: 13px;
-  width: 300px;
+  width: 48.8%;
   height: 30px;
   margin-bottom: 13px;
 }
@@ -3233,6 +3270,13 @@ div.copyright-wrapper-with-bg p {
 .contact-us .content-4 .each-office a:hover {
   color: #2f4455;
 }
+.contact-us .content-4 .each-office span.fax {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #627482;
+}
 .project .content-1 {
   text-align: center;
   margin-top: 155px;
@@ -3277,8 +3321,8 @@ div.copyright-wrapper-with-bg p {
 .project .content-1 .text-content p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
   color: #627482;
   margin-bottom: 17px;
 }
@@ -3529,7 +3573,7 @@ div.copyright-wrapper-with-bg p {
 }
 .profile .content-1 .text-content {
   text-align: center;
-  width: 50%;
+  width: 57%;
   margin: 0 auto;
 }
 .profile .content-1 .text-content h1 {
@@ -3606,6 +3650,9 @@ div.copyright-wrapper-with-bg p {
   line-height: 20px;
   color: #a4afc2;
 }
+.profile .content-2 .text-content .popover {
+  max-width: 400px!important;
+}
 .profile .content-3 {
   padding-top: 92px;
   padding-bottom: 80px;
@@ -3654,7 +3701,7 @@ div.copyright-wrapper-with-bg p {
   margin-top: 163px;
 }
 .careers .content-1 #small-carousel .carousel-indicators {
-  right: -26% !important;
+  right: -24% !important;
   bottom: 30px !important;
   left: auto;
 }
@@ -3688,6 +3735,14 @@ div.copyright-wrapper-with-bg p {
   letter-spacing: 0.075em;
   color: #2f4455;
   text-transform: uppercase;
+}
+.careers .content-2 .text-content h1:after {
+  content: "";
+  background: #2f4455;
+  width: 44px;
+  height: 2px;
+  display: block;
+  margin: 15px auto 25px;
 }
 .careers .content-2 .text-content ul li {
   display: inline-block;
@@ -3786,7 +3841,7 @@ div.copyright-wrapper-with-bg p {
   color: #627482;
   margin: 0 auto;
   margin-bottom: 24px;
-  width: 41%;
+  width: 45%;
 }
 .careers .content-3 .img-content {
   margin-top: 55px;
@@ -3830,12 +3885,12 @@ div.copyright-wrapper-with-bg p {
 }
 .careers .content-4 .img-content {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .careers .content-4 .text-content {
   display: inline-block;
   width: 40%;
-  vertical-align: top;
+  vertical-align: middle;
   padding-left: 85px;
 }
 .careers .content-4 .text-content h1 {
@@ -3914,7 +3969,7 @@ div.copyright-wrapper-with-bg p {
   color: #627482;
   margin-bottom: 30px;
   margin-top: 11px;
-  width: 43%;
+  width: 48%;
   margin: 0 auto;
 }
 .careers .content-5 .img-content div.circle {

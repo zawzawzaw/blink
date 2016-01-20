@@ -3,7 +3,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="left each-column hidden-xs hidden-sm">						
-						<h4>Follow Us</h4>
+						<h4>thinkBLINK COMMUNITIES</h4>
 						<ul>
 							<!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
@@ -33,7 +33,7 @@
 					</div>
 					<div class="right each-column">
 						<div class="text-content">
-							<h3>Join Our Mailing List</h3>
+							<h3>thinkBLINK NEWS</h3>
 							<p>Subscribe to our newsletter and stay updated <br> with our latest work and news.</p>
 						</div>
 						<div class="input">

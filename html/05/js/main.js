@@ -35,12 +35,20 @@ $(document).ready(function(){
         thirdOrgColor = $third.css('color');
 
     (cycle = function() {
-        $first.animate({color:thirdOrgColor}, 'fast', function(){
-            $second.animate({color:thirdOrgColor}, 'fast', function(){
-                $third.animate({color:secondOrgColor}, 'fast').animate({color:thirdOrgColor}, 'fast', cycle);
-            }).animate({color:secondOrgColor}, 'fast');
-        }).animate({color:firstOrgColor}, 'fast');        
+        // $first.animate({color:thirdOrgColor}, 'fast', function(){
+        //     $second.animate({color:thirdOrgColor}, 'fast', function(){
+        //         $third.animate({color:secondOrgColor}, 'fast').animate({color:thirdOrgColor}, 'fast', cycle);
+        //     }).animate({color:secondOrgColor}, 'fast');
+        // }).animate({color:firstOrgColor}, 'fast');               
     })();
+
+    function loop(){
+        $('.arrow-big').css({ 'bottom': '75px', 'display': 'none', 'visibility': 'visible' });
+        $('.arrow-big').fadeIn(200).animate({'bottom': '35px', 'visibility': 'hidden'}, 900, 'linear', function(){
+            loop();
+        });     
+    }
+    loop();    
 
     /////
     /////
@@ -99,7 +107,8 @@ $(document).ready(function(){
         // console.log(scrollPos);
     
         if( ( scrollPos != 0 ) ) {            
-            $('.scroll-to-content .arrow').hide();
+            // $('.scroll-to-content .arrow').hide();
+            $('.scroll-to-content .arrow-big').addClass('hide');
             if(scrolled==false) {
                 scrolled = true;             
             }
@@ -107,7 +116,8 @@ $(document).ready(function(){
         }       
         else if( ( scrollPos === 0 ) && (scrolled == true) ) {
             scrolled = false;            
-            $('.scroll-to-content .arrow').show();
+            // $('.scroll-to-content .arrow').show();
+            $('.scroll-to-content .arrow-big').removeClass('hide');
         }
     }
 

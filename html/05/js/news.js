@@ -12,25 +12,25 @@ $(function(){
 
 	data['mc_1'] = [
 		{
-			"date": "27 Nov 2014",
+			"date": "Nov 2014",
 			"title": "TTR Weekly",
 			"content": "Blinking Big Ideas",
 			"link": "http://www.ttrweekly.com/site/2014/11/blinking-big-ideas/"
 		},
 		{
-			"date": "26 Nov 2014",
+			"date": "Nov 2014",
 			"title": "Hotelier Indonesia",
 			"content": "Luxury Hospitality Design Roundtable Declares Specialisation and Segmentation as the New Watchwords",
 			"link": "http://hotelier-indonesia.com/news/luxury-hospitality-design-roundtable-declares-specialisation-and-segmentation-as-the-new-watchwords/"
 		},
 		{
-			"date": "16 Sep 2014",
+			"date": "Sep 2014",
 			"title": "Hotel Executive",
 			"content": "The Agony and Ecstasy of Creating Unique Hotels",
 			"link": "http://hotelexecutive.com/business_review/4080/the-agony-and-ecstasy-of-creating-unique-hotels"
 		},
 		{
-			"date": "9 Sep 2014",
+			"date": "Sep 2014",
 			"title": "Global Hotel Network",
 			"content": "Clint Nagata: Why Authenticity Matters",
 			"link": "http://www.globalhotelnetwork.com/resources/columns/perspectives/ClintNagata_b.pdf"
@@ -42,13 +42,13 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/blink%20the%20peak%20feature_design%20challenge_op.pdf"
 		},
 		{
-			"date": "7 Aug 2014",
+			"date": "Aug 2014",
 			"title": "Singapore Tatler",
 			"content": "The Dapper Man: Christopher Chua",
 			"link": "http://sg.asiatatler.com/style/fashion/the-dapper-man-christopher-chua"
 		},
 		{
-			"date": "1 Aug 2014",
+			"date": "Aug 2014",
 			"title": "ETB News",
 			"content": "BLINK Design Group Marches into Greater China at Double Time",
 			"link": "http://asia.etbnews.com/219402/blink-design-group-marches-greater-china-double-time/"
@@ -66,25 +66,25 @@ $(function(){
 			"link": "http://www.cntraveller.com/awards/the-hot-list/hot-list-2014/regent-bali-indonesia"
 		},
 		{
-			"date": "28 May 2014",
+			"date": "May 2014",
 			"title": "Asian Hotel & Catering Times",
 			"content": "Christopher Chua becomes MD BLINK Design Group",
 			"link": "http://www.asianhotelandcateringtimes.com/christopher-chua-becomes-md-blink-design-group/"
 		},
 		{
-			"date": "24 May 2014",
+			"date": "May 2014",
 			"title": "Hotelier Indonesia",
 			"content": "BLINK's Key Role in Regent's Rebirth Picks up Design Award",
 			"link": "http://hotelier-indonesia.com/news/blinks-key-role-in-regent-rebirth-applauded-as-flagship-phuket-resort-picks-up-design-award/"
 		},
 		{
-			"date": "9 May 2014",
+			"date": "May 2014",
 			"title": "South China Morning Post",
 			"content": "Subtle Sophistication the Way Forward for Luxury Travellers in China",
 			"link": "http://www.scmp.com/magazines/style/article/1500681/room-grow"
 		},
 		{
-			"date": "5 May 2014",
+			"date": "May 2014",
 			"title": "Asian Hotel & Catering Times",
 			"content": "Embrace Authenticity, creative design and practicality for success, roundtable hears",
 			"link": "http://www.asianhotelandcateringtimes.com/embrace-authenticity-creative-design-practicality-success-roundtable-hears/"
@@ -96,7 +96,7 @@ $(function(){
 			"link": "http://www.themilliardaire.co/hotspot/jumeirah-dhevanafushi-maldives-10187/"
 		},
 		{
-			"date": "No.1 issue (Feb) 2014",
+			"date": "Feb 2014",
 			"title": "FORM",
 			"content": "GutFeel Architecture",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/form%20and%20room%20feb%202014%20chris%20chua.pdf"
@@ -117,13 +117,13 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/expat%20society_2013-2014_dec13_2014.01.09.pdf"
 		},
 		{
-			"date": "19 Nov 2013",
+			"date": "Nov 2013",
 			"title": "Interior Design",
 			"content": "10 Questions with... BLINK Design Group",
 			"link": "http://www.pattayamail.com/property/hospitality-design-firm-blink-sets-up-new-hq-in-stylish-sathorn-29850"
 		},
 		{
-			"date": "06 Sep 2013",
+			"date": "Sep 2013",
 			"title": "Pattaya Mail",
 			"content": "Hospitality design firm BLINK sets up new HQ in stylish Sathorn",
 			"link": "http://www.interiordesign.net/articles/detail/35803-10-questions-with-blink-design-group/"
@@ -141,7 +141,7 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/think%20design%20july%202013.pdf"
 		},
 		{
-			"date": "17 Jun 2013",
+			"date": "Jun 2013",
 			"title": "The Edge",
 			"content": "Here to Stay",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/june%202013%20the%20edge%20chris%20chua.pdf"
@@ -153,25 +153,25 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/blink%20perspective%20march%202013%20clint%20nagata%20profile%20low%202.pdf"
 		},
 		{
-			"date": "26 Apr 2013",
+			"date": "Apr 2013",
 			"title": "The Nation",
 			"content": "BLINK Puts its Marker on the Sand at Two Beach Resorts",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/blink_the%20nation%2026%20april%202013.pdf"
 		},
 		{
-			"date": "18 Mar 2013",
+			"date": "Mar 2013",
 			"title": "People's Daily Online",
 			"content": "China, an exciting canvas for hospitality design",
 			"link": "http://english.peopledaily.com.cn/205040/8172131.html"
 		},
 		{
-			"date": "17 Mar 2013",
+			"date": "Mar 2013",
 			"title": "China Daily",
 			"content": "Gimme Shelter",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/china%20daily%20march%2017%202013s.pdf"
 		},
 		{
-			"date": "11 Jan 2013",
+			"date": "Jan 2013",
 			"title": "The Nation",
 			"content": "Blink brings more lustre and luxury to Bali and Phuket",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/thenation-11jan2013.pdf"

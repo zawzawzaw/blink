@@ -1,3 +1,89 @@
+@media (max-width: 1280px) and (min-width: 1200px) {
+    .container {
+      width: 1218px;
+    } 
+    .project {		
+		.content-2 {
+			.img-content {				
+				.grid-sizer-3 {
+					width: 193px;
+				}			
+				.grid-item-3 {
+					width: 380px;
+					// margin-bottom: 10px;
+				}				
+				.grid-item-3--width4 { 
+					width: 99%;
+				}
+				.grid-item-3--width3 { 
+					width: 778px;
+				}
+				.grid-item-3--width2 { 
+					width: 580px;
+				}				
+			}
+		}
+	}
+	div#mailing-list-wrapper {
+		div.middle {
+			ul {
+				&:nth-of-type(3n) {
+					margin-right: 75px;						
+				}
+			}				
+		}
+		div.right {
+			padding-left: 60px;
+		}
+	}
+	.clients {
+		.content-3 {
+			#news-carousel {
+				.item {
+					.text-content {
+						width: 478px;
+					}					
+				}
+			}
+		}
+	}
+	.careers {
+		.content-4 {
+			.text-content {
+				width: 474px;
+				padding-left: 78px;
+				p {
+					width: auto;
+				}
+				ul {
+					width: auto;
+					li {
+						width: auto;
+						position: relative;
+						padding-left: 13px;
+						&:before {
+							position: absolute;
+							left: 0px;
+							top: 11px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.news {
+		.content-2 {
+			.sidebar {
+				width: 193px;
+				margin-right: 25px;
+			}
+			.tab-content {
+				padding-left: 45px;
+			}
+		}
+	}
+}
+
 @media all and (max-width: 1200px) {	
 	.home {
 		.each-content {
@@ -230,6 +316,13 @@
 					.img-content {
 						width: 57.7%;
 					}
+					&:nth-of-type(4n) {
+						.text-content {
+							ul {
+								margin-bottom: 0px;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -276,7 +369,21 @@
 				}
 			}
 		}
-	}
+	}	
+	.profile {
+  		.content-1 {
+  			.text-content {
+  				width: 65%;
+  			}
+  		}
+  		.content-2 {
+  			.text-content {
+  				>p {
+  					width: 65%;
+  				}
+  			}
+  		}  		
+  	}
 	div#mailing-list-wrapper {
 		div.left {
 			padding-right: 33px;
@@ -292,13 +399,19 @@
 					margin-right: 45px;	
 				}
 				&:nth-of-type(3n) {
-					margin-right: 35px;
+					margin-right: 20px;
 				}
 			}
 		}
 		div.right {
-		    max-width: 346px;
+		    max-width: 290px;
 			padding-left: 30px;
+			.input {
+				width: 100%;
+				input {
+					width: 100%;
+				}
+			}
 		}
 	}
 }

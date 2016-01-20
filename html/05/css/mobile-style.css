@@ -166,6 +166,62 @@
 .clear:after {
   clear: both;
 }
+@media (max-width: 1280px) and (min-width: 1200px) {
+  .container {
+    width: 1218px;
+  }
+  .project .content-2 .img-content .grid-sizer-3 {
+    width: 193px;
+  }
+  .project .content-2 .img-content .grid-item-3 {
+    width: 380px;
+  }
+  .project .content-2 .img-content .grid-item-3--width4 {
+    width: 99%;
+  }
+  .project .content-2 .img-content .grid-item-3--width3 {
+    width: 778px;
+  }
+  .project .content-2 .img-content .grid-item-3--width2 {
+    width: 580px;
+  }
+  div#mailing-list-wrapper div.middle ul:nth-of-type(3n) {
+    margin-right: 75px;
+  }
+  div#mailing-list-wrapper div.right {
+    padding-left: 60px;
+  }
+  .clients .content-3 #news-carousel .item .text-content {
+    width: 478px;
+  }
+  .careers .content-4 .text-content {
+    width: 474px;
+    padding-left: 78px;
+  }
+  .careers .content-4 .text-content p {
+    width: auto;
+  }
+  .careers .content-4 .text-content ul {
+    width: auto;
+  }
+  .careers .content-4 .text-content ul li {
+    width: auto;
+    position: relative;
+    padding-left: 13px;
+  }
+  .careers .content-4 .text-content ul li:before {
+    position: absolute;
+    left: 0px;
+    top: 11px;
+  }
+  .news .content-2 .sidebar {
+    width: 193px;
+    margin-right: 25px;
+  }
+  .news .content-2 .tab-content {
+    padding-left: 45px;
+  }
+}
 @media all and (max-width: 1200px) {
   .home .each-content .text-content .v-align-table .v-align-table-cell {
     vertical-align: top;
@@ -307,6 +363,9 @@
   .clients .content-3 #news-carousel .item .img-content {
     width: 57.7%;
   }
+  .clients .content-3 #news-carousel .item:nth-of-type(4n) .text-content ul {
+    margin-bottom: 0px;
+  }
   .news .content-2 .tab-content {
     margin-top: 40px;
     padding-left: 0px;
@@ -330,6 +389,12 @@
   .contact-us .content-3 form#contact input {
     width: 48.6%;
   }
+  .profile .content-1 .text-content {
+    width: 65%;
+  }
+  .profile .content-2 .text-content > p {
+    width: 65%;
+  }
   div#mailing-list-wrapper div.left {
     padding-right: 33px;
   }
@@ -346,11 +411,17 @@
     margin-right: 45px;
   }
   div#mailing-list-wrapper div.middle ul:nth-of-type(3n) {
-    margin-right: 35px;
+    margin-right: 20px;
   }
   div#mailing-list-wrapper div.right {
-    max-width: 346px;
+    max-width: 290px;
     padding-left: 30px;
+  }
+  div#mailing-list-wrapper div.right .input {
+    width: 100%;
+  }
+  div#mailing-list-wrapper div.right .input input {
+    width: 100%;
   }
 }
 @media all and (max-width: 992px) {
@@ -927,6 +998,19 @@
     width: 44%;
     margin-bottom: 30px;
   }
+  #page-wrapper .profile .content-1 .text-content {
+    width: 80%;
+  }
+  #page-wrapper .profile .content-2 .text-content > p {
+    width: 70%;
+  }
+  #page-wrapper .profile .content-3 .text-content {
+    width: 32%;
+  }
+  #page-wrapper .profile .content-3 .text-content-2 {
+    width: 60%;
+    padding-left: 70px;
+  }
   #page-wrapper div#mailing-list-wrapper {
     text-align: center;
     padding: 28.176471px 0 26.47058824px 0;
@@ -1141,6 +1225,27 @@
   #page-wrapper .clients .content-2 .each-content .img-content img,
   #page-wrapper .clients .content-4 .each-content .img-content img {
     width: 100%;
+  }
+  #page-wrapper .profile .content-1 .text-content {
+    width: 90%;
+  }
+  #page-wrapper .profile .content-2 .text-content > p {
+    width: 80%;
+  }
+  #page-wrapper .profile .content-2 .text-content ul {
+    width: 100%;
+  }
+  #page-wrapper .profile .content-2 .text-content ul li {
+    text-align: center;
+  }
+  #page-wrapper .profile .content-3 .text-content {
+    width: 100%;
+    display: block;
+  }
+  #page-wrapper .profile .content-3 .text-content-2 {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
   }
 }
 @media all and (max-width: 755px) {

@@ -4,7 +4,7 @@
 		margin-top: 163px;
 		#small-carousel {
 			.carousel-indicators {
-				right: -26%!important;
+				right: -24%!important;
       			bottom: 30px !important;
       			left: auto;
 				li {
@@ -38,7 +38,15 @@
 				line-height: 35px;
 				letter-spacing: 0.075em;
 				color: @dark-blue;
-				text-transform: uppercase;				
+				text-transform: uppercase;	
+				&:after {
+					content: "";
+					background: @dark-blue;
+					width: 44px;
+					height: 2px;
+					display: block;
+					margin: 15px auto 25px;
+				}			
 			}
 			ul {
 				li {
@@ -146,7 +154,7 @@
 				color: @light-blue;
 				margin: 0 auto;
 				margin-bottom: 24px;
-				width: 41%;
+				width: 45%;
 			}
 		}
 		.img-content {
@@ -194,13 +202,13 @@
 		.img-content {
 			display: inline-block;
 			// width: 30%;
-			vertical-align: top;
+			vertical-align: middle;
 			
 		}
 		.text-content {
 			display: inline-block;
 			width: 40%;
-			vertical-align: top;
+			vertical-align: middle;
 			padding-left: 85px;
 			h1 {
 				.gotham-bold;
@@ -282,7 +290,7 @@
 				color: @light-blue;
 				margin-bottom: 30px;
 				margin-top: 11px;
-				width: 43%;
+				width: 48%;
 				margin: 0 auto;
 			}
 		}
