@@ -13,7 +13,7 @@
 							<!--  legends of luxury... @Blinkdesigngroup -->
 						</div>
 						<div class="pull-right sharing hidden-xs hidden-sm">
-							<p>&copy; 2015 Blink Design Group. All Rights Reserved.</p>
+							<p>&copy; 2016 Blink Design Group. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>

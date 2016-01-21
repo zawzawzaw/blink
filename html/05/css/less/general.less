@@ -93,8 +93,73 @@ strong {
 
 .paragraph-font {
   .open-sans-light;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 29px;
+  @media all and (max-width: 992px) {
+    .open-sans-regular;
+    font-size: 15px;
+    line-height: 26px;
+    // color: @dark-blue!important;
+  }
+}
+
+.heading-1-font {
+  .gotham-bold;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  @media all and (max-width: 414px) {
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.06em;
+  }
+}
+
+.heading-2-font {
+  .gotham-bold;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  @media all and (max-width: 992px) {
+    font-size: 21px;
+  }
+  @media all and (max-width: 414px) {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+}
+
+.heading-3-font {
+  .gotham-bold;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  @media all and (max-width: 414px) {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+}
+
+.heading-5-font {
+  .gotham-bold;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  @media all and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+.heading-6-font {
+  .harriet-text-medium-italic;
+  font-size: 17px;
+  @media all and (max-width: 414px) {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
 
 //    ____ _____ _   _ _____ ____      _    _
@@ -122,6 +187,26 @@ html, body {
   height:100%;
   margin:0;
   padding:0;
+
+  h1 {
+    .heading-1-font;
+  }
+
+  h2 {
+    .heading-2-font;
+  }
+
+  h3 {
+    .heading-3-font;
+  }
+
+  h5 {
+    .heading-5-font;
+  }
+
+  h6 {
+    .heading-6-font;
+  }
 
   p {
     .paragraph-font;
@@ -430,7 +515,10 @@ html, body {
       }
       .project-marriott-wenchang-bg-1 {
         background-image:url('../images/content/project-marriott-wenchang-slide-1.jpg')!important;
-        background-position: center -95px;    
+        background-position: center -95px;  
+        @media all and (max-width: 1280px) {
+          background-position: center bottom;
+        }  
       }
       .project-melia-bali-bg-1 {
         background-image:url('../images/content/project-melia-bali-slide-1.jpg')!important;
@@ -533,9 +621,9 @@ html, body {
     }
 
     .arrow-big {
-      display: none;
+      // display: none;
       position: fixed;
-      bottom: 85px;
+      bottom: 36px;
       left: 46%;
       // margin-left: -20px;
       width: 170px;
@@ -559,7 +647,7 @@ html, body {
         top: 38%!important;
       }
       div.carousel-caption {
-        width: 680px;
+        width: 780px;
         position: absolute;
         left: 50%;
         top: 44%;
@@ -569,41 +657,41 @@ html, body {
         div.caption-text {
           position: relative; 
           left: -50%;
-          h5 {
-            .gotham-bold;
-            font-size: 18px;    
-            // line-height: 38px;  
-            letter-spacing: 0.08em;
-            color: @white;   
-            margin-bottom: 10px;  
-            text-transform: uppercase;   
-            text-shadow: none;
-          }
+          // h5 {
+          //   .gotham-bold;
+          //   font-size: 18px;    
+          //   // line-height: 38px;  
+          //   letter-spacing: 0.08em;
+          //   color: @white;   
+          //   margin-bottom: 10px;  
+          //   text-transform: uppercase;   
+          //   text-shadow: none;
+          // }
           h1 {
-            .gotham-bold; 
-            font-size: 26px;            
-            line-height: 35px;
-            letter-spacing: 0.075em;
+            // .gotham-bold; 
+            // font-size: 26px;            
+            // line-height: 35px;
+            // letter-spacing: 0.075em;
             text-transform: uppercase;
             text-shadow: none;
             color: @white;
           }                    
-          p {
-            .paragraph-font;
-            // .open-sans-regular;
-            // font-size: 13px;
-            // line-height: 23px;                        
-            display: block; 
-            margin: 0 auto;
-            text-shadow: none;
-            color: @white;
-            margin-top: 5px;
-          }     
-          .seperator-line {
-            // margin: 16px auto 22px;
-            margin: 18px auto 19px;
-            background-color: @white!important;
-          }         
+          // p {
+          //   .paragraph-font;
+          //   // .open-sans-regular;
+          //   // font-size: 13px;
+          //   // line-height: 23px;                        
+          //   display: block; 
+          //   margin: 0 auto;
+          //   text-shadow: none;
+          //   color: @white;
+          //   margin-top: 5px;
+          // }     
+          // .seperator-line {
+          //   // margin: 16px auto 22px;
+          //   margin: 18px auto 19px;
+          //   background-color: @white!important;
+          // }         
         }        
       }
       #blur-bg {        
@@ -819,11 +907,11 @@ a, a:link, a:hover, a:active, a:visited{
 }
 
 h1 {
-  .gotham-bold;  
+  .gotham-bold;
 }
 
 h2{
-  .harriet-text-medium-italic;
+  .gotham-bold;
 }
 
 h3{

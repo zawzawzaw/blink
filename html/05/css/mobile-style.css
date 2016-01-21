@@ -227,9 +227,6 @@
     vertical-align: top;
     padding-top: 10px;
   }
-  .home .each-content .text-content .v-align-table .v-align-table-cell h2 {
-    font-size: 20px;
-  }
   .case-study .content-1 {
     margin-top: 100px;
   }
@@ -292,14 +289,6 @@
   }
   .portfolio .content-3 ul li {
     width: 32.1%;
-  }
-  .portfolio .content-3 ul li .caption-text h6 {
-    font-size: 12px;
-    line-height: 13px;
-  }
-  .portfolio .content-3 ul li .caption-text h5 {
-    font-size: 14px;
-    line-height: 20px;
   }
   .project .content-2 .img-content .grid-sizer-3 {
     width: 160px;
@@ -499,9 +488,6 @@
   #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
     background: url(../images/logo/blink-small.png) no-repeat;
   }
-  #mobile-menu-logo-wrapper.white-version .mobile-menu .mobile-search {
-    margin-top: 1px;
-  }
   #mobile-menu-logo-wrapper.white-version .mobile-menu .mobile-search i {
     color: #627482;
   }
@@ -541,7 +527,6 @@
   }
   #mobile-menu-logo-wrapper .mobile-menu a.mobile-search {
     margin-right: 22px;
-    margin-top: 1px;
   }
   #mobile-menu-logo-wrapper .mobile-menu a.mobile-search i {
     font-size: 18px;
@@ -587,7 +572,7 @@
   #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-content {
     margin-top: 45px;
   }
-  #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-content input[name="search"] {
+  #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-content input[name="q"] {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -908,21 +893,32 @@
   }
   #page-wrapper .clients .content-2 .each-content,
   #page-wrapper .clients .content-4 .each-content {
-    height: 263px;
+    height: auto;
   }
   #page-wrapper .clients .content-2 .each-content .text-content,
   #page-wrapper .clients .content-4 .each-content .text-content {
-    height: 263px;
+    padding-top: 20px;
+    height: auto;
   }
   #page-wrapper .clients .content-3 #news-carousel .item .text-content {
     width: 100%;
+    height: 450px;
     margin: 0px;
+  }
+  #page-wrapper .clients .content-3 #news-carousel .item .text-content ul li span.visible-xs {
+    display: inline-block !important;
+  }
+  #page-wrapper .clients .content-3 #news-carousel .item .text-content .seperator-line {
+    width: 100%!important;
   }
   #page-wrapper .clients .content-3 #news-carousel .item .img-content {
     width: 100%;
   }
   #page-wrapper .clients .content-3 #news-carousel .item .img-content img {
     width: 100%;
+  }
+  #page-wrapper .clients .content-4 {
+    margin-top: 50px;
   }
   #page-wrapper .clients .img-content ul li {
     width: 100%;
@@ -938,6 +934,9 @@
   #page-wrapper .clients .img-content ul li .v-align-table .v-align-table-cell {
     padding: 27% 0px 32%;
   }
+  #page-wrapper .portfolio .content-1 {
+    margin-top: 120px;
+  }
   #page-wrapper .portfolio .content-1 .text-content p {
     width: 95%;
   }
@@ -950,8 +949,12 @@
   #page-wrapper .portfolio .content-3 ul li {
     width: 31.1%;
   }
+  #page-wrapper .portfolio .content-3 ul li .caption-text span {
+    font-size: 12px;
+    line-height: 13px;
+  }
   #page-wrapper .careers .content-1 {
-    margin-top: 125px;
+    margin-top: 95px;
   }
   #page-wrapper .careers .content-2 .text-content {
     width: 100%;
@@ -968,8 +971,26 @@
   #page-wrapper .careers .content-5 .text-content p {
     width: 100%;
   }
+  #page-wrapper .news .content-2 {
+    margin-top: 95px;
+    padding-top: 0px;
+    padding-bottom: 43px;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane {
+    width: 100%;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.news-title {
+    display: none;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.news-content {
+    width: 73%;
+    padding-left: 0px;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.date {
+    width: 25%;
+  }
   #page-wrapper .contact-us {
-    padding-top: 110px;
+    padding-top: 95px;
   }
   #page-wrapper .contact-us .content-1 {
     margin-top: 120px;
@@ -981,6 +1002,7 @@
   #page-wrapper .contact-us .content-2 {
     display: block;
     width: 100%;
+    padding-top: 0px;
   }
   #page-wrapper .contact-us .content-2 .img-content div.each-info {
     width: 100%;
@@ -990,6 +1012,7 @@
     display: block;
     width: 100%;
     padding-top: 17px;
+    padding-bottom: 43px;
   }
   #page-wrapper .contact-us .content-3 form#contact input {
     width: 49%;
@@ -998,18 +1021,82 @@
     width: 44%;
     margin-bottom: 30px;
   }
+  #page-wrapper .contact-us .content-4 .each-office:last-child {
+    margin-bottom: 0px;
+  }
+  #page-wrapper .project .content-1 {
+    margin-top: 95px;
+    margin-bottom: 43px;
+  }
+  #page-wrapper .profile .content-1 {
+    margin-top: 120px;
+    padding-bottom: 39px;
+  }
   #page-wrapper .profile .content-1 .text-content {
     width: 80%;
   }
+  #page-wrapper .profile .content-1 .text-content p:last-child {
+    margin-bottom: 0px;
+  }
+  #page-wrapper .profile .content-2 {
+    padding-bottom: 38px;
+  }
+  #page-wrapper .profile .content-2 .text-content h1 {
+    margin-top: 43px;
+  }
   #page-wrapper .profile .content-2 .text-content > p {
-    width: 70%;
+    width: 84%;
+  }
+  #page-wrapper .profile .content-3 {
+    padding-top: 43px;
+    padding-bottom: 38px;
   }
   #page-wrapper .profile .content-3 .text-content {
     width: 32%;
   }
+  #page-wrapper .profile .content-3 .text-content h1 {
+    font-size: 21px;
+    line-height: 28px;
+  }
   #page-wrapper .profile .content-3 .text-content-2 {
     width: 60%;
     padding-left: 70px;
+  }
+  #page-wrapper .profile .content-3 .text-content-2 p {
+    margin-bottom: 0px;
+  }
+  #page-wrapper .search .content-1 {
+    margin-top: 95px;
+  }
+  #page-wrapper .search .content-1 .text-content h1 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  #page-wrapper .search .content-2 {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  #page-wrapper .search .content-2 .each-item {
+    margin-bottom: 40px;
+  }
+  #page-wrapper .search .content-2 .each-item .img-content {
+    width: 100%;
+  }
+  #page-wrapper .search .content-2 .each-item .text-content {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  #page-wrapper .search .content-2 .each-item .text-content h3 {
+    margin-bottom: 0px;
+  }
+  #page-wrapper .search .search-content {
+    padding-bottom: 40px;
+  }
+  #page-wrapper .search .search-content .text-content h2 {
+    font-size: 17px;
+    line-height: 25px;
   }
   #page-wrapper div#mailing-list-wrapper {
     text-align: center;
@@ -1146,6 +1233,9 @@
   #page-wrapper .slider-wrapper .arrow {
     top: 93%;
   }
+  #page-wrapper .slider-wrapper .arrow-big {
+    left: 39%;
+  }
   #page-wrapper .case-study .content-2 .img-content .grid-item-2--width4 {
     width: 100%;
   }
@@ -1229,9 +1319,6 @@
   #page-wrapper .profile .content-1 .text-content {
     width: 90%;
   }
-  #page-wrapper .profile .content-2 .text-content > p {
-    width: 80%;
-  }
   #page-wrapper .profile .content-2 .text-content ul {
     width: 100%;
   }
@@ -1246,6 +1333,16 @@
     display: block;
     width: 100%;
     padding-left: 0px;
+  }
+  #page-wrapper .careers .content-extra .text-content {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+  #page-wrapper .careers .content-extra .img-content {
+    width: 100%;
+    display: block;
   }
 }
 @media all and (max-width: 755px) {
@@ -1397,9 +1494,6 @@
   #page-wrapper .portfolio .content-3 ul.list li.list-item img {
     width: 100%;
   }
-  #page-wrapper .contact-us .content-2 {
-    padding-top: 40px;
-  }
   #page-wrapper .contact-us .content-2 .img-content div.each-info {
     width: 100%;
   }
@@ -1417,6 +1511,9 @@
   }
   #page-wrapper .slider-wrapper.carousel-resize-on-mobile .arrow {
     display: none!important;
+  }
+  #page-wrapper .slider-wrapper.carousel-resize-on-mobile .arrow-big {
+    left: 39%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
     font-size: 13px;
@@ -1446,9 +1543,6 @@
   #page-wrapper .case-study .content-3 ul li:last-child {
     display: block;
   }
-  #page-wrapper .project .content-1 {
-    margin-top: 130px;
-  }
   #page-wrapper .project .content-1 .text-content {
     margin-top: 20px;
   }
@@ -1458,7 +1552,10 @@
   #page-wrapper .portfolio .content-1 {
     margin-top: 0px;
     padding-bottom: 40px;
-    margin-top: 102px;
+    margin-top: 95px;
+  }
+  #page-wrapper .portfolio .content-1 .text-content p:last-child {
+    margin-bottom: 0px;
   }
   #page-wrapper .portfolio .content-1 h1 {
     margin-top: 0px;
@@ -1469,10 +1566,9 @@
   #page-wrapper .clients .content-1 {
     margin-top: 0px;
     padding-bottom: 40px;
-    margin-top: 102px;
   }
-  #page-wrapper .clients .content-1 h1 {
-    margin-top: 0px;
+  #page-wrapper .clients .content-1 h3 {
+    margin-top: 95px;
   }
   #page-wrapper .clients .content-1 p {
     width: auto;
@@ -1558,6 +1654,9 @@
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
   }
+  #page-wrapper .slider-wrapper .arrow-big {
+    left: 30%;
+  }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     top: 35%;
   }
@@ -1612,11 +1711,8 @@
     margin: 0 auto 12.764706px auto;
   }
   #page-wrapper .home #heading p {
-    font-size: 14px;
-    line-height: 24px;
     color: #627482;
     width: 88%;
-    margin: 0 auto;
   }
   #page-wrapper .home .each-row:nth-child(2n+1) .each-content {
     padding: 43px 0 38px 0!important;
@@ -1632,9 +1728,6 @@
     margin-bottom: 5px;
   }
   #page-wrapper .home .each-content .text-content h2 {
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: 0.05em;
     margin-bottom: 14px;
     margin-bottom: 15px;
     width: 98%;
@@ -1643,13 +1736,9 @@
     margin-bottom: 23px;
   }
   #page-wrapper .home .each-content .text-content h6 {
-    font-size: 15px;
-    line-height: 24px;
     width: 90%;
   }
   #page-wrapper .home .each-content .text-content p {
-    font-size: 14px;
-    line-height: 25px;
     width: 99.12%;
     margin-bottom: 17px;
   }
@@ -1734,14 +1823,42 @@
   #page-wrapper .case-study .content-2 .img-content .grid-item-2 {
     width: 100%;
   }
+  #page-wrapper .profile .content-1 {
+    margin-top: 90px;
+  }
+  #page-wrapper .profile .content-2 h3 {
+    margin-top: 43px;
+  }
   #page-wrapper .clients .content-1 .text-content h1 {
     font-size: 19px;
     line-height: 36px;
   }
   #page-wrapper .clients .content-1 .text-content p {
-    font-size: 12px;
-    line-height: 19px;
     width: 74%;
+  }
+  #page-wrapper .careers .content-2 {
+    margin-top: 40px;
+  }
+  #page-wrapper .careers .content-2 .img-content {
+    margin-top: 40px;
+  }
+  #page-wrapper .careers .content-3 {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  #page-wrapper .careers .content-4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #page-wrapper .careers .content-5 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.news-content {
+    width: 65%;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.date {
+    width: 33%;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 28.176471px 0 26.47058824px 0;
@@ -1875,6 +1992,9 @@
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
   }
+  #page-wrapper .slider-wrapper .arrow-big {
+    left: 28%;
+  }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     top: 35%;
   }
@@ -1921,9 +2041,6 @@
     margin: 0 auto 12.764706px auto;
   }
   #page-wrapper .home #heading p {
-    font-size: 14px;
-    line-height: 24px;
-    color: #627482;
     width: 88%;
     margin: 0 auto;
   }
@@ -1952,13 +2069,11 @@
     margin-bottom: 23px;
   }
   #page-wrapper .home .each-content .text-content h6 {
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 25px;
     width: 90%;
   }
   #page-wrapper .home .each-content .text-content p {
-    font-size: 14px;
-    line-height: 25px;
     width: 99.12%;
     margin-bottom: 17px;
   }
@@ -2078,6 +2193,20 @@
     font-size: 14px;
     line-height: 20px;
     margin-top: 5.666667px;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.news-content {
+    width: 65%;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.date {
+    position: relative;
+    width: 33%;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.date:before {
+    position: absolute;
+  }
+  #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.date span {
+    padding-left: 25px;
+    display: block;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 28.176471px 0 26.47058824px 0;
@@ -2208,6 +2337,9 @@
   }
   #page-wrapper .slider-wrapper .arrow {
     top: 90%;
+  }
+  #page-wrapper .slider-wrapper .arrow-big {
+    left: 24%;
   }
   #page-wrapper .slider-wrapper div.item div.carousel-caption {
     top: 33%;

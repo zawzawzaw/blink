@@ -26,7 +26,7 @@
 							<a href="#" class="sub-nav-toggle">Portfolio</a>
 							<ul class="mobile-nav-child">
 								<li><a href="portfolio.html#all">All Featured</a></li>
-								<li><a href="portfolio.html#signaturebyblink">Signature by Blink</a></li>
+								<!-- <li><a href="portfolio.html#signaturebyblink">Signature by Blink</a></li> -->
 								<li><a href="portfolio.html#resorts">Resorts</a></li>
 								<li><a href="portfolio.html#hotels">Hotels</a></li>
 								<li><a href="portfolio.html#masterplanning">Master Planning</a></li>
@@ -67,7 +67,9 @@
 				</div>
 				<div class="clear"></div>
 				<div class="search-box-content">
-					<input type="text" name="search" >
+					<form action="search.html">
+						<input type="text" name="q" id="search_input" required>
+					</form>					
 
 					<div class="related-result">
 						<ul>

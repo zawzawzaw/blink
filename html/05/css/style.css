@@ -327,8 +327,82 @@ strong {
 .paragraph-font {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 29px;
+}
+@media all and (max-width: 992px) {
+  .paragraph-font {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+.heading-1-font {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+}
+@media all and (max-width: 414px) {
+  .heading-1-font {
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.06em;
+  }
+}
+.heading-2-font {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+@media all and (max-width: 992px) {
+  .heading-2-font {
+    font-size: 21px;
+  }
+}
+@media all and (max-width: 414px) {
+  .heading-2-font {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+}
+.heading-3-font {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+}
+@media all and (max-width: 414px) {
+  .heading-3-font {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+}
+.heading-5-font {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+}
+@media all and (max-width: 992px) {
+  .heading-5-font {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+.heading-6-font {
+  font-family: "HarrietText-MediumItalic", sans-serif;
+  font-size: 17px;
+}
+@media all and (max-width: 414px) {
+  .heading-6-font {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -352,12 +426,98 @@ body {
   margin: 0;
   padding: 0;
 }
+html h1,
+body h1 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+}
+@media all and (max-width: 414px) {
+  html h1,
+  body h1 {
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.06em;
+  }
+}
+html h2,
+body h2 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+@media all and (max-width: 992px) {
+  html h2,
+  body h2 {
+    font-size: 21px;
+  }
+}
+@media all and (max-width: 414px) {
+  html h2,
+  body h2 {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+}
+html h3,
+body h3 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+}
+@media all and (max-width: 414px) {
+  html h3,
+  body h3 {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+  }
+}
+html h5,
+body h5 {
+  font-family: "Gotham-Bold", sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+}
+@media all and (max-width: 992px) {
+  html h5,
+  body h5 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+html h6,
+body h6 {
+  font-family: "HarrietText-MediumItalic", sans-serif;
+  font-size: 17px;
+}
+@media all and (max-width: 414px) {
+  html h6,
+  body h6 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
 html p,
 body p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 29px;
+}
+@media all and (max-width: 992px) {
+  html p,
+  body p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
 }
 #page-wrapper {
   height: 100%;
@@ -656,6 +816,11 @@ body p {
   background-image: url('../images/content/project-marriott-wenchang-slide-1.jpg') !important;
   background-position: center -95px;
 }
+@media all and (max-width: 1280px) {
+  #page-wrapper .slider-wrapper .carousel-inner .project-marriott-wenchang-bg-1 {
+    background-position: center bottom;
+  }
+}
 #page-wrapper .slider-wrapper .carousel-inner .project-melia-bali-bg-1 {
   background-image: url('../images/content/project-melia-bali-slide-1.jpg') !important;
   background-position: center bottom;
@@ -759,9 +924,8 @@ body p {
   color: #a4afc2;
 }
 #page-wrapper .slider-wrapper .arrow-big {
-  display: none;
   position: fixed;
-  bottom: 85px;
+  bottom: 36px;
   left: 46%;
   width: 170px;
   height: 43px;
@@ -786,7 +950,7 @@ body p {
   top: 38%!important;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption {
-  width: 680px;
+  width: 780px;
   position: absolute;
   left: 50%;
   top: 44%;
@@ -798,38 +962,10 @@ body p {
   position: relative;
   left: -50%;
 }
-#page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h5 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.08em;
-  color: #ffffff;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  text-shadow: none;
-}
 #page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 26px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
   text-transform: uppercase;
   text-shadow: none;
   color: #ffffff;
-}
-#page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
-  display: block;
-  margin: 0 auto;
-  text-shadow: none;
-  color: #ffffff;
-  margin-top: 5px;
-}
-#page-wrapper .slider-wrapper div.item div.carousel-caption div.caption-text .seperator-line {
-  margin: 18px auto 19px;
-  background-color: #ffffff !important;
 }
 #page-wrapper .slider-wrapper div.item #blur-bg {
   content: "";
@@ -1055,7 +1191,7 @@ h1 {
   font-family: "Gotham-Bold", sans-serif;
 }
 h2 {
-  font-family: "HarrietText-MediumItalic", sans-serif;
+  font-family: "Gotham-Bold", sans-serif;
 }
 h3 {
   font-family: "HarrietText-RegularItalic", sans-serif;
@@ -1744,37 +1880,6 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   border-bottom: 1px solid #d1d7e0;
   padding-bottom: 48px;
 }
-.home #heading h5 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 17px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
-  color: #2f4455;
-  text-transform: uppercase;
-}
-.home #heading h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 26px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
-  color: #2f4455;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.home #heading .seperator-dot {
-  background-color: #2f4455;
-  width: 43px;
-  height: 2px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 20px;
-}
-.home #heading h6 {
-  font-family: "HarrietText-MediumItalic", sans-serif;
-  font-size: 17px;
-  color: #2f4455;
-  margin-bottom: 18px;
-}
 .home #heading p {
   color: #627482;
   width: 48%;
@@ -1827,17 +1932,11 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   display: table-cell;
   vertical-align: middle;
 }
-.home .each-content .text-content h5 {
-  font-family: "HarrietText-MediumItalic", sans-serif;
-  font-size: 17px;
+.home .each-content .text-content h6 {
   color: #2f4455;
   margin-bottom: 5px;
 }
 .home .each-content .text-content h2 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 23px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1853,12 +1952,13 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
     margin-bottom: 20px;
   }
 }
-.home .each-content .text-content h6 {
+.home .each-content .text-content span {
   font-family: "HarrietText-Regular", sans-serif;
   font-size: 16px;
   line-height: 23px;
   color: #627482;
   margin-bottom: 18px;
+  display: block;
 }
 .home .each-content .text-content p {
   color: #627482;
@@ -2297,23 +2397,22 @@ div.copyright-wrapper-with-bg p {
   line-height: 15px;
   color: #a4afc2;
 }
+.clients {
+  margin-bottom: 80px;
+}
 .clients .content-1 {
-  margin-top: 198px;
-  padding-bottom: 115px;
+  margin-top: 133px;
+  padding-bottom: 80px;
 }
 .clients .content-1 .text-content {
   text-align: center;
 }
-.clients .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.clients .content-1 .text-content h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-top: 150px;
 }
-.clients .content-1 .text-content h1:after {
+.clients .content-1 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -2327,73 +2426,8 @@ div.copyright-wrapper-with-bg p {
   margin: 0 auto;
   margin-bottom: 15px;
 }
-.clients .content-extra .img-content {
-  padding-top: 64px;
-}
-.clients .content-extra .img-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.05em;
-  color: #2f4455;
-}
-.clients .content-extra .img-content h1:after {
-  content: "";
-  background: #2f4455;
-  width: 43px;
-  height: 2px;
-  display: block;
-  margin: 8px 0 20px;
-  text-align: left;
-}
-.clients .content-extra .img-content p {
-  color: #627482;
-  margin-bottom: 34px;
-}
-.clients .content-extra .img-content ul li {
-  display: inline-block;
-  width: 615px;
-  height: 450px;
-  background-color: #f3f3f3;
-  float: left;
-}
-.clients .content-extra .img-content ul li p.quote {
-  font-family: "HarrietText-RegularItalic", sans-serif;
-  font-size: 14px;
-  line-height: 22px;
-  color: #627482;
-  width: 62%;
-  text-align: center;
-  margin: 30px auto;
-}
-.clients .content-extra .img-content ul li .quote-2 {
-  width: 66%!important;
-}
-.clients .content-extra .img-content ul li .v-align-table {
-  width: 100%;
-  height: 100%;
-  display: table;
-  text-align: center;
-}
-.clients .content-extra .img-content ul li .v-align-table .v-align-table-cell {
-  display: table-cell;
-  vertical-align: middle;
-}
-.clients .content-extra .img-content a {
-  font-family: "Gotham-Medium", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: #627482;
-  text-align: center;
-  text-transform: uppercase;
-  display: block;
-  margin: 70px auto;
-}
-.clients .content-extra .img-content a i {
-  font-size: 13px;
-}
-.clients .content-extra .img-content a:hover {
-  color: #2f4455;
+.clients .content-1 .text-content p:last-child {
+  margin-bottom: 0px;
 }
 .clients .content-2 .each-content,
 .clients .content-4 .each-content {
@@ -2428,17 +2462,11 @@ div.copyright-wrapper-with-bg p {
 }
 .clients .content-2 .each-content .text-content h5,
 .clients .content-4 .each-content .text-content h5 {
-  font-family: "HarrietText-MediumItalic", sans-serif;
-  font-size: 17px;
   color: #2f4455;
   margin-bottom: 5px;
 }
 .clients .content-2 .each-content .text-content h2,
 .clients .content-4 .each-content .text-content h2 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 23px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -2540,17 +2568,12 @@ div.copyright-wrapper-with-bg p {
   margin-top: 80px;
   position: relative;
 }
-.clients .content-3 #heading h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.clients .content-3 #heading h2 {
   color: #2f4455;
   text-transform: uppercase;
 }
-.clients .content-3 #heading h1:after {
+.clients .content-3 #heading h2:after {
   content: "";
-  background: #2f4455;
   width: 43px;
   height: 2px;
   display: block;
@@ -2583,17 +2606,10 @@ div.copyright-wrapper-with-bg p {
   vertical-align: middle;
 }
 .clients .content-3 #news-carousel .item .text-content h5 {
-  font-family: "Gotham-Medium", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.1em;
   color: #ffffff;
   margin-bottom: 5px;
 }
 .clients .content-3 #news-carousel .item .text-content h2 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -2647,6 +2663,7 @@ div.copyright-wrapper-with-bg p {
 .clients .content-3 #news-carousel .item .text-content ul li span {
   display: inline-block;
   vertical-align: top;
+  width: 90%;
 }
 .clients .content-3 #news-carousel .item .text-content p {
   font-family: 'Open Sans', sans-serif;
@@ -2693,28 +2710,38 @@ div.copyright-wrapper-with-bg p {
   border: 0px;
 }
 .clients .content-4 {
+  margin-top: 115px;
+}
+.clients .content-4 .each-content {
+  height: auto;
   margin-bottom: 0px!important;
 }
 .clients .content-4 .each-content .text-content {
-  width: 75%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.clients .content-4 .each-content .text-content .seperator-line {
+  margin-left: auto;
+  margin-right: auto;
+}
+.clients .content-4 .each-content .text-content p {
+  width: 62%;
+  margin: 0 auto;
 }
 .portfolio .content-1 {
-  margin-top: 130px;
+  margin-top: 133px;
   border-bottom: 1px solid #d1d7e0;
   padding-bottom: 45px;
 }
 .portfolio .content-1 .text-content {
   text-align: center;
 }
-.portfolio .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.portfolio .content-1 .text-content h3 {
   color: #2f4455;
   text-transform: uppercase;
 }
-.portfolio .content-1 .text-content h1:after {
+.portfolio .content-1 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -2723,12 +2750,8 @@ div.copyright-wrapper-with-bg p {
   margin: 8px auto 20px;
 }
 .portfolio .content-1 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
   color: #627482;
-  width: 64%;
+  width: 68%;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -2893,16 +2916,14 @@ div.copyright-wrapper-with-bg p {
 .portfolio .content-3 {
   margin-top: 48px;
 }
-.portfolio .content-3 h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
+.portfolio .content-3 h3 {
   line-height: 48px;
   letter-spacing: 0.05em;
   color: #2f4455;
   text-transform: uppercase;
   margin-top: -17px;
 }
-.portfolio .content-3 h1:after {
+.portfolio .content-3 h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -2929,7 +2950,7 @@ div.copyright-wrapper-with-bg p {
 .portfolio .content-3 ul li .caption-text {
   padding: 22px 20px;
 }
-.portfolio .content-3 ul li .caption-text h6 {
+.portfolio .content-3 ul li .caption-text span {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 13px;
   line-height: 14px;
@@ -2939,10 +2960,6 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 2px;
 }
 .portfolio .content-3 ul li .caption-text h5 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 17px;
-  line-height: 23px;
-  letter-spacing: 0.05em;
   color: #2f4455;
   text-transform: uppercase;
 }
@@ -2975,16 +2992,12 @@ div.copyright-wrapper-with-bg p {
 .contact-us .content-1 .text-content {
   text-align: center;
 }
-.contact-us .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.contact-us .content-1 .text-content h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-top: 150px;
 }
-.contact-us .content-1 .text-content h1:after {
+.contact-us .content-1 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -3000,16 +3013,12 @@ div.copyright-wrapper-with-bg p {
   width: 49%;
   vertical-align: top;
 }
-.contact-us .content-2 .img-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.contact-us .content-2 .img-content h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
 }
-.contact-us .content-2 .img-content h1:after {
+.contact-us .content-2 .img-content h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -3020,7 +3029,7 @@ div.copyright-wrapper-with-bg p {
 .contact-us .content-2 .img-content div.each-info {
   display: block;
   vertical-align: top;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .contact-us .content-2 .img-content div.each-info.info-1 a:hover {
   color: #2f4455 !important;
@@ -3053,10 +3062,18 @@ div.copyright-wrapper-with-bg p {
 .contact-us .content-2 .img-content div.each-info a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 17px;
+  line-height: 29px;
   display: inline-block;
   color: #627482;
+}
+@media all and (max-width: 992px) {
+  .contact-us .content-2 .img-content div.each-info a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
 }
 .contact-us .content-2 .img-content div.each-info a:hover {
   color: #2f4455;
@@ -3165,16 +3182,12 @@ div.copyright-wrapper-with-bg p {
   right: -32px;
   top: 1px;
 }
-.contact-us .content-3 h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.contact-us .content-3 h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
 }
-.contact-us .content-3 h1:after {
+.contact-us .content-3 h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -3182,56 +3195,17 @@ div.copyright-wrapper-with-bg p {
   display: block;
   margin: 8px 0px;
 }
-.contact-us .content-3 .each-office {
-  display: inline-block;
-  margin-right: 27px;
-  vertical-align: top;
-  margin-bottom: 20px;
-  width: 44%;
-}
-.contact-us .content-3 .each-office:nth-of-type(2n) {
-  width: 45%;
-}
-.contact-us .content-3 .each-office:last-child {
-  margin-right: 0px;
-}
-.contact-us .content-3 .each-office h6 {
-  font-family: "Gotham-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.1em;
-  color: #627482;
-  text-transform: uppercase;
-}
-.contact-us .content-3 .each-office p {
-  color: #627482;
-  margin-bottom: 15px;
-}
-.contact-us .content-3 .each-office a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
-  color: #627482;
-}
-.contact-us .content-3 .each-office a:hover {
-  color: #2f4455;
-}
 .contact-us .content-4 {
   border-top: 1px solid #a4afc2;
   padding-top: 70px;
   padding-bottom: 90px;
 }
-.contact-us .content-4 h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.contact-us .content-4 h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
 }
-.contact-us .content-4 h1:after {
+.contact-us .content-4 h3:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -3279,14 +3253,10 @@ div.copyright-wrapper-with-bg p {
 }
 .project .content-1 {
   text-align: center;
-  margin-top: 155px;
+  margin-top: 133px;
   margin-bottom: 70px;
 }
 .project .content-1 .heading h5 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 17px;
-  line-height: 17px;
-  letter-spacing: 0.075em;
   color: #2f4455;
   display: inline-block;
   text-align: left;
@@ -3294,10 +3264,6 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 20px;
 }
 .project .content-1 .heading h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 28px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -3310,19 +3276,13 @@ div.copyright-wrapper-with-bg p {
   vertical-align: top;
   text-align: left;
 }
-.project .content-1 .text-content h6 {
+.project .content-1 .text-content p.title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 27px;
   color: #435666;
   margin-bottom: 17px;
 }
 .project .content-1 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 28px;
   color: #627482;
   margin-bottom: 17px;
 }
@@ -3337,7 +3297,7 @@ div.copyright-wrapper-with-bg p {
   display: block;
   margin-bottom: 10px;
 }
-.project .content-1 ul.more-info > li h6 {
+.project .content-1 ul.more-info > li span {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 10px;
   line-height: 17px;
@@ -3568,7 +3528,7 @@ div.copyright-wrapper-with-bg p {
   color: #a4afc2;
 }
 .profile .content-1 {
-  margin-top: 173px;
+  margin-top: 133px;
   padding-bottom: 63px;
 }
 .profile .content-1 .text-content {
@@ -3576,15 +3536,11 @@ div.copyright-wrapper-with-bg p {
   width: 57%;
   margin: 0 auto;
 }
-.profile .content-1 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.profile .content-1 .text-content h3 {
   color: #2f4455;
   text-transform: uppercase;
 }
-.profile .content-1 .text-content h1:after {
+.profile .content-1 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 44px;
@@ -3604,16 +3560,12 @@ div.copyright-wrapper-with-bg p {
   text-align: center;
   margin: 0 auto;
 }
-.profile .content-2 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.profile .content-2 .text-content h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-top: 90px;
 }
-.profile .content-2 .text-content h1:after {
+.profile .content-2 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 44px;
@@ -3636,7 +3588,7 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 21px;
   text-align: left;
 }
-.profile .content-2 .text-content ul li h4 {
+.profile .content-2 .text-content ul li span {
   font-family: "Gotham-Medium", sans-serif;
   font-size: 13px;
   letter-spacing: 0.07em;
@@ -3653,6 +3605,13 @@ div.copyright-wrapper-with-bg p {
 .profile .content-2 .text-content .popover {
   max-width: 400px!important;
 }
+.profile .content-2 .text-content .popover .popover-title {
+  margin-top: 0px;
+  color: #627482;
+}
+.profile .content-2 .text-content .popover .popover-title:after {
+  display: none;
+}
 .profile .content-3 {
   padding-top: 92px;
   padding-bottom: 80px;
@@ -3663,26 +3622,16 @@ div.copyright-wrapper-with-bg p {
   vertical-align: top;
 }
 .profile .content-3 .text-content h5 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 17px;
   line-height: 35px;
   letter-spacing: 0.075em;
   color: #2f4455;
   text-transform: uppercase;
 }
-.profile .content-3 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 27px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.profile .content-3 .text-content h2 {
   color: #2f4455;
   text-transform: uppercase;
 }
 .profile .content-3 .text-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
   color: #435666;
   margin-bottom: 30px;
   margin-top: 11px;
@@ -3728,21 +3677,17 @@ div.copyright-wrapper-with-bg p {
   width: 50%;
   margin: 0 auto;
 }
-.careers .content-2 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.careers .content-2 .text-content h3 {
   color: #2f4455;
   text-transform: uppercase;
 }
-.careers .content-2 .text-content h1:after {
+.careers .content-2 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 44px;
   height: 2px;
   display: block;
-  margin: 15px auto 25px;
+  margin: 7px auto 25px;
 }
 .careers .content-2 .text-content ul li {
   display: inline-block;
@@ -3775,7 +3720,7 @@ div.copyright-wrapper-with-bg p {
   width: 44px;
   height: 2px;
   display: block;
-  margin: 15px auto 25px;
+  margin: 7px auto 25px;
 }
 .careers .content-2 .text-content p {
   color: #627482;
@@ -3792,91 +3737,74 @@ div.copyright-wrapper-with-bg p {
   width: 100%;
   color: #ffffff;
 }
-.careers .content-2 .img-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.careers .content-2 .img-content h3 {
   text-transform: uppercase;
 }
-.careers .content-2 .img-content h1:after {
+.careers .content-2 .img-content h3:after {
   content: "";
   background: #ffffff;
   width: 44px;
   height: 2px;
   display: block;
-  margin: 14px auto 20px;
+  margin: 7px auto 20px;
 }
-.careers .content-2 .img-content h2 {
-  font-family: "Gotham-Medium", sans-serif;
+.careers .content-2 .img-content h5 {
   font-size: 16px;
   line-height: 38px;
   letter-spacing: 0.14em;
-  width: 62%;
+  width: 65%;
   margin: 0 auto;
   text-transform: uppercase;
+}
+.careers .content-extra {
+  padding-top: 90px;
+}
+.careers .content-extra .text-content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  padding-left: 75px;
+}
+.careers .content-extra .text-content h3 {
+  text-transform: uppercase;
+  color: #2f4455;
+}
+.careers .content-extra .img-content {
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.careers .content-extra .img-content img {
+  width: 100%;
 }
 .careers .content-3 {
   margin-top: 90px;
   padding-bottom: 63px;
   text-align: center;
 }
-.careers .content-3 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.careers .content-3 .text-content h3 {
   text-transform: uppercase;
   color: #2f4455;
 }
-.careers .content-3 .text-content h1:after {
+.careers .content-3 .text-content h3:after {
   content: "";
   background: #2f4455;
   width: 44px;
   height: 2px;
   display: block;
-  margin: 15px auto 25px;
+  margin: 7px auto 25px;
 }
 .careers .content-3 .text-content p {
   color: #627482;
   margin: 0 auto;
   margin-bottom: 24px;
-  width: 45%;
+  width: 68%;
 }
-.careers .content-3 .img-content {
-  margin-top: 55px;
+.careers .content-3 .text-content p a {
+  color: #627482;
 }
-.careers .content-3 .img-content .img-slider h2 {
-  font-family: "Gotham-Medium", sans-serif;
-  font-size: 16px;
-  line-height: 25px;
-  letter-spacing: 0.075em;
+.careers .content-3 .text-content p a:hover {
   color: #2f4455;
-  text-transform: uppercase;
-  margin-top: 19px;
-}
-.careers .content-3 .img-content .img-slider .slick-next,
-.careers .content-3 .img-content .img-slider .slick-prev {
-  top: 41%;
-}
-.careers .content-3 .img-content .img-slider .slick-next:before,
-.careers .content-3 .img-content .img-slider .slick-prev:before {
-  color: #a4afc2;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: 18px;
-  line-height: 24px;
-}
-.careers .content-3 .img-content .img-slider .slick-next {
-  right: -10px;
-}
-.careers .content-3 .img-content .img-slider .slick-next:before {
-  content: "\f054";
-}
-.careers .content-3 .img-content .img-slider .slick-prev {
-  left: -33px;
-}
-.careers .content-3 .img-content .img-slider .slick-prev:before {
-  content: "\f053";
 }
 .careers .content-4 {
   padding-top: 79px;
@@ -3893,22 +3821,9 @@ div.copyright-wrapper-with-bg p {
   vertical-align: middle;
   padding-left: 85px;
 }
-.careers .content-4 .text-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 23px;
-  line-height: 30px;
-  letter-spacing: 0.025em;
+.careers .content-4 .text-content h2 {
   color: #2f4455;
   text-transform: uppercase;
-}
-.careers .content-4 .text-content h1:after {
-  content: "";
-  background: #2f4455;
-  width: 44px;
-  height: 2px;
-  display: block;
-  margin-top: 15px;
-  margin-bottom: 25px;
 }
 .careers .content-4 .text-content p {
   color: #627482;
@@ -3963,7 +3878,7 @@ div.copyright-wrapper-with-bg p {
   width: 44px;
   height: 2px;
   display: block;
-  margin: 15px auto 25px;
+  margin: 7px auto 25px;
 }
 .careers .content-5 .text-content p {
   color: #627482;
@@ -4071,18 +3986,13 @@ div.copyright-wrapper-with-bg p {
   width: 210px;
   margin-right: 35px;
 }
-.news .content-2 .sidebar h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.news .content-2 .sidebar h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 18px;
 }
-.news .content-2 .sidebar h1:after {
+.news .content-2 .sidebar h3:after {
   content: "";
-  background: #2f4455;
   width: 43px;
   height: 2px;
   display: block;
@@ -4135,17 +4045,12 @@ div.copyright-wrapper-with-bg p {
   width: 700px;
   padding-left: 0px!important;
 }
-.news .content-2 .tab-content .tab-pane h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.075em;
+.news .content-2 .tab-content .tab-pane h3 {
   color: #2f4455;
   text-transform: uppercase;
 }
-.news .content-2 .tab-content .tab-pane h1:after {
+.news .content-2 .tab-content .tab-pane h3:after {
   content: "";
-  background: #2f4455;
   width: 43px;
   height: 2px;
   display: block;
@@ -4258,22 +4163,18 @@ div.copyright-wrapper-with-bg p {
   padding-bottom: 79px;
   border-bottom: 1px solid #d1d7e0;
 }
-.search .content-2 h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.05em;
+.search .content-2 h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 29px;
 }
-.search .content-2 h1:after {
+.search .content-2 h3:after {
   content: "";
   background: #2f4455;
-  width: 43px;
+  width: 44px;
   height: 2px;
   display: block;
-  margin: 8px 0px;
+  margin: 7px 0px;
 }
 .search .content-2 .each-item {
   margin-bottom: 20px;
@@ -4301,15 +4202,11 @@ div.copyright-wrapper-with-bg p {
   display: table-cell;
   vertical-align: middle;
 }
-.search .content-2 .each-item .text-content h3 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 23px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
+.search .content-2 .each-item .text-content h1 {
   color: #2f4455;
   text-transform: uppercase;
 }
-.search .content-2 .each-item .text-content h3:after {
+.search .content-2 .each-item .text-content h1:after {
   content: "";
   background: #2f4455;
   width: 43px;
@@ -4332,22 +4229,18 @@ div.copyright-wrapper-with-bg p {
 .search .search-content:last-child {
   border-bottom: none;
 }
-.search .search-content h1 {
-  font-family: "Gotham-Bold", sans-serif;
-  font-size: 21px;
-  line-height: 35px;
-  letter-spacing: 0.05em;
+.search .search-content h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
 }
-.search .search-content h1:after {
+.search .search-content h3:after {
   content: "";
   background: #2f4455;
-  width: 43px;
+  width: 44px;
   height: 2px;
   display: block;
-  margin: 8px 0px;
+  margin: 7px 0px;
 }
 .search .search-content .each-item {
   margin-bottom: 20px;
@@ -4358,6 +4251,7 @@ div.copyright-wrapper-with-bg p {
   line-height: 30px;
   color: #2f4455;
   margin-bottom: 9px;
+  text-transform: uppercase;
 }
 .search .search-content .text-content h2 span.highlight {
   font-family: 'Open Sans', sans-serif;

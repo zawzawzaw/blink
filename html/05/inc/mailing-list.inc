@@ -34,7 +34,7 @@
 					<div class="right each-column">
 						<div class="text-content">
 							<h3>thinkBLINK NEWS</h3>
-							<p>Subscribe to our newsletter and stay updated <br> with our latest work and news.</p>
+							<p>Subscribe to our mailing list <br>for updates and insights.</p>
 						</div>
 						<div class="input">
 							<input type="text" id="subscribe_input" name="subscribe" placeholder="Enter your email address" />
@@ -44,14 +44,14 @@
 					</div>
 					<div class="clear"></div>
 					<div class="left follow-us each-column visible-xs visible-sm">						
-						<h4>Follow Us</h4>
+						<h4>thinkBLINK COMMUNITIES</h4>
 						<ul>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>						
+							<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>						 -->
 						</ul>
 
 						<p class="visible-xs visible-sm">&copy; 2015 Blink Design Group. All Rights Reserved.</p>
