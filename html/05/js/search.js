@@ -5,76 +5,76 @@ $(function(){
 
     search_json['contacts'] = [
     	{
-    		"title": "GET IN TOUCH WITH US",
-    		"description": "Send us your enquiries and we will get back to you as soon as possible!",
-    		"url": "contact-us.html"
-    	},
-    	{
-    		"title": "FOR INQUIRIES - GENERAL INFORMATION",
+    		"title": "ENQUIRIES - GENERAL INFORMATION",
     		"description": "For general inquiries and other requests please contact info@blinkdg.com.",
     		"url": "contact-us.html"
     	},
     	{
-    		"title": "FOR INQUIRIES - BANGKOK OFFICE",
-    		"description": "For all inquiries and requests regarding new projects including RFQ/RFP and competition invitations please contact Clint Nagata and Lee Lin.",
+    		"title": "ENQUIRIES - PRESS INQUIRIES",
+    		"description": "For information and media on our past, current, or upcoming projects: press@blinkdg.com",
     		"url": "contact-us.html"
     	},
     	{
-    		"title": "FOR INQUIRIES - SINGAPORE OFFICE",
-    		"description": "For all enquiries and requests regarding new projects please contact Christopher Chua.",
+    		"title": "ENQUIRIES - NEW BUSINESS",
+    		"description": "For all enquiries and requests regarding new projects, including RFQ/RFP and competition invitations: new-business@blinkdg.com",
     		"url": "contact-us.html"
     	},
     	{
-    		"title": "FOR INQUIRIES - DELHI OFFICE",
-    		"description": "For all enquiries and requests regarding new projects please contact Christopher Chua.",
-    		"url": "contact-us.html"
-    	},
-    	{
-    		"title": "FOR INQUIRIES - SHANGHAI OFFICE",
-    		"description": "For all enquiries and requests regarding new projects please contact Jenny Li.",
+    		"title": "ENQUIRIES - CAREERS",
+    		"description": "For information about career opportunities: careers@blinkdg.com",
     		"url": "contact-us.html"
     	},
     	{
     		"title": "BLINK OFFICES - BANGKOK",
-    		"description": "179 Bangkok City Tower 30/F, South Sathorn Road, Sathorn, Bangkok, Thailand 10120 T +66 (0) 2679 6918",
+    		"description": "BLINK Design Group Co. Ltd. 179 Bangkok City Tower, 30th Floor South Sathorn Road Bangkok 10120 Thailand T +66 2679 6818 | F +66 2679 6819",
     		"url": "contact-us.html"
     	},
     	{
-    		"title": "BLINK OFFICES - DEHLI",
-    		"description": "159, Okhla Industrial Ph–lll New Dehli 110–020, India T +91 11 4737 3000",
+    		"title": "BLINK OFFICES - NEW DEHLI",
+    		"description": "NEW DELHI BLINK Design Private Limited 59 Okhla Industrial Estate Ph-III New Delhi 110 020 India T +91 11473 73000 | F +91 11473 73099",
     		"url": "contact-us.html"
     	},
     	{
     		"title": "BLINK OFFICES - SINGAPORE",
-    		"description": "306 Tanglin Road, Phoenix Park Office Campus Singapore 247973 T +65 6423 9516",
+    		"description": "BLINK Design Group Pte. Ltd. 306 Tanglin Road Phoenix Park Office Campus Singapore 247973 T +65 6423 9516 | F +65 6222 8916",
     		"url": "contact-us.html"
     	},
     	{
     		"title": "BLINK OFFICES - SHANGHAI",
-    		"description": "Unit 331, Building 3, Yong Jia Court 507 Yong Jia Road, XuHui District Shanghai 200030, China T +86 21 6415 6266 | F +86 21 6415 6233",
+    		"description": "BLINK (Shanghai) Co. Ltd. Unit 331, B3 570 Yongjia Court Shanghai, China T +86 21 6415 6266 | F +86 138 1600 3663",
     		"url": "contact-us.html"
     	}
     ];
 
     search_json['careers'] = [
     	{
-    		"title": "DESIGN YOUR FUTURE INNOVATE COLLABORATE LEAD",
-    		"description": "Imagine a career with limitless growth potential, focused on creating distinctive, successful hotels and resorts for clients and unforgettable experiences for their guests. Imagine working in collaborative studios, fuelled by young creative voices, and inspired by experience that comes from success. Experience all this and more at BLINK.",
+    		"title": "DESIGN YOUR FUTURE",
+    		"description": "BLINK is internationally acclaimed for captivating design. We work in a studio environment that encourages everyone to do their best work, with the best people, for the best clients. We specialize in hospitality projects from lifestyle to luxury, with integrated services that include interior design, building design, master planning, and brand design.",
+    		"url": "careers.html"
+    	},
+    	{
+    		"title": "WHAT OUR CLIENTS SAY ABOUT US",
+    		"description": "EXPERIENCED, DYNAMIC, FULL–SERVICE, EASY–GOING, FLEXIBLE, RELIABLE, PROFESSIONAL, YOUNG, CHARISMATIC, LIKABLE, PERSONABLE, CONTEMPORARY, SENSITIVE, HIGH–QUALITY, IMPRESSIVE, WONDERFUL, INSPIRING, THOROUGH, OPEN TO NEW IDEAS.",
+    		"url": "careers.html"
+    	},
+    	{
+    		"title": "INNOVATE · COLLABORATE · LEAD",
+    		"description": "We offer opportunities for our practice leaders to provide clear vision and exceptional leadership; for our project leaders to drive innovation, integration, and evolution; and for our next-generation talent to develop their skills and accelerate their careers.",
     		"url": "careers.html"
     	},
     	{
     		"title": "EXPLORE OPPORTUNITY",
-    		"description": "To build on this, we need YOU. If you are interested in a career with BLINK, we welcome an opportunity to review your credentials and discuss career options. Please contact our Talent Center (TAC) directly – careers@blinkdg.com Although focused on design, we are a fast-growing business enterprise. We employ talented people from a broad range of disciplines and at all levels, from recent graduate to seasoned professional.",
+    		"description": "To build on this, we need YOU. If you are interested in a career with BLINK, we welcome an opportunity to discuss your career options. Please contact our Talent Center (TAC) directly — careers@blinkdg.com. We employ talented people from a broad range of disciplines and at all levels, from recent graduate to experienced professional. We prefer experience in an international architecture or interior design environment, including recent experience in the hospitality industry.",
     		"url": "careers.html"
     	},
     	{
     		"title": "WORKING AT BLINK",
-    		"description": "BLINK’s core values are teamwork, integrity, and excellence. The firm attracts team members who share these values and who are comfortable working in an environment where these are the guiding principles:",
+    		"description": "Our international headquarters is in Bangkok, with offices in Singapore. Shanghai, and New Delhi. We are multi-cultural and multi-lingual. English is our common language, and fluency in other languages is an asset (especially Mandarin). BLINK’s core values are teamwork, integrity, and excellence. We welcome talented people who share these values and are eager to work in an environment where these are the guiding principles: Create value for our clients, our business partners, and our company. Work collaboratively and help each other succeed. Recruit talented people who share our core values. Recognise high-impact performance. Embrace change. Innovate and share knowledge. Communicate with clarity and respect. Behave and care because it is our company.",
     		"url": "careers.html"
     	},
     	{
     		"title": "LEAP FORWARD",
-    		"description": "At BLINK, we believe in agility, collaboration, and excellence. All team members are leaders, and we seek members who have an innate ability and desire to motivate and inspire their teams to create real value every day.",
+    		"description": "Open the gateway to your own potential. At BLINK, we believe in agility, collaboration, and excellence. All team members are leaders, and we seek members who have an innate ability and desire to motivate and inspire their teams to create real value every day. CAPABILITIES OPPORTUNITIES RELATIONSHIPS MANAGEMENT LEADERSHIP ACCELERATED LEADERSHIP DEVELOPMENT: 3 TO 5+ YEARS",
     		"url": "careers.html"
     	}
     ];
@@ -84,68 +84,88 @@ $(function(){
     		"title": "IN THE BLINK OF AN EYE",
     		"description": "Design can hit you between the eyes or reveal itself through discoveries. It must be unique, functional, elegant, and engaging — instinctively brilliant. BLINK designers believe that each adventure undertaken by the firm should see boundaries pushed back, preconceptions shattered, and expectations challenged. We thrive on brainstorming, the creative process, and collaboration with like-minded clients.",
     		"url": "insights.html"
+    	},
+    	{
+    		"title": "IDEAS",
+    		"description": "There can be as much value in the blink of an eye as in months of rational analysis. - Malcolm Gladwell, Blink: The Power of Thinking Without Thinking",
+    		"url": "insights.html"
+    	},
+    	{
+    		"title": "PULSE",
+    		"description": "Bangkok and Singapore: 2 cities so close and yet such polar opposites. Each city has so much to offer in such different ways.",
+    		"url": "insights.html"
+    	},
+    	{
+    		"title": "STYLE",
+    		"description": "Recently, Bali Style’s Adam Fenton had the chance to catch up with BLINK designer Clint Nagata for a fascinating chat.",
+    		"url": "insights.html"
+    	},
+    	{
+    		"title": "CHANGING THE GAME",
+    		"description": "Coming soon — a look at our views on the rapidly changing market, along with featured profiles on our clients, hotel operators, consultants, and other influencers who are changing the game.",
+    		"url": "insights.html"
     	}
     ];
 
     search_json['profile'] = [
     	{
-    		"title": "ABOUT BLINK DESIGN GROUP",
+    		"title": "ABOUT BLINK",
     		"description": "We’re different from other design firms. While the quality of our work speaks for itself, we make our case for design greatness one story at a time. We are committed to design excellence in the context of collaboration. These are our guiding principles throughout the design process. Our design is intended to be welcoming, centered on the uniqueness of a specific location. We explore vernacular style, history, and culture as rich sources of ideas — our designs are always authentic and in harmony with their surroundings. BLINK lives and breaths Asia, with offices in Bangkok, Singapore, New Delhi, and Shanghai. We are international, with projects from Istanbul to Bora Bora, the Maldives to Seoul. And we are citizens of the world — multi-lingual and multi-cultural, representing six of the seven continents.",
     		"url": "profile.html"
     	},
     	{
-    		"title": "Our Team",
-    		"description": "Guided by the sure hand of founder and senior creative director Clint Nagata and the inspired mind of managing director Christopher Chua, BLINK has a team of experienced and acclaimed designers at your service. Meet a few of them here.",
+    		"title": "OUR LEADERS",
+    		"description": "Our creativity is inspired by singular instinct and collaborative expertise. Meet a few of our leaders who are making that happen.",
     		"url": "profile.html"
     	},
     	{
-    		"title": "How we work",
-    		"description": "We believe in a design concierge approach that makes our clients an integral part of the creative vision. We work together to take a dream and shape it into a composition that reflects the spirit of the place as well as the brand itself.",
-    		"url": "profile.html"
-    	},
-    	{
-    		"title": "CLINT P. NAGATA",
-    		"description": "Founder & Senior Creative Director",
-    		"url": "profile.html"
-    	},
-    	{
-    		"title": "CHRISTOPHER CHUA",
-    		"description": "Managing Director",
+    		"title": "CLINT NAGATA",
+    		"description": "Founder & Chief Creative Director Bangkok",
     		"url": "profile.html"
     	},
     	{
     		"title": "CHRISTINE GERLIER",
-    		"description": "To be updated",
+    		"description": "Managing Director Bangkok",
     		"url": "profile.html"
     	},
     	{
-    		"title": "ZIA HANSEN",
-    		"description": "Associate Director, Interior Design",
+    		"title": "CHRISTOPHER CHUA",
+    		"description": "Managing Director Singapore",
+    		"url": "profile.html"
+    	},
+    	{
+    		"title": "MOOK LINDSAY",
+    		"description": "Studio Director Bangkok",
     		"url": "profile.html"
     	},
     	{
     		"title": "PIETRO CAMPANELLA",
-    		"description": "Associate Director, Interior Design",
+    		"description": "Associate Director Singapore",
+    		"url": "profile.html"
+    	},  	
+    	{
+    		"title": "ZIA HANSEN",
+    		"description": "Associate Director Bangkok",
     		"url": "profile.html"
     	},
     	{
-    		"title": "SUPAKANYA (MOOK) LINDSAY",
-    		"description": "To be updated",
+    		"title": "WUTTHAYA WONGSAWAN",
+    		"description": "Associate Director Bangkok",
     		"url": "profile.html"
     	},
     	{
-    		"title": "WUTTHAYA (CHAN) WONGSAWAN",
-    		"description": "To be updated",
+    		"title": "LEE LIN",
+    		"description": "Head, Business Development Bangkok",
     		"url": "profile.html"
     	},
     	{
     		"title": "ONG ART ​NGAMNARONGKIJ",
-    		"description": "To be updated",
+    		"description": "Head, Design Studio Bangkok",
     		"url": "profile.html"
     	},
     	{
-    		"title": "CHUNLI (LEE) LIN",
-    		"description": "To be updated",
+    		"title": "How we work WHAT DOES IT MEAN TO THINKBLINK?",
+    		"description": "We believe in a design concierge approach that makes our clients an integral part of the creative vision. We work together to take a dream and shape it into a composition that reflects the spirit of the place as well as the brand itself. Our clients tell us that we’re open to new ideas, and that we’re fun to work with. Energy and ideas spark from our youthful teams, guided by success that comes from experience. All of the elements — from the building and grounds to layouts, details, finishes, furniture, and accessories — reflect our client’s initial vision and operating parameters in a sophisticated symphony of space.",
     		"url": "profile.html"
     	}
     ];
@@ -160,28 +180,28 @@ $(function(){
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-2.jpg",
-			"location": "Liaoying, China",
+			"location": "Benxi, China",
 			"name": "Benxi Doubletree by Hilton",
 			"type": "resorts building design master planning brand design",
 			"url": "project-benxi-doubletree-by-hilton.html"
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-3.jpg",
-			"location": "Hainan Province, China",
+			"location": "Sanya, China",
 			"name": "Conrad Sanya Haitang Bay",
 			"type": "resorts building design master planning",
 			"url": "project-benxi-doubletree-by-hilton.html"
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-4.jpg",
-			"location": "Shanghai, China",
+			"location": "Fengxian, China",
 			"name": "Hilton Fengxian",
 			"type": "resorts interior design building design",
 			"url": "#"
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-5.jpg",
-			"location": "Shanghai, China",
+			"location": "Hainan, China",
 			"name": "Marriott Wenchang",
 			"type": "resorts building design master planning",
 			"url": "#"
@@ -195,7 +215,7 @@ $(function(){
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-7.jpg",
-			"location": "Bali, Indonesia",
+			"location": "Nusa Dua, Bali, Indonesia",
 			"name": "Melia Bali",
 			"type": "resorts building design",
 			"url": "#"
@@ -216,21 +236,21 @@ $(function(){
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-10.jpg",
-			"location": "Detroit, United States",
+			"location": "Hailing, China",
 			"name": "Renaissance & Courtyard BY Marriott",
 			"type": "resorts building design master planning",
 			"url": "#"
 		},
 		{
 			"image": "images/content/portfolio/portfolio-content-11.jpg",
-			"location": "Phuket, Thailand",
+			"location": "Sanya, China",
 			"name": "RAYCOM",
 			"type": "resorts master planning",
 			"url": "#"
 		},
 		{
 			"image": "images/content/portfolio/project-travelodge-thumb.jpg",
-			"location": "Bali, Indonesia",
+			"location": "Singapore",
 			"name": "TRAVELODGE",
 			"type": "hotels interior design",
 			"url": "#"
@@ -265,7 +285,7 @@ $(function(){
 		},	
 		{
 			"image": "images/content/portfolio/project-regent-taipei-thumb.jpg",
-			"location": "Taipei, China",
+			"location": "Taipei, Taiwan",
 			"name": "Regent Taipei",
 			"type": "hotels interior design building design",
 			"url": "project-regent-taipei.html"
@@ -386,107 +406,107 @@ $(function(){
 
  	search_json['news_pr'] = [
  		{
-			"date": "22 Apr 2015",
+			"date": "Apr 2015",
 			"content": "BLINK Wins First Project in Middle East with MonsoonInspired Interiors for Alila Salalah in Oman",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20first%20project%20in%20middle%20east%20april%2022%202015.pdf"
 		},
 		{
-			"date": "19 Mar 2015",
+			"date": "Mar 2015",
 			"content": "BLINK Design Group Appointed Interior Design Firm of Record for Six Senses Project in Uluwatu, Bali",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20six%20senses%20release%2019%20march%202015.pdf"
 		},
 		{
-			"date": "16 Feb 2015",
+			"date": "Feb 2015",
 			"content": "Luxury Hospitality Design Firm BLINK to Relaunch Illustrious Regent Brand in Jakarta",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20regent%20jakarta%20release%2016%20feb%202015.pdf"
 		},
 		{
-			"date": "26 Nov 2014",
+			"date": "Nov 2014",
 			"content": "Luxury Hospitality Design Roundtable Declares Specialisation and Segmentation as the New Watchwords",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-hicap%20hk%202014%20roundtable%20release%20en.pdf"
 		},
 		{
-			"date": "28 Oct 2014",
+			"date": "Oct 2014",
 			"content": "BLINK Reaches Finals of Prestigious Gold Key Awards with Striking Sanctuary Concept for Regent Bali",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-gold%20key%20award-release.pdf"
 		},
 		{
-			"date": "17 Jul 2014",
+			"date": "Jul 2014",
 			"content": "BLINK Design Group Marches into Greater China at Doubletime as New Shanghai Office Drives Growth and Boosts Client Relations",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-china%20july%202014%20edited%20oct%202014.pdf"
 		},
 		{
-			"date": "25 Jun 2014",
+			"date": "Jun 2014",
 			"content": "BLINK Strikes a Chord with Pietro Campanella",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-pietro%20campanella%20release.pdf"
 		},
 		{
-			"date": "7 Jun 2014",
+			"date": "Jun 2014",
 			"content": "BLINK Basks in Reflected Glory as Regent Bali Lights Up Conde Nast Traveller's 2014 'HOT LIST'",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-regent%20bali%20hot%20list%20release.pdf"
 		},
 		{
-			"date": "27 May 2014",
+			"date": "May 2014",
 			"content": "Christopher Chua Announced as BLINK's Managing Director, Returns Home to Singapore to Take Up Reins",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-christopher%20chua%20release.pdf"
 		},
 		{
-			"date": "21 May 2014",
+			"date": "May 2014",
 			"content": "BLINK's Key Role in Regent Rebirth Applauded as Flagship Phuket Resort Picks up Top Interior Design Award",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-regent%20release.pdf"
 		},
 		{
-			"date": "30 Apr 2014",
+			"date": "Apr 2014",
 			"content": "Embrace Authenticity, Creative Design and Practicality for Success: BLINK Hospitality Roundtable",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20hospitality%20roundtable.pdf"
 		},
 		{
-			"date": "7 Jan 2014",
+			"date": "Jan 2014",
 			"content": "BLINK Wins Prestigious Asia Pacific Interior Design Award for Regent Phuket Cape Panwa",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20wins%20prestigious%20asia%20pacific%20interior%20design%20award%20for%20regent%20phuket%20cape%20panwa%20in%20thailand.pdf"
 		},
 		{
-			"date": "4 Dec 2013",
+			"date": "Dec 2013",
 			"content": "BLINK Broadens Horizons of Design as it Spreads Innovation Across the Globe",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-4december2013.pdf"
 		},
 		{
-			"date": "27 Nov 2013",
+			"date": "Nov 2013",
 			"content": "'Time, Space and Timeless Design' are the New Luxuries for Business and Elite Travellers: Asia Luxury Hospitality Heavyweights' Roundtable",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-27november2013.pdf"
 		},
 		{
-			"date": "26 Aug 2013",
+			"date": "Aug 2013",
 			"content": "Leading Hospitality Design Firm BLINK Launches New Regional Headquarters in Stylish Sathorn",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink-26august2013.pdf"
 		},
 		{
-			"date": "24 Jul 2013",
+			"date": "Jul 2013",
 			"content": "Regent Hotels Appoints BLINK to Create Flagship Hotels in Taiwan and China as Legendary Brands Expands Reach",
 			"link": "http://blinkdg.com/images/pdf/buzz/2013.07.24%20blink%20regent%20china.pdf"
 		},
 		{
-			"date": "24 Apr 2013",
+			"date": "Apr 2013",
 			"content": "BLINK Resorts in China and India for Marriott, Hilton Take Shape, Along with Firm's Reputation as Leading Hospitality Architects",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20-%20hilton%20goa%20marriott%20xsb%2024april2013.pdf"
 		},
 		{
-			"date": "9 Jan 2013",
+			"date": "Jan 2013",
 			"content": "Blink Restores Lustre to Regent's Crown with Two Stunning New Resorts in Phuket and Bali",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20-%20regent%20phuket%20bali%209january2013.pdf"
 		},
 		{
-			"date": "27 Nov 2012",
+			"date": "Nov 2012",
 			"content": "Blink Bags Hong Kong Gong, Begins New Beijing Legend and puts Hot Springs in First Steps in China",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20-%2027november2012.pdf"
 		},
 		{
-			"date": "8 May 2012",
+			"date": "May 2012",
 			"content": "Blink Scoops 2012 HD Design Awards with Instant Classic for Conrad in China",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20-%208may2012.pdf"
 		},
 		{
-			"date": "28 Feb 2012",
+			"date": "Feb 2012",
 			"content": "Asia's Hospitality Design Innovators Unveil Latest Leap in Luxury with Maldives Resort for Jumeirah",
 			"link": "http://blinkdg.com/images/pdf/buzz/blink%20-%2020january2012.pdf"
 		}
@@ -495,21 +515,21 @@ $(function(){
  	search_json['news'] = [
 	 	{
 			"type": "Media Coverage",
-			"date": "Holiday 2015",
+			"date": "Dec 2015",
 			"title": "Bali Style",
 			"content": "BLINK Design - Interview with Clint Nagata",
 			"link": "Bali-Style-Holiday_BLINK_2015.pdf"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "03 Sep 2015",
+			"date": "Sep 2015",
 			"title": "HOTEL NEWS RESOURCE",
 			"content": "Regent Place Xi'an to open 2016 in China",
 			"link": "http://www.hotelnewsresource.com/article85422.html"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "03 Sep 2015",
+			"date": "Sep 2015",
 			"title": "TRAVEL DAILY MEDIA",
 			"content": "egent's new Xi'an hotel reaches milestone",
 			"link": "http://www.traveldailymedia.com/226399/regents-new-xian-hotel-reaches-milestone/"
@@ -530,63 +550,63 @@ $(function(){
 		},
 		{
 			"type": "Media Coverage",
-			"date": "30 Apr 2015",
+			"date": "Apr 2015",
 			"title": "DESTINATIONS OF THE WORLD NEWS",
 			"content": "Interview: Hotel Designer and Creative Director Clint Nagata",
 			"link": "http://www.dotwnews.com/focus/interview-hotel-designer-and-creative-director-clint-nagata#close_subscription"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "23 Apr 2015",
+			"date": "Apr 2015",
 			"title": "Travel Daily News",
 			"content": "BLINK Wins First Project in Middle East with Monsoon­ inspired Interiors for Alila Salalah in Oman",
 			"link": "http://www.traveldailynews.com/news/article/65761/blink-wins-first-project-in"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "22 Mar 2015",
+			"date": "Mar 2015",
 			"title": "HOTELIER INDONESIA",
 			"content": "BLINK Design Group Appointed for Six Senses Project in Uluwatu, Bali",
 			"link": "http://hotelier-indonesia.com/news/blink-design-group-appointed-for-six-senses-project-in-uluwatu-bali/"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "24 Feb 2015",
+			"date": "Feb 2015",
 			"title": "4 HOTELIER",
 			"content": "BLINK to Design the new Regent Jakarta.",
 			"link": "http://www.4hoteliers.com/news/story/13863"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "Jan - Feb",
+			"date": "Jan - Feb 2015",
 			"title": "Asia Dreams",
 			"content": "Welcome to Bali, Fairmont!",
 			"link": "http://asiadreams.com/edisi/january-february-2015/news/welcome-to-bali-fairmont.html"
 		},
  		{
  			"type": "Media Coverage",
-			"date": "27 Nov 2014",
+			"date": "Nov 2014",
 			"title": "TTR Weekly",
 			"content": "Blinking Big Ideas",
 			"link": "http://www.ttrweekly.com/site/2014/11/blinking-big-ideas/"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "26 Nov 2014",
+			"date": "Nov 2014",
 			"title": "Hotelier Indonesia",
 			"content": "Luxury Hospitality Design Roundtable Declares Specialisation and Segmentation as the New Watchwords",
 			"link": "http://hotelier-indonesia.com/news/luxury-hospitality-design-roundtable-declares-specialisation-and-segmentation-as-the-new-watchwords/"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "16 Sep 2014",
+			"date": "Sep 2014",
 			"title": "Hotel Executive",
 			"content": "The Agony and Ecstasy of Creating Unique Hotels",
 			"link": "http://hotelexecutive.com/business_review/4080/the-agony-and-ecstasy-of-creating-unique-hotels"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "9 Sep 2014",
+			"date": "Sep 2014",
 			"title": "Global Hotel Network",
 			"content": "Clint Nagata: Why Authenticity Matters",
 			"link": "http://www.globalhotelnetwork.com/resources/columns/perspectives/ClintNagata_b.pdf"
@@ -600,14 +620,14 @@ $(function(){
 		},
 		{
 			"type": "Media Coverage",
-			"date": "7 Aug 2014",
+			"date": "Aug 2014",
 			"title": "Singapore Tatler",
 			"content": "The Dapper Man: Christopher Chua",
 			"link": "http://sg.asiatatler.com/style/fashion/the-dapper-man-christopher-chua"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "1 Aug 2014",
+			"date": "Aug 2014",
 			"title": "ETB News",
 			"content": "BLINK Design Group Marches into Greater China at Double Time",
 			"link": "http://asia.etbnews.com/219402/blink-design-group-marches-greater-china-double-time/"
@@ -628,28 +648,28 @@ $(function(){
 		},
 		{
 			"type": "Media Coverage",
-			"date": "28 May 2014",
+			"date": "May 2014",
 			"title": "Asian Hotel & Catering Times",
 			"content": "Christopher Chua becomes MD BLINK Design Group",
 			"link": "http://www.asianhotelandcateringtimes.com/christopher-chua-becomes-md-blink-design-group/"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "24 May 2014",
+			"date": "May 2014",
 			"title": "Hotelier Indonesia",
 			"content": "BLINK's Key Role in Regent's Rebirth Picks up Design Award",
 			"link": "http://hotelier-indonesia.com/news/blinks-key-role-in-regent-rebirth-applauded-as-flagship-phuket-resort-picks-up-design-award/"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "9 May 2014",
+			"date": "May 2014",
 			"title": "South China Morning Post",
 			"content": "Subtle Sophistication the Way Forward for Luxury Travellers in China",
 			"link": "http://www.scmp.com/magazines/style/article/1500681/room-grow"
 		},
 		{
 			"type": "Media Coverage",
-			"date": "5 May 2014",
+			"date": "May 2014",
 			"title": "Asian Hotel & Catering Times",
 			"content": "Embrace Authenticity, creative design and practicality for success, roundtable hears",
 			"link": "http://www.asianhotelandcateringtimes.com/embrace-authenticity-creative-design-practicality-success-roundtable-hears/"
@@ -663,7 +683,7 @@ $(function(){
 		},
 		{
 			"type": "Media Coverage",
-			"date": "No.1 issue (Feb) 2014",
+			"date": "Feb 2014",
 			"title": "FORM",
 			"content": "GutFeel Architecture",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/form%20and%20room%20feb%202014%20chris%20chua.pdf"
@@ -682,13 +702,13 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/expat%20society_2013-2014_dec13_2014.01.09.pdf"
 		},
 		{
-			"date": "19 Nov 2013",
+			"date": "Nov 2013",
 			"title": "Interior Design",
 			"content": "10 Questions with... BLINK Design Group",
 			"link": "http://www.pattayamail.com/property/hospitality-design-firm-blink-sets-up-new-hq-in-stylish-sathorn-29850"
 		},
 		{
-			"date": "06 Sep 2013",
+			"date": "Sep 2013",
 			"title": "Pattaya Mail",
 			"content": "Hospitality design firm BLINK sets up new HQ in stylish Sathorn",
 			"link": "http://www.interiordesign.net/articles/detail/35803-10-questions-with-blink-design-group/"
@@ -706,7 +726,7 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/think%20design%20july%202013.pdf"
 		},
 		{
-			"date": "17 Jun 2013",
+			"date": "Jun 2013",
 			"title": "The Edge",
 			"content": "Here to Stay",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/june%202013%20the%20edge%20chris%20chua.pdf"
@@ -718,25 +738,25 @@ $(function(){
 			"link": "http://www.blinkdg.com/images/pdf/buzz/blink%20perspective%20march%202013%20clint%20nagata%20profile%20low%202.pdf"
 		},
 		{
-			"date": "26 Apr 2013",
+			"date": "Apr 2013",
 			"title": "The Nation",
 			"content": "BLINK Puts its Marker on the Sand at Two Beach Resorts",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/blink_the%20nation%2026%20april%202013.pdf"
 		},
 		{
-			"date": "18 Mar 2013",
+			"date": "Mar 2013",
 			"title": "People's Daily Online",
 			"content": "China, an exciting canvas for hospitality design",
 			"link": "http://english.peopledaily.com.cn/205040/8172131.html"
 		},
 		{
-			"date": "17 Mar 2013",
+			"date": "Mar 2013",
 			"title": "China Daily",
 			"content": "Gimme Shelter",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/china%20daily%20march%2017%202013s.pdf"
 		},
 		{
-			"date": "11 Jan 2013",
+			"date": "Jan 2013",
 			"title": "The Nation",
 			"content": "Blink brings more lustre and luxury to Bali and Phuket",
 			"link": "http://www.blinkdg.com/images/pdf/buzz/thenation-11jan2013.pdf"

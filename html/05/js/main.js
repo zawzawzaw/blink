@@ -24,7 +24,8 @@
 $(document).ready(function(){   
 
     $('.carousel').carousel({
-        pause: "false"
+        pause: "false",
+        interval: 8000
     });    
 
     var $first = $('.first'),

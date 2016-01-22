@@ -34,7 +34,7 @@
 					<div class="right each-column">
 						<div class="text-content">
 							<h3>thinkBLINK NEWS</h3>
-							<p>Subscribe to our mailing list <br>for updates and insights.</p>
+							<p>Subscribe to our mailing list for updates and insights.</p>
 						</div>
 						<div class="input">
 							<input type="text" id="subscribe_input" name="subscribe" placeholder="Enter your email address" />

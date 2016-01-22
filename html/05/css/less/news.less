@@ -174,8 +174,58 @@
 		
 	// }
 
-	.content-2 {
+	.content-1 {
 		margin-top: 125px;
+		// padding-top: 64px;
+		// padding-bottom: 250px;
+		.text-content {
+			display: inline-block;
+			vertical-align: middle;
+		    width: 45%;
+			padding-left: 75px;
+			h3 {			
+				text-transform: uppercase;	
+				color: @dark-blue;
+			}
+			p {
+				margin-bottom: 15px;
+			}
+		}
+		.img-content {
+			width: 48%;
+			display: inline-block;
+			vertical-align: middle;
+			img {
+				width: 100%;
+			}
+
+			.carousel-indicators {
+				// right: auto;
+      			bottom: 15px !important;
+				left: 95%;
+      			// left: auto;
+				li {
+			        margin-right: 8px;
+			        width: 7px;
+				    height: 7px;
+			        background-color: @light-grey;
+			        border: 0px;
+			        &.active {
+			          margin: 1px;
+			          margin-right: 8px;
+			          width: 7px;
+			          height: 7px;
+			          background-color: @light-blue;
+			          border: 0px;
+			        }
+			    }
+			}
+
+		}
+	}
+
+	.content-2 {
+		// margin-top: 125px;
 		padding-top: 64px;
 		padding-bottom: 250px;
 

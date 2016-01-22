@@ -1,10 +1,13 @@
 <?php 
-require_once "recaptchalib.php";
+session_start();
+// require_once "recaptchalib.php";
 require 'PHPMailer/PHPMailerAutoload.php';
 
-$secret = "6LdQuxUTAAAAAE4GD5dqu3FCqbKH88NFBN-ggHdE";
-$response = null;
-$reCaptcha = new ReCaptcha($secret);
+// $secret = "6LdQuxUTAAAAAE4GD5dqu3FCqbKH88NFBN-ggHdE";
+// $response = null;
+// $reCaptcha = new ReCaptcha($secret);
+
+$responsed_code = $_SESSION['captcha']['code'];
 
 $form_validation_error_msg = array();
 $form_validation_errors = false;
@@ -25,7 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$company = filter_data($_POST['company']);
 	$phone = filter_data($_POST['phone']);
 	$country = filter_data($_POST['country']);
-	$g_recaptcha_response = filter_data($_POST['g-recaptcha-response']);
+	// $g_recaptcha_response = filter_data($_POST['g-recaptcha-response']);
+	$captcha = filter_data($_POST['captcha']);
 
 	if(empty($name)) {
 		$form_validation_error_msg[] = "<p>Name is required</p>";
@@ -53,9 +57,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 
 	if($form_validation_errors==false) {
-		$response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $g_recaptcha_response);
+		// $response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $g_recaptcha_response);
 
-		if ($response != null && $response->success) {
+		if ($captcha != null && $captcha == $responsed_code) {
 			// echo 'submitting the form' . $name . '-' . $email . '-' . $recipient . '-' . $comments . '-' . $company . '-' . $phone . '-' . $country . '-' . $g_recaptcha_response;
 
 			$mail = new PHPMailer;

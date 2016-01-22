@@ -105,7 +105,7 @@ strong {
 
 .heading-1-font {
   .gotham-bold;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 35px;
   letter-spacing: 0.075em;
   @media all and (max-width: 414px) {
@@ -230,6 +230,39 @@ html, body {
   .carousel, .item {
     height: 100%;
     overflow-x: hidden;
+  }
+
+  .carousel-fade {
+      .carousel-inner {
+          .item {
+              transition-property: opacity;
+              .transition(1s);
+          }
+          
+          .item,
+          .active.left,
+          .active.right {
+              opacity: 0;
+          }
+
+          .active,
+          .next.left,
+          .prev.right {
+              opacity: 1;
+          }
+
+          .next,
+          .prev,
+          .active.left,
+          .active.right {
+              left: 0;
+              transform: translate3d(0, 0, 0);
+          }
+      }
+
+      .carousel-control {
+          z-index: 2;
+      }
   }
 
   .slider-wrapper {
@@ -619,29 +652,39 @@ html, body {
         color: #a4afc2;
       }
     }
-
-    .arrow-big {
-      // display: none;
+    .scroll-to-content {
       position: fixed;
       bottom: 36px;
-      left: 46%;
-      // margin-left: -20px;
+      left: 50%;
       width: 170px;
       height: 43px;
-      background: url('../images/icons/down-arrow.png') no-repeat;
-      background-size: contain;
-      text-align: center;
-      .round(50px); 
-      padding-top: 7px;
-      padding-left: 1px;
-      &.hide {
-        display: none!important;
-      }
+      .arrow-big {
+        // display: none;
+        // position: fixed;
+        // bottom: 36px;
+        // left: 46%;
+        // margin-left: -20px;
+        position: relative;
+        left: -50%;
+        width: 170px;
+        height: 43px;
+        background: url('../images/icons/down-arrow.png') no-repeat;
+        background-size: contain;
+        text-align: center;
+        .round(50px); 
+        padding-top: 7px;
+        padding-left: 1px;
+        &.hide {
+          display: none!important;
+        }
+      }  
     }
+    
 
     div.item {
       div.carousel-caption-up {        
-        top: 28%!important;
+        // top: 28%!important;
+        top: 75%;
       }
       div.carousel-caption-with-text {
         top: 38%!important;
@@ -650,7 +693,8 @@ html, body {
         width: 780px;
         position: absolute;
         left: 50%;
-        top: 44%;
+        // top: 44%;
+        top: 75%;
         &.insights-caption {
           width: 48%;
         }

@@ -6,7 +6,8 @@
 
 <!-- FONT -->
 <!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'> -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6413692/7416752/css/fonts.css" />
 
 <!-- CSS -->

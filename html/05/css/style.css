@@ -105,6 +105,11 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
+.open-sans-regular-italic {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 .open-sans-light {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -340,7 +345,7 @@ strong {
 }
 .heading-1-font {
   font-family: "Gotham-Bold", sans-serif;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 35px;
   letter-spacing: 0.075em;
 }
@@ -429,7 +434,7 @@ body {
 html h1,
 body h1 {
   font-family: "Gotham-Bold", sans-serif;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 35px;
   letter-spacing: 0.075em;
 }
@@ -530,6 +535,33 @@ body p {
 #page-wrapper .item {
   height: 100%;
   overflow-x: hidden;
+}
+#page-wrapper .carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+#page-wrapper .carousel-fade .carousel-inner .item,
+#page-wrapper .carousel-fade .carousel-inner .active.left,
+#page-wrapper .carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+#page-wrapper .carousel-fade .carousel-inner .active,
+#page-wrapper .carousel-fade .carousel-inner .next.left,
+#page-wrapper .carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+#page-wrapper .carousel-fade .carousel-inner .next,
+#page-wrapper .carousel-fade .carousel-inner .prev,
+#page-wrapper .carousel-fade .carousel-inner .active.left,
+#page-wrapper .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+#page-wrapper .carousel-fade .carousel-control {
+  z-index: 2;
 }
 #page-wrapper .slider-wrapper .logo {
   font-family: "Gotham-Bold", sans-serif;
@@ -923,10 +955,16 @@ body p {
 #page-wrapper .slider-wrapper .arrow i.third {
   color: #a4afc2;
 }
-#page-wrapper .slider-wrapper .arrow-big {
+#page-wrapper .slider-wrapper .scroll-to-content {
   position: fixed;
   bottom: 36px;
-  left: 46%;
+  left: 50%;
+  width: 170px;
+  height: 43px;
+}
+#page-wrapper .slider-wrapper .scroll-to-content .arrow-big {
+  position: relative;
+  left: -50%;
   width: 170px;
   height: 43px;
   background: url('../images/icons/down-arrow.png') no-repeat;
@@ -940,11 +978,11 @@ body p {
   padding-top: 7px;
   padding-left: 1px;
 }
-#page-wrapper .slider-wrapper .arrow-big.hide {
+#page-wrapper .slider-wrapper .scroll-to-content .arrow-big.hide {
   display: none!important;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption-up {
-  top: 28%!important;
+  top: 75%;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption-with-text {
   top: 38%!important;
@@ -953,7 +991,7 @@ body p {
   width: 780px;
   position: absolute;
   left: 50%;
-  top: 44%;
+  top: 75%;
 }
 #page-wrapper .slider-wrapper div.item div.carousel-caption.insights-caption {
   width: 48%;
@@ -1753,7 +1791,7 @@ div#mailing-list-wrapper div.left p {
 }
 div#mailing-list-wrapper div.middle {
   display: inline-block;
-  padding-left: 75px;
+  padding-left: 65px;
   position: relative;
   margin-top: -4px;
 }
@@ -1778,7 +1816,7 @@ div#mailing-list-wrapper div.middle ul:nth-of-type(2n) {
   margin-right: 112px;
 }
 div#mailing-list-wrapper div.middle ul:nth-of-type(3n) {
-  margin-right: 94px;
+  margin-right: 86px;
 }
 div#mailing-list-wrapper div.middle ul li a {
   font-family: "Gotham-Medium", sans-serif;
@@ -1793,8 +1831,8 @@ div#mailing-list-wrapper div.middle ul li a:hover {
 }
 div#mailing-list-wrapper div.right {
   display: inline-block;
-  max-width: 350px;
-  padding-left: 84px;
+  max-width: 381px;
+  padding-left: 80px;
   margin-top: 4px;
 }
 div#mailing-list-wrapper div.right h3 {
@@ -1882,7 +1920,7 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
 }
 .home #heading p {
   color: #627482;
-  width: 48%;
+  width: 50%;
   margin: 0px auto 25px auto;
 }
 .home .each-content {
@@ -1985,7 +2023,6 @@ div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder
   font-style: italic;
 }
 .home .each-content .text-content .news {
-  border-top: 1px solid #d1d7e0;
   padding-top: 22px;
 }
 .home .each-content .text-content .news span.date {
@@ -2515,6 +2552,12 @@ div.copyright-wrapper-with-bg p {
     display: inline;
   }
 }
+.clients .content-2 .each-content .text-content p em,
+.clients .content-4 .each-content .text-content p em {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
 .clients .content-2 .each-content .text-content a.read-more,
 .clients .content-4 .each-content .text-content a.read-more {
   position: relative;
@@ -2621,7 +2664,7 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 17px;
 }
 .clients .content-3 #news-carousel .item .text-content h6 {
-  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-family: "HarrietText-Regular", sans-serif;
   font-size: 16px;
   line-height: 38px;
   color: #ffffff;
@@ -2639,7 +2682,7 @@ div.copyright-wrapper-with-bg p {
   margin-bottom: 33px;
 }
 .clients .content-3 #news-carousel .item .text-content ul li {
-  font-family: "HarrietText-RegularItalic", sans-serif;
+  font-family: "HarrietText-Regular", sans-serif;
   font-size: 16px;
   line-height: 23px;
   color: #ffffff;
@@ -2721,12 +2764,15 @@ div.copyright-wrapper-with-bg p {
   height: auto;
   text-align: center;
 }
+.clients .content-4 .each-content .text-content .v-align-table {
+  margin: 0 auto;
+}
 .clients .content-4 .each-content .text-content .seperator-line {
   margin-left: auto;
   margin-right: auto;
 }
 .clients .content-4 .each-content .text-content p {
-  width: 62%;
+  width: 88%;
   margin: 0 auto;
 }
 .portfolio .content-1 {
@@ -2997,14 +3043,6 @@ div.copyright-wrapper-with-bg p {
   text-transform: uppercase;
   margin-top: 150px;
 }
-.contact-us .content-1 .text-content h3:after {
-  content: "";
-  background: #2f4455;
-  width: 43px;
-  height: 2px;
-  display: block;
-  margin: 8px auto 20px;
-}
 .contact-us .content-1 .text-content p {
   color: #627482;
 }
@@ -3017,14 +3055,6 @@ div.copyright-wrapper-with-bg p {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
-}
-.contact-us .content-2 .img-content h3:after {
-  content: "";
-  background: #2f4455;
-  width: 43px;
-  height: 2px;
-  display: block;
-  margin: 8px 0px;
 }
 .contact-us .content-2 .img-content div.each-info {
   display: block;
@@ -3157,17 +3187,19 @@ div.copyright-wrapper-with-bg p {
   position: relative;
 }
 .contact-us .content-3 form#contact .submit-contact-form {
-  border: none;
+  border: 1px solid #bdc5d2;
+  padding: 6px 12px;
   display: inline-block;
   vertical-align: middle;
   text-transform: uppercase;
   font-size: 14px;
   margin-bottom: 0px;
-  padding-left: 0px;
   margin-left: 8px;
   color: #627482;
+  margin-top: 15px;
 }
 .contact-us .content-3 form#contact .submit-contact-form:hover {
+  border-color: #2f4455;
   color: #2f4455;
 }
 .contact-us .content-3 form#contact .submit-contact-form.loading {
@@ -3182,18 +3214,29 @@ div.copyright-wrapper-with-bg p {
   right: -32px;
   top: 1px;
 }
+.contact-us .content-3 form#contact .refresh-captcha {
+  display: inline-block;
+  vertical-align: middle;
+  color: #2f4455;
+  margin-right: 8px;
+}
+.contact-us .content-3 form#contact .simple-captcha {
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact-us .content-3 form#contact .simple-captcha img {
+  width: 120px;
+}
+.contact-us .content-3 form#contact input[name="captcha"] {
+  display: inline-block;
+  width: 120px;
+  vertical-align: middle;
+  margin-bottom: 0px;
+}
 .contact-us .content-3 h3 {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
-}
-.contact-us .content-3 h3:after {
-  content: "";
-  background: #2f4455;
-  width: 43px;
-  height: 2px;
-  display: block;
-  margin: 8px 0px;
 }
 .contact-us .content-4 {
   border-top: 1px solid #a4afc2;
@@ -3204,14 +3247,6 @@ div.copyright-wrapper-with-bg p {
   color: #2f4455;
   text-transform: uppercase;
   margin-bottom: 35px;
-}
-.contact-us .content-4 h3:after {
-  content: "";
-  background: #2f4455;
-  width: 43px;
-  height: 2px;
-  display: block;
-  margin: 8px 0px;
 }
 .contact-us .content-4 .each-office {
   display: inline-block;
@@ -3410,10 +3445,10 @@ div.copyright-wrapper-with-bg p {
   width: 100%;
 }
 .project .content-2 .img-content .grid-item-4--width1-5 {
-  width: 498px;
+  width: 495px;
 }
 .project .content-2 .img-content .grid-item-4--width2-5 {
-  width: 705px;
+  width: 701px;
 }
 .project .content-2 .img-content .grid-item-4--width3 {
   width: 805px;
@@ -3585,8 +3620,13 @@ div.copyright-wrapper-with-bg p {
   vertical-align: top;
 }
 .profile .content-2 .text-content ul li {
-  margin-bottom: 21px;
-  text-align: left;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.profile .content-2 .text-content ul li img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .profile .content-2 .text-content ul li span {
   font-family: "Gotham-Medium", sans-serif;
@@ -3762,15 +3802,17 @@ div.copyright-wrapper-with-bg p {
 .careers .content-extra .text-content {
   display: inline-block;
   vertical-align: middle;
-  width: 45%;
+  width: 41%;
   padding-left: 75px;
 }
 .careers .content-extra .text-content h3 {
   text-transform: uppercase;
   color: #2f4455;
+  margin-bottom: 10px;
 }
 .careers .content-extra .img-content {
-  width: 48%;
+  width: 59.77%;
+  max-width: 710px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3975,8 +4017,50 @@ div.copyright-wrapper-with-bg p {
   text-transform: uppercase;
   margin-top: 34px;
 }
-.news .content-2 {
+.news .content-1 {
   margin-top: 125px;
+}
+.news .content-1 .text-content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  padding-left: 75px;
+}
+.news .content-1 .text-content h3 {
+  text-transform: uppercase;
+  color: #2f4455;
+}
+.news .content-1 .text-content p {
+  margin-bottom: 15px;
+}
+.news .content-1 .img-content {
+  width: 48%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.news .content-1 .img-content img {
+  width: 100%;
+}
+.news .content-1 .img-content .carousel-indicators {
+  bottom: 15px !important;
+  left: 95%;
+}
+.news .content-1 .img-content .carousel-indicators li {
+  margin-right: 8px;
+  width: 7px;
+  height: 7px;
+  background-color: #a4afc2;
+  border: 0px;
+}
+.news .content-1 .img-content .carousel-indicators li.active {
+  margin: 1px;
+  margin-right: 8px;
+  width: 7px;
+  height: 7px;
+  background-color: #627482;
+  border: 0px;
+}
+.news .content-2 {
   padding-top: 64px;
   padding-bottom: 250px;
 }

@@ -320,7 +320,7 @@ $(function(){
 	});
 
 
- 	var offset=650, // At what pixels show Back to Top Button
+ 	var offset=3250, // At what pixels show Back to Top Button
     scrollDuration=300; // Duration of scrolling to top
 
     $(window).scroll(function() {
