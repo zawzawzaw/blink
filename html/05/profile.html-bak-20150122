@@ -1,0 +1,158 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--> 
+<html class=""> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Blink</title>
+	<meta name="description" content="Blink">
+	<meta name="keywords" content="Blink">
+
+	<!--#include virtual="inc/head.inc" -->
+</head>
+<body>
+
+	<!--#include virtual="inc/mobile-menu.inc" -->	
+	
+	<!--#include virtual="inc/header.inc" -->	
+
+	<!--#include virtual="inc/profile-slider.inc" -->	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>	
+	
+	<div id="content-wrapper">
+
+		<!--#include virtual="inc/menu.inc" -->	
+
+		<div id="main-content" class="profile">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="content-1">
+							<div class="text-content">
+								<h3>about blink</h3>
+								<p>We’re different from other design firms. While the quality of our work speaks for itself, we make our case for design greatness one story at a time. We are committed to design excellence in the context of collaboration. These are our guiding principles throughout the design process.</p>
+								<p>Our design is intended to be welcoming, centered on the uniqueness of a specific location. We explore vernacular style, history, and culture as rich sources of ideas — our designs are always authentic and in harmony with their surroundings.</p>
+								<p>BLINK lives and breaths Asia, with offices in Bangkok, Singapore, New Delhi, and Shanghai. We are international, with projects from Istanbul to Bora Bora, the Maldives to Seoul. And we are citizens of the world — multi-lingual and multi-cultural, representing six of the seven continents.</p>							
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			
+			<div class="content-2">		
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+
+								<div class="text-content">
+									<h3>OUR LEADERS</h3>
+									<p>Our creativity is inspired by singular instinct and collaborative expertise. Meet a few of our leaders who are making that happen.</p>
+									<ul>
+										<li>
+											<img src="images/content/profile/profile-content-1.jpg" alt="Clint Nagata">
+											<a tabindex="0" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" title="Clint Nagata" data-content="Clint believes in first impressions, and in distilling their magic in order to make them last. He also believes that the genius loci — the spirit of a place revealed in the culture, history, and vernacular style — will lead to exceptional design and truly transformational experiences. <br /><br /> These convictions are visible throughout BLINK’s growing portfolio, from smart, midscale, urban hotels to resorts at the upper reaches of luxury in some of the world’s most desired destinations. Clint has spent more than two decades at design’s cutting edge, exploring space, testing limits, and winning accolades along the way. He trusts his instincts, and our clients do, too. <br /><br /> Perhaps Clint’s greatest contribution as Chief Creative Director is his belief that collaboration at the highest level creates a framework for success. His close relationships with clients and operators, combined with the youthful energy of the BLINK design team and expertise that comes from experience, all lead to design that is seasoned with subtle touches, grand flourishes, and a harmony between form and function that will stay with a hotel guest long after check-out. "><span>Clint Nagata</span></a>
+											<p>Founder & Chief Creative Director <br> Bangkok</p>
+										</li>
+										<li>
+											<a tabindex="5" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" title="Mook Lindsay" data-content="Supakanya or ‘Mook’ is a designer with purpose — to design the ideal experience. She believes that it’s the responsibility of the designer to realise the dreams of their client, while also helping to create and define the ideal experience.<br><br>Born and raised in Thailand, Mook has a deep understanding and appreciation for culture, history, and design. She believes that space is experienced not only through the eyes, but also through other senses such as touch and smell, as well as more abstract conceptual elements such as atmosphere or impression.<br><br>One of Mook’s convictions is that design is an experience that gets richer and fuller with time, as design challenges are met and overcome, resulting in successful creations. Mook has fulfilled these goals as a designer on projects such as the Hilton Hotel, Dali, China; the Hyatt Regency Hotel, Fuzhou, China; the Westin Hotel, Jakarta; and the Royal Orchid Sheraton or Radisson Suites in Bangkok, Thailand. <br><br>As Studio Director, Mook will leverage her talent to strengthen and lead Blink’s Bangkok office to be one of the premier design studios in Asia."><span>Mook Lindsay</span></a>
+											<p>Studio Director <br> Bangkok</p>
+										</li>
+										<li>
+											<a tabindex="6" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" title="Wutthaya Wongsawan" data-content="Wutthaya or ‘Chan’ sees her role in Human Resources as behind the scenes, yet she is on the front lines for BLINK’s ongoing growth and success. She plays a vital role in a design practice with studios in four countries, bursting with young talent and big personalities.<br><br>Since joining BLINK, she has become a true partner among the leadership as well as with all of our members. She has taken the lead in everything from compensation to career development, ensuring BLINK not only attracts the best and brightest talent but also gives members every chance to accelerate their careers and achieve their full potential.<br><br>One of Chan’s passions is keeping companies on an even keel and ready for the inevitability of change through talent acquisition, retention and succession planning. She has an unwavering commitment to the human side of BLINK’s practice, fostering talent, strategic thinking, and collaboration.<br><br>Chan is a home-grown talent, earning her Bachelor of Arts and Master’s degrees in Labor Economics and Human Resources Management from Chulalongkorn University. She has comprehensive HR experience with organizations such as Dole, SAP, and Microsoft, collaborating with senior management to formulate Human Resources strategies in order to support corporate goals."><span>Wutthaya Wongsawan</span></a>
+											<p>Associate Director <br> Bangkok</p>
+										</li>										
+									</ul>
+									<ul>
+										<li>
+											<img src="images/content/profile/profile-content-3.jpg" alt="Christine Gerlier">
+											<a tabindex="2" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="left" title="Christine Gerlier" data-content="Christine lends a fresh perspective to BLINK with her insight and strategic thinking. She understands hospitality from the inside out. She gained her extensive knowledge of hospitality the hard way, as a traveller for business and pleasure. More than 20 years of seeing all aspects of luxury and 5-star hotels at first-hand has not dimmed her passion; rather, it has fuelled it.<br><br>She has travelled the world and stayed in thousands of hotels as a guest, finding the devil in the details that were missed, even in the best establishments. Christine turned those hard-won insights into a game-changing business as owner and Managing Director of Hotel IQ, offering ‘mystery guest’ auditing services to luxury and 5-star hotels around the world for global and regional brands. Since then, she has held advisory, senior executive, and board roles in the hospitality and technology sectors, punctuated by presentations at the major hospitality industry conferences in Europe, the Middle East, India, and Asia.<br><br>As Managing Director, Practice and Business Development, Christine brings the drive, intellect, and quest for excellence that will help her hone BLINK’s ability to design what guests want, and what hotel owners need."><span>Christine Gerlier</span></a>
+											<p>Managing Director <br> Bangkok</p>
+										</li>										
+										<li>
+											<a tabindex="4" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="left" title="Pietro Campanella" data-content="Pietro Campanella is one of hospitality design’s most experienced and free-spirited figures, adroitly executing projects for boutique-hotel pioneers Amanresorts and GHM, spa visionaries ESPA, and since joining BLINK, for five-star global brands including Hilton, Alila, and Rosewood.<br><br>Indeed, the great Adrian Zecha himself, founder of Amanresorts, said he was impressed by Pietro’s ‘passion for good architecture.’ A technically brilliant architect, he also has a maverick’s vision and non-conformist sensibilities. He taps his vast reservoir of knowledge in master planning, design, and detailing to prepare concept presentations and design documentation before segueing into site visits and construction administration.<br><br>More than two decades as an architect has taken him the length and breadth of South East Asia, as well as Mexico and Australia. As such, Pietro is attuned to regional business perspectives. He previously worked as a senior architect with Denniston International Architects in Kuala Lumpur and at BARstudio in Melbourne."><span>Pietro Campanella</span></a>
+											<p>Associate Director <br> Singapore</p>
+										</li>
+										<li>
+											<a tabindex="8" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="left" title="Lee Lin" data-content="Effortlessly straddling the cultures and languages of his native Taiwan, the US, and Thailand, Lee Lin gravitated to business development when he realised his services, insights and linguistic abilities, combined with his architectural degree, would be more valuable than design talent alone.<br><br>Hospitality is in his genes — for more than 20 years, his father was General Manager of Bangkok’s Evergreen Laurel, and Lee lived there with his father while attending high school. He studied architecture at the University of Notre Dame in Indiana, won a Frank Montana Academic Scholarship to study in Rome, then interned and worked his way to Dubai, the USA, Kunming, and Beijing, where he spent two years as Business Development and Operations Director with MAD Architects, China’s architectural enfant terrible Ma Yansong. He later worked in China with Smith Caradoc-Hodgkins Architects and in Asia-Pacific for Atkins.<br><br>Lee sees himself as a bridge — arch-connector, icebreaker, and rainmaker — someone who can talk about design as knowledgeably as any architect, while speaking business to clients and potential clients. His overarching goal is to help BLINK build on its track record of working with owners and operations to create successful hotels that don’t just impress, but captivate."><span>Lee Lin</span></a>
+											<p>Head, Business Development <br> Bangkok</p>
+										</li>
+									</ul>
+									<ul>
+										<li>
+                                        <img src="images/content/profile/profile-content-2.jpg" alt="Christopher Chua">
+											<a tabindex="1" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="left" title="Christopher Chua" data-content="The big picture and fine details are both important to Christopher, whose depth of knowledge on architecture and interior design are married to an instinctive understanding of space. He believes that good hotel design should transcend the purely aesthetic to a realm where space, form, intimacy, grandeur, senses, and technology offer holistic, living respite for guests.<br><br>Christopher believes that a deep understanding of the vernacular is the key to truly sustainable design — that time-honored wisdom on elemental forces like air- and water-flow should be heeded, rather than ignored — that the local landscape, climate, and above all, the people and their culture, inform good design. <br><br>As a Managing Director, he achieves exceptional results by motivating those around him — collaborating with clients and leading by example. He begins each design, no matter how grand or how humble, with a master plan. It’s all part of the brainstorming process, which is where the magic happens. 'We work as a team,' he says, 'to find something that rings true in everyone’s hearts.' It’s a journey into the nuances and details that make a particular site, destination, city, and culture tick, and that shape and define a vision. "><span>Christopher Chua</span></a>
+											<p>Managing Director <br> Singapore</p>
+										</li>
+										<li>
+											<a tabindex="3" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="left" title="Zia Hansen" data-content="Zia is fascinated by the interior monologue of great buildings that can be heard by those who listen. This has led to her leading-edge theory of interior design as choreography, with a structure’s interiors as a stage, and the people who inhabit that space as performers.<br><br>She has been profoundly influenced by classical and Scandinavian functionalist design and brings a broad design vocabulary to the table — a result of almost four decades forging an internationally recognized, award-winning reputation as a senior designer, architect, interior designer, and educator.<br><br>For more than 20 years, Zia has specialized in hospitality, leisure, and entertainment design —working at world–class design firms in the US, Europe, Africa, the Middle East, and China including global leader Wimberly Interiors.<br><br>The inquiring mind behind the African National Congress (ANC)’s Freedom College in Tanzania is also a former professor at Copenhagen’s Royal Academy of Architecture, University of Southern California, and University of Las Vegas. She can count the coveted Hospitality Design (HD) award, and she has put her stamp on BLINK projects in China, Malaysia, India, and South Korea."><span>Zia Hansen</span></a>
+											<p>Associate Director <br> Bangkok</p>
+										</li>										
+										<li>
+											<a tabindex="7" class="popup_tooltip" role="button" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="left" title="Ong art ​Ngamnarongkij" data-content="Ong-art’s story is interwoven with that of BLINK and sister-company Space Matrix Design Consultants. With more than 16 years in the industry, he has gone from a student of design to a master of space, respected for his individual brilliance.<br><br>He undertakes all aspects of master planning, building and interior design across the spectrum of BLINK’s portfolio, taking the lead on projects such as the ultra-glamorous and private Rosewood Clearwater Bay Resort, Sanya on Hainan Island, China, set to open in 2018. He is also a sought-after designer who has worked on the private homes of more than a dozen of Bangkok’s high-society movers and shakers.<br><br>Ong-art shares BLINK’s veneration of the vernacular, but he refuses to let his designs be determined by place alone, mining inspiration from across the spectrum of the creative arts — from cinema and fashion to painting, photography, and beyond.<br><br>In his early career at Bunnag Architects International, Ong-Art worked on ultra-luxury villas at Malaiwana Phuket and the world’s first Ritz-Carlton Reserve at Phulay Bay, Krabi. Under Bunnag, he also worked on the Four Seasons Resort Langkawi in Malaysia and Four Seasons Shanghai. His other credits include the Singha Museum in Bangkok, Lanta Resort Krabi and Plumeria Resort, Samui."><span>Ong art ​Ngamnarongkij</span></a>
+											<p>Head, Design Studio <br> Bangkok</p>
+										</li>										
+									</ul>						
+								</div>
+							
+
+						</div>
+					</div>
+				</div>
+			</div>			
+						
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="content-3">
+							<div class="text-content">
+								<h5>How we work</h5>
+								<h2>What does it mean to thinkBLINK?</h2>
+								<p></p>
+							</div>
+							<div class="text-content-2">
+								<p>We believe in a design concierge approach that makes our clients an integral part of the creative vision. We work together to take a dream and shape it into a composition that reflects the spirit of the place as well as the brand itself.</p>
+
+								<p>Our clients tell us that we’re open to new ideas, and that we’re fun to work with. Energy and ideas spark from our youthful teams, guided by success that comes from experience. All of the elements — from the building and grounds to layouts, details, finishes, furniture, and accessories — reflect our client’s initial vision and operating parameters in a sophisticated symphony of space.</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>						
+
+		</div>
+
+	</div> <!-- end content-wrapper -->
+
+	<!-- <div id="copyright-wrapper" class="copyright-wrapper-with-bg fixed-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>© 2015 Blink Design Group. All Rights Reserved.</p>					
+					<p>No part of this website, designs, layouts or any of its contents may be reproduced, copied, modified or adapted, without the prior written consent of Blink Design Group.</p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!--#include virtual="inc/mailing-list.inc" -->	
+
+	<!--#include virtual="inc/footer.inc" -->	
+
+	<script type="text/javascript" src="js/profile.js"></script>	
+		
+</body>
+</html>
+
+</body>
+</html>

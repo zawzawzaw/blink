@@ -1,8 +1,15 @@
+<title>BLINK - Asia–born, Internationally Acclaimed Hotel and Resort Designers</title>
+<meta name="description" content="BLINK is Asia-born and internationally acclaimed for distinctive, successful hotels and resorts for clients all over the world">
+<meta name="keywords" content="Blink">
+
 <!-- Mobile Viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <!-- Force IE to render best possible view -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- FAVICON -->
+<link rel="icon" href="images/icons/favicon.png" type="image/png" sizes="16x16">
 
 <!-- FONT -->
 <!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
@@ -39,4 +46,15 @@
 
 
 <script type="text/javascript" src="js/main.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-669565-60', 'auto');
+  ga('send', 'pageview');
+
+</script>
 

@@ -20,6 +20,4 @@
 			</div>
 		</footer>
 
-	<!-- </div> -->  <!-- end second section -->
-
 </div><!-- page wrapper end -->

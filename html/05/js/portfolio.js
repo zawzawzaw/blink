@@ -28,6 +28,7 @@ function assignData(){
 $(function(){
 
 	$('#menu-logo-wrapper').addClass('white-version');
+	$('#mobile-menu-logo-wrapper').addClass('white-version');
 	
 	var $filter = $('.filter'),
 		$filterCategory = $('.filter-category'),

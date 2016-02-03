@@ -1,0 +1,13 @@
+/*
+Theme Name: 	Blink
+Theme URI: 		http://www.blinkdg.com/
+Description: 	Blink wordpress theme
+Version: 		1.0
+Author: 		Zaw
+Author URI: 	http://www.manic.com.sg
+Tags: 			Blink
+*/
+
+@import url("css/vendors/bootstrap/bootstrap.min.css");
+@import url("css/style.css");
+@import url("css/mobile-style.css");

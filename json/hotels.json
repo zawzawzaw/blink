@@ -1,0 +1,51 @@
+[
+	{
+		"image": "images/content/portfolio/project-indigo-zheng-zhou-thumb.jpg",
+		"location": "Zhengzhou, China",
+		"name": "Indigo Zheng Zhou",
+		"type": "hotels interiordesign masterplanning",
+		"url": "project-indigo-zheng-zhou.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-kokotel-bangkok-thumb.jpg",
+		"location": "Bangkok, Thailand",
+		"name": "Kokotel Bangkok",
+		"type": "hotels interiordesign branddesign",
+		"url": "project-kokotel-bangkok.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-novotel-jaipur-thumb.jpg",
+		"location": "Jaipur, India",
+		"name": "Novotel Jaipur",
+		"type": "hotels interiordesign",
+		"url": "project-novotel-jaipur.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-regent-xi-an-thumb.jpg",
+		"location": "Xian, China",
+		"name": "Regent Xi'An",
+		"type": "hotels masterplanning buildingdesign",
+		"url": "project-regent-xi-an.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-regent-taipei-thumb.jpg",
+		"location": "Taipei, China",
+		"name": "Regent Taipei",
+		"type": "hotels interiordesign buildingdesign",
+		"url": "project-regent-taipei.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-sheraton-grande-walkerhill-restaurants-thumb.jpg",
+		"location": "Seoul, South Korea",
+		"name": "Sheraton Grande Walkerhill Restaurants",
+		"type": "hotels interiordesign branddesign",
+		"url": "project-sheraton-grande-walkerhill-restaurants.html"
+	},	
+	{
+		"image": "images/content/portfolio/project-shimao-hongqiao-mini-hotel-thumb.jpg",
+		"location": "Shanghai, China",
+		"name": "Shimao Hongqiao Mini Hotel",
+		"type": "hotels interiordesign",
+		"url": "project-shimao-hongqiao-mini-hotel.html"
+	}
+]

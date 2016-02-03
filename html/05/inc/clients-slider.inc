@@ -1,4 +1,4 @@
-<div id="carousel" class="slider-wrapper carousel slide" data-ride="carousel">
+<div id="carousel" class="slider-wrapper carousel slide carousel-resize-on-mobile" data-ride="carousel">
 
 	<!-- <div class="logo">bdg</div> -->
 

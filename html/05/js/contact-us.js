@@ -1,5 +1,6 @@
 $(function(){
 	$('#menu-logo-wrapper').addClass('white-version');
+	$('#mobile-menu-logo-wrapper').addClass('white-version');
 
 	var form = $('#contact');
 	form.validate();
@@ -64,9 +65,9 @@ $(function(){
 	    }
 	}(jQuery));
 
- 	$('.dropdown').on('click', function(e){
+ 	$('.dropdownicon').on('click', function(e){
  		e.preventDefault();
- 		$(this).children('select').openSelect();
+ 		$(this).next('select').openSelect();
  	});
     
 });
