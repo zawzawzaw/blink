@@ -36,7 +36,7 @@
 								<?php if(!empty($ptype_portfolios_location)): ?><li><span>Location</span><p><?php echo $ptype_portfolios_location; ?></p></li><?php endif; ?>
 								<?php if(!empty($ptype_portfolios_scope)): ?><li><span>Scope</span><p><?php echo $ptype_portfolios_scope; ?></p></li><?php endif; ?>								
 								<?php if(!empty($ptype_portfolios_no_of_keys)): ?><li><span>No. of Keys</span><p><?php echo $ptype_portfolios_no_of_keys; ?></p></li><?php endif; ?>
-								<?php if(!empty($ptype_portfolios_no_of_keys)): ?><li><span>Awards</span><?php echo $ptype_portfolios_awards; ?></li><?php endif; ?>
+								<?php if(!empty($ptype_portfolios_awards)): ?><li><span>Awards</span><?php echo $ptype_portfolios_awards; ?></li><?php endif; ?>
 								<li>
 									<span>Share</span>
 									<ul class="social-media-sharing">
@@ -53,6 +53,21 @@
 
 						<div class="content-2">
 							<div class="img-content">
+								<?php if($post->ID==396): // if qianshen-spa-and-hotel use different grid ?>
+								<div class="grid-4">
+									<div class="gutter-sizer-4"></div>								
+									<div class="grid-sizer-4"></div>
+									<?php
+					                  $i = 0;
+					                  foreach ( $ptype_portfolios_photos as $ptype_portfolios_photo ):			                  	
+					                ?>
+											<div class="grid-item-4 <?php echo $ptype_portfolios_photo['caption']; ?>" data-number="<?php echo $ptype_portfolios_photo['description']; ?>"><img src="<?php echo $ptype_portfolios_photo['full_url']; ?>" alt=""></div>
+					            	<?php
+					                    $i++;
+					                  endforeach
+					                ?>																		
+								</div>	
+								<?php else: ?>
 								<div class="grid-3">
 									<div class="gutter-sizer-3"></div>								
 									<div class="grid-sizer-3"></div>	
@@ -64,12 +79,9 @@
 					            	<?php
 					                    $i++;
 					                  endforeach
-					                ?>									
-									<!-- <div class="grid-item-3 grid-item-3--width3" data-number="3"><img src="images/content/projects/project-benxi-doubletree-by-hilton-1.jpg" class="img-responsive" alt=""></div>
-									<div class="grid-item-3" data-number="4"><img src="images/content/projects/project-benxi-doubletree-by-hilton-2.jpg" class="img-responsive" alt=""></div>
-									<div class="grid-item-3" data-number="5"><img src="images/content/projects/project-benxi-doubletree-by-hilton-3.jpg" class="img-responsive" alt=""></div>
-									<div class="grid-item-3 grid-item-3--width3" data-number="6"><img src="images/content/projects/project-benxi-doubletree-by-hilton-4.jpg" class="img-responsive" alt=""></div> -->
-								</div>																									  		 
+					                ?>																		
+								</div>
+								<?php endif; ?>																									  		 
 							</div>
 						</div><!-- end content-2-->
 

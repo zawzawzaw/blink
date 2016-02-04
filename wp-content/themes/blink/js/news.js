@@ -4,11 +4,12 @@ $(function(){
 	///////
 	///////   	
 
-	var source = $("#list-item-template").html(),
-		template = Handlebars.compile(source),
-		data = [],
+	// var source = $("#list-item-template").html(),
+	// 	template = Handlebars.compile(source),
+	var data = [],
 		counter = [];
 		counter['mc'] = 1;
+		counter['pr'] = 1;
 
 	data['mc_1'] = [
 		{
@@ -265,18 +266,26 @@ $(function(){
 		$('#'+category+' .lists').append(clean_html);
 	}
 
-	function addToTemplate(category){
+	function createTemplate(category) {
+    	var source = $("#"+category+"-template").html(),
+			template = Handlebars.compile(source);
+
+		return template;
+    }
+
+	function addToTemplate(data, type){
 		var newdata = {};
 
-		if(category.indexOf("mc") >= 0) {
-			var type = 'mediacoverage';
-		}else {
-			var type = 'pressreleases';
-		}
+		// if(category.indexOf("mc") >= 0) {
+		// 	var type = 'mediacoverage';
+		// }else {
+		// 	var type = 'pressreleases';
+		// }
 
-		if(data[category]) {		
-			newdata['items'] = data[category];
+		if(data.length > 0) {		
+			newdata['items'] = data;
 
+			var template = createTemplate(type);
 			var html = template(newdata);
 			
 			if(html)
@@ -313,9 +322,22 @@ $(function(){
 	$('#mediacoverage .show-more').on('click', function(e){
 		e.preventDefault();
 
-		addToTemplate('mc_'+counter['mc'])
-
 		counter['mc'] += 1;
+
+		$.getJSON(homeUrl+'/mediacoverage_json/'+counter['mc'], function(data) {
+			addToTemplate(data, 'mediacoverage');
+		});		
+		
+	});
+
+	$('#pressreleases .show-more').on('click', function(e){
+		e.preventDefault();
+
+		counter['pr'] += 1;
+
+		$.getJSON(homeUrl+'/pressrelease_json/'+counter['pr'], function(data) {
+			addToTemplate(data, 'pressreleases');
+		});		
 		
 	});
 

@@ -9,11 +9,15 @@
 		if(have_posts()):
 			while(have_posts()) : the_post();
 
+				$project_name = strtolower(get_the_title());
+				$project_name = str_replace(' ', '-', $project_name);				
+
 				$ptype_portfolios_slider_images = rwmb_meta( 'ptype_portfolios_slider_image', 'type=image' );
               	$i = 0;
+              	$a = $i + 1;
               	foreach ( $ptype_portfolios_slider_images as $ptype_portfolios_slider_image ):			                  	
             ?>
-					<div class="item bg <?php echo ($i==0) ? 'active' : ''; ?>" style="background-image:url('<?php echo $ptype_portfolios_slider_image['full_url']; ?>');">			
+					<div class="item bg <?php echo 'project-'.$project_name.'-bg-'.$a; ?> <?php echo ($i==0) ? 'active' : ''; ?>" style="background-image:url('<?php echo $ptype_portfolios_slider_image['full_url']; ?>')!important;">			
 						<div class="carousel-caption">
 							<div class="caption-text">								
 								<?php echo $ptype_portfolios_slider_image['caption']; ?>
@@ -29,7 +33,7 @@
 		endif; ?>			
 	</div>
 
-	<a href="#content-wrapper" class="scroll-to-content">	
+	<a href="#content-wrapper" class="scroll-to-content <?php echo $project_name; ?>">	
 		<div class="arrow-big"></div>
 	</a>
 

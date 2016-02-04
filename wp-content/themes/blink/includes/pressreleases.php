@@ -3,7 +3,8 @@
 
 	<div class="lists">
 		<?php 
-		  $section_query = new WP_Query('post_type=ptype_pressreleases&orderby=menu_order&order=ASC&posts_per_page=-1'); 
+		  $page = (get_query_var('page')) ? get_query_var('page') : 1;
+		  $section_query = new WP_Query('post_type=ptype_pressreleases&orderby=menu_order&order=ASC&posts_per_page=-17&paged='.$page); 
 		?>
 		<?php
 		   while ($section_query->have_posts()) : $section_query->the_post();    
@@ -18,4 +19,6 @@
 		<?php endwhile;  ?>							
 		
 	</div>
+
+	<a href="#" class="show-more"><i class="fa fa-plus"></i> Show More</a>
 </div>

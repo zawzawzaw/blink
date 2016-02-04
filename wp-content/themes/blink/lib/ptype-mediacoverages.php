@@ -24,7 +24,7 @@ function ptype_mediacoverages_post_type() {
 		'hierarchical' => false,	
 		'menu_position' => 20,
 		'supports' => array( 'title', 'page-attributes', 'thumbnail' ), 
-		'rewrite'  => array( 'slug' => 'Media Coverage', 'with_front' => true )
+		'rewrite'  => array( 'slug' => 'mediacoverage', 'with_front' => true )
 		)
 	);
 }

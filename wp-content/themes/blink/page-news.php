@@ -100,12 +100,21 @@
 
 	<a href="#" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
 
-	<script id="list-item-template" type="text/x-handlebars-template">
+	<script id="mediacoverage-template" type="text/x-handlebars-template">
    		{{#items}}
 	  	<div class="list-item">
 			<div class="col date"><a target="_blank" href="{{link}}"><span>{{date}}</span></a></div>
 			<div class="col news-title"><a target="_blank" href="{{link}}"><h6>{{title}}</h6></a></div>
 			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{content}}</p></a></div>
+		</div>
+		{{/items}}		
+	</script>
+
+	<script id="pressreleases-template" type="text/x-handlebars-template">
+   		{{#items}}
+	  	<div class="list-item">
+			<div class="col date"><a target="_blank" href="{{link}}"><span>{{date}}</span></a></div>			
+			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{title}}</p></a></div>
 		</div>
 		{{/items}}		
 	</script>

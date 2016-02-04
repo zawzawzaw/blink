@@ -127,13 +127,27 @@ if(function_exists('add_theme_support')) {
 /* CUSTOM POST TYPE & META BOXES */
 /********************************************************************************************************/
 
-require 'my-custom-posts.php';
+// require 'my-custom-posts.php';
 
 # home slider post #
+add_action( 'init', 'register_home_slider_post_type' );
+function register_home_slider_post_type() {
+  $name = 'home slider';
+  $upper = ucwords($name);
+  $name = strtolower($name);
+  $category = array();
+  register_post_type($name, array(
+    'public' => true,
+    'label' => "$upper",
+    'labels' => array('add_new_item' => "Add New $upper"), #learn more at codex
+    'supports' => array('title','editor','aside','thumbnail'),
+    'taxonomies' => $category
+  ));
+}
 
-add_post_type('home slider', array(
-    'supports' => array('title','editor','aside','thumbnail')
-));
+// add_post_type('home slider', array(
+//     'supports' => array('title','editor','aside','thumbnail')
+// ));
 
 // /********************************************************************************************************/
 // /* WORDPRESS EDITOR CUSTOM FIELDS */

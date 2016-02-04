@@ -29,9 +29,13 @@ function ptype_portfolios_post_type() {
 	);
 }
 
-add_taxonomy('portfolio_type', 'ptype_portfolios', array(
-    'labels' => array('add_new_item' => 'Add New Page','name'=>'Type')
-));
+add_action( 'init', 'ptype_portfolios_taxonomy' );
+
+function ptype_portfolios_taxonomy() {
+	register_taxonomy('portfolio_type', 'ptype_portfolios', array(
+	    'labels' => array('add_new_item' => 'Add New Page','name'=>'Type')
+	));	
+}
 
 // MetaBox
 add_action( 'admin_init', 'ptype_portfolios_register_meta_box' );

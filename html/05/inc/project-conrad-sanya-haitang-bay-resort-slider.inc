@@ -2,7 +2,7 @@
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
-		<div class="item bg project-conrad-sanya-haitang-bay-resort-bg-1 active">
+		<div class="item bg project-conrad-sanya-haitang-bay-bg-1 active">
 			<div id="blur-bg-2"></div>
 			<div class="carousel-caption-2 hidden-sm hidden-xs">
 				<h3>conrad sanya haitang bay</h3>
