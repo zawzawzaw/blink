@@ -101,7 +101,7 @@ function load_scripts(){
         wp_enqueue_script('newsjs', THEMEROOT.'/js/news.js', array('$'), '', true);
     }
 
-    if(is_page( 'contact' )) {      
+    if(is_page( 'contact-us' )) {      
       wp_enqueue_script('recaptcha', 'https://www.google.com/recaptcha/api.js', array('$'), '', true);
       wp_enqueue_script('validate', THEMEROOT.'/js/plugins/jquery.validate.min.js', array('$'), '', true);
       wp_enqueue_script('contact', THEMEROOT.'/js/contact-us.js', array('$'), '', true);

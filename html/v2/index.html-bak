@@ -1,0 +1,247 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--> 
+<html class=""> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">	
+
+	<!--#include virtual="inc/head.inc" -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/1.3.0/jquery.scrollmagic.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/1.3.0/jquery.scrollmagic.debug.js"></script>
+</head>
+<body>
+
+	<!--#include virtual="inc/mobile-menu.inc" -->	
+	
+	<!--#include virtual="inc/header.inc" -->	
+
+	<!-- <div class="section first-page"> -->
+
+		<!--#include virtual="inc/slider.inc" -->
+
+	<!-- </div> -->
+
+	<!-- <div class="section second-page"> -->
+
+		<div id="content-wrapper">
+		
+			<!--#include virtual="inc/menu.inc" -->	
+
+			<div id="main-content" class="home">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">					
+							<section id="heading">
+								<!-- <h5>BLINK’s UVP</h5> -->
+								<!-- <h1>BLINK’s UVP</h1> -->
+								<!-- <div class="seperator-dot"></div> -->
+								<!-- <h6>Brilliant Hospitality Design</h6> -->
+								<!-- <p>BLINK Design Group is Asia-born and internationally acclaimed for creating distinctive, successful hotels and resorts for our clients.</p> -->
+								<p>BLINK is Asia-born and internationally acclaimed for creating distinctive, successful hotels and resorts for our clients.</p>
+								<p>We understand that first impressions last. We orchestrate the senses and interplay of visual elements to create captivating designs that are true to the dreams of our clients, the values and expectations of their guests, and the operational realities of their business.</p>
+								<p>Our collaborative approach is inspired by the spirit of the place itself, fuelled by the creativity of young, gifted voices and guided by experienced leaders.</p>
+							</section>
+						</div>
+					</div>
+				</div>
+				<div class="each-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								
+								<section id="content-1" class="each-content">
+									<div id="content-1-img" class="visible-xs visible-sm img-content img-right-content pull-right">
+										<img src="images/content/home/home-content-1.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="text-content text-left-content pull-left">
+										<div class="v-align-table">
+											<div class="v-align-table-cell">
+												<h6>#Portfolio</h6>
+												<h2>Distinctive locations. Captivating Design.</h2>
+												<!-- <div class="seperator-line"></div> -->
+												<!-- <h6>Divining details, distilling culture, designing futures</h6> -->
+												<p class="">Journey with us down roads less travelled, where every story has its place, and every place has its story. BLINK captures the ​<em>genius loci​</em> — the spirit that lends a place character and atmosphere — orchestrating the experience using themes drawn from vernacular style, local culture, history, and customs.</p>
+												<!-- <p class="visible-xs visible-sm visible-md">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenen commodo ligula eget dolor. Aenean massa thum sociis natoqu penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis ultricies nec pellentesque eur pretium quis sem nulla consequat massa quis enim.</p>
+												 --><a href="portfolio.html" class="read-more cta">READ MORE <i class="fa fa-angle-right"></i></a>				
+											</div>			
+										</div>
+									</div>
+									<div id="content-1-img" class="hidden-xs hidden-sm img-content img-right-content pull-right">
+										<img src="images/content/home/home-content-1.jpg" class="img-responsive" alt="">
+									</div>
+								</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="each-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<section id="content-2" class="each-content">
+									<div class="bg"></div>
+									<div id="content-2-img" class="img-content img-left-content pull-left">
+										<img src="images/content/home/home-content-2.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="text-content text-right-content pull-right">
+										<div class="v-align-table">
+											<div class="v-align-table-cell">
+												<h6>#Profile</h6>
+												<h2 class="hidden-xs hidden-sm">WHO WE ARE. <br> HOW WE WORK.</h2>
+												<h2 class="visible-xs visible-sm">WHO WE ARE. HOW WE WORK.</h2>
+												<!-- <h2 class="visible-xs visible-sm">one firm, three spheres of operations</h2> -->
+												<!-- <div class="seperator-line"></div> -->
+												<!-- <h6>Lorem ipsum dolor sit amet constetuer adip</h6> -->
+												<p>The secret of a great hotel is a intuitive concierge, the ultimate connector and facilitator of dreams. Think of BLINK as your Design Concierge — shapers and shepherds of your vision. Working together as collaborators in creativity, we find new ways to realise designs that are original and successful.</p>
+												<!-- <p class="hidden-xs hidden-sm hidden-md">The secret of a great hotel is a intuitive concierge, the ultimate connector and facilitator of dreams. Think of BLINK as your Design Concierge — shapers and shepherds of your vision. <br> Working together as collaborators in creativity, we find new ways to realise designs that are original and successful.</p>
+												<p class="visible-xs visible-sm visible-md">The secret of a great hotel is a intuitive concierge, the ultimate connector and facilitator of dreams. Think of BLINK as your Design Concierge — shapers and shepherds of your vision. <br> Working together as collaborators in creativity, we find new ways to realise designs that are original and successful.</p> -->
+												<a href="profile.html" class="read-more cta">READ MORE <i class="fa fa-angle-right"></i></a>				
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="each-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<section id="content-3" class="each-content">
+									<div class="img-content visible-xs visible-sm img-right-content pull-right">
+										<img src="images/content/home/home-content-3.jpg" class="img-responsive" alt="">
+									</div>			
+									<div class="text-content text-left-content pull-left">
+										<div class="v-align-table">
+											<div class="v-align-table-cell">
+												<h6>#Portfolio</h6>
+												<h2 class="hidden-xs hidden-sm">Clarity of vision. <br> Beyond imagination.</h2>
+												<h2 class="visible-xs visible-sm">Clarity of vision. Beyond imagination.</h2>
+												<!-- <div class="seperator-line"></div> -->
+												<!-- <h6>Join a dynamic young team, metored by hospitality mavens</h6> -->
+												<p>What sets our hotels and resorts apart is our commitment to capturing the spirit of the place and the brand, combined with the buoyancy conferred by hallmark designs that demand to be experienced and noticed in all the right ways.</p>
+												<!-- <p class="hidden-xs hidden-sm hidden-md">What sets our hotels and resorts apart is our commitment to capturing the spirit of the place and the brand, combined <br> with the buoyancy conferred by hallmark designs that demand <br> to be experienced and noticed in all the right ways.</p>
+												<p class="visible-xs visible-sm visible-md">What sets our hotels and resorts apart is our commitment to capturing the spirit of the place and the brand, combined with the buoyancy conferred by hallmark designs that demand to be experienced and noticed in all the right ways.</p> -->
+												<a href="portfolio.html" class="read-more cta">READ MORE <i class="fa fa-angle-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="img-content hidden-xs hidden-sm img-right-content pull-right">
+										<img src="images/content/home/home-content-3.jpg" class="img-responsive" alt="">
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="each-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<section id="content-4" class="each-content">
+									<div class="img-content img-left-content pull-left">
+										<img src="images/content/home/home-content-4.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="text-content text-right-content pull-right">
+										<div class="v-align-table">
+											<div class="v-align-table-cell">
+												<h6>#Insights</h6>
+												<h2 class="visible-xs visible-sm">Dynamic Partnerships. Visible Expertise.</h2>
+												<h2 class="hidden-xs hidden-sm">Dynamic Partnerships. <br> Visible Expertise.</h2>
+												<!-- <h2 class="visible-xs visible-sm">creative soul <br> business mind</h2> -->
+												<!-- <div class="seperator-line"></div> -->
+												<!-- <h6>Blink understands the business side of hotel.</h6> -->
+												<p>BLINK prizes knowledge. We place value in research and perception, which along with experience, are the cornerstones of expertise. We leverage our expertise to our partners' benefit, assuring success for our clients and fulfillment for their guests.</p>
+												<a href="insights.html" class="read-more cta">READ MORE <i class="fa fa-angle-right"></i></a>
+											</div>
+										</div>
+									</div>	
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="each-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<section id="content-5" class="each-content">
+									<div class="img-content visible-xs visible-sm img-right-content pull-right">
+										<img src="images/content/home/home-content-5.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="text-content text-left-content pull-left">
+										<div class="v-align-table">
+											<div class="v-align-table-cell">
+												<h6>#News</h6>
+												<h2>What’s new at BLINK.</h2>
+												<!-- <div class="seperator-line"></div> -->
+												<!-- <span class="hidden-xs hidden-sm">Don't just take our word for it; read all about it. <br> New projects, awards and recognition, media coverage, press releases, and more.</span>
+												<span class="visible-xs visible-sm">Don't just take our word for it; read all about it. New projects, awards and recognition, media coverage, press releases, and more.</span> -->
+												<div class="news">
+													<span class="date">27–28 JANUARY, 2016</span>
+													<h4>HICP Philippines</h4>
+													<p>Meet Clint Nagata, BLINK Founder & Chief Creative Director. Learn about our rapidly expanding client roster, among them legends of luxury like Conrad, Hilton, Rosewood, Jumeirah, Six Senses, Westin, Regent, Marriott, and Mandarin Oriental.</p>
+													<!-- <p class="hidden-xs hidden-sm">Meet Clint Nagata, BLINK Founder & Chief Creative Director. Learn about our rapidly expanding client roster, among them legends of luxury like Conrad, Hilton, Rosewood, Jumeirah,<br> Six Senses, Westin, Regent, Marriott, and Mandarin Oriental.</p>
+													<p class="visible-xs visible-sm">Meet Clint Nagata, BLINK Founder & Chief Creative Director. Learn about our rapidly expanding client roster, among them legends of luxury like Conrad, Hilton, Rosewood, Jumeirah, Six Senses, Westin, Regent, Marriott, and Mandarin Oriental.</p> -->
+												</div>
+												<a href="news.html" class="read-more cta">READ MORE <i class="fa fa-angle-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="img-content hidden-xs hidden-sm img-right-content pull-right">
+										<img src="images/content/home/home-content-5.jpg" class="img-responsive" alt="">
+									</div>
+								</section>
+							</div><!-- end col-md-12 -->
+						</div><!-- end row -->
+					</div>
+				</div>
+				<div class="each-row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<section id="content-6" class="each-content">
+									<div class="img-content img-left-content pull-left">
+										<img src="images/content/home/home-content-6.jpg" class="img-responsive" alt="">
+									</div>
+									<div class="text-content text-right-content pull-right">
+										<div class="v-align-table">
+											<div class="v-align-table-cell">
+												<h6>#Careers</h6>
+												<h2 class="hidden-xs hidden-sm">Design your future. <br> Grow. Innovate. Lead.</h2>
+												<h2 class="visible-xs visible-sm">Design your future. Grow. Innovate. Lead.</h2>
+												<!-- <h2 class="visible-xs visible-sm">creative soul <br> business mind</h2> -->
+												<!-- <div class="seperator-line"></div> -->
+												<!-- <h6>Join the BLINK Team</h6> -->
+												<p>Imagine a career with limitless growth potential, working in collaborative studios, focused on creating distinctive, successful hotels and resorts for clients and unforgettable experiences for their guests. Imagine this and more at BLINK.</p>
+												<a href="careers.html" class="read-more cta">READ MORE <i class="fa fa-angle-right"></i></a>
+											</div>
+										</div>
+									</div>	
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+			</div><!-- end container -->
+
+		</div><!-- end content-wrapper -->
+		
+		<!--#include virtual="inc/mailing-list.inc" -->	
+	
+		<!--#include virtual="inc/footer.inc" -->	
+
+	<script type="text/javascript" src="js/home.js"></script>	
+		
+</body>
+</html>

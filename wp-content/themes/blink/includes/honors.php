@@ -15,15 +15,27 @@
       <div class="img-content">
         <a href="<?php echo get_home_url().'/'.$ptype_honors_link; ?>"><img src="<?php echo $ptype_honors_slider_image[0]; ?>" class="img-responsive" alt=""></a>
       </div>
-      <div class="text-content">
+      <div class="text-content hidden-xs hidden-sm">
         <div class="v-align-table">
           <div class="v-align-table-cell">
+            <h2>Honors</h2>
             <h5><?php echo $ptype_honors_sub_title; ?></h5>
-            <a href="<?php echo $ptype_honors_link; ?>"><h2><?php the_title(); ?></h2></a>
+            <a href="<?php echo $ptype_honors_link; ?>"><h6><?php the_title(); ?></h6></a>
             <div class="seperator-line"></div>
             <?php echo $ptype_honors_description; ?>        
           </div>
         </div>
+      </div>
+      <div class="text-content visible-xs visible-sm">
+        <!-- <div class="v-align-table">
+          <div class="v-align-table-cell"> -->
+            <h2>Honors</h2>
+            <h5><?php echo $ptype_honors_sub_title; ?></h5>
+            <a href="<?php echo $ptype_honors_link; ?>"><h6><?php the_title(); ?></h6></a>
+            <div class="seperator-line"></div>
+            <?php echo $ptype_honors_description; ?>        
+          <!-- </div>
+        </div> -->
       </div>
     </div>
   <?php $i++; endwhile;  ?>

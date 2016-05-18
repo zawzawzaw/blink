@@ -143,9 +143,6 @@
 						</div>
 
 						<div class="content-3">							
-							<div id="heading">
-								<h2>Honors</h2>								
-							</div>
 							<div id="news-carousel" class="carousel slide" data-ride="carousel">
 
 								<?php if(have_posts()) : ?>

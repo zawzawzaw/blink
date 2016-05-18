@@ -183,7 +183,16 @@
 									}
 								}								
 							}							
-						}								
+						}		
+						&.current-menu-item {
+							a {
+								&:after {
+									.opacity(1);
+									width: 100%;
+									left: 0%;
+								}	
+							}
+						}						
 						a {
 							.gotham-bold;
 							font-size: 13px;

@@ -10,7 +10,7 @@
 			$bg_image_url = wp_get_attachment_url( get_post_thumbnail_id() ); 
 		endwhile; 
 	endif; ?>
-		<div class="item bg active" style="background-image:url('<?php echo $bg_image_url; ?>');">						
+		<div class="item <?php echo strtolower(get_the_title()).'-bg-1'; ?> bg active" style="background-image:url('<?php echo $bg_image_url; ?>')!important;">						
 		</div>		
 	</div>
 

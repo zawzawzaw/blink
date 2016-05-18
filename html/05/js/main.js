@@ -43,6 +43,10 @@ $(document).ready(function(){
         // }).animate({color:firstOrgColor}, 'fast');               
     })();
 
+    $('.arrow-big').hover(function(){
+        $(this).toggleClass('slidedown');
+    });
+
     // function loop(){
     //     $('.arrow-big').css({ 'bottom': '75px', 'display': 'none', 'visibility': 'visible' });
     //     $('.arrow-big').fadeIn(200).animate({'bottom': '35px', 'visibility': 'hidden'}, 900, 'linear', function(){

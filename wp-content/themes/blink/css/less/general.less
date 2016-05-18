@@ -303,7 +303,7 @@ html, body {
         background-image:url('../images/content/slide-5.jpg')!important;
         background-position: center center;
       }      
-      .clients-bg-1 {
+      .insights-bg-1 {
         background-image:url('../images/content/clients-slide-1.jpg')!important;
         background-position: center bottom;
       }
@@ -333,6 +333,9 @@ html, body {
       }
       .project-conrad-sanya-haitang-bay-bg-3 {
         background-image:url('../images/content/project-conrad-sanya-haitang-bay-resort-slide-3.jpg')!important;
+        background-position: center bottom;  
+      }
+      .project-doubletree-sanya-bg-1 {
         background-position: center bottom;  
       }
       .project-double-tree-sanya-bg-1 { 
@@ -659,26 +662,58 @@ html, body {
       left: 50%;
       width: 170px;
       height: 43px;
+      // .arrow-big {
+      //   position: relative;
+      //   left: -50%;
+      //   width: 170px;
+      //   height: 43px;
+      //   background: url('../images/icons/down-arrow.png') no-repeat;
+      //   background-size: contain;
+      //   text-align: center;
+      //   .round(50px); 
+      //   padding-top: 7px;
+      //   padding-left: 1px;
+      //   &.hide {
+      //     display: none!important;
+      //   }
+      // }  
       .arrow-big {
-        // display: none;
-        // position: fixed;
-        // bottom: 36px;
-        // left: 46%;
-        // margin-left: -20px;
+        display: block;
         position: relative;
-        left: -50%;
-        width: 170px;
-        height: 43px;
-        background: url('../images/icons/down-arrow.png') no-repeat;
-        background-size: contain;
-        text-align: center;
-        .round(50px); 
-        padding-top: 7px;
-        padding-left: 1px;
-        &.hide {
-          display: none!important;
+        bottom: 20px;
+        left: 0%;
+        width: 60px;
+        height: 40px;
+        margin-left: -30px;
+        cursor: pointer;
+        z-index: 1001;
+        transition: .5s ease-out;
+        &:before, &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: 15px;
+          left: 50%;
+          width: 40px;
+          height: 3px;
+          background: #fff;
         }
-      }  
+        &:before {
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+          margin-left: -34px;
+        }
+        &:after {
+          -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          margin-left: -7px;
+        }
+        &.slidedown {
+          bottom: 10px;
+        }
+      }
     }
     
 

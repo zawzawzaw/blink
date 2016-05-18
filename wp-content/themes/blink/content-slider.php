@@ -17,7 +17,7 @@
 		while ( $query1->have_posts() ) : $query1->the_post(); ?>
 				<?php if(has_post_thumbnail()) : ?>
 					<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-					<div class="item bg <?php echo "bg".$i; ?> <?php echo ($i==1) ? 'active' : ''; ?>" style="background-image:url('<?php echo $url; ?>');">			
+					<div class="item bg <?php echo "bg".$i; ?> <?php echo ($i==1) ? 'active' : ''; ?>" data-link-to="<?php echo get_post(get_post_thumbnail_id())->post_title; ?>" style="background-image:url('<?php echo $url; ?>');">			
 						<div class="carousel-caption">
 							<div class="caption-text">								
 								<h1><?php echo html_entity_decode(get_the_content()); ?></h1>

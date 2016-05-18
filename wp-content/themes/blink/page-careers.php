@@ -149,11 +149,56 @@
 								<p><?php echo $page_careers_section_6_paragraph; ?></p>
 							</div>
 							<div class="img-content">
-								<div class="circle capabilities"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_1; ?></div></div></div>
+								<div class="each-circle first-circle">
+									<div class="circle-container">
+										<div class="circle capabilities">
+											<div class="v-align-table">
+												<div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_1; ?></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="each-circle second-circle">
+									<div class="circle-container">
+										<div class="circle opportunities">
+											<div class="v-align-table">
+												<div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_2; ?></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="each-circle third-circle">
+									<div class="circle-container">
+										<div class="circle relationships">
+											<div class="v-align-table">
+												<div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_3; ?></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="each-circle fourth-circle">
+									<div class="circle-container">
+										<div class="circle relationships">
+											<div class="v-align-table">
+												<div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_4; ?></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="each-circle fifth-circle">
+									<div class="circle-container">
+										<div class="circle leadership">
+											<div class="v-align-table">
+												<div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_5; ?></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- <div class="circle capabilities"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_1; ?></div></div></div>
 								<div class="circle opportunities"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_2; ?></div></div></div>
 								<div class="circle relationships"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_3; ?></div></div></div>
 								<div class="circle management"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_4; ?></div></div></div>
-								<div class="circle leadership"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_5; ?></div></div></div>
+								<div class="circle leadership"><div class="v-align-table"><div class="v-align-table-cell"><?php echo $page_careers_section_6_circle_5; ?></div></div></div> -->
 
 								<h2><?php echo $page_careers_section_6_circle_caption; ?></h2>
 							</div>

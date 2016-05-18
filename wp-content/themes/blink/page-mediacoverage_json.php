@@ -17,8 +17,8 @@ $each = array();
 	    $ptype_mediacoverages_summary = get_post_meta($post->ID, 'ptype_mediacoverages_summary', true);        
 
 	    $each['date'] = $ptype_mediacoverages_date;
-	    $each['title'] = $ptype_mediacoverages_title;
-	    $each['content'] = $ptype_mediacoverages_summary;
+	    $each['title'] = stripslashes($ptype_mediacoverages_title);
+	    $each['content'] = stripslashes($ptype_mediacoverages_summary);
 	    $each['link'] = $ptype_mediacoverages_link;
 
 	    array_push($results, $each);

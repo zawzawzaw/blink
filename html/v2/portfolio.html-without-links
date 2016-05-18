@@ -1,0 +1,517 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--> 
+<html class=""> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Blink</title>
+	<meta name="description" content="Blink">
+	<meta name="keywords" content="Blink">
+
+	<!--#include virtual="inc/head.inc" -->
+	
+	<link href="css/jplist.core.min.css" rel="stylesheet" type="text/css" />		
+	<script type="text/javascript" src="js/plugins/jplist.core.min.js"></script>
+
+	<script type="text/javascript" src="js/plugins/jplist.filter-toggle-bundle.min.js"></script>
+	<script type="text/javascript" src="js/plugins/jplist.sort-bundle.min.js"></script>
+	<script type="text/javascript" src="js/plugins/handlebars-v4.0.5.js"></script>
+	<link href="css/jplist.filter-toggle-bundle.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<!--#include virtual="inc/mobile-menu.inc" -->
+	
+	<!--#include virtual="inc/header.inc" -->	
+
+	<div id="content-wrapper">
+
+		<!--#include virtual="inc/menu.inc" -->
+
+		<div id="main-content" class="portfolio">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">	
+						<div class="content-1">
+							<div class="text-content">
+								<h1>our portfolio</h1>
+								<p>All of our projects express the essence of BLINK — an intuitive interplay of elements that create inventive, timeless, and successful solutions for our clients and transformational experiences for their guests.</p>
+								<p>Our portfolio encompasses distinctive hotels, resorts, restaurants, clubs, and spas — from innovative urban mid-scale hotels to exceptional resorts in the world’s most desired destinations.</p>
+								<p>We approach projects holistically, from concept to completion, providing just the right mix of integrated services — master planning, building design, interior design, and branding design.</p>
+								<p class="hidden-xs hidden-sm">BLINK’s eye-catching aesthetics and clarity of vision have made us the design firm of choice for brands in countries that include China, French Polynesia, Indonesia, India, Kenya, the Maldives, the Philippines,<br> South Korea, Thailand, Turkey, and Vietnam.</p>
+								<p class="visible-xs visible-sm">BLINK’s eye-catching aesthetics and clarity of vision have made us the design firm of choice for brands in countries that include China, French Polynesia, Indonesia, India, Kenya, the Maldives, the Philippines,<br> South Korea, Thailand, Turkey, and Vietnam.</p>
+							</div>
+						</div>
+						<div id="category">
+							<div class="content-2">
+								<div class="category-nav">
+									<!-- <div class="pull-left">
+										<a href="#" class="filter"><i class="fa fa-filter"></i> Filter <i class="fa fa-angle-down"></i></a>
+									</div>
+									<div class="pull-right">
+										<a href="#" class="search"><i class="fa fa-search"></i></a>
+									</div> -->
+									<div class="clear"></div>
+
+									<div class="jplist" style="display:none;">
+										<div class="jplist-panel">
+											<div class="jplist-group">
+												<div 
+												   class="hidden" 
+												   data-control-type="default-sort" 
+												   data-control-name="sort" 
+												   data-control-action="sort"
+												   
+												   data-path=".rank" 
+												   data-order="asc" 
+												   data-type="number">
+												</div>		
+
+												<input 
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="default" 
+												  data-path="default" 
+												  
+												  id="default-radio" 
+												  type="radio" 
+												  name="jplist"
+												  checked="checked"
+											   /> 										 									   									   
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="resorts" 
+												  data-path=".resorts" 
+												  
+												  id="resorts" 
+												  type="radio" 
+												  name="jplist"
+											   />
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="hotels" 
+												  data-path=".hotels" 
+												  
+												  id="hotels" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="masterplanning" 
+												  data-path=".masterplanning" 
+												  
+												  id="masterplanning" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="interiordesign" 
+												  data-path=".interiordesign" 
+												  
+												  id="interiordesign" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="branddesign" 
+												  data-path=".branddesign" 
+												  
+												  id="branddesign" 
+												  type="radio" 
+												  name="jplist"
+											   /> 
+											   <input 									
+												  data-control-type="radio-buttons-filters"
+												  data-control-action="filter"
+												  data-control-name="buildingdesign" 
+												  data-path=".buildingdesign" 
+												  
+												  id="buildingdesign" 
+												  type="radio" 
+												  name="jplist"
+											   /> 												
+											</div>
+										</div>
+									</div>
+																	
+									<ul class="child-menu show">
+										<li><a class="filter-category all-category" data-hash="#all" href="#all">view all</a></li>
+										<li><a class="filter-category" data-hash="#resorts" href="#resorts">Resorts</a></li>
+										<li><a class="filter-category" data-hash="#hotels" href="#hotels">Hotels</a></li>
+										<li><a class="filter-category" data-hash="#masterplanning" href="#masterplanning">Master Planning</a></li>
+										<li><a class="filter-category" data-hash="#interiordesign" href="#interiordesign">Interior Design</a></li>
+										<li><a class="filter-category" data-hash="#branddesign" href="#branddesign">Brand Design</a></li>
+										<li><a class="filter-category" data-hash="#buildingdesign" href="#buildingdesign">Building Design</a></li>
+									</ul>
+									
+								</div>
+							</div>
+							<div class="content-3">
+								<h1 class="filtered-title"></h1>								
+								<ul class="list">
+									<li class="list-item">
+										<div class="resorts interiordesign buildingdesign">
+											<div class="img-holder">
+												<a href="project-jumeirah-dhevanfushi.html"><img src="images/content/portfolio/portfolio-content-1.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="project-jumeirah-dhevanfushi.html"><h6>MALDIVES</h6></a>
+												<a href="project-jumeirah-dhevanfushi.html"><h5>Jumeirah Dhevanfushi</h5></a>
+												<span class="rank">1</span>
+											</div>											
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts buildingdesign masterplanning branddesign">
+											<div class="img-holder">
+												<a href="project-benxi-doubletree-by-hilton.html"><img src="images/content/portfolio/portfolio-content-2.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="project-benxi-doubletree-by-hilton.html"><h6>LIAOYING, CHINA</h6></a>
+												<a href="project-benxi-doubletree-by-hilton.html"><h5>Benxi Doubletree by Hilton</h5></a>
+												<span class="rank">2</span>
+											</div>											
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts buildingdesign masterplanning">
+											<div class="img-holder">
+												<a href="project-conrad-sanya-haitang-bay-resort.html"><img src="images/content/portfolio/portfolio-content-3.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="project-conrad-sanya-haitang-bay-resort.html"><h6>HAINAN PROVINCE, CHINA</h6></a>
+												<a href="project-conrad-sanya-haitang-bay-resort.html"><h5>Conrad Sanya Haitang Bay</h5></a>
+												<span class="rank">3</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts interiordesign buildingdesign">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/portfolio-content-4.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>SHANGHAI, CHINA</h6></a>
+												<a href="#"><h5>Hilton Fengxian</h5></a>
+												<span class="rank">4</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts buildingdesign masterplanning">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/portfolio-content-5.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>SHANGHAI, CHINA</h6></a>
+												<a href="#"><h5>Marriott Wenchang</h5></a>
+												<span class="rank">5</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="hotels interiordesign">
+											<div class="img-holder">
+												<a href="project-regent-phuket-cape-panwa.html"><img src="images/content/portfolio/portfolio-content-6.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="project-regent-phuket-cape-panwa.html"><h6>PHUKET, THAILAND</h6></a>
+												<a href="project-regent-phuket-cape-panwa.html"><h5>Regent Phuket Cape Panwa</h5></a>
+												<span class="rank">6</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts buildingdesign">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/portfolio-content-7.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>BALI, INDONESIA</h6></a>
+												<a href="#"><h5>Melia Bali</h5></a>
+												<span class="rank">7</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts interiordesign masterplanning">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/portfolio-content-8.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>BALI, INDONESIA</h6></a>
+												<a href="#"><h5>Six Senses Uluwatu</h5></a>
+												<span class="rank">8</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts interiordesign branddesign">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/project-hilton-ningbo-thumb.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>Ningbo, China</h6></a>
+												<a href="#"><h5>Hilton Ningbo</h5></a>
+												<span class="rank">9</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts buildingdesign masterplanning">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/portfolio-content-10.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>DETROIT, UNITED STATES</h6></a>
+												<a href="#"><h5 class="hidden-xs hidden-sm">Renaissance & Courtyard <br> BY Marriott</h5></a>
+												<a href="#"><h5 class="visible-xs visible-sm">Renaissance & Courtyard BY Marriott</h5></a>
+												<span class="rank">10</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="resorts masterplanning">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/portfolio-content-11.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>PHUKET, THAILAND</h6></a>
+												<a href="#"><h5>RAYCOM</h5></a>
+												<span class="rank">11</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item">
+										<div class="hotels interiordesign">
+											<div class="img-holder">
+												<a href="#"><img src="images/content/portfolio/project-travelodge-thumb.jpg" class="img-responsive" alt=""></a>
+											</div>
+											<div class="caption-text">
+												<a href="#"><h6>BALI, INDONESIA</h6></a>
+												<a href="#"><h5>TRAVELODGE</h5></a>
+												<span class="rank">12</span>
+											</div>
+										</div>
+									</li>
+									<li class="list-item" style="opacity: 1;">
+								        <div class="hotels interiordesign masterplanning">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-indigo-zheng-zhou-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Zhengzhou, China</h6></a><a href="#"><h5>Indigo Zheng Zhou<span class="rank">13</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="hotels interiordesign branddesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-kokotel-bangkok-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Bangkok, Thailand</h6></a><a href="#"><h5>Kokotel Bangkok<span class="rank">14</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="hotels interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-novotel-jaipur-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Jaipur, India</h6></a><a href="#"><h5>Novotel Jaipur<span class="rank">15</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="hotels masterplanning buildingdesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-regent-xi-an-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Xian, China</h6></a><a href="#"><h5>Regent Xi'An<span class="rank">16</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="hotels interiordesign buildingdesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-regent-taipei-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Taipei, China</h6></a><a href="#"><h5>Regent Taipei<span class="rank">17</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="hotels interiordesign branddesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-sheraton-grande-walkerhill-restaurants-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Seoul, South Korea</h6></a><a href="#"><h5>Sheraton Grande Walkerhill Restaurants<span class="rank">18</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="hotels interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-shimao-hongqiao-mini-hotel-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Shanghai, China</h6></a><a href="#"><h5>Shimao Hongqiao Mini Hotel<span class="rank">19</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts buildingdesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-double-tree-sanya-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Sanya, China</h6></a><a href="#"><h5>Doubletree Sanya<span class="rank">20</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts interiordesign">
+								            <div class="img-holder">
+								                <a href="project-fairmont-sanur-beach-bali.html"><img src="images/content/portfolio/project-fairmont-sanur-beach-bali-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="project-fairmont-sanur-beach-bali.html"><h6>Bali, Indonesia</h6></a><a href="project-fairmont-sanur-beach-bali.html"><h5>Fairmont Sanur Beach Bali<span class="rank">21</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts buildingdesign interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-hilton-goa-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Goa, India</h6></a><a href="#"><h5>Hilton Goa<span class="rank">22</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-hyatt-regency-jeju-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Republic of Korea</h6></a><a href="#"><h5>Hyatt Regency Jeju<span class="rank">23</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts masterplanning buildingdesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-krabi-resort-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Krabi, Thailand</h6></a><a href="#"><h5>Krabi Resort<span class="rank">24</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts masterplanning buildingdesign interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-miaonong-resort-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Ningbo, China</h6></a><a href="#"><h5>Miaonong Resort<span class="rank">25</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-podo-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Jeju Island, South Korea</h6></a><a href="#"><h5>Podo<span class="rank">26</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-princes-palace-resort-and-spa-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Istanbu, Turkey</h6></a><a href="#"><h5>Princes' Palace Resort &amp; Spa<span class="rank">27</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts masterplanning buildingdesign branddesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-qianshen-spa-and-hotel-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Hefei, China</h6></a><a href="#"><h5>Qianshen Spa &amp; Hotel<span class="rank">28</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts buildingdesign interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-regent-jakarta-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Jakarta, Indonesia</h6></a><a href="#"><h5>Regent Jakarta<span class="rank">29</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts masterplanning">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-samui-resort-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Samui, Thailand</h6></a><a href="#"><h5>Samui Resort<span class="rank">30</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-sarasvati-a-luxury-collection-resort-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Bali, Indonesia</h6></a><a href="#"><h5>Sarasvati, A Luxury Collection Resort<span class="rank">31</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts buildingdesign interiordesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-sheraton-mactan-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Mactan Island, Cebu, Philipines</h6></a><a href="#"><h5>Sheraton Mactan<span class="rank">32</span></h5></a></div>
+								        </div>
+								    </li>
+								    <li class="list-item" style="opacity: 1;">
+								        <div class="resorts masterplanning buildingdesign">
+								            <div class="img-holder">
+								                <a href="#"><img src="images/content/portfolio/project-wanda-reign-xsbn-thumb.jpg" class="img-responsive" alt=""></a>
+								            </div>
+								            <div class="caption-text"><a href="#"><h6>Xishuangbanna, China</h6></a><a href="#"><h5>Wanda Reign XSBN<span class="rank">33</span></h5></a></div>
+								        </div>
+								    </li>
+								</ul>
+
+								<div class="clear"></div>
+
+								<!-- <a href="#" class="show-more"><i class="fa fa-plus"></i> Show More</a> -->
+
+								<ul id="list_2"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div><!-- end main-content -->
+
+	</div><!-- end content-wrapper -->
+
+	<!--#include virtual="inc/mailing-list.inc" -->	
+
+	<!--#include virtual="inc/footer.inc" -->	
+
+   	<script id="list-item-template" type="text/x-handlebars-template">
+   		{{#items}}
+	  	<li class="list-item">
+		    <div class="{{type}}">
+		        <div class="img-holder"><a href="{{url}}"><img src="{{image}}" class="img-responsive" alt=""></a></div>
+		        <div class="caption-text">
+		            <a href="{{url}}"><h6>{{location}}</h6></a>
+		            <a href="{{url}}"><h5>{{name}}</h5></a>
+		        </div>
+		    </div>
+		</li>
+		{{/items}}		
+	</script>
+
+	<script type="text/javascript" src="js/portfolio.js"></script>	
+
+</body>
+</html>

@@ -108,7 +108,7 @@
 												  type="radio" 
 												  name="jplist"
 											   /> 
-											   <input 									
+											   <!-- <input 									
 												  data-control-type="radio-buttons-filters"
 												  data-control-action="filter"
 												  data-control-name="branddesign" 
@@ -117,7 +117,7 @@
 												  id="branddesign" 
 												  type="radio" 
 												  name="jplist"
-											   /> 
+											   />  -->
 											   <input 									
 												  data-control-type="radio-buttons-filters"
 												  data-control-action="filter"
@@ -138,7 +138,7 @@
 										<li><a class="filter-category" data-hash="#hotels" href="#hotels">Hotels</a></li>
 										<li><a class="filter-category" data-hash="#masterplanning" href="#masterplanning">Master Planning</a></li>
 										<li><a class="filter-category" data-hash="#interiordesign" href="#interiordesign">Interior Design</a></li>
-										<li><a class="filter-category" data-hash="#branddesign" href="#branddesign">Brand Design</a></li>
+										<!-- <li><a class="filter-category" data-hash="#branddesign" href="#branddesign">Brand Design</a></li> -->
 										<li><a class="filter-category" data-hash="#buildingdesign" href="#buildingdesign">Building Design</a></li>
 									</ul>
 									

@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$phone = filter_data($_POST['phone']);
 	$country = filter_data($_POST['country']);
 	// $g_recaptcha_response = filter_data($_POST['g-recaptcha-response']);
-	$captcha = filter_data($_POST['captcha']);
+	// $captcha = filter_data($_POST['captcha']);
 
 	if(empty($name)) {
 		$form_validation_error_msg[] = "<p>Name is required</p>";
@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	if($form_validation_errors==false) {
 		// $response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $g_recaptcha_response);
 
-		if ($captcha != null && $captcha == $responsed_code) {
+		// if ($captcha != null && $captcha == $responsed_code) {
 			// echo 'submitting the form' . $name . '-' . $email . '-' . $recipient . '-' . $comments . '-' . $company . '-' . $phone . '-' . $country . '-' . $g_recaptcha_response;
 
 			$mail = new PHPMailer;
@@ -91,9 +91,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			} else {
 			    echo 'Message has been sent to the recipient.';
 			}
-		}else {
-			echo 'Wrong captcha response!';
-		}
+		// }else {
+		// 	echo 'Wrong captcha response!';
+		// }
 	}else {
 		foreach ($form_validation_error_msg as $key => $error_msg) {
 			echo $error_msg;

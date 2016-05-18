@@ -20,7 +20,7 @@
 					<div class="item bg <?php echo 'project-'.$project_name.'-bg-'.$a; ?> <?php echo ($i==0) ? 'active' : ''; ?>" style="background-image:url('<?php echo $ptype_portfolios_slider_image['full_url']; ?>')!important;">			
 						<div class="carousel-caption">
 							<div class="caption-text">								
-								<?php echo $ptype_portfolios_slider_image['caption']; ?>
+								<?php //echo $ptype_portfolios_slider_image['caption']; ?>
 							</div>				
 						</div>						
 					</div>

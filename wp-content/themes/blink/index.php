@@ -115,7 +115,7 @@
 										<div class="v-align-table-cell">
 											<h6><?php echo $content_2_heading_h6; ?></h6>
 											<h2 class="hidden-xs hidden-sm"><?php echo $content_2_heading_h2; ?></h2>												
-											<h2 class="visible-xs visible-sm"><?php echo $content_2_heading_h2; ?></h2>												
+											<h2 class="visible-xs visible-sm"><?php echo str_replace('<br>', ' ', $content_2_heading_h2); ?></h2>												
 											<p><?php echo $content_2_paragraph; ?></p>												
 											<a href="<?php echo $content_2_link; ?>" class="read-more cta"><?php echo $content_2_link_text; ?> <i class="fa fa-angle-right"></i></a>				
 										</div>
@@ -139,7 +139,7 @@
 										<div class="v-align-table-cell">
 											<h6><?php echo $content_3_heading_h6; ?></h6>
 											<h2 class="hidden-xs hidden-sm"><?php echo $content_3_heading_h2; ?></h2>												
-											<h2 class="visible-xs visible-sm"><?php echo $content_3_heading_h2; ?></h2>																																		
+											<h2 class="visible-xs visible-sm"><?php echo str_replace('<br>', ' ', $content_3_heading_h2); ?></h2>																																		
 											<p><?php echo $content_3_paragraph; ?></p>
 											<a href="<?php echo $content_3_link; ?>" class="read-more cta"><?php echo $content_3_link_text; ?> <i class="fa fa-angle-right"></i></a>				
 										</div>
@@ -165,7 +165,7 @@
 									<div class="v-align-table">
 										<div class="v-align-table-cell">
 											<h6><?php echo $content_4_heading_h6; ?></h6>
-											<h2 class="visible-xs visible-sm"><?php echo $content_4_heading_h2; ?></h2>
+											<h2 class="visible-xs visible-sm"><?php echo str_replace('<br>', ' ', $content_4_heading_h2); ?></h2>
 											<h2 class="hidden-xs hidden-sm"><?php echo $content_4_heading_h2; ?></h2>											
 											<p><?php echo $content_4_paragraph; ?></p>
 											<a href="<?php echo $content_4_link; ?>" class="read-more cta"><?php echo $content_4_link_text; ?> <i class="fa fa-angle-right"></i></a>												
@@ -220,7 +220,7 @@
 											<div class="v-align-table-cell">
 												<h6><?php echo $content_6_heading_h6; ?></h6>
 												<h2 class="hidden-xs hidden-sm"><?php echo $content_6_heading_h2; ?></h2>											
-												<h2 class="visible-xs visible-sm"><?php echo $content_6_heading_h2; ?></h2>												
+												<h2 class="visible-xs visible-sm"><?php echo str_replace('<br>', ' ', $content_6_heading_h2); ?></h2>												
 												<p><?php echo $content_6_paragraph; ?></p>
 												<a href="<?php echo $content_6_link; ?>" class="read-more cta"><?php echo $content_6_link_text; ?> <i class="fa fa-angle-right"></i></a>
 											</div>

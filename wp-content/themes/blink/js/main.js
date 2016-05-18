@@ -49,7 +49,11 @@ $(document).ready(function(){
     //         loop();
     //     });     
     // }
-    // loop();    
+    // loop();
+
+    $('.arrow-big').hover(function(){
+        $(this).toggleClass('slidedown');
+    });    
 
     /////
     /////

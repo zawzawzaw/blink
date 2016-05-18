@@ -324,6 +324,9 @@
   .case-study .content-4 .text-content {
     margin-bottom: 40px;
   }
+  .portfolio .content-1 .text-content p {
+    width: 60%;
+  }
   .portfolio .content-2 .category-nav ul.child-menu li {
     margin-right: 30px;
   }
@@ -495,11 +498,11 @@
   }
   #mobile-menu-logo-wrapper.open-search .mobile-menu .toggle-menu a,
   #mobile-menu-logo-wrapper.open .mobile-menu .toggle-menu a {
-    color: #627482;
+    color: #465561;
   }
   #mobile-menu-logo-wrapper.open-search .mobile-menu .toggle-menu a .nav-bar,
   #mobile-menu-logo-wrapper.open .mobile-menu .toggle-menu a .nav-bar {
-    background-color: #627482;
+    background-color: #465561;
   }
   #mobile-menu-logo-wrapper.open-search .mobile-menu .logo,
   #mobile-menu-logo-wrapper.open .mobile-menu .logo {
@@ -508,7 +511,7 @@
   }
   #mobile-menu-logo-wrapper.open-search .mobile-menu .mobile-search i,
   #mobile-menu-logo-wrapper.open .mobile-menu .mobile-search i {
-    color: #627482;
+    color: #465561;
   }
   #mobile-menu-logo-wrapper.white-version {
     background: #f8f8f8;
@@ -524,16 +527,16 @@
     top: -5px;
   }
   #mobile-menu-logo-wrapper.white-version .mobile-menu .toggle-menu a {
-    color: #627482;
+    color: #465561;
   }
   #mobile-menu-logo-wrapper.white-version .mobile-menu .toggle-menu a .nav-bar {
-    background-color: #627482;
+    background-color: #465561;
   }
   #mobile-menu-logo-wrapper.white-version .mobile-menu .logo {
     background: url(../images/logo/blink-small.png) no-repeat;
   }
   #mobile-menu-logo-wrapper.white-version .mobile-menu .mobile-search i {
-    color: #627482;
+    color: #465561;
   }
   #mobile-menu-logo-wrapper .mobile-menu .logo {
     background: url(../images/logo/blink-white-small.png) no-repeat;
@@ -624,11 +627,12 @@
     color: #ffffff;
     background: none;
     border: none;
-    border-bottom: 1px solid #627482;
+    border-bottom: 1px solid #465561;
     width: 100%;
+    border-radius: 0px;
   }
   #mobile-menu-logo-wrapper .mobile-search-box-container .search-box-content .related-result {
-    border-bottom: 1px solid #627482;
+    border-bottom: 1px solid #465561;
     padding-bottom: 22px;
     margin-bottom: 24px;
     padding-top: 35px;
@@ -684,18 +688,18 @@
     font-size: 32px;
     line-height: 32px;
     letter-spacing: 0.08em;
-    color: #a4afc2;
+    color: #6f7073;
     text-transform: uppercase;
   }
   #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a:hover {
-    color: #627482;
+    color: #465561;
   }
   #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li > a.active {
     margin-bottom: 30px;
   }
   #mobile-menu-logo-wrapper .mobile-nav-container ul.mobile-nav > li ul.mobile-nav-child {
     display: none;
-    border-top: 4px solid #627482;
+    border-top: 4px solid #465561;
     background-color: #f3f3f3;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -712,7 +716,7 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 65px;
-    color: #627482;
+    color: #465561;
     text-transform: none;
   }
   #page-wrapper #content-wrapper #menu-logo-wrapper .main-menu {
@@ -748,12 +752,12 @@
   #page-wrapper .home .each-row:nth-child(2n+1) {
     background-color: #f3f3f3;
   }
-  #page-wrapper .home .each-row:nth-child(2n+1) a.read-more {
-    color: #9cabc0 !important;
-  }
   #page-wrapper .home #heading {
     border-bottom: 1px solid #d1d7e0;
     margin-top: 120px;
+  }
+  #page-wrapper .home #heading p {
+    width: 75%;
   }
   #page-wrapper .home .each-content {
     height: auto;
@@ -769,6 +773,7 @@
   }
   #page-wrapper .home .each-content .img-content img {
     margin: 0 auto;
+    height: auto!important;
   }
   #page-wrapper .home .each-content .text-content {
     width: 98.7%;
@@ -968,22 +973,34 @@
     margin-top: 12px;
     margin-bottom: 0px;
   }
+  #page-wrapper .clients {
+    margin-bottom: 68px;
+  }
+  #page-wrapper .clients .content-1 .text-content {
+    width: 87%;
+    margin: 0 auto;
+  }
   #page-wrapper .clients .content-1 .text-content p {
     width: 100%;
   }
-  #page-wrapper .clients .content-2 .each-content,
-  #page-wrapper .clients .content-4 .each-content {
+  #page-wrapper .clients .content-2 .each-content {
     height: auto;
   }
-  #page-wrapper .clients .content-2 .each-content .text-content,
-  #page-wrapper .clients .content-4 .each-content .text-content {
+  #page-wrapper .clients .content-2 .each-content .text-content {
     padding-top: 20px;
     height: auto;
   }
+  #page-wrapper .clients .content-3 {
+    margin-top: 40px;
+  }
+  #page-wrapper .clients .content-3 #heading h2:after {
+    margin-bottom: 15px;
+  }
   #page-wrapper .clients .content-3 #news-carousel .item .text-content {
     width: 100%;
-    height: 450px;
     margin: 0px;
+    padding: 20px 23px 0 27px;
+    height: auto!important;
   }
   #page-wrapper .clients .content-3 #news-carousel .item .text-content ul li span.visible-xs {
     display: inline-block !important;
@@ -998,7 +1015,13 @@
     width: 100%;
   }
   #page-wrapper .clients .content-4 {
-    margin-top: 50px;
+    margin-top: 40px;
+  }
+  #page-wrapper .clients .content-4 .each-content {
+    height: auto;
+  }
+  #page-wrapper .clients .content-4 .each-content .text-content {
+    height: auto;
   }
   #page-wrapper .clients .img-content ul li {
     width: 100%;
@@ -1018,7 +1041,7 @@
     margin-top: 120px;
   }
   #page-wrapper .portfolio .content-1 .text-content p {
-    width: 95%;
+    width: 70%;
   }
   #page-wrapper .portfolio .content-2 .category-nav ul.child-menu li {
     margin-right: 5px;
@@ -1036,20 +1059,65 @@
   #page-wrapper .careers .content-1 {
     margin-top: 95px;
   }
+  #page-wrapper .careers .content-2 {
+    margin-top: 40px;
+  }
   #page-wrapper .careers .content-2 .text-content {
-    width: 100%;
+    width: 88%;
+  }
+  #page-wrapper .careers .content-2 .img-content {
+    margin-top: 40px;
   }
   #page-wrapper .careers .content-2 .img-content .img-caption {
-    display: none;
+    display: block;
+    position: static;
+    margin-top: 40px;
+    color: #2f4455;
+  }
+  #page-wrapper .careers .content-2 .img-content .img-caption h3 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #page-wrapper .careers .content-2 .img-content .img-caption h3:after {
+    background: #2f4455;
+  }
+  #page-wrapper .careers .content-2 .img-content .img-caption h5 {
+    font-size: 13px;
+    line-height: 28px;
+    width: 100%;
+  }
+  #page-wrapper .careers .content-extra {
+    padding-top: 40px;
+  }
+  #page-wrapper .careers .content-3 {
+    margin-top: 40px;
+    padding-bottom: 40px;
   }
   #page-wrapper .careers .content-3 .text-content {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   #page-wrapper .careers .content-3 .text-content p {
     width: 100%;
   }
+  #page-wrapper .careers .content-4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #page-wrapper .careers .content-5 {
+    padding-top: 40px;
+    padding-bottom: 68px;
+  }
+  #page-wrapper .careers .content-5 .text-content {
+    width: 90%;
+    margin: 11px auto 30px auto;
+  }
   #page-wrapper .careers .content-5 .text-content p {
     width: 100%;
+  }
+  #page-wrapper .careers .content-5 .img-content h2 {
+    width: 90%;
+    margin: 34px auto 0 auto;
   }
   #page-wrapper .news .content-1 {
     margin-top: 95px;
@@ -1068,6 +1136,9 @@
     margin-top: 40px;
     padding-top: 0px;
     padding-bottom: 43px;
+  }
+  #page-wrapper .news .content-2 .tab-content {
+    margin-top: 0px;
   }
   #page-wrapper .news .content-2 .tab-content .tab-pane {
     width: 100%;
@@ -1120,6 +1191,12 @@
   #page-wrapper .contact-us .content-4 .each-office:last-child {
     margin-bottom: 0px;
   }
+  #page-wrapper .contact-us .content-4 .each-office a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
   #page-wrapper .project .content-1 {
     margin-top: 95px;
     margin-bottom: 43px;
@@ -1143,12 +1220,12 @@
   #page-wrapper .profile .content-2 .text-content > p {
     width: 84%;
   }
+  #page-wrapper .profile .content-2 .text-content ul li {
+    width: 48%;
+  }
   #page-wrapper .profile .content-3 {
     padding-top: 43px;
     padding-bottom: 38px;
-  }
-  #page-wrapper .profile .content-3 .text-content {
-    width: 32%;
   }
   #page-wrapper .profile .content-3 .text-content h1 {
     font-size: 21px;
@@ -1209,7 +1286,7 @@
     font-size: 13px;
     letter-spacing: 0.05em;
     margin-bottom: 8px;
-    color: #627482 !important;
+    color: #465561 !important;
   }
   #page-wrapper div#mailing-list-wrapper div.left ul li {
     margin-right: 17px;
@@ -1237,7 +1314,7 @@
   #page-wrapper div#mailing-list-wrapper div.right h3 {
     font-size: 13px;
     letter-spacing: 0.05em;
-    color: #627482 !important;
+    color: #465561 !important;
     margin-bottom: 2.705882px;
   }
   #page-wrapper div#mailing-list-wrapper div.right p {
@@ -1263,16 +1340,16 @@
     width: 100%;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-webkit-input-placeholder {
-    color: #627482;
+    color: #465561;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-moz-placeholder {
-    color: #627482;
+    color: #465561;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]::-moz-placeholder {
-    color: #627482;
+    color: #465561;
   }
   #page-wrapper div#mailing-list-wrapper div.right input[name="subscribe"]:-ms-input-placeholder {
-    color: #627482;
+    color: #465561;
   }
   #page-wrapper div#mailing-list-wrapper div.right i {
     font-size: 14px;
@@ -1338,6 +1415,9 @@
     margin: 0 auto;
     margin-top: 40px;
   }
+  .careers .content-5 .img-content div.circle {
+    font-size: 12px;
+  }
   .contact-us .content-4 .each-office {
     width: 22%;
   }
@@ -1400,6 +1480,9 @@
   #page-wrapper .case-study .content-3 ul li .caption-text h6 {
     margin-bottom: 0px;
   }
+  #page-wrapper .portfolio .content-1 .text-content p {
+    width: 75%;
+  }
   #page-wrapper .portfolio .content-2 .category-nav ul.child-menu li {
     margin-right: 5px;
   }
@@ -1429,6 +1512,10 @@
   #page-wrapper .clients .content-4 .each-content .text-content {
     width: 100%;
   }
+  #page-wrapper .clients .content-2 .each-content .text-content p,
+  #page-wrapper .clients .content-4 .each-content .text-content p {
+    width: 100%;
+  }
   #page-wrapper .clients .content-2 .each-content .img-content,
   #page-wrapper .clients .content-4 .each-content .img-content {
     width: 100%;
@@ -1438,7 +1525,7 @@
     width: 100%;
   }
   #page-wrapper .profile .content-1 .text-content {
-    width: 90%;
+    width: 92%;
   }
   #page-wrapper .profile .content-2 .text-content ul {
     width: 100%;
@@ -1447,8 +1534,9 @@
     text-align: center;
   }
   #page-wrapper .profile .content-3 .text-content {
-    width: 100%;
+    width: 89%;
     display: block;
+    margin: 0 auto;
   }
   #page-wrapper .profile .content-3 .text-content-2 {
     display: block;
@@ -1457,9 +1545,11 @@
   }
   #page-wrapper .careers .content-extra .text-content {
     display: block;
-    width: 100%;
+    width: 88%;
     padding-left: 0px;
     margin-top: 40px;
+    text-align: center;
+    margin: 40px auto 0px auto;
   }
   #page-wrapper .careers .content-extra .img-content {
     width: 100%;
@@ -1467,6 +1557,9 @@
   }
   #page-wrapper .careers .content-4 .text-content {
     width: 100%;
+  }
+  #page-wrapper .careers .content-5 .img-content div.circle {
+    font-size: 9px;
   }
 }
 @media all and (max-width: 755px) {
@@ -1610,6 +1703,9 @@
     line-height: 20px;
     margin-top: 5.666667px;
   }
+  #page-wrapper .portfolio .content-1 .text-content p {
+    width: 83%;
+  }
   #page-wrapper .portfolio .content-3 ul.list li.list-item {
     width: 100%;
     margin-right: 0px!important;
@@ -1677,6 +1773,9 @@
     margin-top: 0px;
     padding-bottom: 40px;
     margin-top: 95px;
+  }
+  #page-wrapper .portfolio .content-1 .text-content p {
+    width: 90%;
   }
   #page-wrapper .portfolio .content-1 .text-content p:last-child {
     margin-bottom: 0px;
@@ -1835,7 +1934,7 @@
     margin: 0 auto 12.764706px auto;
   }
   #page-wrapper .home #heading p {
-    color: #627482;
+    color: #465561;
     width: 88%;
   }
   #page-wrapper .home .each-row:nth-child(2n+1) .each-content {
@@ -1950,15 +2049,15 @@
   #page-wrapper .profile .content-1 {
     margin-top: 90px;
   }
+  #page-wrapper .profile .content-2 .text-content ul li {
+    width: 100%;
+  }
   #page-wrapper .profile .content-2 h3 {
     margin-top: 43px;
   }
   #page-wrapper .clients .content-1 .text-content h1 {
     font-size: 19px;
     line-height: 36px;
-  }
-  #page-wrapper .clients .content-1 .text-content p {
-    width: 74%;
   }
   #page-wrapper .careers .content-2 {
     margin-top: 40px;
@@ -1977,6 +2076,9 @@
   #page-wrapper .careers .content-5 {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  #page-wrapper .careers .content-5 .img-content div.circle {
+    font-size: 5px;
   }
   #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.news-content {
     width: 65%;
@@ -2165,8 +2267,8 @@
     margin: 0 auto 12.764706px auto;
   }
   #page-wrapper .home #heading p {
-    width: 88%;
-    margin: 0 auto;
+    width: 94%;
+    margin: 0px auto 25px auto;
   }
   #page-wrapper .home .each-row:nth-child(2n+1) .each-content {
     padding: 43px 0 38px 0!important;
@@ -2331,6 +2433,12 @@
   #page-wrapper .news .content-2 .tab-content .tab-pane .lists .list-item .col.date span {
     padding-left: 25px;
     display: block;
+  }
+  #page-wrapper .portfolio .content-1 .text-content p {
+    width: 85%;
+  }
+  #page-wrapper .profile .content-1 .text-content {
+    width: 90%;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 28.176471px 0 26.47058824px 0;
@@ -2516,9 +2624,9 @@
   #page-wrapper .home #heading p {
     font-size: 12px;
     line-height: 21px;
-    color: #627482;
-    width: 88%;
-    margin: 0 auto;
+    color: #465561;
+    width: 90%;
+    margin: 0px auto 25px auto;
   }
   #page-wrapper .home .each-row:nth-child(2n+1) .each-content {
     padding: 43px 0 38px 0!important;
@@ -2672,6 +2780,29 @@
     font-size: 13px;
     line-height: 19px;
     margin-top: 5.666667px;
+  }
+  #page-wrapper .clients .content-4 .each-content .text-content p {
+    width: 85%;
+  }
+  #page-wrapper .portfolio .content-1 .text-content p {
+    width: 86%;
+  }
+  #page-wrapper .profile .content-1 .text-content {
+    width: 89%;
+  }
+  #page-wrapper .careers .content-2 .text-content {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #page-wrapper .careers .content-3 .text-content {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #page-wrapper .careers .content-5 .img-content h2 {
+    width: 95%;
+  }
+  #page-wrapper .careers .content-5 .img-content div.circle {
+    font-size: 4px;
   }
   #page-wrapper div#mailing-list-wrapper {
     padding: 28.176471px 0 26.47058824px 0;

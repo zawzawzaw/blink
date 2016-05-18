@@ -185,6 +185,7 @@
 					border: none;
 					border-bottom: 1px solid @light-blue;
 					width: 100%;
+					border-radius: 0px;
       			}
       			.related-result {
       				border-bottom: 1px solid @light-blue;
@@ -358,13 +359,16 @@
 				&:nth-child(2n+1){
 					background-color: @bg-light-grey;
 					a.read-more {
-						color: @read-more-2!important;
+						// color: @read-more-2!important;
 					}
 				}
 			}
 			#heading {
 				border-bottom: 1px solid @seperator-line;
 				margin-top: 120px;
+				p {
+					width: 75%;
+				}
 				// padding-bottom: 60*1.5px;
 				// margin-top: 167*1.5px;
 				// h5 {
@@ -403,6 +407,7 @@
 				    float: none!important;
 				    img {
 				    	margin: 0 auto;
+				    	height: auto!important;
 				    }
 				}
 				.text-content {
@@ -684,14 +689,17 @@
 		}
 
 		.clients { 
+			margin-bottom: 68px;
 			.content-1 {
 				.text-content {
+					width: 87%;
+					margin: 0 auto;
 					p {
 						width: 100%;
 					}
 				}
 			}
-			.content-2, .content-4 {
+			.content-2 {
 				.each-content {
 					height: auto;
 					.text-content {
@@ -701,12 +709,22 @@
 				}
 			}
 			.content-3 {
+				margin-top: 40px;
+				#heading {
+					h2 {
+						&:after {
+							margin-bottom: 15px;
+						}
+					}
+				}
 				#news-carousel {
 					.item {
 						.text-content {
 							width: 100%;
-							height: 450px;
+							// height: 450px;
 							margin: 0px;
+							padding: 20px 23px 0 27px;
+							height: auto!important;							
 	    					// height: 362px;
 	    					ul {
 	    						li {
@@ -729,7 +747,16 @@
 				}
 			}
 			.content-4 {
-				margin-top: 50px;
+				margin-top: 40px;
+				.each-content {
+					height: auto;
+					.text-content {
+						height: auto;
+						p {
+							// width: 88%;
+						}
+					}
+				}
 			}
 			.img-content { 
 				ul { 
@@ -759,7 +786,8 @@
 	  			margin-top: 120px;
 	  			.text-content {
 	  				p {
-	  					width: 95%;
+	  					// width: 95%;
+	  					width: 70%;
 	  				}
 	  			}
 	  		}
@@ -794,28 +822,65 @@
 	  		.content-1 {
 	  			margin-top: 95px;
 	  		}
-	  		.content-2 {	  			
+	  		.content-2 {	 
+	  			margin-top: 40px; 			
 	  			.text-content {
-	  				width: 100%;
+	  				width: 88%;
 	  			}
 	  			.img-content {
+	  				margin-top: 40px;
 	  				.img-caption {
-	  					display: none;
+	  					display: block;
+	  					position: static;
+	  					margin-top: 40px;
+	  					color: @dark-blue;
+	  					h3 {
+	  						width: 80%;
+    						margin: 0 auto;
+	  						&:after {
+								background: @dark-blue;						
+							}	
+	  					}
+	  					h5 {
+	  						font-size: 13px;
+	  						line-height: 28px;
+	  						width: 100%;
+	  					}
 	  				}
 	  			}
+	  		}
+	  		.content-extra {
+	  			padding-top: 40px;
 	  		}
 	  		.content-3 {
+	  			margin-top: 40px;
+	  			padding-bottom: 40px;
 	  			.text-content {
-	  				width: 100%;
+	  				width: 90%;
+	  				margin: 0 auto;
 	  				p {
 	  					width: 100%;
 	  				}
 	  			}
 	  		}
+	  		.content-4 {
+	  			padding-top: 40px;
+	  			padding-bottom: 40px;	  		
+	  		}
 	  		.content-5 {
+	  			padding-top: 40px;
+	  			padding-bottom: 68px;
 	  			.text-content {
+	  				width: 90%;
+	  				margin: 11px auto 30px auto;
 	  				p {
 	  					width: 100%;
+	  				}
+	  			}
+	  			.img-content {
+	  				h2 {
+	  					width: 90%;
+    					margin: 34px auto 0 auto;
 	  				}
 	  			}
 	  		}
@@ -840,6 +905,7 @@
 	  			padding-top: 0px;	
 	  			padding-bottom: 43px;  		
 	  			.tab-content {
+	  				margin-top: 0px;
 	  				.tab-pane {
 	  					width: 100%;
 	  					h3 {
@@ -908,6 +974,12 @@
 					&:last-child {
 						margin-bottom: 0px;
 					}
+	  				a {
+	  					.open-sans-regular;
+	  					font-size: 15px;
+	  					line-height: 26px;
+	  				}
+	  			
 				}
 			}
 	  	}
@@ -941,13 +1013,18 @@
 	  				>p {
 	  					width: 84%;	  					
 	  				}
+	  				ul {
+	  					li {
+	  						width: 48%;
+	  					}
+	  				}
 	  			}
 	  		}
 	  		.content-3 {
 	  			padding-top: 43px;
 	  			padding-bottom: 38px;
 	  			.text-content {
-					width: 32%;
+					// width: 32%;
 					h1 {
 						font-size: 21px;
     					line-height: 28px;

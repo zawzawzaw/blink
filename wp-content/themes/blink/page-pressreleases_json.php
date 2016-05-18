@@ -16,7 +16,7 @@ $each = array();
 	    $ptype_pressreleases_title = get_the_title();        	    
 
 	    $each['date'] = $ptype_pressreleases_date;
-	    $each['title'] = $ptype_pressreleases_title;
+	    $each['title'] = html_entity_decode(stripslashes($ptype_pressreleases_title));
 	    $each['link'] = $ptype_pressreleases_link;
 
 	    array_push($results, $each);

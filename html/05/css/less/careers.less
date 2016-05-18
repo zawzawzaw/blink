@@ -86,7 +86,7 @@
 				// font-size: 13px;
 				// line-height: 23px;
 				color: @light-blue;
-				width: 91%;
+				width: 100%;
 			}
 		}
 		.img-content {
@@ -115,7 +115,7 @@
 				}			
 			}
 			h5 {
-				// .gotham-medium;
+				.gotham-medium;
 				font-size: 16px;
 				line-height: 38px;
 				letter-spacing: 0.14em;
@@ -181,7 +181,7 @@
 				color: @light-blue;
 				margin: 0 auto;
 				margin-bottom: 24px;
-				width: 68%;
+				width: 50%;
 				a {
 					color: @light-blue;
 					&:hover {
@@ -283,10 +283,15 @@
 						vertical-align: middle;
 						margin-right: 8px;
 					}
-					.open-sans-light;
+					.open-sans-regular;
 					font-size: 14px;
 					line-height: 26px;
 					color: @light-blue;
+					span {
+						display: inline-block;
+					    width: 90%;
+					    vertical-align: top;
+					}
 				}
 			}
 		}
@@ -323,19 +328,52 @@
 				color: @light-blue;
 				margin-bottom: 30px;
 				margin-top: 11px;
-				width: 48%;
+				width: 50%;
 				margin: 0 auto;
 			}
 		}
 
 		.img-content {
+			.each-circle {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.first-circle {
+				width: 15.13%;
+			}
+			.second-circle {
+				width: 21.39%;
+				margin-left: -2%;
+				margin-right: -2.2%;
+			}
+			.third-circle {
+				width: 17.1%;
+			}
+			.fourth-circle {
+				width: 13.5%;
+				margin-left: -1.8%;
+    			margin-right: -1.8%;
+			}
+			.fifth-circle {
+				width: 17.4%;
+			}
+			.circle-container {
+				position: relative;
+			  	height: 0;
+			  	padding-bottom: 100%; /* of parent width */
+			}
 			div.circle {
+				position: absolute;
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 100%;
 				.gotham-medium;
 				font-size: 14px;
 				line-height: 25px;
 				letter-spacing: 0.1em;
 				text-transform: uppercase;
-				background-color: @light-grey;
+				background-color: @light-grey-3;
 				display: inline-block;
 				color: @white;	
 				vertical-align: middle;				
@@ -354,32 +392,28 @@
 
 
 				&.capabilities{
-					width: 186px;	
-					height: 186px;	
+					// width: 186px;	
+					// height: 186px;	
 					.opacity(0.7);
 				}
 				&.opportunities{
-					width: 263px;	
-					height: 263px;	
-					.opacity(0.95);
-				    margin-left: -25px;
-					margin-right: -30px;
+					// width: 263px;	
+					// height: 263px;	
+					.opacity(0.95);				    
 				}
 				&.relationships{
-					width: 210px;	
-					height: 210px;	
+					// width: 210px;	
+					// height: 210px;	
 					.opacity(0.85);
 				}
 				&.management{
-					width: 166px;	
-					height: 166px;	
-					.opacity(0.8);
-					margin-left: -20px;
-					margin-right: -20px;
+					// width: 166px;	
+					// height: 166px;	
+					.opacity(0.8);					
 				}
 				&.leadership{
-					width: 214px;	
-					height: 214px;	
+					// width: 214px;	
+					// height: 214px;	
 					.opacity(0.75);
 				}
 			}

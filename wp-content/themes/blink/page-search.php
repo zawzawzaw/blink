@@ -34,7 +34,7 @@
 			<h3>Portfolio</h3>
 			{{#items}}
 			<div class="each-item">
-				<div class="img-content"><a href="{{url}}" target="_blank"><img src="<?php echo home_url(); ?>/{{image}}" class="img-responsive" alt=""></a></div>
+				<div class="img-content"><a href="{{url}}" target="_blank"><img src="{{image}}" class="img-responsive" alt=""></a></div>
 				<div class="text-content">
 					<div class="v-align-table">
 						<div class="v-align-table-cell">
@@ -53,8 +53,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
-					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
@@ -66,8 +66,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
-					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
@@ -112,8 +112,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
-					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	
@@ -125,8 +125,8 @@
 			{{#items}}
 			<div class="each-item">
 				<div class="text-content">					
-					<a href="{{url}}" target="_blank"><h2>{{title}}</h2></a>
-					<a href="{{url}}" target="_blank"><p>{{description}}</p></a>					
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><h2>{{title}}</h2></a>
+					<a href="<?php echo home_url(); ?>/{{url}}" target="_blank"><p>{{description}}</p></a>					
 				</div>				
 			</div>					
 			{{/items}}	

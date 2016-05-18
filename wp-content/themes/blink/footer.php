@@ -11,7 +11,7 @@
                                    while ($section_query->have_posts()) : $section_query->the_post();    
                                     $ptype_offices_title = get_the_title();                                            
                                 ?> 
-                                <li><a href="contact-us.html"><?php echo $ptype_offices_title; ?></a></li>                            
+                                <li><a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Contact' ) ) ); ?>"><?php echo $ptype_offices_title; ?></a></li>                            
                                 <?php endwhile; ?>
                             </ul>
                         </div>

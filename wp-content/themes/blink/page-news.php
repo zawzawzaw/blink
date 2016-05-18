@@ -68,7 +68,7 @@
 
 						<div class="content-2">
 
-							<div class="sidebar">
+							<div class="sidebar hidden-xs hidden-sm">
 								<h3>News</h3>
 
 							  	<ul class="news-category">
@@ -104,8 +104,8 @@
    		{{#items}}
 	  	<div class="list-item">
 			<div class="col date"><a target="_blank" href="{{link}}"><span>{{date}}</span></a></div>
-			<div class="col news-title"><a target="_blank" href="{{link}}"><h6>{{title}}</h6></a></div>
-			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{content}}</p></a></div>
+			<div class="col news-title"><a target="_blank" href="{{link}}"><h6>{{{title}}}</h6></a></div>
+			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{{content}}}</p></a></div>
 		</div>
 		{{/items}}		
 	</script>
@@ -114,7 +114,7 @@
    		{{#items}}
 	  	<div class="list-item">
 			<div class="col date"><a target="_blank" href="{{link}}"><span>{{date}}</span></a></div>			
-			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{title}}</p></a></div>
+			<div class="col news-content"><a target="_blank" href="{{link}}"><p>{{{title}}}</p></a></div>
 		</div>
 		{{/items}}		
 	</script>

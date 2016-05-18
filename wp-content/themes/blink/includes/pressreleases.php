@@ -11,7 +11,7 @@
 		    $ptype_pressreleases_link = get_post_meta($post->ID, 'ptype_pressreleases_link', true);      
 		    $ptype_pressreleases_date = get_post_meta($post->ID, 'ptype_pressreleases_date', true);      
 		    $ptype_pressreleases_title = get_the_title();        		   
-		  ?> 
+		  ?>
 		<div class="list-item">
 			<div class="col date"><a target="_blank" href="<?php echo $ptype_pressreleases_link; ?>"><span><?php echo $ptype_pressreleases_date; ?></span></a></div>
 			<div class="col news-content"><a target="_blank" href="<?php echo $ptype_pressreleases_link; ?>"><p><?php echo $ptype_pressreleases_title; ?></p></a></div>
